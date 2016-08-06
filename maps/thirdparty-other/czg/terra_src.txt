@@ -1,0 +1,13 @@
+These are the map sources for the terra map pack. Comes in both .MAP format and .RMF format for worldcraft.
+
+Feel free to do whatever you desire with them, but please, give me some credit, will ya?
+Common decency applies here.
+
+Textures may be extracted from the .BSP's if there is anyone I used that are not in original Quake wad.
+
+
+
+Yours in fire, love and eternity; 
+	-czg
+
+	christig@gmail.com
