@@ -1,0 +1,275 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 512 512 256 ) ( 512 -512 256 ) ( -512 512 256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 511 511 256 ) ( -513 511 256 ) ( 511 511 0 ) common/caulk 2 0 0 0.5 0.5 0 0 0
+( 511 511 256 ) ( 511 511 0 ) ( 511 -513 256 ) common/caulk 2 0 0 0.5 0.5 0 0 0
+( -511 -511 0 ) ( -511 -511 256 ) ( 513 -511 0 ) common/caulk 62 0 0 0.5 0.5 0 0 0
+( -511 -511 0 ) ( -511 513 0 ) ( -511 -511 256 ) common/caulk 62 0 0 0.5 0.5 0 0 0
+( -512 512 255 ) ( 512 -512 255 ) ( 512 512 255 ) skies/nitesky 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 511 511 256 ) ( -513 511 256 ) ( 511 511 0 ) common/caulk 2 0 0 0.5 0.5 0 0 0
+( 511 511 256 ) ( 511 511 0 ) ( 511 -513 256 ) common/caulk 2 0 0 0.5 0.5 0 0 0
+( -512 -512 -256 ) ( 512 -512 -256 ) ( -512 512 -256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -511 -511 0 ) ( -511 -511 256 ) ( 513 -511 0 ) common/caulk 62 0 0 0.5 0.5 0 0 0
+( -511 -511 0 ) ( -511 513 0 ) ( -511 -511 256 ) common/caulk 62 0 0 0.5 0.5 0 0 0
+( -512 512 -255 ) ( 512 -512 -255 ) ( -512 -512 -255 ) acc_dm5/stnsqr_dirty 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( 512 512 256 ) ( 512 -512 256 ) ( -512 512 256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 512 512 256 ) ( 512 512 0 ) ( 512 -512 256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -512 -512 -256 ) ( 512 -512 -256 ) ( -512 512 -256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 511 -512 256 ) ( 511 512 0 ) ( 511 512 256 ) acc_dm5/stntiles_dirty 0 0 0 0.5 0.5 0 0 0
+( 512 -512 -64 ) ( 511 -511 -64 ) ( 512 -512 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 511 511 -64 ) ( 512 512 -64 ) ( 511 511 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( 512 512 256 ) ( 512 -512 256 ) ( -512 512 256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -512 -512 -256 ) ( 512 -512 -256 ) ( -512 512 -256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -512 -512 0 ) ( -512 -512 256 ) ( 512 -512 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 512 -511 0 ) ( -512 -511 256 ) ( -512 -511 0 ) acc_dm5/stntiles_dirty 0 0 0 0.5 0.5 0 0 0
+( 511 -511 -64 ) ( 512 -512 -64 ) ( 511 -511 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -512 -512 -64 ) ( -511 -511 -64 ) ( -512 -512 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 512 512 256 ) ( 512 -512 256 ) ( -512 512 256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -512 -512 -256 ) ( 512 -512 -256 ) ( -512 512 -256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -512 -512 0 ) ( -512 512 0 ) ( -512 -512 256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -511 -512 256 ) ( -511 512 0 ) ( -511 -512 0 ) acc_dm5/stntiles_dirty 0 0 0 0.5 0.5 0 0 0
+( -512 512 -64 ) ( -511 511 -64 ) ( -512 512 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -511 -511 -64 ) ( -512 -512 -64 ) ( -511 -511 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( 512 512 256 ) ( 512 -512 256 ) ( -512 512 256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 512 512 256 ) ( -512 512 256 ) ( 512 512 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -512 -512 -256 ) ( 512 -512 -256 ) ( -512 512 -256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 512 511 0 ) ( -512 511 256 ) ( 512 511 256 ) acc_dm5/stntiles_dirty 0 0 0 0.5 0.5 0 0 0
+( 512 512 -64 ) ( 511 511 -64 ) ( 512 512 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -511 511 -64 ) ( -512 512 -64 ) ( -511 511 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "-480 -480 -231"
+}
+// entity 2
+{
+"classname" "weapon_bfg"
+"origin" "-384 -384 -224"
+}
+// entity 3
+{
+"classname" "weapon_chaingun"
+"origin" "-256 -384 -224"
+}
+// entity 4
+{
+"classname" "weapon_gauntlet"
+"origin" "-128 -384 -224"
+}
+// entity 5
+{
+"classname" "weapon_grapplinghook"
+"origin" "0 -384 -224"
+}
+// entity 6
+{
+"classname" "weapon_grenadelauncher"
+"origin" "128 -384 -224"
+}
+// entity 7
+{
+"classname" "weapon_lightning"
+"origin" "256 -384 -224"
+}
+// entity 8
+{
+"classname" "weapon_machinegun"
+"origin" "384 -384 -224"
+}
+// entity 9
+{
+"classname" "weapon_nailgun"
+"origin" "384 384 -224"
+}
+// entity 10
+{
+"classname" "weapon_plasmagun"
+"origin" "256 384 -224"
+}
+// entity 11
+{
+"classname" "weapon_prox_launcher"
+"origin" "128 384 -224"
+}
+// entity 12
+{
+"classname" "weapon_railgun"
+"origin" "0 384 -224"
+}
+// entity 13
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-128 384 -224"
+}
+// entity 14
+{
+"classname" "weapon_shotgun"
+"origin" "-256 384 -224"
+}
+// entity 15
+{
+"classname" "ammo_bfg"
+"origin" "-384 -256 -224"
+}
+// entity 16
+{
+"classname" "ammo_belt"
+"origin" "-256 -256 -224"
+}
+// entity 17
+{
+"classname" "ammo_grenades"
+"origin" "128 -256 -224"
+}
+// entity 18
+{
+"classname" "ammo_lightning"
+"origin" "256 -256 -224"
+}
+// entity 19
+{
+"classname" "ammo_bullets"
+"origin" "384 -256 -224"
+}
+// entity 20
+{
+"classname" "ammo_nails"
+"origin" "384 256 -224"
+"angle" "180"
+}
+// entity 21
+{
+"classname" "ammo_cells"
+"origin" "256 256 -224"
+"angle" "180"
+}
+// entity 22
+{
+"classname" "ammo_mines"
+"origin" "128 256 -224"
+"angle" "180"
+}
+// entity 23
+{
+"classname" "ammo_slugs"
+"origin" "0 256 -224"
+"angle" "180"
+}
+// entity 24
+{
+"classname" "ammo_rockets"
+"origin" "-128 256 -224"
+"angle" "180"
+}
+// entity 25
+{
+"classname" "ammo_shells"
+"origin" "-256 256 -224"
+"angle" "180"
+}
+// entity 26
+{
+"classname" "item_armor_body"
+"origin" "-384 -128 -224"
+}
+// entity 27
+{
+"classname" "item_armor_combat"
+"origin" "-256 -128 -224"
+}
+// entity 28
+{
+"classname" "item_armor_shard"
+"origin" "-128 -128 -224"
+}
+// entity 29
+{
+"classname" "item_enviro"
+"origin" "0 -128 -224"
+}
+// entity 30
+{
+"classname" "item_flight"
+"origin" "128 -128 -224"
+}
+// entity 31
+{
+"classname" "item_haste"
+"origin" "256 -128 -224"
+}
+// entity 32
+{
+"classname" "item_health"
+"origin" "384 -128 -224"
+}
+// entity 33
+{
+"classname" "item_health_large"
+"origin" "384 0 -224"
+}
+// entity 34
+{
+"classname" "item_health_mega"
+"origin" "256 0 -224"
+}
+// entity 35
+{
+"classname" "item_health_small"
+"origin" "128 0 -224"
+}
+// entity 36
+{
+"classname" "item_invis"
+"origin" "0 0 -224"
+}
+// entity 37
+{
+"classname" "item_quad"
+"origin" "-128 0 -224"
+}
+// entity 38
+{
+"classname" "item_regen"
+"origin" "-256 0 -224"
+}
+// entity 39
+{
+"classname" "holdable_teleporter"
+"origin" "-384 0 -224"
+}
+// entity 40
+{
+"classname" "holdable_medkit"
+"origin" "-384 128 -224"
+}
+// entity 41
+{
+"classname" "holdable_kamikaze"
+"origin" "-256 128 -224"
+}
+// entity 42
+{
+"classname" "holdable_invulnerability"
+"origin" "-128 128 -224"
+}
