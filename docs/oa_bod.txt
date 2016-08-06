@@ -1,0 +1,34 @@
+Map released under GPLv2.
+
+Notes:
+Originally made by sp1r1t, included in the MapCenter OA Mappack, it had lots of missing textures. I've made replacements for those textures. Still, there's a lot of work to be done yet. I think it's a very good map.
+
+Gametypes: FFA, Tourney, LMS
+Version: a1
+
+Content:
+Weapons: Shotgun, Grenade Launcher, Rocket Launcher, Plasma Gun, Lightning Gun, Railgun.
+Items: MegaHealth, 2x Combat Armor.
+Credits:
+Mappers: Tim "sp1r1t" Schäfer, Luciano "Armageddon_Man/Neon_Knight" Balducchi.
+
+Testing / Thanks:
+* Michael "onykage" Hancock (hosting)
+* Everyone who has tested this map
+
+Contacts:
+Armageddon_Man: openarena.arg@gmail.com - luchobaterista@gmail.com (MSN) - http://www.oaarg.tk - http://openarenaarg.smfforfree4.com
+sp1r1t: mail@sp1r1t.de - http://www.sp1r1t.de
+
+    This program is free software; you can redistribute it and/or modify
+
+    it under the terms of the GNU General Public License as published by
+
+    the Free Software Foundation; either version 2 of the License, or
+
+    (at your option) any later version.
+
+This mappack is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA

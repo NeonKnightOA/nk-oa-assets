@@ -1,0 +1,37 @@
+Map released under GPLv2.
+
+Notes:
+Fixes & changes done to hydronex, inspired by CTF-Hydro16 for Unreal tournament, originally made by Maik "SavageX" Merten for Nexuiz, and adapted to OA by leileilol. It's a hugely different map.
+
+Gametypes: CTF, 1FCTF, Harvester, Overload, Elimination, CTF Elimination, DD, Domination (5 points)
+Version: a1
+
+Content:
+* Weapons: 2x Shotgun, 4x Grenade Launcher, 2x Rocket Launcher, 2x Plasma Gun, Railgun, 2x Lightning Gun, 2x Nailgun, 2x Chaingun, Prox Launcher.
+* Items: 2x Combat Armor, 2x Body Armor, 
+* Runes: 4x Scout, 4X Guard, 4x Doubler
+* Powerups: Regeneration, Quad Damage, 2x Battle Suit.
+
+Credits:
+Mappers: Maik "SavageX" Merten, Luciano "Armageddon_Man/Neon_Knight" Balducchi.
+Models: Luciano "Armageddon_Man/Neon_Knight" Balducchi.
+
+Testing / Thanks:
+* Michael "onykage" Hancock (hosting)
+* Everyone who has tested this map
+
+Contacts:
+Armageddon_Man: openarena.arg@gmail.com - luchobaterista@gmail.com (MSN) - http://www.oaarg.tk - http://openarenaarg.smfforfree4.com
+
+    This program is free software; you can redistribute it and/or modify
+
+    it under the terms of the GNU General Public License as published by
+
+    the Free Software Foundation; either version 2 of the License, or
+
+    (at your option) any later version.
+
+This mappack is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA

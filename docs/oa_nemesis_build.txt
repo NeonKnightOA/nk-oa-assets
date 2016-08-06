@@ -1,0 +1,7 @@
+BSP: q3map2.x86 -fs_game baseoa -fs_basepath ~/openarena-0.8.1/ -meta -patchmeta oa_nemesis.map
+
+LIGHT: q3map2.x86 -fs_game baseoa -fs_basepath ~/openarena-0.8.1/ -light -fast -bounce 4 -samples 3 -gamma 1.4 -sky 1.0 -dirty oa_nemesis.bsp
+
+VIS: q3map2.x86 -fs_game baseoa -fs_basepath ~/openarena-0.8.1/ -vis oa_nemesis.bsp
+
+AAS: bspc -forcesidesvisible -bsp2aas oa_nemesis.bsp

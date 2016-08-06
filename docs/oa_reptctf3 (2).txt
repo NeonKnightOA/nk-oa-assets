@@ -1,0 +1,35 @@
+Map released under GPLv2.
+
+Notes:
+Created from scratch, based on reptctf3 by Firethrottle. The original map can be found here: http://lvlworld.com/review.php?id=1600. Unfortunately, I couldn't contact him to ask if he could release his two maps (reptctf11 and reptctf3) under GPLv2, so I had to do everything from scratch. Eventually both maps ended being completely different compared to the original ones.
+
+Gametypes: CTF, 1FCTF, Harvester, Overload, Elimination, CTF Elimination, DD
+Version: a3
+
+Content:
+* Weapons: 2x Shotgun, 2x Rocket Launcher, 2x Plasma Gun, 2x Railgun, 2x Lightning Gun, 2x Nailgun
+* Powerups: Regeneration/Invulnerability Team (***)
+* Runes: 2x Doubler, 2x Guard, 2x Ammo Regen, 2x Scout
+
+Credits:
+Mapper: Luciano "Armageddon_Man/Neon_Knight" Balducchi.
+
+Testing / Thanks:
+* Michael "onykage" Hancock (hosting)
+* Everyone who has tested this map
+
+Contacts:
+Armageddon_Man: openarena.arg@gmail.com - luchobaterista@gmail.com (MSN) - http://www.oaarg.tk - http://openarenaarg.smfforfree4.com
+
+    This program is free software; you can redistribute it and/or modify
+
+    it under the terms of the GNU General Public License as published by
+
+    the Free Software Foundation; either version 2 of the License, or
+
+    (at your option) any later version.
+
+This mappack is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
