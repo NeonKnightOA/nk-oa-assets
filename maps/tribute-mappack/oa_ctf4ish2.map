@@ -5828,13 +5828,13 @@ gothic_trim/zinc_shiny
 {
 "classname" "team_CTF_redflag"
 "origin" "-1792 -2 1545"
-"gametype" "ctf oneflag dd"
+"gametype" "oneflag, ctf, ctfelimination, dd"
 }
 // entity 6
 {
 "classname" "team_CTF_blueflag"
 "origin" "1792 -2 1545"
-"gametype" "ctf oneflag dd"
+"gametype" "oneflag, ctf, ctfelimination, dd"
 }
 // entity 7
 {
@@ -5993,14 +5993,14 @@ gothic_trim/zinc_shiny
 // entity 31
 {
 "classname" "target_give"
-"origin" "6 -2766 1396"
+"origin" "6.000000 -2766.000000 1396.000000"
 "target" "weapon_shotgun1"
 "targetname" "sg"
 }
 // entity 32
 {
 "classname" "weapon_shotgun"
-"origin" "-74 -2688 1396"
+"origin" "-74.000000 -2688.000000 1396.000000"
 "targetname" "weapon_shotgun1"
 }
 // entity 33
@@ -6258,14 +6258,14 @@ gothic_trim/zinc_shiny
 // entity 38
 {
 "classname" "path_corner"
-"origin" "0 707 1898"
+"origin" "0.000000 707.000000 1898.000000"
 "target" "path_corner1"
 "targetname" "path_corner2"
 }
 // entity 39
 {
 "classname" "path_corner"
-"origin" "0 -701 1898"
+"origin" "0.000000 -701.000000 1898.000000"
 "targetname" "path_corner1"
 "target" "path_corner2"
 }
@@ -6303,18 +6303,18 @@ gothic_trim/zinc_shiny
 {
 "classname" "item_health_mega"
 "origin" "1 0 1090"
-"gametype" "ctf obelisk dd"
+"gametype" "ctf, obelisk"
 }
 // entity 47
 {
 "classname" "team_neutralobelisk"
 "origin" "0 0 1048"
-"gametype" "oneflag harvester"
+"gametype" "oneflag, harvester"
 }
 // entity 48
 {
 "classname" "weapon_rocketlauncher"
-"origin" "0 0 1406"
+"origin" "0.000000 0.000000 1406.000000"
 "spawnflags" "1"
 }
 // entity 49
@@ -6838,13 +6838,13 @@ gothic_trim/zinc_shiny
 // entity 102
 {
 "classname" "target_position"
-"origin" "-224 -776 1584"
+"origin" "-224.000000 -776.000000 1584.000000"
 "targetname" "target_position20"
 }
 // entity 103
 {
 "classname" "target_position"
-"origin" "224 776 1584"
+"origin" "224.000000 776.000000 1584.000000"
 "targetname" "target_position21"
 }
 // entity 104
@@ -6954,7 +6954,7 @@ gothic_trim/zinc_shiny
 // entity 117
 {
 "classname" "weapon_bfg"
-"origin" "-8 427 1930"
+"origin" "-8.000000 427.000000 1930.000000"
 "spawnflags" "1"
 }
 // entity 118
@@ -7140,7 +7140,7 @@ gothic_trim/zinc_shiny
 // entity 145
 {
 "classname" "target_position"
-"origin" "192 760 1248"
+"origin" "192.000000 760.000000 1248.000000"
 "targetname" "target_position6"
 }
 // entity 146
@@ -7195,9 +7195,8 @@ gothic_trim/zinc_shiny
 // entity 153
 {
 "classname" "holdable_kamikaze"
-"origin" "0 -296 1456"
-"spawnflags" "1"
-"gametype" "harvester"
+"origin" "0 -296 1072"
+"gametype" "disabled"
 }
 // entity 154
 {
@@ -7247,24 +7246,24 @@ gothic_trim/zinc_shiny
 // entity 163
 {
 "classname" "light"
-"origin" "0 -336 1172"
+"origin" "0.000000 -336.000000 1172.000000"
 "light" "100"
 }
 // entity 164
 {
 "classname" "light"
-"origin" "0 314 1172"
+"origin" "0.000000 314.000000 1172.000000"
 "light" "100"
 }
 // entity 165
 {
 "classname" "light"
-"origin" "-1944 0 2104"
+"origin" "-1944.000000 0.000000 2104.000000"
 "light" "100"
 }
 // entity 166
 {
 "classname" "light"
-"origin" "1944 0 2104"
+"origin" "1944.000000 0.000000 2104.000000"
 "light" "100"
 }
