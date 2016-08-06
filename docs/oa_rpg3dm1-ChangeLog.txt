@@ -1,0 +1,246 @@
+   67 Andrew Apted	2010-01-05
+      Use hfloor_grey (not _lite) on little podiums next to UFO.
+
+   66 Andrew Apted	2010-01-05
+      Fix brush above teleporters --> dark_tin2.
+
+   65 Andrew Apted	2010-01-05
+      Merged metal4_1 and metal9_1 --> oa_rpg3dm1/metal_logo.
+
+   64 Andrew Apted	2010-01-05
+      Use new e7trimlight_1k for better lighting.
+      
+      Tweaked light underneath floor window again.
+
+   63 Andrew Apted	2010-01-05
+      Use tilefloor7 upstairs instead of e8cretefloor_tile.
+      
+      Use proto_light_2k in some spots (e.g. above LG).
+
+   62 Andrew Apted	2010-01-05
+      Use tinfx instead of proto_grill for the central trim in the
+      hallway ceilings (e.g. above YA).
+
+   61 Andrew Apted	2010-01-05
+      Fixed various doorways (removed 'metaldoor' texture).
+
+   60 Andrew Apted	2010-01-05
+      Replaced e8trimlight2_red with _yellow variant (a new texture).
+
+   59 Andrew Apted	2010-01-05
+      Changed trimlight2_blue --> trimlight2_red.
+      
+      Tweaked color of light under floor window.
+
+   58 Andrew Apted	2010-01-05
+      Various work on main building (esp. the LG area).
+
+   57 Andrew Apted	2010-01-04
+      Texturing work around the building (esp. exterior).
+
+   56 Andrew Apted	2010-01-04
+      Use more patch10 for the upper storey.
+
+   55 Andrew Apted	2010-01-04
+      Aligned the bloody brushes touching the top outdoor curve.
+
+   54 Andrew Apted	2010-01-04
+      Removed trim at bottom of rusty surrounds near MH (use same texture).
+      
+      Fixed some alignments.
+
+   53 Andrew Apted	2010-01-04
+      Use base_support/cable for large middle bits in hallways.
+
+   52 Andrew Apted	2010-01-04
+      Use hfloor3_grey_lite instead of hfloor3.
+
+   51 Andrew Apted	2010-01-04
+      Fixed ceiling thingy (textures, alignment) near lower curve door near teleporter.
+
+   50 Andrew Apted	2010-01-04
+      Disabled side bits on tinfx parts near RA (are now common/clip).
+      
+      Use tinfx instead of proto_grill in hallways.
+
+   49 Andrew Apted	2010-01-04
+      Use hfloor3 in various wall panels (was: proto_grill).
+
+   48 Andrew Apted	2010-01-04
+      Fixed alignment on side of the UFO (near GL).
+
+   47 Andrew Apted	2010-01-04
+      Reworked textures around floor window, and lowered intensity of the
+      orangy light to 10.
+
+   46 Andrew Apted	2010-01-04
+      Disabled three lights near MH.
+      
+      Added a light underneath floor window.
+
+   45 Andrew Apted	2010-01-04
+      Aligned blue-light trim on sides of weapon podiums.
+      
+      Use scratch_pillar texture on curvy parts near MH / GL.
+
+   44 Andrew Apted	2010-01-04
+      Use cybergrate2 on the weapon podiums.
+
+   43 Andrew Apted	2010-01-04
+      A few fixes.
+
+   42 Andrew Apted	2010-01-04
+      Aligned e7trim01 near jump to RA.
+
+   41 Andrew Apted	2010-01-04
+      Aligned some e7trim01 textures...
+
+   40 Andrew Apted	2010-01-04
+      Miscellaneous texture changes and alignments.
+
+   39 Andrew Apted	2010-01-04
+      Removed light above the door near the lit steps.
+      
+      Various alignment work, e.g. teleporter near GL.
+
+   38 Andrew Apted	2010-01-03
+      Changed upper storey floor to evil8_floor/e8cretefloor_tile.
+      
+      Changed yellow armor floor to base_floor/tilefloor7 (the _ow below
+      the YA looks great).
+
+   37 Andrew Apted	2010-01-03
+      Fixed sides of round part near grenade launcher.
+      
+      Fixed alignment of lights on stairs (near there).
+
+   36 Andrew Apted	2010-01-03
+      Moved spectator spawn spot (and no longer get stuck).
+
+   35 Andrew Apted	2010-01-03
+      Worked on texturing around top of building above jump-pad.
+
+   34 Andrew Apted	2010-01-03
+      Fixed beams above the LG (use same grating as below).
+      
+      Fixed walls undearneath the LG.
+      
+      Changed texture on dome to base_wall/rusted.
+
+   33 Andrew Apted	2010-01-03
+      Removed three of the pipes underneath the LG.
+
+   32 Andrew Apted	2010-01-03
+      Replaced acc_dm3/chrome (which is NONSOLID) with metal14_1.
+      
+      Use achtung_clang around the floor window.
+
+   31 Andrew Apted	2010-01-01
+      Replaced acc_dm3/ind_x1 (which has see-through parts) with e7/e7beam02.
+
+   30 Andrew Apted	2010-01-01
+      Moved tele3 destination again, still upstairs but now in the side
+      hallway above the plus-shaped "window" in the floor.  This gives
+      the player more choice where to go, and adds more distance between
+      MH and RA.
+
+   29 Andrew Apted	2010-01-01
+      Replaced every rpg3dm1/wall## texture --> acc_dm3/chrome.
+
+   28 Andrew Apted	2010-01-01
+      Replaced rpg3dm1/metal* and other textures.
+
+   27 Andrew Apted	2010-01-01
+      Replaced the rpg3dm1/trim* textures (various replacements).
+
+   26 Andrew Apted	2010-01-01
+      Replaced rpg3dm1/rust01 with base_wall/rusted
+
+   25 Andrew Apted	2010-01-01
+      Fixed spot underneath yellow armor.
+
+   24 Andrew Apted	2010-01-01
+      More blue light trim alignment...
+
+   23 Andrew Apted	2010-01-01
+      Alignment of blue light trim.
+
+   22 Andrew Apted	2010-01-01
+      Aligned more light fittings.
+
+   21 Andrew Apted	2010-01-01
+      Use aggressor's teleporters : liquids/tele.
+
+   20 Andrew Apted	2010-01-01
+      Use e8trimlight2_blue everywhere (replaces _red).
+      
+      Use sfx/clangdark_bounce for the bouncepad.
+
+   19 Andrew Apted	2010-01-01
+      Use flat orange texture (pulchr_simple/flat01) on some curvy bits.
+
+   18 Andrew Apted	2010-01-01
+      More work on base_trim/pewter on stairs.
+
+   17 Andrew Apted	2010-01-01
+      Use base_trim/pewter for sides of small steps.
+
+   16 Andrew Apted	2010-01-01
+      Replaced all the trlight0# textures.
+
+   15 Andrew Apted	2009-12-31
+      More light01/light02 work...
+
+   14 Andrew Apted	2009-12-31
+      More alignment work on light01/02 brushes.
+
+   13 Andrew Apted	2009-12-31
+      Alignment of the light01/02 textures.
+
+   12 Andrew Apted	2009-12-31
+      Changed the two small lights above the LG to base_light/proto_light.
+
+   11 Andrew Apted	2009-12-31
+      Renamed light shaders: rpg3dm1/light... --> oa_rpg3dm1/...
+
+   10 Andrew Apted	2009-12-31
+      Fixed textures on two pipes underneath LG.
+      
+      Made the blocks around staircase near RL use dark_tin2 texture.
+
+    9 Andrew Apted	2009-12-31
+      Set the textures on the piping to base_support/support1_1, and
+      use 'Natural' mode for the scaling and offsets.
+
+    8 Andrew Apted	2009-12-31
+      Worked on area underneath the LG
+
+    7 Andrew Apted	2009-12-31
+      Use proto_grill instead of proto_grate4 to fix the see-through bits.
+      This is temporary though until a solid version of proto_grate4 is
+      available in OA.
+
+    6 Andrew Apted	2009-12-31
+      Replaced clang_floor2 and floor3_3dark textures with: clang_floor
+
+    5 Andrew Apted	2009-12-31
+      Rotated the whole map by 180 degrees, which produces better lighting
+      from the nebula3 sky.  (I had to rotate some entities manually, stupid
+      damn NetRadiant).
+
+    4 Andrew Apted	2009-12-31
+      Moved the destination of the teleporter near the megahealth, it now goes
+      upstairs near the shotgun instead of outside near the RL.  This is my
+      attempt to improve gameplay -- before most of the action occurred only
+      in the lowest areas (especially around the RL).
+
+    3 Andrew Apted	2009-12-31
+      Minor stuff.
+
+    2 Andrew Apted	2009-12-31
+      Resaved with NetRadiant.
+
+    1 Andrew Apted	2009-12-31
+      Initial checkin.  Includes changing of sky texture (to skies2/nebula3halflit) and
+      changing the rock textures (to cosmo_block/rock02 and rock06).
+
