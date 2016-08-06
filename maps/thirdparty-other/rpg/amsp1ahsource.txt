@@ -1,0 +1,30 @@
+* What it is, Jim? *
+
+This is the source .map files for AMSP1: CardO the Unstoppable
+Love Machine.  amsp1ah.map SHOULD be compatible with Worldcraft,
+BSP, Qoole, etc, although it may have errors in those editors
+that does not show up in Q3R (what I used to make the map).
+
+amsp1ah_.map is what I used Q3R to edit, so it is in compatible
+with normal Q1 editors.  All the textures for this .map should
+go in \textures\am-besek\.
+
+MapConv by SleepWalkR was used to convert amsp1ah_.map to
+amsp1ah.map.  amsp1ah.map is the file that should be compatible
+with Worldcraft, QuArK, etc.  This is also the file you should
+use to compile with WQSBP and all the other tools.
+
+The texture wad I used is am-besek.wad, which is included.
+
+* Please Note *
+
+REDISTRIBUTION OF AMSP1AH_.MAP, AMSP1AH.MAP, OR AMSP1AH.BSP IN
+ANY WAY OR FORM IS STRICTLY PROHIBITED!
+The files amsp1ah.map, amsp1ah_.map, and amsp1ah.bsp are
+copyright 2001 by Robert Paul Gove Jr.
+
+* Relevant addresses *
+
+rpg_6sp@hotmail.com -- My e-mail address
+http://members.tripod.com/levelthang/ -- My web page
+http://rem.fov120.com/ -- SleepWalkR/MapConv web page

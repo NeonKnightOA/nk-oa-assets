@@ -1,0 +1,22 @@
+This is the source .map files for RPGSP1: Penile Devastation.
+rpgsp1.map SHOULD be compatible with Worldcraft, BSP, Qoole,
+etc, although it may have errors in those editors that does
+not show up in Q3R (what I used to make the map).  rpgsp1_.map
+is what I used Q3R to edit, and then I converted it to
+rpgsp1.map to compile it with WQSBP and all the other tools.
+
+The texture wad used I is quake101.wad and a custom wad
+containing a single texture I extracted from an animating
+texture in quake101.wad.  If you want/need the texture, just
+extract it from the BSP, or make your own wad with a texture
+by the name rpgmtlsw.
+
+DISTRIBUTION OF ANY OF THESE FILES IN ANY WAY OR FORM IS
+STRICTLY PROHIBITED!
+These files are copyright 2001 by Robert Paul Gove Jr.
+
+Relevant addresses:
+
+rpg_6sp@hotmail.com
+http://qexpo.condemned.com/booths/booth.php?n=57
+http://members.nbci.com/levelthang/

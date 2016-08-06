@@ -1,0 +1,84 @@
+,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,
+                  F I R E D    I C E
+
+                  Quake SinglePlayer
+                for 100 Brush Comp V1.3
+            by Stargazer in April 25, 2002
+
+.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.
+                 L E V E L    I N F O
+ 
+                     DESCRIPTION
+                     "Fired Ice"
+     Small quake1 singleplayer level made for the 
+  third 100 brushes competition. Inspirated by Quake,
+           spring and Vondur's "Solarfall".
+
+                       HISTORY
+   Somwhere in the north there is a cold tower...
+ The ice here is so cold, that even fire can't help...
+ And every year many young knights goes there to test
+ the future. So, you are welcome to enter the contest.
+
+                        FILES
+                    firedice.bsp
+                firedice.map (source)
+                    firedice.txt
+               
+               SINGLEPLAYER: yes ofcoz
+            COOPERATIVE: yes, if you want
+        DEATHMATCH: brr... not here - too cold
+
+                   SKILL SETTINGS
+                 easy - 32 monsters
+                normal - 47 monsters
+                 hard - 58 monsters
+     
+                       BUILD
+            Some days in WorldCraft 1.6
+              with help Arghlite.exe
+                    99 brushes
+                   377 entities
+        (compiled special with -nowatervis)
+
+            Textures from quake.wad and
+             "Shrak" sky remix by me.
+
+       So, this stuff is my first Q1SP level
+
+.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,
+               A U T H O R    I N F O
+
+         NAME: Timur "Stargazer" Lazarenko
+            E-MAIL: strgazer@quake.ru
+         WEB: http://www.chat.ru/~strgazer
+                      
+                      MY MAPS
+      Q1DM - Unfinished project (february 1999)
+          Q1DM - Dream's Music (june 1999)
+          Q1DM - The Violence (july 1999)
+      Q1DM - Dead Simple Nostalgie (march 2000)
+   Q1DM - The Violence 2: Dark Cello (january 2002)
+           Q1SP - Fired Ice (april 2002)
+                 
+                     CREDITS TO
+               id Software for Quake 
+           Vondur for "Awesome Maps Ever"
+             Ben Moris and TexMex guys
+  Headshot for "Agenda" and for our old community
+                    Peej for QMAP
+                    Paul for MPQ
+ Many mappers who inspired me mapping in 1999 year
+     Mappers who continue mapping for Quake1
+             Sensey for beeing patient
+      Music: Orbis Mundi "Adia" on this map
+
+.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,
+                 L E G A L   I N F O
+
+Nothing special here today. You are free to use this map 
+                 everywhere you want.
+.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,
+
+                     
+                      Stargazer

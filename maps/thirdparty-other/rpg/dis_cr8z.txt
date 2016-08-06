@@ -1,0 +1,167 @@
+<distrans>
+
+===========================================================
+
+28.04.2002 
+
+One of our way stations in dimension 17b has been overrun.
+Clear it out! Oh, and stop whinging about weapons and ammo
+...your a mercenary, buy your own. 
+
+:P
+
+Besides, there'll be plenty of hardware lying around.
+
+===========================================================
+===========================================================
+
+TITLE: 
+Dismembered Crates.
+
+FILENAMES: 
+dis_cr8z.bsp, dis_cr8z.map, dis_cr8z.txt
+
+AUTHOR: 
+Paul (distrans) Brosche
+PREVIOUS QUAKE NICKS: 
+palldjon
+
+EMAIL ADDRESS: 
+paul.brosche@anglicarevic.org.au
+
+DESCRIPTION: 
+Single Player Level for Quake. Produced for the 100brush
+v1.3 competition run by Grindspire. Although it was
+originally started as an entry for the 100br v1.2 run
+by XeN. I had not then learnt to love BSP =)
+
+OTHER LEVELS BY AUTHOR (as palldjon): 
+One Hundred Brush Brutality - The controversial start
+map for the original Quake 100 brush competition run by
+Aardappel.
+abab: Abject Abcess - 9th placed entry for the original 
+Quake 100 brush competition run by Aardappel.
+pdbq_sp1: Recurrent Rumours - Old skool medieval SP 
+level that was lauded for its interesting gameplay
+situations, if not much else.
+
+=========================================================
+
+* Play Information *
+
+SINGLE PLAYER: 
+Yes.
+
+COOP STARTS: 
+2 - Nightmare recommended.
+
+DEATHMATCH: 
+No, I had hoped to set it up for 6-10 FFA but I really 
+needed to get back to work on the QT00 mission...sorry.  
+
+DIFFICULTY SETTINGS: 
+Yes - via subtraction, substitution and one nasty little
+hack. Most fun is to be had on HARD.
+
+SECRETS:
+Sort of...
+
+TESTED ON: 
+Software Quake 1.08, WinQuake, GLQuake.
+
+KNOWN BUGS:
+A couple of randomly occuring "invisible clip" bugs,
+take a look at the .map and you'll understand why.
+Nothing that should spoil gameplay though =)
+
+* Construction *
+
+BASE: 
+The rotting bones of my failed 100brush v1.2 entry.
+
+SOFTWAREZ: 
+Quake (yaaaaaay for ID)
+Worldcraft (thanx Ben)
+TexMex (thanx Mickey)
+MSPaint (thanx *cough* Bill)
+WQBSP (thanx Ken and John)
+Tyrlite & Rvis+ (thanx Tyrann)
+
+TEXTURES:
+Mostly Ogro2 with special guest appearances by Lunaren,
+Fingers, Quernel, stecki and metlslime.
+
+COMPILE INFO:
+This was made on a Celeron P200+ with 64M SDRAM, so
+you'll understand that it's painful for me to talk
+about compiling.
+
+BRUSHES: 100 (as per competition rules).
+ENTITIES: More than 100.
+
+=========================================================
+
+* Information *
+
+I had hoped to really extend this level by using CZG's
+trick (later adopted by XeN for "Centurion") of using QEd
+to provide point entity teleportation of enemy. There's
+heaps of valid space in this level to house monsters for
+surprise spawnings. However, as with DM implementation, 
+I'd rather spend the extra time required on the QT00
+mission. So, this one's just a straight out slug-fest.
+Fire up track Left5 from The Fragile and go for it.
+
+CREDITS:
+
+Scragbait - for betaA testing, and delivering a set of
+demos that showed HARD could be completed on the fourth 
+attempt. Thanx bud!
+
+Biff Debris - for betaA testing, and always greeting me
+with a smile at #terrafusion.
+
+TK - who insisted on betaB testing, which uncovered a 
+"game-breaking" entity problem that would've 
+disqualified this entry <beer>.
+
+Scampie - for sending me the HUGs that kept me sane at
+the eleventh hour, when VIS started telling me I was an
+idiot mapper.
+
+Fern - for the common sense advice that allowed me to
+stick it back to VIS.
+
+Grindspire - for running the show <beer*2>.
+
+The QT00 Crate - for patiently waiting while I got this
+out of my system...especially [Kona].
+
+DEDICATIONS:
+
+This level is dedicated to Aardappel, Vondur and Peej.
+
+=========================================================
+
+* Copyright / Permissions *
+
+Grindspire can do whatever he likes with the files
+mentioned under "FILENAMES:" above, otherwise...
+
+Commercial distribution of this material, in whole or in 
+part, requires prior agreement with the author.  
+Commercial distribution includes any means by which the 
+user has to pay either for the support (e.g. CD-ROM, or 
+magazine CD-ROM) or for the material itself.  
+Unauthorized commercial distribution is prohibited.
+
+Biff wants a "full length" version of this level 
+produced, so if any author wishes to grab the .map 
+and use it as a base for a larger work...go right 
+ahead. Just give credit where credit is due.
+
+© 2002 Paul J. Brosche
+
+QUAKE® is a registered trademark of Idsoftware, Inc.
+
+</distrans>

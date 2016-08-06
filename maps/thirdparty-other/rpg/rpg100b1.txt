@@ -1,0 +1,157 @@
+Map name		: s4wk
+File name		: rpg100b1.bsp
+Version number		: 1.0
+Date started		: Mid-March, 2002
+Date completed		: 30/04/02
+Author			: Robert P. Gove Jr
+Net Nickname		: R.P.G.
+E-mail address		: rpg_6sp@hotmail.com
+			  All comments are welcome
+Home page		: http://levelthang.tripod.com/
+Description		: This is a map made for the third 100 Brush map contest.  The
+			  challenge of the contest was to make a map with only 100 brushes.
+			  Most normal maps contain about 2000 brushes or more.  With
+			  this limited set of brushes, the contestant was to make a map that
+			  is as close to a normal map as possible.
+Story			: You've been wandering through seemingly endless canyons.  You can
+			  can feel a force in this area -- some sort of incredible being, yet
+			  at the same time immature.  You're progressing closer to its domain,
+			  and you can feel its presence growing stronger.  You will encounter
+			  this entity sooner or later.  The outcome is uncertain.
+Additional credits	: id software for Quake, Ravyn for textures, etc.
+Thank yous		: God (who made all this possible), Mum (who made all this possible),
+			  the beta testers, all the r33t d00ds in #terrafusion (you know who
+			  you are), Dogfish, Jackson Tufts, and Dan Smith.
+Beta testers		: Speedy, DaZ, CardO, Vondur, GomJabber, nanoSpawn, CZG
+			  
+Previous works		: Some old ones for Duke Nukem 3D, 1 for Quake 2, 1 for Quake 3, and
+			  all of them are 100% suckage.  Here is a list of my more recent maps:
+
+				* Quake 1 *
+			  SM32.bsp - Shut Up RPG!
+			  RPGSP1.bsp - Penile Devastation
+
+
+* Play Information *
+Game			: Quake
+Single player		: Yes
+Cooperative		: Yes, 3 starts
+Deathmatch		: No.
+Difficulty settings	: Yes, 0-3
+New sounds		: No
+New graphics		: Yes.  Textures from Hexen 2, Heretic 2, sky from Vondur's Zed.
+New music		: No
+CD track #		: 5
+Demos replaced		: None
+Misc info		: 
+
+
+* Construction *
+
+Base			: New level from scratch
+Editor(s) used		: GTKRadiant for the architecture and most of the entities; QERadiant
+			  for final skill setting stuff; MapSpy for QBSP error checking and
+			  fixing; Notepad.
+Build time		: A few hours here and there for approximately one month.
+Known bugs		: Not really any.
+
+Compile utilities	: Mapconv v1.2.1 by Kristian "SleepwalkR" Duske, TreeQBSP v1.71 by
+			  Bengt Jardrup based on TreeQBSP v1.62 by Greg Lewis, TyrVIS by Kevin "Tyrann"
+			  Shanahan based on RVIS+, TyrLite v0.92 by Kevin "Tyrann" Shanahan.
+TreeQBSP settings	: -oldaxis
+TyrVIS settings		: -level 4
+TyrLite settings	: -extra
+MapConv			: 0 seconds
+WQBSP time		: 6
+TyrVIS			: 128
+TyrLite			: 547
+Brushes			: 100
+Entities		: 856
+
+
+* HOW TO PLAY *
+
+This map should come in a pack file with other 100 brush contest maps.  See that pack's readme
+for installation instructions and info on how to play.
+
+
+
+* WHERE TO GET THIS LEVEL *
+
+My web page ( http://levelthang.tripod.com/ ) should have a link to the pack.  If it's not
+there, or that site goes down, try searching on Google for "100B contest v1.3" or "100 brush
+contest".
+
+
+
+* PLEASE NOTE *
+
+Neither I or id Software, are responsible for any damage these files may or
+may not cause.  However, it is highly unlikely that any damage will be
+caused as a direct result from these files.
+
+Other authors are not permitted to use this level as a base to build
+additional levels.
+
+
+
+* COPYRIGHT NOTICES and PERMISSIONS *
+
+By extracting files from this archive or otherwise using this archive or
+the files contained within it, you agree to abide by this statement:
+
+This level is copyright 2002 by Robert P. Gove JR. All rights reserved.
+Distribution of the file rpg100b1.bsp outside of the original contest pack
+without prior written consent is strictly prohibited.  Permission
+to use, copy and distribute unedited copies of this file -- rpg100b1.bsp --
+is hereby granted, provided that no fee is charged for the use or
+availability of this file (other than the normal connection costs for
+on-line services, if applicable) and it is distributed in the original
+contest pack. The above copyright notice must be left intact in all copies
+of this file.
+
+Commercial distribution of this file, in whole or in part, requires 
+prior written consent from the author. Commercial distribution includes 
+any means by which the user is required to pay either for the support 
+(e.g. book, newsletter or CD-ROM) or for the file itself.  Unauthorized 
+commercial distribution is prohibited.
+
+If you wish to commercially distribute this file, note the following:
+
+(1)  This file contains intellectual property (including, but not 
+     limited to, textures and other artwork) owned solely by Id 
+     Software (www.idsoftware.com), and is subject to any and all 
+     copyrights held by them.  The author does not have authority 
+     or permission, either expressed or implied, to grant usage of 
+     Id's copyright, and, by granting permission to use this level 
+     in a single commercial release, does not claim or waive their 
+     rights thereby.
+
+(2)  Permission is granted by the author for the one-time commercial
+     distribution of this file if all of the following conditions are
+     met:
+
+     (a)  The author is notified by email prior to the file's inclusion 
+          on any commercial release;
+     (b)  The author is provided with one (1) "contributor's copy" of
+          the finished product upon it's release.  Said "contributor's 
+          copy" is to be sent to the author using the shipping address 
+          specified by the author in his/her reply to the publisher's 
+          initial email notification, and is to be provided at no cost 
+          to the author;
+     (c)  This file (including this copyright notice) is not to be 
+          modified in any way, and shall be distributed as the author 
+          intended;
+     (d)  The author retains all relevant and proper copyrights to this 
+          work both prior to and subsequent to the commercial release of 
+          this file;
+     (e)  The publisher obtains prior written consent from the author.
+
+(3)  By requesting a shipping address from the author, the publisher
+     signifies acceptance of, and agrees to abide by, these conditions.
+     By returning a valid shipping address to the publisher, the author
+     thereby grants the publisher one-time usage of the author's 
+     copyrighted work for commercial purposes.
+
+Thank you for your interest in this work.
+

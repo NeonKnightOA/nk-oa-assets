@@ -1,0 +1,129 @@
+Map name		: Pajitnov
+File name		: pajitnovsource.zip
+			  pajitnov.map
+			  pajitnov_.map
+			  pajitnovsource.txt
+Archive size		: 28 kb
+Date completed		: May 11, 2004
+Author			: Robert P. Gove Jr
+Net Nickname		: R.P.G.
+E-mail address		: rpg_6sp@hotmail.com
+			  All comments are welcome
+Home page		: http://rpg.spawnpoint.org
+Description		: This is the source .map for pajitnov.bsp.
+			  pajitnov.map is the Quake-compatible source, and
+			  pajitnov_.map is the QERadiant-compatible source
+			  (I.E. it contains texture paths and surface data that
+			  is used in Q2 and Q3 map editors).
+Additional credits	: id Software and czg for textures; Alexey Pajitnov for
+			  the idea.
+Thank yous		: God, Mom, Dogfish, Jackson Tufts, Dan Smith, czg, and
+			  all the testers.
+Testers			: metlslime and Vondur
+Previous works		: RPG3DM2; RPG3DM1; could.bsp; RPGSP1; RPG100B1;
+			  contributed to SM32; a few Q1 speedmaps; an old
+			  poor-quality Q2SP; an old poor-quality Q3DM; and some
+			  really old Duke3D maps.
+Plugs			: http://celephais.net/board/ -- Func_MsgBoard (QMap)
+
+
+* Play Information *
+Game			: Quake
+Single player		: Yes
+Cooperative		: Yes, but it would be weird, and you couldn't respawn.
+Deathmatch		: No
+Difficulty settings	: Yes (22/34/47 monsters for easy/medium/hard skills)
+New sounds		: No
+New graphics		: Yes.  mapcols.wad by czg.
+New music		: No
+CD track #		: 6
+Demos replaced		: None
+
+
+* Construction *
+
+Base			: New level from scratch, inspired by Alexey Pajitnov.
+Editor(s) used		: QERadiant and mapconv
+Build time		: Two or three days, plus testing.
+Known bugs		: None
+
+Compile utilities	: Map Converter 1.3.0 by Kristian Duske, TreeQBSP v1.94
+			  Modified by Bengt Jardrup, Vis 2.19 Modified by Bengt
+			  Jardrup, TyrLite 0.94 by Kevin Shanahan
+Brushes			: 141
+Entities		: 284
+
+
+* HOW TO PLAY *
+
+Place pajitnov.bsp in your X\quake\id1\maps\ folder (X represents the
+parent directory and/or drive letter).  If you do not have one, make one.
+Next, start Quake.  Once in the game press tilde (~) to bring down the
+console, then type this:
+
+skill x
+map could
+
+Then press enter.  It should load the map.
+x = 0-3, 0 is easy, 1 is medium, 2 is hard, 3 is nightmare.
+
+
+
+* TROUBLE RUNNING THE MAP *
+
+This level probably requires extra RAM to play.  If it plays choppily or not at
+all, try this (courtesy of TEAMShambler www.planetquake.com/teamshambler/):
+
+Some levels are naturally slow due to excessive detail, or require large
+amounts of RAM. To make the latter more playable in DOSQuake, add the
+"-winmem xx" command to your shortcut, or these commands for a DOS prompt:
+
+c:\>cd quake
+c:\quake>quake -winmem xx
+
+where "xx" is the amount of RAM required - most levels needing extra RAM need a
+minimum of 12 meg, the more you can allocate the better. For GLQuake or
+WinQuake this problem is less likely to occur, but if it does, add the
+"-heapsize xx000" command to your shortcut, or these lines for a DOS prompt:
+
+c:\>cd quake
+c:\quake>glquake -heapsize xx000
+
+where "xx000" is the amount of RAM required, measured in k, so to allocate
+12 meg of RAM, use "-heapsize 12000".
+
+
+
+* WHERE TO GET THIS LEVEL *
+
+http://rpg.spawnpoint.org
+Try a Google.com search for pajitnov.zip if my site is down.
+
+
+
+* PLEASE NOTE *
+
+Neither I or id Software are responsible for any damage these files may or
+may not cause.  However, it is highly unlikely that any damage will be
+caused as a direct result from these files.
+
+
+
+* COPYRIGHT NOTICES and PERMISSIONS *
+
+Copyright (C) 2004 Robert P. Gove Jr.
+Textures copyright (C) their respective owners
+
+This level is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This level is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this level; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA

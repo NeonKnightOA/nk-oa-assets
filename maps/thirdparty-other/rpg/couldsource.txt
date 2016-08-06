@@ -1,0 +1,89 @@
+Map name		: And All That Could Have Been
+File name		: couldsource.zip
+			  could.map
+			  could_.map
+			  couldsource.txt
+Archive size		: 456 kb
+Date completed		: August 27, 2003
+Author			: Robert P. Gove Jr
+Net Nickname		: R.P.G.
+E-mail address		: rpg_6sp@hotmail.com
+			  All comments are welcome
+Home page		: http://rpg.spawnpoint.org
+Description		: This is the source .map for could.bsp.  could.map
+			  is the Quake-compatible source, and could_.map is
+			  QERadiant-compatible source (I.E. it contains
+			  texture paths and surface data that is used in Q2
+			  and Q3 map editors).
+Additional credits	: id Software, Speedy, metlslime, and Xatrix for the
+			  textures.
+Thank yous		: God, Mom, Dogfish, Jackson Tufts, Dan Smith, Speedy,
+			  and all the testers.
+Testers			: Shambler, Lun, Dietz, BlackPope, metlslime,
+			  NotoriousRay
+Previous works		: RPGSP1; RPG100B1; contributed to SM32; a few Q1
+			  speedmaps; an old poor-quality Q2SP; an old
+			  poor-quality Q3DM; and some really old Duke3D maps.
+Plugs			: http://celephais.net/board/ -- Func_MsgBoard (QMap)
+
+
+* Play Information *
+Game			: Quake
+Single player		: Yes
+Cooperative		: Yes (three coop starts)
+Deathmatch		: No
+Difficulty settings	: Yes (75/92/105 monsters for easy/medium/hard skills)
+New sounds		: No
+New graphics		: Yes.  Textures by id Software, Speedy, metlslime,
+			  Xatrix, and a few unknown sources.
+New music		: No
+CD track #		: 6
+Demos replaced		: None
+
+
+* Construction *
+
+Base			: New level from scratch
+Editor(s) used		: QERadiant and mapconv
+Build time		: Seven weeks from start day until completion.  I took
+			  a few days off in there, though.
+Known bugs		: None
+
+Brushes			: 3524
+Entities		: 1046
+
+
+
+* WHERE TO GET THIS LEVEL *
+
+http://rpg.spawnpoint.org
+Try a Google.com search for could.zip if my site is down.
+
+
+
+* PLEASE NOTE *
+
+Neither I or id Software are responsible for any damage these files may or
+may not cause.  However, it is highly unlikely that any damage will be
+caused as a direct result from these files.
+
+
+
+* COPYRIGHT NOTICES and PERMISSIONS *
+
+Copyright (C) 2003 Robert P. Gove Jr.
+Textures copyright (C) their respective owners
+
+This level is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This level is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this level; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
