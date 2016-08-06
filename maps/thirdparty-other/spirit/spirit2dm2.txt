@@ -1,0 +1,224 @@
+The arms of Lilith (quake2 edition) -- a map for Quake II  by spirit
+
+
+GENEREAL MAP DATA
+==================
+
+MAP NAME     : spirit2dm2
+
+LONGNAME     : The arms of Lilith (quake2 edition)
+
+ARCHIVE NAME : spirit2dm2.zip
+
+VERSION      : final
+
+GAME TYPE    : tourney (1vs1)
+
+TEXTURES     : * clockwork, hh3lights and hh3broken texture sets by rorshach (converted from tga to wal format by m at q2c)
+                 http://rorshach.cottages.polycount.com
+
+	       * few textures were taken from the nexus6 tremulous map, these textures were made by by evil lair and the tremulous team:
+
+                  spirit2dm2/floor1_l3_2a
+                  spirit2dm2/achtung_clang_128
+                  spirit2dm2/crate_128
+                  spirit2dm2/barrel_rst_sign
+                  spirit2dm2/barrel_rst_top
+                  spirit2dm2/e8trimlight_edge
+                  spirit2dm2/mtl-well_l3_88c
+
+                    http://www.tremulous.net/
+                    http://evillair.net/
+
+               * skybox from lun3dm3 by lunaran
+                 http://www.lunaran.com/
+
+SOUNDS       : taken from the Quake2World edition of the map 'torn -- torn glory' by card0
+
+BASE         : none (new map from scratch)
+
+RELEASE DATE : september 12th 2008
+
+
+
+
+TRIVIA
+=======
+
+STUFF USED   : * qeradiant 1.50 (compiled from svn) -- http://www.qeradiant.com/
+               * q2map, pak -- http://www.qeradiant.com/
+               * arghrad -- http://arghrad.planetquake.gamespy.com/
+               * qbsp3, qvis3, qrad3 -- http://home.insightbb.com/~gryndehl/q2compile/quake2.html
+               * cq2map shell scripts -- http://maps.sp1r1t.org/stuff/
+               * coffee
+
+
+BUILD TIME   : many hours during the summer of 2008
+
+FILE SIZE    : ~ 3.5 MB (spirit2dm2.zip)
+
+BRUSHES      : > 1500
+
+ENTITIES     : > 200
+
+COMPILATION  : compiled using my cq2map shell scripts. command lines used:
+
+                 qbsp3 maps\spirit2dm2.map
+                 qvis3 maps\spirit2dm2.bsp
+                 arghrad -ambient .2 maps\spirit2dm2.bsp
+
+NOTES        : This map was build for the 6th mapping contest at the Quake 2 Cafe (q2c).
+               Greetings to all mappers who participated and thanks to the people who organized it!
+               * http://leray.proboards34.com
+
+               This map was tested with r1q2 under win32 and with aprq2 under linux.
+               * http://www.r1ch.net/stuff/r1q2/
+               * http://maniac.aq2world.com/apr/
+
+               
+               I started to build the map for Quake2World (q2w) when the contest started and
+               began porting it back to Quake II (q2) about 14 days before the contest ended. The q2 edition has less details and a few
+               gameplay changes because q2w has faster movement and supports things that q2 doesn't.
+
+               I encourage you to get the Quake2World version of the map! It comes with q2w, so just type 'map lilith' in
+               the q2w in-game console. You'll also be able to download it from my website when the contest is over.
+               See http://www.quake2world.net for more info on Quake2World.
+
+
+
+GAMEPLAY
+=========
+
+WEAPONS      : 2 RL, SSG, RG, CG, HB, GL, MG
+
+ITEMS        : 2 JA, CA, BA, MH
+
+
+
+
+
+INSTALLATION AND HOW TO PLAY
+=============================
+
+INSTALL:
+
+               * Extract the file 'spirit2dm2.zip' to your 'quake2/baseq2/' directory (preserving paths).
+
+                 The following files will be extracted:
+
+                     * maps/spirit2dm2.bsp -- the bsp file needed to play the map
+                     * maps/spirit2dm2.map -- the source file of the map
+                     * maps/spirit2dm2.loc -- location file for team chat messages (r1q2 and other q2 clients)
+
+                     * docs/spirit2dm2.txt -- this readme file
+                     * docs/spirit2dm2.license.txt -- the full GPL license
+
+                     * env/spirit2dm2/* -- the skybox files for this map
+
+                     * sound/spirit2dm2/* -- the sound files for this map
+
+                     * textures/spirit2dm2/* -- the texture files for this map
+
+
+
+
+PLAY:
+               * You can load the map using the Quake II in-game console: 'map spirit2dm2'
+                 (Note that some clients like r1q2 prefer 'gamemap spirit2dm2'.)
+
+               * You can also start it from the command line of your OS: 'quake2 +map spirit2dm2'
+
+               * To start a simple server do sth like this: 'quake2 +set dedicated 1 +map spirit2dm2'
+
+               * To play the map on public servers, cast a vote for it: 'vote map spirit2dm2'
+
+
+
+AUTHOR INFO
+============
+
+NAME         : spirit
+
+CONTACT      : see http://www.sp1r1t.org/contact/
+
+WWW          : http://maps.sp1r1t.org
+
+
+
+
+THANKS & CREDITS
+==================
+
+* RUST Gamedesign and quake2.com for many mapping tutorials and the quake 2 workshop
+  RUST - http://www.gamedesign.net/node/11
+  Quake2.com - http://www.quake2.com/qworkshop/
+
+* The Quake II Cafe - http://leray.proboards34.com
+
+* Rorshach, Evillair, Lunaran and the trem team for their great texture work
+
+* id Software and the guys at qeradiant.com for Quake 2 and the Radiant editor
+  id - http://www.idsoftware.com
+  qeradiant - http://www.qeradiant.com
+
+* The Quake2World team for play testing, comments, suggestions, talk and quake2world
+  http://www.quake2world.net
+  irc://chat.freenode.net/quetoo
+
+* Some friends for testing the map with me, you know who you are. Special thanks go to
+  henneck for playing the early & ugly alpha versions against me.
+
+* The sounds were taken from the q2w edition of map-torn by card0.
+
+* m at the q2c for converting the textures to wal format.
+
+* Last but not least, the person who gave this map its name.
+
+
+
+
+
+
+Copyright / Permissions
+========================
+
+    spirit2dm2.map -- a map for Quake 2
+    Copyright (C) 2008 Tim 'spirit' S. -- http://www.sp1r1t.org/contact/
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+Note that the GPL only applies to my work (the .map-file), the textures were made
+by Rorshach, Evillair and the tremulous team and are released under a different license (see THANKS & CREDITS).
+
+See spirit2dm2.license.txt for the full license of this map.
+
+Please distribute modified versions of this map under a new name.
+
+
+
+
+TODO list
+==========
+
+* count the fruit flies in my kitchen in july
+* apply eye shadow while jogging
+* type 'map spirit2dm2ld' in the quake 2 in-game console on my slow box and wonder why nothing happens
+* drink even more coffee
+
+
+
+
+

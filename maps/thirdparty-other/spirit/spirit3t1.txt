@@ -1,0 +1,174 @@
+*** spirit3t1 - prejudice *** for quake III arena / cpma by spirit
+
+
+
+
+GENEREAL MAP DATA
+==================
+
+MAP NAME     : spirit3t1
+
+LONGNAME     : prejudice
+
+PK3.NAME     : spirit3t1.pk3
+
+GAME TYPE    : supported : TOURNEY, TDM, FFA
+               suggested : TOURNEY 1vs1, TDM 2vs2 
+
+MOD          : recommended : CPMA - http://www.promode.org
+	       
+MAP THEME    : forgotten evil ruins
+
+BASE         : minor modifications to my map 'prejudice' :
+
+                 * replaced YA/bridge with RA
+                 * removed RG/bridge
+		 * added teleporter from castle front to MH jumppad
+		 * shielded RG room from small yard
+		 * some ramps for cpm-physics jumps added
+		 * 2 of the SGs now appear in TDM only
+		 * fixed missing texture bug
+		 * fixed texture mis-allignments in same places
+		 * many clipping issues fixed
+		 * reduced depth of green acid pool
+		 * added armor shards near PG
+		 * added LG ammo pack in central room
+		 * moved some ammo around
+		 * added target_location markers for TDM (area names for drawteamoverlay 1)
+		 * replaced teleporter texture
+		 * much more clipping
+		 * replaced red lights by white ones
+
+BUILD TIME   : ~ 2 hours for the adjustments
+
+COMPILE TIME : ~ 3.5 hours @ Pentium M 1500
+
+STUFF USED   : * qeradiant 1.50 RC-1 (linux build)
+               * qeradiant 1.4 stable (linux build)
+               * q3map2 (linux build)
+               * debian gnu/linux
+               * cuba libre 
+
+RELEASE DATE : 01-16-2007
+
+FILE SIZE    : 2.2 MB
+
+
+
+
+
+GAMEPLAY
+=========
+
+BOTS         : doom, phobos
+
+WEAPONS      : SG, GL, RL, PG, RG, LG
+
+ITEMS        : 1 YA, 1RA, 1 MH, various health and shards
+
+COMMENTS     : prejudice2 is an open map with lots of small ramps that
+               allows fast and furious CPM moves and very high connectivity.
+
+
+
+
+AUTHOR INFO
+============
+
+NAME         : spirit
+
+CONTACT      : see http://www.sp1r1t.org/contact/
+
+WWW          : http://maps.sp1r1t.org
+
+
+
+FAQ 
+====
+
+
+Q: RANGER HAS 2 BANANAS, STRIPE HAS 3 BANANAS, ANGEL HAS 1 BANANA. IF ANGEL WAS TO EAT HER BANANA,
+   THEN TAKE 1 OF STRIPES BANANAS, HOW MANY BANANAS HAS RANGER GOT?
+
+A: ranger has 2 bananas.
+
+
+
+Q: let f1b (x:xs) = x + foldl (-) 0 xs. 
+   f1b [1, 27, (3^5), 3, 99] = ???
+   
+A: ranger has 2 bananas.
+
+
+
+CREDITS
+========
+
+this map uses artwork by the following people :
+
+* decker and jude - for the quakeworld teleporter shader and texture
+
+* broar - for the angkor textures he made from the photos I took in Cambodia
+
+
+THANKS
+=======
+
+the following people helped by playtesting the map and made valuable suggestions :
+
+* henneck
+
+* tron
+
+* rei
+
+* many people over at the quake3world forums and at lvlworld including
+
+  * v1l3
+
+  * Todtsteltzer
+
+  * Survivor
+
+  * Foo
+
+  * pjw
+
+  * roughrider
+
+
+Copyright / Permissions
+========================
+
+spirit3t1.map -- map file for a Quake 3 Arena map
+Copyright (C) 2002 Tim "spirit" Schaefer
+http://www.sp1r1t.org/contact/
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+See the file spirit3t1.license (in the pk3 file) for the complete GPL license text.
+
+
+
+GREETINGS
+==========
+
+heng
+
+thor
+
+mindfuck
+
+kneti

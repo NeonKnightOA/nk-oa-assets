@@ -1,0 +1,142 @@
+
+*** spirit3t2 - better off dead *** for quake III arena / cpma by spirit
+
+
+
+
+GENEREAL MAP DATA
+==================
+
+MAP NAME     : spirit3t2
+
+LONGNAME     : better off dead
+
+PK3.NAME     : spirit3t2.pk3
+
+GAME TYPE    : tourney / 2vs2 TDM / FFA
+               TDM 2vs2 recommended
+
+MOD          : recommended : CPMA - http://www.promode.org
+
+MAP THEME    : industry base
+
+BASE         : new map from scratch
+
+BUILD TIME   : > 40 h
+
+COMPILE TIME : < 1 h @ Pentium M 1500
+
+STUFF USED   : * qeradiant 1.50 RC-1 (linux build)
+               * qeradiant 1.4 stable (linux build)
+               * q3map2 (linux build)
+               * debian gnu/linux
+               * chianti
+
+RELEASE DATE : 04-27-2007
+
+FILE SIZE    : ~5 MB
+
+NOTES        : a slightly modified version of this map is included in the
+               map-center OA mappack as mc-oa-dm05.
+
+
+
+GAMEPLAY
+=========
+
+BOTS         : doom, phobos
+
+WEAPONS      : SG, GL, RL, PG, RG, LG
+
+ITEMS        : 2 YA, 1 MH, 1 JA (CPMA/OSP only) various health and shards
+               TDM-only: Quad, 1 additional JA (CPMA/OSP only), some ammo/health adjustments
+
+
+
+
+
+
+AUTHOR INFO
+============
+
+NAME         : spirit
+
+CONTACT      : see http://www.sp1r1t.org/contact/
+
+WWW          : http://maps.sp1r1t.org
+
+
+
+
+CREDITS
+========
+
+This map uses artwork made by the following people :
+
+ * E8 textures by Evillair
+   http://www.evillair.net
+
+ * Mkoxide textures by Lunaran
+   http://www.lunaran.com
+
+ * Glass textures by Louie "KnightBK" Doulias
+   http://fps.brainerd.net
+
+ * Quakeworld Teleporter by Jude and Decker
+
+ * Wall textures from cpm21 by swelt
+
+
+THANKS
+=======
+
+* broar, henneck, tron, rei
+
+* many guys over at q3w, lvl and map-center including v1l3, subst, donkey and
+  pjw - also ripped next paragraph from one of his readme files ;-).
+
+
+
+Copyright / Permissions
+========================
+
+Copyright / Permissions
+========================
+
+    spirit3t2.map -- a map for Quake 3 Arena
+    Copyright (C) 2007 Tim 'spirit' S. -- http://www.sp1r1t.org/contact/
+                                          http://www.airrocket.net/
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+Note that the GPL only applies to my work (the .map-file).
+
+See spirit3t2.license.txt for the full license of this map.
+
+Please distribute modified versions of this map under a new name.
+
+
+Version history
+================
+
+changes beta4 -> final version:
+ * fixed jumppads for 'r_vertextlight 1'
+ * fixed z-fighting under bridge/water
+ * fixed broken light shaders
+ * added some lamps (brushes) to make lighting more realistic
+ * added Quad for TDM mode
+ * various small lighting and texturing improvements
+ 

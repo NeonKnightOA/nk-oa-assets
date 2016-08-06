@@ -1,0 +1,132 @@
+*** spirit3dm1 - deathtrap *** for quake III arena by spirit
+                                 
+
+
+
+****************************************************************************************************
+*                                                                                                  *
+*                         *                     *                                *                 *
+*  *****       *****      ******    *********   *     *   *********   ****       ******    ****    *
+*   *   *      *   *      *    *    *   *   *   *     *   *   *   *    *  *      *    *     *  *   *
+*   *    *     *          ******        *       *******       *        *   *     ******     *  *   *
+*   *     *    ****       *    *        *       *     *       *        ****      *    *     ***    *
+*   *      *   *     *    *    *        *       *     *       *        *   *     *    *     *      *
+*  *********   *******    *    *        *             *       *        *    *    *    *     *      *
+*                              *        *                     *              *        *     *      *
+*                              *                                              *       *     *      *
+*                                                                                                  *
+****************************************************************************************************
+
+
+
+
+GENEREAL MAP DATA
+=================
+
+
+MAP THEME    : abandoned deep space mining complex on a forgotten moon
+
+MAP NAME     : spirit3dm1
+
+LONG NAME    : deathtrap
+
+PK3.NAME     : spirit3dm1.pk3
+
+GAME TYPE    : FFA TDM
+
+SPIRIT USED  : q3map, Q3Radiant 2.02, thc
+
+BUILD TIME   : a lot
+
+RELEASE DATE : 11-06-2002
+
+FILE SIZE    : 1,9 MB
+
+
+
+
+
+GAMEPLAY
+========
+
+BOTS         : klesk, hunter, sarge, phobos
+
+WEAPONS      : railgun, rocket launcher, plasma gun, bfg, shotgun
+
+
+NOTES
+=====
+
+This was the first map I ever made with Radiant and I know it sucks, so don't
+bother telling me. I made it when I learned to work with the editor and there was
+no real plan I was following. You have been warned.
+
+It's still availbale from my website because I like the looks of the central room
+and I just can't delete it.
+
+
+
+AUTHOR INFO
+===========
+
+NAME         : spirit
+
+CONTACT      : http://www.sp1r1t.org/contact/
+
+WWW          : http://maps.sp1r1t.org
+
+
+
+
+GREETINGS
+=========
+
+Regimegegner
+
+the_deadly_spirit
+
+Aratar
+
+Shang
+
+dire|lOg1c
+
+
+THANKS
+=======
+
+The following people helped with playtesting and suggestions:
+
+* broar
+
+* henneck
+
+* tron
+
+* many guys over at q3w in the (good?) ol' days
+
+
+
+Copyright / Permissions
+========================
+
+spirit3dm1.map -- map file for a Quake 3 Arena map
+Copyright (C) 2002 Tim "spirit" Schaefer
+http://www.sp1r1t.org/contact/
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+See the file spirit3dm1.license (in the pk3 file) for the complete GPL license text.
+

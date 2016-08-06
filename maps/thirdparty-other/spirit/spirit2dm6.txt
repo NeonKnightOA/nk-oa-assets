@@ -1,0 +1,203 @@
+spirit2dm6 -- Totality
+A deathmatch map for Quake II by spirit
+http://maps.rcmd.org
+
+
+
+GENERAL MAP DATA
+==================
+
+MAP NAME     : spirit2dm6
+
+LONGNAME     : Totality
+
+ARCHIVE NAME : spirit2dm6.zip
+
+VERSION      : final
+
+GAME TYPE    : tourney | FFA 2-4
+
+TEXTURES     : baseq2, skybox by hipshot
+
+SOUNDS       : baseq2, freesound.org
+
+BASE         : none, new map from scratch
+
+RELEASE DATE : sept 2010
+
+NOTES        : * build for the 8th mapping contest at the Quake 2 Cafe
+                 http://leray.proboards.com/
+
+               * as with all my maps, the map file is included and licensed
+                 under the GPL (see LICENSE section below)
+
+DESCRIPTION  : Yeah, it's tourney again.
+
+               People will hate me for vanilla textures I guess. I don't care.
+
+               //
+
+               Greetings to #quetoo and Q2C.
+
+
+
+
+
+TRIVIA
+=======
+
+STUFF USED   : * netradiant, q2map, pak -- http://dev.alientrap.org/wiki/netradiant
+               * arghrad -- http://arghrad.planetquake.gamespy.com/
+               * qbsp3, qvis3 -- http://home.insightbb.com/~gryndehl/q2compile/quake2.html
+               * audacity -- http://audacity.sourceforge.net/
+               * cq2map shell scripts -- http://maps.rcmd.org/stuff/
+               * lots of coffee & chardonnay
+
+BUILD TIME   : ~ 3 weeks
+
+FILE SIZE    : ~ 1 MB (zip archive)
+
+BRUSHES      : > 1300
+
+ENTITIES     : > 160
+
+COMPILATION  : compiled using the cq2map shell scripts. command lines used:
+
+                 qbsp3 maps\spirit2dm6.map
+                 qvis3 maps\spirit2dm6.bsp
+                 arghrad -ambient .2 maps\spirit2dm6.bsp
+
+                 See worldspawn for sun stuff and other settings.
+
+COMPILE TIME : < 2 mins @ P4 3200
+
+
+
+
+GAMEPLAY
+=========
+
+WEAPONS      : 2x RL, SSG, RG, HB, GL, CG, SG
+
+ITEMS        : BA, CA, 2x JA, MH
+
+POWERUPS     : none
+
+
+
+
+INSTALLATION AND HOW TO PLAY
+=============================
+
+INSTALL:
+
+               * Extract the file 'spirit2dm6.zip' to your 'quake2/baseq2/' directory (preserving paths). Done.
+
+                 The following files will be extracted:
+
+                     * maps/spirit2dm6.bsp -- the bsp file needed to play the map
+                     * maps/spirit2dm6.map -- the source file of the map (not needed to play)
+                     * maps/spirit2dm6.loc -- location file for team chat messages (r1q2 and other q2 clients)
+
+                     * docs/spirit2dm6.txt -- this readme file
+                     * docs/spirit2dm6.license.txt -- the full GPL license
+
+                     * textures/spirit2dm6/* -- textures for this map
+
+                     * sound/spirit2dm6/* -- sounds for this map
+
+                     * env/spirit2dm6/* -- environment map (sky) for this map
+
+
+PLAY:
+               * You can load the map using the Quake II in-game console: 'map spirit2dm6'
+                 (Note that some clients like r1q2 prefer 'gamemap spirit2dm6'.)
+
+               * You can also start it from the command line of your OS: 'quake2 +map spirit2dm6'
+
+               * To start a simple server do sth like this: 'quake2 +set dedicated 1 +map spirit2dm6'
+
+               * To play the map on public servers, cast a vote for it: 'vote map spirit2dm6'
+
+               * If you need bots try the 3ZB2 bot, it worked surprisingly well for me on this map. It doesn't
+                 seem to do the jumps to RG and BA too often but it's still great fun if you play against two of 'em!
+
+                 Download and install 3ZB3, then:
+
+                      shortcut/shell : 'quake2 +game 3zb2 +set deathmatch 1 +map spirit2dm6'
+                      q2 console     : 'sv spb 2'
+
+
+
+
+AUTHOR INFO
+============
+
+NAME         : Tim 'spirit' S.
+
+CONTACT      : see http://rcmd.org/contact/
+
+WWW          : http://maps.rcmd.org (formerly maps.sp1r1t.org)
+               http://www.airrocket.net/
+
+
+
+
+CREDITS
+=======
+
+* Jockum Skoglund aka hipshot for the 'Violent Days' skybox - http://www.zfight.com
+
+* the Free Sound Project for the sounds - http://freesound.org
+
+* I have no idea where I got that tele texture ages ago, it may come from some cpm map - http://promode.org
+
+
+
+
+
+
+THANKS
+=======
+
+* henneck and Shadow for playtesting
+
+* thehappyfriar for fixing the pcx skybox images used in software mode Quake 2
+
+* Q2C, tastyspleen and the people who made the 2010 mapping contest possible
+
+* id software for Quake II & releasing the source code of their engines under the GPL
+
+
+
+
+Copyright / Permissions
+========================
+
+
+    spirit2dm6.map -- a map for Quake 2
+    Copyright (C) 2008 Tim 'spirit' S. -- http://rcmd.org/contact/
+                                          http://www.airrocket.net/
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+Note that the GPL only applies to my work (the .map-file).
+
+See spirit2dm6.license.txt for the full license of this map.
+
+Please distribute modified versions of this map under a new name.
+
+

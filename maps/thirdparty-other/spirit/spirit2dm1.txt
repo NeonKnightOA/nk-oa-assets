@@ -1,0 +1,169 @@
+
+*** spirit2dm1 - awaiting resurrection *** for quake II by spirit *** final release
+
+
+
+
+GENEREAL MAP DATA
+==================
+
+MAP NAME     : spirit2dm1
+
+LONGNAME     : awaiting resurrection
+
+ARCHIVE NAME : spirit2dm1.zip
+
+GAME TYPE    : 2 - 3 players deathmatch
+
+MAP THEME    : q2 base
+
+BASE         : new map from scratch
+
+BUILD TIME   : > 20 h
+
+STUFF USED   : * qeradiant 1.50
+               * q3map2
+               * debian gnu/linux
+
+RELEASE DATE : 03-may-2007
+
+FILE SIZE    : < 1 MB
+
+NOTES        : I know I'm late, but I wanted to give q2 mapping a try ;-)
+
+
+
+GAMEPLAY
+=========
+
+WEAPONS      : SG, SSG, MG, RL, GL, CG, HB, RG
+
+ITEMS        : JA, BA, CA, MH
+
+INSTALLATION AND HOW TO PLAY
+=============================
+
+INSTALL:
+
+               * Unzip the archive to your '<your_quake2_dir>' directory preserving paths. You're done.
+
+               The following files will be installed:
+
+               * '<your_quake2_dir>/baseq2/maps/spirit2dm1.bsp' (the mapfile)
+               * '<your_quake2_dir>/baseq2/maps/spirit2dm1.txt' (this readme)
+               * '<your_quake2_dir>/baseq2/maps/spirit2dm1.license' (full GPL license)
+               * '<your_quake2_dir>/eraser/routes/spirit2dm1.rtz' (routes table for eraser bots, see BOTS below)
+               * '<your_quake2_dir>/baseq2/maps/spirit2dm1.loc' (location file for r1q2 and other q2 clients)
+
+PLAY:
+               * You can load the map using the Quake II in-game console: '/map spirit2dm1'
+
+               * You can also start it from the command line of your OS: 
+               
+                   - to play the map alone (rather boring, see BOTS below to play against bots): 'quake2 +map spirit2dm1'
+
+                   - to start a local server with the map: 'quake2 +set deathmatch 1 +map spirit2dm1'
+
+                   - to start a local dedicated server with the map (you won't be able to play on the box you run this command on,
+                     only players from other machines can connect to it): 'quake2 +set dedicated 1 +set deathmatch 1 +map spirit2dm1'
+
+
+BOTS:          The map works well with the Eraser Bot for Quake II.
+               Google for sth. like 'eraser bot 1.01 final' if you don't have it.
+
+               Atm (03/2007), these links work:
+               linux: http://www.airrocket.net/mirror/quake2/bots/eraser_1.01_linux.zip
+               win32: http://www.airrocket.net/mirror/quake2/bots/eraser_1.01_win32.zip
+
+               To start the map with bots: 'quake2 +set game eraser +map spirit2dm1',
+               then add bots with the bot_num command from the in-game console: 'bot_num 2'.
+
+               Note that Eraser Bots use route tables to navigate maps.
+               If you unzipped the 'spirit2dm1-full.zip' archive to your quake 2 directory preserving paths, a route table for
+               my map should already exist at '<your_quake2_dir>/eraser/routes/spirit2dm1.rtz'.
+               Creating your own tables is easy though, it boils down to running around the map
+               using different paths the first time you start it with the Eraser Mod, then reload
+               QuakeII or the map and play.
+               See the Eraser documentation for more info.
+
+
+AUTHOR INFO
+============
+
+NAME         : spirit
+
+CONTACT      : see http://www.sp1r1t.org/contact/
+
+WWW          : http://maps.sp1r1t.org
+
+
+
+THANKS
+=======
+
+* RUST Gamedesign and quake2.com for many mapping tutorials and the quake 2 workshop
+  RUST - http://www.gamedesign.net/node/11
+  Quake2.com - http://www.quake2.com/qworkshop/
+
+* some friends for testing the map with me, you know who you are
+
+* many guys over at q3w, mc and most of all the Quake II Cafe for feedback and comments
+  Quake 3 Worls - http://www.quake3world.com/forum/
+  Mapcenter - http://www.map-center.com/forums/
+  The Quake 2 Cafe - http://leray.proboards34.com
+
+Copyright / Permissions
+========================
+
+spirit2dm1.map -- map file for a Quake 2 map
+Copyright (C) 2002 Tim "spirit" Schaefer
+http://www.sp1r1t.org/contact/
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+See the file spirit2dm1.license for the complete GPL license text.
+
+
+
+Version history
+================
+
+changes beta1 => beta2:
+
+* made elevator suck less (made it more obvious that it's an elevator)
+* lots of clipping
+* fixed the ugly VIS error near lasers by adapting portals
+* changed damaged the laser beams deal from 1 to 25 ><
+* various small texture fixes
+* added longname to worldspawn
+
+changes beta2 => beta3:
+
+* various texture fixes
+* more clipping at some doorways
+* fixed slime and splash at RG
+* sunk tele dests and SP/MP spawnpads into the ground
+
+changes beta3 => beta4:
+* fixed strange error above MH
+
+changes beta4 => beta5:
+* made HB/YA room look more interesting
+
+changes beta5 => final:
+* fixed light floating in mid-air above YA
+* fixed wrong texture on ceiling of CG room
+* fixed new lamps near tele in YA room
+

@@ -1,0 +1,109 @@
+
+*** spirit1dm1 - not this time *** for quake / quakeworld by spirit ***
+
+
+
+
+GENEREAL MAP DATA
+==================
+
+MAP NAME     : spirit1dm1
+
+LONGNAME     : not this time
+
+ARCHIVE NAME : spirit1dm1.zip
+
+GAME TYPE    : 4 - 6 players deathmatch
+
+MAP THEME    : q1 base
+
+BASE         : new map from scratch
+
+BUILD TIME   : < 20 h
+
+STUFF USED   : * qeradiant 1.50 - http://www.qeradiant.com
+               * hmap2 - http://icculus.org/twilight/darkplaces/
+
+RELEASE DATE : aug 2007
+
+FILE SIZE    : < 1 MB
+
+NOTES        : I know I'm late, but I wanted to give qw mapping a try ;-)
+
+               This is a deathmatch map for 3 - 5 players. I built it during a weekend I spend at a friend of mine. We found
+               the nquake website by chance and thus re-discovered quake 1 / quakeworld. It's a simple ol' skool deathmatch map
+               designed for some fun frags during LAN play - nothing more. I was drunk when I made this and it shows in parts. ;)
+
+
+
+GAMEPLAY
+=========
+
+WEAPONS      : SSG x 2, NG, SNG, GL, RL x 2, LG
+
+ITEMS        : RA, JA, GA x 2, MH
+
+POWERUPS     : QUAD
+
+
+
+INSTALLATION AND HOW TO PLAY
+=============================
+
+INSTALL:
+
+               * Unzip the archive to '<your_quake_dir>/id1/maps/' directory. You're done.
+
+               The following files will be installed:
+
+               * '<your_quake_dir>/id1/maps/spirit1dm1.map' (the map source file, optional)
+               * '<your_quake_dir>/id1/maps/spirit1dm1.bsp' (the compiled mapfile)
+               * '<your_quake_dir>/id1/docs/spirit1dm1.txt' (this readme, optional)
+               * '<your_quake_dir>/id1/maps/spirit1dm1.lit' (lighting info)
+               * '<your_quake_dir>/id1/maps/spirit1dm1.dlit' (lighting info)
+
+
+PLAY:
+
+
+               * You can load the map using the Quake / QW in-game console: 'map spirit1dm1'
+
+               Hint: If you don't have a quakeworld client, get nQuake: http://nquake.sourceforge.net/
+
+               * You can also start it from the command line of your OS:
+
+
+                   'ezquake-gl +map spirit1dm1'
+
+
+
+AUTHOR INFO
+============
+
+NAME         : spirit
+
+CONTACT      : see http://www.sp1r1t.org/contact/
+
+WWW          : http://maps.rcmd.org | airrocket.net 
+
+
+
+THANKS
+=======
+
+* some friends for testing the map with me, you know who you are
+
+* some guys over at quake.de for help with some texture issues: http://www.quake.de
+
+* LordHavoc and Vic for hmap2: http://icculus.org/twilight/darkplaces/download.html
+
+* the guys over at q3w for help: http://www.quake3world.com/forum/
+
+* id for lots of great stuff
+
+
+Copyright / Permissions
+========================
+
+This level is (c) by spirit (2007). The source files of this map (the .map-files made by me, NOT THE TEXTURES AND ASSETS!) are published under
+the GPL license and may be freely distributed. See http://www.gnu.org/copyleft/gpl.html for the full GNU General Public License.

@@ -1,0 +1,171 @@
+*** spirit3t3a - terror twilight remix *** for quake III arena / cpma by spirit
+
+
+
+GENEREAL MAP DATA
+==================
+
+MAP NAME     : spirit3t3a
+
+LONGNAME     : terror twilight remix
+
+PK3.NAME     : spirit3t3a.pk3
+
+GAME TYPE    : tourney, TDM 2vs2
+
+VERSION      : final
+
+MOD          : recommended : CPMA - http://www.promode.org
+
+MAP THEME    : modern stuff
+
+BASE         : based on 'spirit3t3 - terror twilight'
+
+BUILD TIME   : few days for adaptions and testing
+
+COMPILE TIME : < 0.5 h @ Pentium M 1500
+
+STUFF USED   : * qeradiant 1.5
+               * qeradiant 1.4
+               * q3map2
+               * debian gnu/linux
+
+RELEASE DATE : 30-JUL-2007
+
+FILE SIZE    : ~ 11 MB (sorry, lots of custom textures)
+
+
+
+
+
+GAMEPLAY
+=========
+
+BOTS         : doom
+
+WEAPONS      : SG, GL, RL, RG, LG, PG
+
+ITEMS        : 1 RA, 1YA, 1 MH, various health and shards (+QUAD, 2nd JA and some ammo @ TDM)
+
+
+
+HOW TO INSTALL AND PLAY
+========================
+
+Install:
+  * place spirit3t3a.pk3 in your /baseq3/ folder
+
+
+Play:
+ * start quake3
+ * select spirit3t3a from the skirmish or multiplayer menu
+
+ OR
+
+ * start quake3
+ * hit ~ (to bring up in-game console)
+ * type '\map spirit3t3a'
+ * type '\addbot <botname> <skill>' (to add bots)
+ * hit ~ (to clear the console)
+
+
+AUTHOR INFO
+============
+
+NAME         : spirit
+
+CONTACT      : see http://www.sp1r1t.org/contact/
+
+WWW          : http://maps.sp1r1t.org
+
+
+
+
+CREDITS
+========
+
+This map uses artwork made by the following people :
+
+ * Glass textures by Louie "KnightBK" Doulias
+   http://fps.brainerd.net
+
+ * Quakeworld Teleporter by Jude and Decker
+
+ * skeleton md3 model by Gollum, based on a model by Kenneth Scott from Id Software
+
+ * lun3dm4 textures by lunaran
+   http://www.lunaran.com
+
+ * some of the e6 and e8 textures by evillair
+   http://www.evillair.net
+
+ * textures made by broar
+   http://broar.sp1r1t.org
+
+ * sky texture by ikka, shader by fjoggs
+
+
+
+
+THANKS
+=======
+
+* ix-ir for all the suggestions that made me create this remix
+
+* pjw for the hint on how to fix the grate shader
+
+
+Copyright / Permissions
+========================
+
+spirit3t3a.map -- map file for a Quake 3 Arena map
+Copyright (C) 2002 Tim "spirit" Schaefer
+http://www.sp1r1t.org/contact/
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+See the file spirit3t3a.license (in the pk3 file) for the complete GPL license text.
+
+
+
+VERSION HISTORY
+================
+changes spirit3t3 -> spirit3t3a:
+ * replaced the 2 teleporters between PG and LG with a short corridor
+ * removed mini-corridor leading to upper teleporter
+ * removed useless stairs at upper teleporter
+ * switched PG and LG positions to seperate RG from LG
+ * made RG platform bigger (thus making the jump to RG shorter)
+ * replaced glass above RA with grid to allow for interaction between the 2 levels
+ * removed decorative pipes in the floor at top level
+ * removed glass at all weapon markers
+ * removed lights at lower level of MH room that allowed ramp jump to upper levels
+ * removed concrete ramps in new PG (former LG) room that allowed ramp jump to JA and RG
+ * adapted jumppad targets so you'll land on the target spot without having to use air control (all JPs)
+ * sank JPs into the ground (no height difference from floor anymore)
+ * added 2nd entry to RA room from SG area
+ * added curves in a couple of places
+ * added botclips to allow bots to go for RG/LG ammo in MH room
+ * removed blood decals except for teleporter exits
+ * adapted lighting in MH room
+ * more clipping on the lower level
+ * made +25H near RA TDM-only
+ * fixed a spawn point (needed rotation)
+
+
+
+
+
+

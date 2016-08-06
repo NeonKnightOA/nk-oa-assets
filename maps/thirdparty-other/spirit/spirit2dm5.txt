@@ -1,0 +1,253 @@
+spirit2dm5 -- Oceans apart
+A deathmatch map for Quake II  by spirit
+http://maps.rcmd.org
+
+
+
+GENERAL MAP DATA
+==================
+
+MAP NAME     : spirit2dm5
+
+LONGNAME     : Oceans apart
+
+ARCHIVE NAME : spirit2dm5.zip
+
+VERSION      : final
+
+GAME TYPE    : tourney | FFA 2-4
+
+NEW TEXTURES : yes (see CREDITS section below for more info)
+
+NEW SOUNDS   : yes (see CREDITS section below for more info)
+
+BASE         : none, new map from scratch
+
+RELEASE DATE : september 2010
+
+NOTES        : * build for the 8th mapping contest at the Quake 2 Cafe
+                 http://leray.proboards.com/
+                 
+               * as with all my maps, the map file is included and licensed
+                 under the GPL (see LICENSE section below)
+
+DESCRIPTION  : Tight and vertical duel map. The setting is a dark and slightly futuristic base at night on some planet far away.
+
+
+               //
+
+
+               Greetings to henneck, broar, shadow, jester, jdolan and everybody else at #quetoo and Q2C.
+
+               Kisses across the ocean to Ju.
+
+
+
+
+
+TRIVIA
+=======
+
+STUFF USED   : * netradiant, q2map, pak -- http://dev.alientrap.org/wiki/netradiant
+               * arghrad -- http://arghrad.planetquake.gamespy.com/
+               * qbsp3, qvis3 -- http://home.insightbb.com/~gryndehl/q2compile/quake2.html
+               * audacity -- http://audacity.sourceforge.net/
+               * cq2map shell scripts -- http://maps.rcmd.org/stuff/
+               * coffee
+
+BUILD TIME   : a few weeks
+
+FILE SIZE    : ~ 3 MB (zip archive)
+
+BRUSHES      : > 1700
+
+ENTITIES     : > 180
+
+COMPILATION  : compiled using cq2map shell scripts. command lines from script:
+
+                 qbsp3 maps\spirit2dm5.map
+                 qvis3 maps\spirit2dm5.bsp
+                 arghrad -ambient .2 maps\spirit2dm5.bsp
+
+COMPILE TIME : < 5 mins @ P4 3200
+
+
+
+
+ITEMS
+======
+
+WEAPONS      : 2x RL, 2x SSG, 2x SG, RG, HB, GL, MG
+
+ITEMS        : CA, MH, JA, ADR
+
+POWERUPS     : none
+
+               Yes, it *does* have many weapons and quite a bit of ammo for its size - but I hate
+               both the blaster and the time it takes to switch your weapon (like when you're out of ammo) in Q2...
+
+
+
+
+INSTALLATION AND HOW TO PLAY
+=============================
+
+INSTALL:
+
+               * Extract the file 'spirit2dm5.zip' to your 'quake2/baseq2/' directory (preserving paths). Done.
+
+                 The following files will be extracted:
+
+                     * maps/spirit2dm5.bsp -- the bsp file needed to play the map
+                     * maps/spirit2dm5.map -- the source file of the map (not needed to play)
+                     * maps/spirit2dm5.loc -- location file for team chat messages (r1q2 and other q2 clients)
+
+                     * docs/spirit2dm5.txt -- this readme file
+                     * docs/spirit2dm5.license.txt -- the full GPL license
+
+                     * env/spirit2dm5/* -- the skybox files for this map
+
+                     * sound/spirit2dm5/* -- the sound files for this map
+
+                     * textures/spirit2dm5/* -- the texture files for this map
+
+
+
+
+PLAY:
+               * You can load the map using the Quake II in-game console: 'map spirit2dm5'
+                 (Note that some clients like r1q2 prefer 'gamemap spirit2dm5'.)
+
+               * You can also start it from the command line of your OS: 'quake2 -listen 8 +map spirit2dm5'
+
+               * Bots suck but if you really need one try the 3ZB2 bot, it worked ok for me (though it
+                 doesn't seem to like JPs and spends way too much time in the central water trap).
+                 You'll need more than one bot, they are too stupid to play them 1vs1.
+
+                 Download and install 3ZB3, then:
+
+                      shortcut   : 'quake2 +game 3zb2 +set deathmatch 1 +map spirit2dm5'
+                      q2 console : 'sv spb 2'
+
+
+
+AUTHOR INFO
+============
+
+NAME         : Tim 'spirit' S.
+
+CONTACT      : see http://it.rcmd.org/contact/
+
+WWW          : http://maps.rcmd.org (formerly maps.sp1r1t.org)
+               http://www.airrocket.net/
+               
+
+
+
+
+CREDITS & THANKS
+==================
+
+* Free Sounds taken from wyomingwebdesign.com: gong.wav, wind.wav
+  http://www.wyomingwebdesign.com/files/pages/free_sound_files.html
+  Slightly changed by me (converted to 16 bit mono)
+
+* Sounds made by me (feel free to use them for whatever you want): all the whispering
+  and voices (come_closer.wav, we_feel_you.wav, join_us.wav)
+
+* Free Sounds taken from The Free Sound Project: all others
+  http://www.freesound.org
+  Slightly changed by me (converted to 16 bit, mono)
+
+* Jockum Skoglund aka hipshot for the great GrimmNight SkyBox
+  (I resized it for Quake 2, you can get it in much higher quality at his website!)
+  http://www.zfight.com
+
+* Textures: * Oblivion texture set (author unknown, taken from the map jsos by jester)
+            * a few e1m1 baseq2 textures (just some simple lights and the slime)
+
+* id Software and the guys at qeradiant.com and alientrap.org for Quake 2 and the Radiant editor
+  id - http://www.idsoftware.com
+  qeradiant - http://www.qeradiant.com
+  netradiant - http://dev.alientrap.org/wiki/netradiant
+
+* thehappyfriar for fixing the pcx sky images used in software mode Quake 2
+
+* Last but not least, thanks to henneck for playtesting the map against me!
+  Shadow also helped with suggestions, thanks for that. 
+
+
+
+Copyright / Permissions
+========================
+
+    spirit2dm5.map -- a map for Quake 2
+    Copyright (C) 2008 Tim 'spirit' S. -- http://it.rcmd.org/contact/
+                                          http://www.airrocket.net/
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+Note that the GPL only applies to my work (the .map-file).
+
+See spirit2dm5.license.txt for the full license of this map.
+
+Please distribute modified versions of this map under a new name.
+
+
+
+VERSION HISTORY
+===============
+
+* beta1 => beta2
+ - added flying drone
+ - various new sounds
+ - lighting fixes
+ - improved JPs
+ - minor texture alignment fixes
+ - added Doom secret
+ - added loc file
+ 
+* beta2 => beta3
+ - changed tele_dest of the teleporter near LG, it now leads to upper RL (instead of HB)
+ - minor texture fixes
+ - reduces wait time of flying drone at edges of its path
+ - added lower SSG
+ - added 2nd ladder in central water trap
+
+* beta3 => rc1
+ - raised volume of various ambient sounds
+ - reduced lighting of JP that leads to the long YA jump across the central area
+ - map renamed from '6000 miles away' to 'Oceans apart'
+ 
+* rc1 => rc2
+ - fixed direction of spawn at MG and moved it a bit
+ - added meteor-like thingie under water
+ - some more clipping
+ - added RG ammo
+ - moved a light that got in the way when you used the JP at RG
+ - moved CG ammo closer to CG (that weapon's useless with too little ammo)
+ - added a box of rockets
+
+* rc2 => final
+ - updated various info in this readme file, renamed zip archive, adapted worldspawn 'message' key
+
+
+
+
+
+
+
+

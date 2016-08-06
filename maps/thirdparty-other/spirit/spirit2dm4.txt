@@ -1,0 +1,193 @@
+spirit2dm4 -- The Healer
+A deathmatch map for Quake II  by spirit
+
+
+
+GENERAL MAP DATA
+==================
+
+MAP NAME     : spirit2dm4
+
+LONGNAME     : The Healer
+
+ARCHIVE NAME : spirit2dm4.zip
+
+VERSION      : final
+
+GAME TYPE    : tourney
+
+TEXTURES     : q2 stock textures by id
+
+SOUNDS       : taken from the Quake2World edition of the map 'torn -- torn glory' by card0
+
+BASE         : none (new map from scratch)
+
+RELEASE DATE : august 2009 (submitted to 7th q2c mapping contest on august 16 2009)
+
+
+
+
+TRIVIA
+=======
+
+STUFF USED   : * netradiant -- http://dev.alientrap.org/wiki/netradiant
+               * q2map, pak -- http://dev.alientrap.org/wiki/netradiant (come with the editor)
+               * arghrad -- http://arghrad.planetquake.gamespy.com/
+               * qbsp3, qvis3, qrad3 -- http://home.insightbb.com/~gryndehl/q2compile/quake2.html
+               * cq2map shell scripts -- http://maps.sp1r1t.org/stuff/
+               * coffee
+
+
+BUILD TIME   : 5 days during the summer of 2009
+
+FILE SIZE    : ~ 1 MB (zip archive)
+
+BRUSHES      : > 900
+
+ENTITIES     : > 70
+
+COMPILATION  : compiled using my cq2map shell scripts. command lines used:
+
+                 qbsp3 maps\spirit2dm2.map
+                 qvis3 maps\spirit2dm2.bsp
+                 arghrad -ambient .2 maps\spirit2dm2.bsp
+
+NOTES        : This map was build for the 7th mapping contest at the Quake 2 Cafe (q2c).
+               Greetings to all mappers who participated and thanks to the people who organized it!
+               * http://leray.proboards34.com
+
+               This map was tested with r1q2 under win32 and with aprq2 under linux.
+               * http://www.r1ch.net/stuff/r1q2/
+               * http://maniac.aq2world.com/apr/
+
+               I built this map in 5 days. Sorry for any bugs that made it into the release!
+
+
+
+GAMEPLAY
+=========
+
+WEAPONS      : 2x RL, SSG, SG, RG, HB, GL, MG
+
+ITEMS        : 2x CA, JA, MH
+
+POWERUPS     : none
+
+
+
+
+
+INSTALLATION AND HOW TO PLAY
+=============================
+
+INSTALL:
+
+               * Extract the file 'spirit2dm4.zip' to your 'quake2/baseq2/' directory (preserving paths).
+
+                 The following files will be extracted:
+
+                     * maps/spirit2dm4.bsp -- the bsp file needed to play the map
+                     * maps/spirit2dm4.map -- the source file of the map (not needed to play)
+                     * maps/spirit2dm4.loc -- location file for team chat messages (r1q2 and other q2 clients)
+
+                     * docs/spirit2dm4.txt -- this readme file
+                     * docs/spirit2dm4.license.txt -- the full GPL license
+
+                     * env/spirit2dm4/* -- the skybox files for this map
+
+                     * sound/spirit2dm4/* -- the sound files for this map
+
+                     * textures/spirit2dm4/* -- the texture files for this map
+
+
+
+
+PLAY:
+               * You can load the map using the Quake II in-game console: 'map spirit2dm4'
+                 (Note that some clients like r1q2 prefer 'gamemap spirit2dm4'.)
+
+               * You can also start it from the command line of your OS: 'quake2 +map spirit2dm4'
+
+               * To start a simple server do sth like this: 'quake2 +set dedicated 1 +map spirit2dm4'
+
+               * To play the map on public servers, cast a vote for it: 'vote map spirit2dm4'
+
+
+
+AUTHOR INFO
+============
+
+NAME         : spirit
+
+CONTACT      : see http://www.sp1r1t.org/contact/
+
+WWW          : http://maps.sp1r1t.org
+               http://www.airrocket.net/~spirit/
+
+
+
+THANKS & CREDITS
+==================
+
+* RUST Gamedesign and quake2.com for many mapping tutorials and the quake 2 workshop
+  RUST - http://www.gamedesign.net/node/11
+  Quake2.com - http://www.quake2.com/qworkshop/
+
+* The Quake II Cafe - http://leray.proboards34.com
+
+* id Software and the guys at qeradiant.com and alientrap.org for Quake 2 and the Radiant editor
+  id - http://www.idsoftware.com
+  qeradiant - http://www.qeradiant.com
+  netradiant - http://dev.alientrap.org/wiki/netradiant
+
+* Henneck for playtesting, many suggestions and ggs
+
+
+
+
+Copyright / Permissions
+========================
+
+    spirit2dm4.map -- a map for Quake 2
+    Copyright (C) 2008 Tim 'spirit' S. -- http://www.sp1r1t.org/contact/
+                                          http://www.airrocket.net/
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+Note that the GPL only applies to my work (the .map-file).
+
+See spirit2dm4.license.txt for the full license of this map.
+
+Please distribute modified versions of this map under a new name.
+
+
+
+VERSION HISTORY
+===============
+
+* no time for this
+
+
+
+TODO list
+==========
+
+* get map done before the contest ends ;)
+
+
+
+
+

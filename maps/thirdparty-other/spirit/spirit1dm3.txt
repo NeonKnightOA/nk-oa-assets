@@ -1,0 +1,255 @@
+spirit1dm3 -- Zeal & Fury
+A deathmatch map for Quake / Quakeworld by spirit
+
+
+
+GENERAL MAP DATA
+==================
+
+MAP NAME     : spirit1dm3
+
+LONGNAME     : Zeal & Fury
+
+ARCHIVE NAME : spirit1dm3.zip
+
+VERSION      : final
+
+GAME TYPE    : tourney (1vs1) | FFA 3-5
+
+TEXTURES     : q1 stock textures by id (unless you got others installed)
+
+               Tested with textures by the Quake ReteXturing Project - http://facelift.quakedev.com/
+               I used these: http://facelift.quakedev.com/download/qrp-maptextures-2007-10-06r2-7files.zip
+
+SOUNDS       : Quake stock sounds only
+
+WAYPOINTS    : yes, for Frikbot X (made by Lightning_Hunter)
+
+BASE         : none (new map from scratch)
+
+RELEASE DATE : 15 OKT 2010
+
+
+
+
+
+
+INSTALLATION AND HOW TO PLAY
+=============================
+
+INSTALL:
+
+               * Extract the file 'spirit1dm3.zip' to your 'quake/' directory (preserving paths).
+
+                 The following files will be extracted:
+
+                     * id1/maps/spirit1dm3.bsp -- the bsp file needed to play the q1 map
+                     * id1/maps/spirit1dm3.map -- the source file of the q1 map (not needed to play)
+                     * id1/maps/spirit1dm3.lit -- light file (some modern q1 clients only, e.g. darkplaces)
+                     * id1/maps/spirit1dm3.dlit -- dlight file (some modern q1 clients only, e.g. darkplaces)
+                     * id1/maps/spirit1dm3.wa* -- frikbot waypoint files (requires FrikBotX)
+
+                     * id1/docs/spirit1dm3.txt -- this readme file
+                     * id1/docs/spirit1dm3.license.txt -- the full GPL license
+
+                     * id1/locs/spirit1dm3.loc -- location info file for q1 map (NQ format, made with qrack)
+                     * qw/locs/spirit1dm3.loc -- location info file for q1 map (QW format, made with ezQuake)
+
+                     + the same stuff for spirit1t3
+
+PLAY:
+               * You can load the map using the Quake in-game console: 'map spirit1dm3'
+
+               * You can also start it from the command line of your OS: 'quake +map spirit1dm3'
+
+                 but you may want to spawn a server so your friends can connect: 'quake -listen 4 +map spirit1dm3'
+                 
+               * come to http://www.quakeone.com or http://www.quakeworld.nu to find servers to play online
+
+
+
+PLAYING AGAINST BOTS (try it, it's easy and fun):
+
+               * download FrikBot X - http://www.inside3d.com/frikbot/fbx/ and unzip to ...\<Quake1>\frikbot\
+               * start it by double-clicking "run.bat"  (Note: You may want to adapt the executable of your favourite quake client in there.)
+               * in the quake in-game console, load the map and add a bot:
+                     map spirit1dm3
+                     impulse 100
+
+               That's it!
+
+               I'm lazy so I use a shortcut on my desktop with the following command line (glpro400 is proQuake, my Quake client):
+                 ...\<Quake1>\glpro400 -game frikbot -condebug -listen 8 +map spirit1dm3
+
+
+
+
+TRIVIA
+=======
+
+STUFF USED   : * netradiant -- http://dev.alientrap.org/wiki/netradiant
+               * bj's compile tools -- http://user.tninet.se/~xir870k/
+               * hmap2 to generate the .lit/.dlit files -- http://icculus.org/twilight/darkplaces/
+               * nQuake to test the map -- http://nquake.com/
+               * darkplaces engine to test the map -- http://icculus.org/twilight/darkplaces/
+               * proQuake and engineX to test the map -- http://quakeone.com/proquake/
+               * qrack to make NQ waypoints -- http://quakeone.com/qrack/
+               * cq1map shell scripts to automate the compile process -- http://maps.sp1r1t.org/stuff/
+               * FrikBot X - http://www.inside3d.com/frikbot/fbx/
+               * coffee, chardonnay
+
+
+BUILD TIME   : a few weeks
+
+FILE SIZE    : < 2 MB (zip archive)
+
+BRUSHES      : > 900
+
+ENTITIES     : > 500 (many lights)
+
+COMPILATION  : compiled using my cq1map shell scripts, took ~ 10 mins
+
+NOTES        : This map was designed with ol' skool q1 tourney or FFA in mind. No mods, nothing fancy.
+
+               I know some of you prefer bsp files instead of zipped maps so sorry for
+               all the stuff that comes with the map. Yes, it's even more than last time. :p
+
+               Hope you like it anyway.
+
+
+
+
+GAMEPLAY
+=========
+
+WEAPONS      : 2x RL, LG, NG, SNG, 2x SSG, GL
+
+ITEMS        : MH, YA, RA, 2x GA
+
+POWERUPS     : none
+
+
+
+
+AUTHOR INFO
+============
+
+NAME         : Tim 'spirit' S.
+
+CONTACT      : see http://rcmd.org/contact/
+
+WWW          : http://maps.rcmd.org
+               http://www.airrocket.net/~spirit/
+
+
+
+
+THANKS & CREDITS
+==================
+
+* Lightning_Hunter for the great FrikbotX waypoint files
+  (get FrikBot at http://www.inside3d.com/frikbot/fbx/)
+
+* The Quakeone.com community
+  Thanks go out to =peg=, metchsteekle, Mr.Burns, Polarite, ...
+  for comments, suggestions and playtesting the alpha and beta versions.
+  http://www.quakeone.com
+
+* Many thanks to =PEG= for playtesting and explaining various Quake 1 specific stuff to me. And
+  ofc for showing me how to make the clipped stairs in the YA/acid area.
+
+* Everybody who tested the map at the Euroquake server (bigfoot.quake1.net:26000): Stalker,
+  bloodymary, xeno, polarite, confuzed, ...
+
+* The Leveldesign.nl community
+  Thanks to Shadow, Henneck, ... amd many others for playtesting and comments.
+  http://www.leveldesign.nl
+
+* Baker, Rook, MH, LordHavoc and the ezQuake team for their great Quake engines
+  http://quakeone.com/proquake/
+  http://quakeone.com/qrack/
+  http://mhquake.blogspot.com/
+  http://icculus.org/twilight/darkplaces/
+  http://ezquake.sourceforge.net/
+  
+* func_ and all the great guys there who still publish Quake SP maps
+  http://www.celephais.net/board/
+
+* BJ for the compilers I used
+  http://user.tninet.se/~xir870k/
+
+* id Software and the guys at qeradiant.com and alientrap.org for Quake and the Radiant editor
+  id - http://www.idsoftware.com
+  qeradiant - http://www.qeradiant.com
+  netradiant - http://dev.alientrap.org/wiki/netradiant
+  
+  
+Changelog
+===========
+
+beta3 => RC1
+ * fixed leak
+ * minor texture fixes
+ * moved RL ammo
+ * less SSGs and shells
+ * made ramp jump to GA  from lower RL easier
+ * added cells + rockets near YA
+
+RC1 => RC2
+ * clipped stairs at YA/acid area (thanks =PEG=)
+ * minor texture fixes
+ * added info_intermission
+
+RC2 => RC3
+ * fixed some more texture bugs
+ * fixed minor clipping issues in central area and at lower GA
+ * added lights in water (it was way too dark there with some engines)
+ * added small tourney edition of the map, it's just a quick test that I made (spirit1t3)
+ * added 1 pack of cells near YA (crates in acid)
+
+RC3 => RC4
+ * added transparent water ('-transwater' using BJ's qbsp.exe)
+ * changed floor under crate/GL
+ * texture replacements (use the same texture everywhere when multiple look identical, e.g. metal4_4 and wmet4_4)
+ * fixed an ammo box that was floating in QW (ezQuake)
+ * added the waypoints that LH made
+ 
+RC4 => final
+ (no changes)
+
+
+
+
+Copyright / Permissions
+========================
+
+    spirit1dm3.map -- a map for Quake 1
+    Copyright (C) 2008 Tim 'spirit' S. -- http://www.sp1r1t.org/contact/
+                                          http://www.airrocket.net/
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+Note that the GPL only applies to my work (the .map-file).
+
+See spirit1dm3.license.txt for the full license of this map.
+
+Please distribute modified versions of this map under a new name.
+
+Same license applies to spirit1t3 of course (it is based on spirit1dm3). ;)
+
+
+
+

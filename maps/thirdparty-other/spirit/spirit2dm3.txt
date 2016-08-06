@@ -1,0 +1,213 @@
+spirit2dm3 -- Where Ares reigns
+A deathmatch map for Quake II  by spirit -- http://maps.rcmd.org
+
+
+
+  "And [depicted] on the shield [of Herakles] stood the fleet-footed horses of grim Ares made gold,
+
+   and deadly Ares the spoil-winner himself. He held a spear in his hands and was urging on the footmen:
+
+   he was red with blood as if he were slaying living men, and he stood in his chariot.
+
+   Beside him stood Deimos (Fear) and Phobos (Flight), eager to plunge amidst the fighting men."
+   
+
+    - Hesiod, Shield of Heracles 191
+    
+
+
+  " Most hateful to me are you of all gods on Olympus,
+
+      for ever is strife dear to you and wars and fightings. "
+
+
+    - Zeus to Ares. Homer, Iliad 5.890
+
+
+
+
+GENERAL MAP DATA
+==================
+
+MAP NAME     : spirit2dm3
+
+LONGNAME     : Where Ares reigns
+
+ARCHIVE NAME : spirit2dm3.zip
+
+VERSION      : final (as final as it gets)
+
+GAME TYPE    : deathmatch
+
+TEXTURES     : q2 stock textures by id software
+
+SOUNDS       : some new sounds, see credits section below for details
+
+BASE         : none (new map from scratch)
+
+RELEASE DATE : released March 2015, but layout created and first brushes placed in 2009
+
+DESCRIPTION  : This is a deathmatch map for Quake 2, best played with 3 to 6 players and a dope fish.
+
+               It is published under an open source license (see below) and you are free to modify it
+               as long as you stick to the rules of the license. Please use a new map name if you do this.
+
+
+
+
+
+TRIVIA
+=======
+
+STUFF USED   : * GtkRadiant 1.6.4 -- http://icculus.org/gtkradiant/
+               * q2map for linux from Ingar's Radiant distro -- http://ingar.satgnu.net/gtkradiant/
+               * arghrad -- http://arghrad.planetquake.gamespy.com/
+               * qbsp3, qvis3, qrad3 -- http://home.insightbb.com/~gryndehl/q2compile/quake2.html
+               * cq2map shell scripts -- http://maps.rcmd.org/stuff/
+               * lots of coffee
+
+
+BUILD TIME   : many hours during the summer of 2009, some more hours during winter 2015
+
+FILE SIZE    : > 1.5 MB (bsp)
+
+BRUSHES      : > 2100
+
+ENTITIES     : > 170
+
+COMPILATION  : compiled using my cq2map shell scripts. command lines used:
+
+                 qbsp3 maps\spirit2dm3.map
+                 qvis3 maps\spirit2dm3.bsp
+                 arghrad -ambient .2 maps\spirit2dm3.bsp
+
+NOTES        : Originally, this map was build for the 7th mapping contest at the Quake 2 Cafe (Q2C).
+               I lacked time and didn't really like the layout though, and did not turn it in. I started working on it
+               again in 2015, don't ask me why. I changed some stuff, but the layout still ain't great. It lacks a 
+               proper main action room imo.
+               But now too much work has been put into it, so I'll finish it for the 10th mapping contest of Q2C in 2015.
+
+               Greetings to all mappers who participated in the contest and thanks to the people who organized it!
+               * http://leray.proboards34.com
+
+
+
+GAMEPLAY
+=========
+
+WEAPONS      : 2x RL, SSG, 2x SG, RG, CG, HB, GL, MG
+
+ITEMS        : BA, CA, 2x JA, MH, ADR
+
+POWERUPS     : none
+
+
+
+
+
+INSTALLATION AND HOW TO PLAY
+=============================
+
+INSTALL:
+
+               * Extract the file 'spirit2dm3.zip' to your 'quake2/baseq2/' directory (preserving paths).
+
+                 The following files will be extracted:
+
+                     * maps/spirit2dm3.bsp -- the bsp file needed to play the map
+                     * maps/spirit2dm3.map -- the source file of the map (not needed to play)
+                     * maps/spirit2dm3.loc -- location file for team chat messages (r1q2 and other q2 clients)
+
+                     * docs/spirit2dm3.txt -- this readme file
+                     * docs/spirit2dm3.license.txt -- the full GPL license
+
+                     * sound/spirit2dm3/* -- the sound files for this map
+
+
+              If you did it correctly, you will have the map BSP file at 'quake2/baseq2/maps/spirit2dm3.bsp'.
+
+
+
+PLAY:
+               * You can load the map using the Quake II in-game console: 'map spirit2dm3'
+                 (Note that some clients like r1q2 prefer 'gamemap spirit2dm3'.)
+
+               * You can also start it from the command line of your OS: 'quake2 +map spirit2dm3'
+
+               * To start a simple server do sth like this: 'quake2 +set dedicated 1 +map spirit2dm3'
+
+               * To play the map on public servers, cast a vote for it: 'vote map spirit2dm3'
+
+
+BOT SUPPORT:
+
+               * If you need bots try the 3ZB2 bot, it worked well for me on this map. Maybe play 1vs2 or FFA with 2.
+
+                 Download and install 3ZB2, then:
+
+                      shortcut/shell : 'quake2 +game 3zb2 +set deathmatch 1 +map spirit2dm3'
+
+                 Start the game, the type the following command to add 2 bots:
+
+                      q2 console     : 'sv spb 2'
+
+
+
+AUTHOR INFO
+============
+
+NAME         : spirit
+
+CONTACT      : see http://www.rcmd.org/contact/
+
+WWW          : http://maps.rcmd.org
+
+
+
+
+THANKS & CREDITS
+==================
+
+* Free Sounds taken from The Free Sound Project: all others
+  http://www.freesound.org
+  Slightly changed by me (converted to 16 bit, mono)
+
+* The Quake II Cafe for running the mapping contest - http://leray.proboards34.com
+
+* Some friends for testing the map with me, you know who you are.
+
+
+
+
+
+Copyright / Permissions
+========================
+
+    spirit2dm3.map -- a map for Quake 2
+    Copyright (C) 2008 Tim 'spirit' S. -- http://rcmd.org/contact/
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+Note that the GPL only applies to my work (the .map-file).
+
+See spirit2dm3.license.txt for the full license of this map.
+
+Please distribute modified versions of this map under a new name.
+
+
+
+
+

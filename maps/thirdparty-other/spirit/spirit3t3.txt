@@ -1,0 +1,198 @@
+*** spirit3t3 - terror twilight *** for quake III arena / cpma by spirit
+
+
+
+
+GENEREAL MAP DATA
+==================
+
+MAP NAME     : spirit3t3
+
+LONGNAME     : terror twilight
+
+PK3.NAME     : spirit3t3.pk3
+
+GAME TYPE    : tourney
+
+MOD          : recommended : CPMA - http://www.promode.org
+	       
+MAP THEME    : modern stuff
+
+BASE         : new map from scratch
+
+BUILD TIME   : 4 weeks
+
+COMPILE TIME : < 0.5 h @ Pentium M 1500
+
+STUFF USED   : * qeradiant 1.5
+               * qeradiant 1.4
+               * q3map2
+               * pakscape
+               * debian gnu/linux
+
+RELEASE DATE : 14-JUL-2007
+
+FILE SIZE    : ~ 11 MB (sorry, lots of custom textures)
+
+
+
+
+
+GAMEPLAY
+=========
+
+BOTS         : doom
+
+WEAPONS      : SG, GL, RL, RG, LG, PG
+
+ITEMS        : 1 RA, 1YA, 1 MH, various health and shards (+QUAD, 2nd JA and some ammo @ TDM)
+
+
+
+HOW TO INSTALL AND PLAY
+========================
+
+Install:
+  * place spirit3t3.pk3 in your /baseq3/ folder
+
+
+Play:
+ * start quake3
+ * select spirit3t3 from the skirmish or multiplayer menu
+
+ OR
+
+ * start quake3
+ * hit ~ (to bring up in-game console)
+ * type '\map spirit3t3'
+ * type '\addbot <botname> <skill>' (to add bots)
+ * hit ~ (to clear the console)
+
+
+AUTHOR INFO
+============
+
+NAME         : spirit
+
+CONTACT      : see http://www.sp1r1t.org/contact/
+
+WWW          : http://maps.sp1r1t.org
+
+
+
+
+CREDITS
+========
+
+This map uses artwork made by the following people :
+
+ * Glass textures by Louie "KnightBK" Doulias
+   http://fps.brainerd.net
+
+ * Quakeworld Teleporter by Jude and Decker
+
+ * skeleton md3 model by Gollum, based on a model by Kenneth Scott from Id Software
+
+ * lun3dm4 textures by lunaran
+   http://www.lunaran.com
+
+ * some of the e6 and e8 textures by evillair
+   http://www.evillair.net
+
+ * textures made by broar
+   http://broar.sp1r1t.org
+
+ * sky texture by ikka, shader by fjoggs
+
+
+
+THANKS
+=======
+
+* broar, henneck, tron, rei and some more friends for playtesting ans comments
+
+* many of the guys at q3w, lvl and map-center gave comments and suggestions that improved the map,
+  including v1l3, Anwulf, c4redalert, Rome, donkey and pjw
+
+* iX, maertz, chipzp and other CPM players over at the promode.org forums for playtesting, uploading the
+  map to their server and various ideas that improved gameplay
+
+
+Copyright / Permissions
+========================
+
+This level is (c) by spirit (2007). The source files of this map (the .map-files made by me, NOT THE TEXTURES AND ASSETS!) are published under
+the GPL license and may be freely distributed. See http://www.gnu.org/copyleft/gpl.html for the full GNU General Public License.
+
+Just to clarify things:
+ * Authors MAY use this level as a base to build additional levels (see the GPL for detailed info and restrictions)
+ * You MAY distribute this .pk3/.zip through the internet, FTP, local BBS, CDs etc. (see the GPL for detailed info and restrictions)
+ * You MAY mirror it, give it to your friends, review it etc. (see the GPL for detailed info and restrictions)
+ * The textures used in this map are NOT available under the GPL (unless stated otherwise by the authors), see the copyright notes
+   of the authors for more info. You can find the authors listed in the CREDITS section of this document.
+
+
+VERSION HISTORY
+================
+changes beta1 -> beta2:
+ * fixed z-fighting near LG
+ * replaced textures only used once to reduce filesize
+ * added 5H/5A near SG
+ * added DFSP sign
+ * added weapon marker on the ground at PG
+ * added sky at YA/MH room
+ * fixed missing shader issue (skeleton model below RA)
+ * some more clipping
+ * added some ammo, health and armor for TDM-mode (though I
+    doubt anyone will ever play this map in TDM)
+ * added windows in LG room
+ * some minor visual tweaks
+
+changes beta2 -> beta3:
+ * fixed broken lighting on blue teleporter frames
+
+changes beta3 -> beta4:
+ * fixed lighting: map much darker now (was way too bright)
+ * fixed some texture issues near RA
+ * moved teleporter destinations down to the floor
+ * placed RG-ammo (instead of SG-ammo) in compartment (YA/MH room)
+ * moved plasma and and SG ammo around
+ * made GL (and 5Hs next to it) easier to grab
+ * clipped sky in YA room to allow RJ up to YA without hitting the hole in the ceiling
+
+thanks to v1l3 for many suggestions.
+
+changes beta4 -> beta5:
+ * added blood decals (texture by broar, modified by me) to mark tele exits
+ * added pipe details in the floor at upper level
+ * improved windows near GA/JA
+ * added drain in the floor near LG
+ * added ramps on sides of stairs
+ * added fallen tile next to LG as a fast way to go to JA (by ramp jump, CPM)
+ * clipped sky in LG room
+ * resized pipes behind grates near LG
+ * added lights near MH
+ * moved tele exit in LG room a bit back
+ * added one more start position
+ * marked a start postion as 'inital' (spawnflags 1)
+ * added small lights near LG
+ * red lighting at RA
+ * more space in RA area (moved fence with red lights near SG)
+
+changes beta5 -> beta6:
+ * replaced water at RA with lava
+ * re-design of RA area makes RA more dangerous to get and make RA <--> MH longer
+ * added hole to wall near PG to make PG tele/JP more dangerous
+ * ramp/double jump from LG to RG now possible
+ * TDM-only changes: added Quad, moved LG around
+ * got rid of some of the glass on the floor in upper level corridors
+ * improved lighting of LG room, especially on the upper level
+
+ Thanks to many guys over at the promode forums for suggestions!
+ 
+changes beta6 -> final:
+ * removed useless (clipped) lava at lower level
+ * moved SG and added +25H at lower level
+ * changed entrance to RA room (again) to reduce long LOS at lower level
+ * added pillar and height differences at lower level
+ * further improved lighting in RG/LG room (adapted shaders)

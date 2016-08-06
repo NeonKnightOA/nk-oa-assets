@@ -1,0 +1,328 @@
+spirit1dm2 -- Ultima ratio  (Q1)
+A deathmatch map for Quake 1 by spirit
+
+and
+
+spiritqwdm2 -- Ultima ratio (QW)
+A deathmatch map for Quakeworld by spirit
+
+
+
+  <  "Then what exactly is the war for?" asks Tjaden.
+      Kat shrugs his shoulders. "There must be some people to whom the war is useful." >
+
+         Erich Maria Remarque, All Quiet On the Western Front
+
+
+
+GENERAL MAP DATA
+==================
+
+MAP NAME     : spirit1dm2 / spiritqwdm2
+
+LONGNAME     : Ultima ratio
+
+ARCHIVE NAME : spirit1dm2.zip
+
+VERSION      : final
+
+GAME TYPE    : tourney (1vs1)
+
+TEXTURES     : q1 stock textures by id (unless you got others installed)
+               recommended / tested with: textures by the Quake ReteXturing Project - http://facelift.quakedev.com/
+
+               I used these: http://facelift.quakedev.com/download/qrp-maptextures-2007-10-06r2-7files.zip
+
+SOUNDS       : q1 stock sounds only
+
+BASE         : none (new map from scratch)
+
+RELEASE DATE : 18 nov 2009
+
+NOTES        : Note that spirit1dm2 is the Quake 1 verion of this map. A slightly modified version of this map
+               designed for Quakeworld, spiritqwdm2, is also included in the archive. The only difference between the maps are
+               some jump distances (because some jumps of the QW version are impossible or extremely hard in Q1.)
+
+               You can of course play the q1 version in qw but that makes these jumps pretty ridiculous.
+
+
+
+
+INSTALLATION AND HOW TO PLAY
+=============================
+
+INSTALL:
+
+               * Extract the file 'spirit1dm2.zip' to your 'quake/' directory (preserving paths).
+
+                 The following files will be extracted:
+
+                     * id1/maps/spirit1dm2.bsp -- the bsp file needed to play the q1 map
+                     * id1/maps/spirit1dm2.map -- the source file of the q1 map (not needed to play)
+                     * id1/maps/spirit1dm2.lit -- light file (some modern q1 clients only, e.g. darkplaces)
+                     * id1/maps/spirit1dm2.dlit -- dlight file (some modern q1 clients only, e.g. darkplaces)
+                     * id1/maps/spirit1dm2.way -- frikbot waypoint file (requires FrikBot)
+
+                     * id1/maps/spiritqwdm2.bsp -- the bsp file needed to play the qw map
+                     * id1/maps/spiritqwdm2.map -- the source file of the qw map (not needed to play)
+                     * id1/maps/spiritqwdm2.lit -- light file (modern q2 clients only, e.g. darkplaces)
+                     * id1/maps/spiritqwdm2.dlit -- dlight file (modern q2 clients only, e.g. darkplaces)
+                     * id1/maps/spiritqwdm2.way -- frikbot waypoint file (requires FrikBot)
+
+
+                     * id1/docs/spirit1dm2.txt -- this readme file
+                     * id1/docs/spiritqwdm2.txt -- almost empty file that tells you to read this file instead
+                     * id1/docs/spirit1dm2.license.txt -- the full GPL license
+
+                     * id1/locs/spirit1dm2.loc -- location info file for q1 map (proQuake format)
+                     * id1/locs/spiritqwdm2.loc -- location info file for qw map (proQuake format)
+                     * qw/locs/spirit1dm2.loc -- location info file for q1 map (Quakeworld format)
+                     * qw/locs/spiritqwdm2.loc -- location info file for qw map (Quakeworld format)
+
+                     * qw/radars/spirit1dm2.png -- radar image for q1 map (ezQuake only)
+                     * qw/radars/spiritqwdm2.png -- radar image for qw map (ezQuake only)
+
+PLAY:
+               * You can load the map using the Quake in-game console: 'map spirit1dm2'
+                                                                       'map spiritqwdm2'
+
+               * You can also start it from the command line of your OS: 'quake +map spirit1dm2'
+                                                                         'quake +map spiritqwdm2'
+
+                 but you may want to spawn a server so your friends can connect: 'quake -listen 4 +map spirit1dm2'
+
+
+
+PLAYING AGAINST BOTS (try it, it's easy and fun):
+
+               * download FrikBot X - http://www.inside3d.com/frikbot/fbx/ and unzip to ...\<Quake1>\frikbot\
+               * start it by double-clicking "run.bat"  (Note: You may want to adapt the executable of your favourite quake client in there.)
+               * in the quake in-game console, load the map and add a bot:
+                     map spirit1dm2
+                     impulse 100
+
+               That's it!
+
+               I'm lazy so I use a shortcut on my desktop with the following command line (glpro400 is proQuake, my q1 client):
+                 ...\<Quake1>\glpro400 -game frikbot -condebug -listen 16 +map spirit1dm2
+
+
+
+
+TRIVIA
+=======
+
+STUFF USED   : * netradiant -- http://dev.alientrap.org/wiki/netradiant
+               * hmap2 compiler by LordHavoc -- http://icculus.org/twilight/darkplaces/
+               * nQuake to test the map with QW -- http://nquake.com/
+               * darkplaces engine to test the map with QW and cool lighting -- http://icculus.org/twilight/darkplaces/
+               * proQuake to test the map with Q1 -- http://quakeone.com/proquake/
+               * bsp2bmp to create the ezQuake radar image -- http://www.quaddicted.com/tools/bsp2bmp-0.0.15b.zip
+               * the GIMP to modifiy the radar image -- http://www.gimp.org
+               * Quakeworld Location matcher to create the formula for radar image -- http://uttergrottan.localghost.net/ezquake/dev/tools/qwlocationmatcher.zip
+               * cq1map shell scripts to automate the compile process -- http://maps.sp1r1t.org/stuff/
+               * FrikBot X - http://www.inside3d.com/frikbot/fbx/
+               * coffee
+
+
+BUILD TIME   : some days during the late summer and fall of 2009
+
+FILE SIZE    : ~ 1,2 MB (zip archive)
+
+BRUSHES      : > 950
+
+ENTITIES     : > 240 (q1 => many point lights :|)
+
+COMPILATION  : compiled using my cq1map shell scripts. command lines used:
+
+               hmap2.exe spirit1dm2
+               hmap2.exe -vis spirit1dm2
+               hmap2.exe -light -extra4x4 spirit1dm2
+
+
+NOTES        : I'm not much of a q1/qw player, sorry if I fucked things up.
+
+               This map was designed with ol' skool q1 tourney in mind. No mods, nothing fancy. Just plain 1vs1.
+
+               I know some of you prefer bsp files instead of zipped maps so sorry for
+               all the stuff that comes with the map. :p
+
+               Hope you like it anyway.
+
+
+
+
+GAMEPLAY
+=========
+
+WEAPONS      : RL, LG, NG, SNG, SSG, GL
+
+ITEMS        : MH, YA, 2x GA
+
+POWERUPS     : none
+
+
+
+
+AUTHOR INFO
+============
+
+NAME         : Tim 'spirit' S.
+
+CONTACT      : see http://www.sp1r1t.org/contact/
+
+WWW          : http://maps.sp1r1t.org
+               http://www.airrocket.net/~spirit/
+
+
+
+
+THANKS & CREDITS
+==================
+
+* The Quakeone.com community for showing me that there are still q1 players out there and that releasing a q1 map in 2009 makes sense. :)
+  Thanks go out to =peg=, Baker, Polarite, and Lightning_Hunter and some more people for playtesting the alpha and beta versions.
+  http://www.quakeone.com
+
+* Lightning_Hunter for the great Frikbot waypoint file
+  (get FrikBot at http://www.inside3d.com/frikbot/fbx/)
+
+* The Quakeworld.nu community for help and suggestions
+  http://www.quakeworld.nu/
+
+* id Software and the guys at qeradiant.com and alientrap.org for Quake and the Radiant editor
+  id - http://www.idsoftware.com
+  qeradiant - http://www.qeradiant.com
+  netradiant - http://dev.alientrap.org/wiki/netradiant
+
+* Henneck for playtesting (especially for help with the early and ugly alpha versions), many suggestions and ggs
+
+
+
+
+Copyright / Permissions
+========================
+
+    spirit1dm2.map -- a map for Quake 1
+    and
+    spiritqwdm2.map -- a map for Quakeworld
+    Copyright (C) 2008 Tim 'spirit' S. -- http://www.sp1r1t.org/contact/
+                                          http://www.airrocket.net/
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+Note that the GPL only applies to my work (the .map-file).
+
+See spirit1dm2.license.txt for the full license of this map.
+
+Please distribute modified versions of this map under a new name.
+
+
+
+VERSION HISTORY
+===============
+
+* alpha1
+ - layout done
+ - very basic texturing and lighting
+ - rough item placement
+
+* alpha2
+ - added even more point lights
+ - swapped NG and SNG
+ - removed 1 box of rockets
+ - tons of clipping
+ - added tele exit markers
+ - various texture fixes
+ - first try on serious spawn positions
+ - increased height of skybox/upper clips
+
+ * beta1
+ - switched RL and MH (thanks Darin!)
+ - switched GL and SSG
+ - added JP near new RL spot
+ - some texture fixes
+ - added pillar in central room
+ - added terrain in central room
+ - switched NG and SNG
+ - changed minor brushwork in new NG area
+ - added some details to floor
+ - dramatically improved visuals in LG area (sewer)
+ - added that bridge thingie (thanks Henneck!)
+ - lighting tweaks
+ - changed ceiling and corridor width at new RL location
+ - added many floor details and trims
+
+ * beta2
+ - fixed a critical bug with the JP (that only showed up online for some reason)
+
+ * beta3
+ - added .loc files in proQuake and ezQuake format
+ - added test radar image of the map (broken atm, formula missing)
+
+ * beta4
+ - added bars add RL that block fast access to MH from upper level
+ - added pipes leading up to RL area from former GL tele exit
+ - added button near GL that opens RL bars (alternate route to RL)
+ - changed position of GL tele exit
+ - put MH into a crate, made MH area look better
+ - rounded corners in sewer (LG area)
+ - fixed minor texture bugs at GL tele and below NG
+ - added new radar image with formula, formula is broken though
+ - removed 3d trim in central atrium (height change when running over it was annoying)
+
+ * beta5
+ - fixed MH not showing up in q1 (had to move it out of the crate, no idea why)
+ - finally fixed the NG spot (the steel girder it sits on is now in the middle of that gap, making the 2 jumps the same length)
+ - minor lighting tweaks in central atrium (steel girders in the sky)
+ - made the tiny corridor at GL tele exit a bit longer (bit more dangerous, but no need to slow down to get the turn at the end)
+ - added lights to justify lightning in the same corridor and made it a bit brighter
+ - fixed floor texture in that corridor
+ - minor change to SNG position, just moved it away from the edge a bit (it was possible to grab it from below before)
+ - fixed texture scale bug near YA (thanks =peg=)
+ - slightly changed position of ammo boxes on the terrain (they semmed to be floating before)
+ - removed steel thingie above RL to make the RL -> SNG jump less annoying
+ - split the map into 2 different versions: one for q1 (spirit1dm2) and one for qw (spiritqwdm2), both are in the zip archive
+ - in the q1 version two jumps are shorter and the MH position is changed (very slightly, no difference in gameplay) for technical reasons
+
+ * beta6
+ - fixed "ERROR: MOVETYPE_PUSH with a non bsp model" bug that would cause servers to crash from time to time (the button to open the bars pointed
+   at a third, brush-less ghost entity; deleted the entity from map file with a text editor). Thanks =peg= and JPL. (Fixed in both versions of the map.)
+ - added brush behind switch to make 100% sure it can't move out of the hull of the map when pressed
+
+ * beta7
+ - fixed texture alignment on teleporters and on all arches
+ - replaced rusted steel textures of lamps
+ - adapted architecture above LG to allow for some trick jumps (as suggested by =peg=)
+
+ * final
+ - added broken wall (missing bricks) near LG
+ - spiced up the LG area a bit more (cables)
+ - fixed pitch black spot on crates above LG
+ - more minor lighting and texture alignment fixes
+ - added frikbot waypoint files, made by Lightning_Hunter
+ - updated readme file
+
+
+TODO list
+==========
+
+- fix radar image (I got no idea how to do that atm, QWLM won't load my radar image properly for unknown reasons.)
+- fix darkplaces rendering bugs (Get rid of the small, white, flickering lines below RL and on pipes at LG. No idea either.)
+- have some coffee
+
+
+
