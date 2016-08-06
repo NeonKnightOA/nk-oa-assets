@@ -9377,3 +9377,15 @@
 "angle" "360"
 "origin" "1360 64 88"
 }
+// entity 261
+{
+"classname" "team_CTF_neutralflag"
+"origin" "128.000000 -1728.000000 -160.000000"
+"gametype" "pos"
+}
+// entity 262
+{
+"classname" "team_neutralobelisk"
+"origin" "128.000000 -1728.000000 -192.000000"
+"gametype" "pos"
+}

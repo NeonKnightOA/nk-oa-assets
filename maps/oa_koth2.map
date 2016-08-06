@@ -8537,3 +8537,15 @@ cosmo_light/dmask1_blue
 "origin" "-448.000000 800.000000 1064.000000"
 "message" "Upper Floor"
 }
+// entity 139
+{
+"classname" "team_neutralobelisk"
+"origin" "-512.000000 512.000000 1348.000000"
+"gametype" "pos"
+}
+// entity 140
+{
+"classname" "team_CTF_neutralflag"
+"origin" "-512.000000 512.000000 1376.000000"
+"gametype" "pos"
+}

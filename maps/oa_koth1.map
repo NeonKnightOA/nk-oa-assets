@@ -10303,6 +10303,8 @@ cosmo_block/beton2
 {
 "classname" "info_player_deathmatch"
 "origin" "-160 256 -120"
+"!gametype" "pos"
+"!gametpe" "pos"
 }
 // entity 2
 {
@@ -11124,7 +11126,9 @@ cosmo_block/beton2
 // entity 110
 {
 "classname" "item_quad"
-"origin" "-8 0 152"
+"origin" "0.000000 -16.000000 152.000000"
+"!gametype" "pos"
+"!gametpe" "pos"
 }
 // entity 111
 {
@@ -11415,9 +11419,10 @@ cosmo_sfx/chalkdoor_d
 // entity 151
 {
 "classname" "target_location"
-"origin" "0 48 224"
+"origin" "0.000000 -16.000000 224.000000"
 "count" "0"
-"message" "Quad Damage"
+"message" "White Flag"
+"gametype" "pos"
 }
 // entity 152
 {
@@ -11691,4 +11696,25 @@ cosmo_sfx/chalkdoor_d
 "classname" "team_CTF_redplayer"
 "origin" "-200 120 -504"
 "angle" "0"
+}
+// entity 197
+{
+"classname" "team_neutralobelisk"
+"origin" "0.000000 -16.000000 128.000000"
+"gametype" "pos"
+}
+// entity 198
+{
+"classname" "team_CTF_neutralflag"
+"origin" "0.000000 -16.000000 160.000000"
+"gametype" "pos"
+}
+// entity 199
+{
+"classname" "target_location"
+"origin" "0 48 224"
+"count" "0"
+"message" "Quad Damage"
+"!gametype" "pos"
+"!gametpe" "pos"
 }
