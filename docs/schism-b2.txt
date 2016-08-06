@@ -1,0 +1,16 @@
+Schism - a dm map for Open Arena
+By Georges 'TRaK' Grondin
+http://www.mercenariesguild.net/trak/
+drognin at gmail dot com
+
+All the textures in this map were created by me and are from my gpl'ed filth texture pack, which is available on my website. Some of the filth textures were created using source textures copyright of cgtextures.com. Permission to distribute the texture pack as gpl was granted to the author of the pack (me). However, textures from cgtextures do NOT fall under the gpl by default.
+
+This work is entirely licensed under the GNU GPLv3 or any later version.
+See attached gpl.txt for license information.\
+
+
+This map was started as a testing ground for my filth texture pack, but it eventually evolved into what is hopefully a playable map.
+
+Feel free to contact me if you have any questions and/or suggestions about the map.
+
+Enjoy :)

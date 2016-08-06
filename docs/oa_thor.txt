@@ -1,0 +1,44 @@
+ReadMe for Thor
+
+Title: Thor's Valhalla
+
+Filename: oa_Thor.pk3
+
+Auther: Thor aka *SoS*Thor
+
+Release Data: soon
+
+Version: 1.3
+License: GPLv2
+
+
+Credits:	
+http://openarena.ws/board/		
+http://www.openarena.it/index.php?option=com_jfusion&Itemid=77
+http://clansos.sosforum.net/
+
+You can contact me on sos forum: http://clansos.sosforum.net/
+
+
+
+Play Information
+
+Game: Open arena 0.8.1 and highter, i am not test this map on openarena's prev versions
+Level Name: Thor's Valhalla
+Game Type: CTF, One Flag CTF, Overload, Harvester, CTF Elimination, Double Domination, Domination, Elimination
+Players: 2-24 or more
+Botmatch: Yes
+Single Player: Yes (Bots)
+Teamplay: Yes
+
+
+
+Description
+A medium CTF level. There are four real routes to the enemy base, one main bridge and 3 secondary bridges.
+
+A special thank to *SoS*Adriano, skyknight and all peaple that got me suggestions and good critics on openarena.ws's forum
+
+NB: The original skybox nebulae is affected by a little textures bug so i am using a bit changed textures that delete this bug. You can read about this bug here: http://openarena.ws/board/index.php?topic=3984.msg36658#msg36658
+Thank Udi for solution.
+
+Enjoy!

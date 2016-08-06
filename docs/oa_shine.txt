@@ -1,0 +1,23 @@
+
+bsp:                              mc-oa-dm04
+Mapname:                     Shine
+Constructiontime:         6 Days
+Players:                         2-8 (bot support)
+Gametype:                     FFA
+Textures:                       by me and Evillair
+
+
+
+Thanks to those who had nice things to say about the map. 
+and Id Software of course...
+
+This map is an old release from yours truly. It has a pretty simple geometry but good gameplay imo.
+
+
+
+Hope you like it!
+
+Henke "Stjartmunnen" Bjork
+(henkebjork@hotmail.com)
+(www.henrikbjork.se/leveldesign.html)
+
