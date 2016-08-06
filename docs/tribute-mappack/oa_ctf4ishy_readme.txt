@@ -2,7 +2,7 @@ OA_CTF4ishY (Free Space)
 
 Map released under GPLv2.
 
-A aprils fool day 2011 edition of the openarena map "oa_ctf4ish - free Space" made by the GoD Clan
+A aprils fool day edition aof the openarena map "oa_ctf4ish - free Space" made for the GoD Clan
 just switched the destination of the teleporters ;-)
 
 Credits:
