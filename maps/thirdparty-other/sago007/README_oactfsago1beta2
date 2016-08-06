@@ -1,0 +1,42 @@
+ReadMe for oactfsago1beta2
+--------------------------
+
+Title:        Sago's castle
+Filename:     oactfsago1beta1.pk3
+Auther:       Poul Sander
+Release Data: Final version not released
+Version:      Beta build 2
+License:      GPL
+
+Credits:
+http://www.leveldk.co.uk/tutindex.htm
+http://openarena.ws/board/
+
+Play Information
+----------------
+
+                Game: Open arena 0.60
+          Level Name: Sago's castle 1
+           Game Type: CTF, TDM, DM             Players: CTF: 6-12, TDM: 4-8, DM: 3-4
+            Botmatch: Yes
+       Single Player: Yes (Bots)
+            Teamplay: Yes
+        New Textures: Yes
+          New Sounds: No
+           New Music: No
+
+Description
+-----------
+My very first try at making a level in GTK Radiant (or for any other Q3Engine game for that matter).
+
+This beta level is just for testing in the spirit of the Open Source principle of releasing during the development.
+
+The bots play rather nice (attacks from all angels) but always return the flag in a straight path.
+
+Not done:
+Lightning (I have not yet fully understood how to place lightning well (or textures))
+
+Additional comments:
+map file are included
+
+The map does not play exactly as intented the middle part should have been bigger, now all battles take place in the base halls

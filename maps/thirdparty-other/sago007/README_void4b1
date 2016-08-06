@@ -1,0 +1,32 @@
+ReadMe for the redone Void4 Beta 1
+--------------------------
+
+Title:        The Outer Limits
+Filename:     void4b1.pk3
+Auther:       Poul Sander (Original by Mapes)
+Release Data: 2008-03-24
+Version:      Beta 1
+License:      GPL v2
+
+Credits:
+Mapes (orgiinal)
+Poul Sander (Remix)
+
+Play Information
+----------------
+
+                Game: Open arena 0.7.x
+          Level Name: void4b1
+           Game Type: DM             Players: DM: 3-8
+            Botmatch: Yes
+       Single Player: Yes (Bots)
+            Teamplay: No
+        New Textures: No
+          New Sounds: No
+           New Music: No
+
+Description
+-----------
+The map from Open Arena 0.6.0. Now it has textures, skybox, nodrob zone. Doors are missing and don't look down
+
+Should be played with eliminationB15 or newer, so you get points for railing people into the void! See http://openarena.ws/board/index.php?topic=831.0

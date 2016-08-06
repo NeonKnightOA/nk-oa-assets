@@ -1,0 +1,32 @@
+ReadMe for pillarpanic Beta 1
+--------------------------
+
+Title:        Pillar Panic
+Filename:     pillarpanicB1.pk3
+Auther:       Poul Sander
+Release Data: 2008-09-17
+Version:      0.1 (Beta 1)
+License:      GPL v2+
+
+Play Information
+----------------
+
+                Game: Open arena 0.8.0
+          Level Name: Pillar Panic
+           Game Type: Elimination, DM, TDM
+             Players: Elimination: 8-12, DM: 3-12, TDM 4-12
+            Botmatch: Yes
+       Single Player: Yes (Bots)
+            Teamplay: No (Apart from TDM and Elimination)
+        New Textures: No
+          New Sounds: No
+           New Music: No
+
+
+Description
+-------------
+Very simple map mainly meant for Instantgib. There are nowhere to hide and there isalways someone behind you.
+
+While variation is limited the map should be fun for most people as the map gives limited help to the 1337 ones.
+
+Enjoy!

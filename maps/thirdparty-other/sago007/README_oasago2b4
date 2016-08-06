@@ -1,0 +1,56 @@
+ReadMe for oasago2 Beta 4
+--------------------------
+
+Title:        Sago's Castle 2
+Filename:     oasago2b4.pk3
+Auther:       Poul Sander
+Release Data: 2009-01-26
+Version:      Beta 4
+License:      GPL v2+
+
+Credits:
+http://www.leveldk.co.uk/tutindex.htm
+http://openarena.ws/board/
+http://nalicity.beyondunreal.com/map_hub.php?mid=9490
+
+Play Information
+----------------
+
+                Game: Open arena 0.8.1
+          Level Name: Sago's Castle 2
+           Game Type: Elimination, CTF, DM, One Flag CTF, Overload, Harvester, Double Domination, CTF Elimination             Players: Elimination: 4-8, CTF: 4-8, DM: 2-3
+            Botmatch: Yes
+       Single Player: Yes (Bots)
+            Teamplay: Yes
+        New Textures: No
+          New Sounds: No
+           New Music: No
+
+Bug fixes
+-------------
+
+
+New in Beta 4
+-------------
+Back in beta stage...
+Redone layout to make it easier for the engine to optimize it:
+Closed windows to block vis. 
+All buildings block vis. 
+Added seperation between the two halfs - blocks vis.
+Changed layout of buildings to block more vis. 
+Granade launcher
+
+On my machine fps only got about 15 frames extra in middle (235->250) while the bases got around 50 more frames (240->290).
+But it isn't very usefull information. The new house layout might ruin the flow.
+
+Description
+-------------
+A small CTF/Elimination level designed for few players. There are only two real routes to the enemy base and both can be controlled by a single player. 
+
+The bots are not always too smart in non-CTF gametypes and so play CTF! 
+
+I have used the castle theme (that really isn't a castle theme but I like to use them as they are)
+
+The map is build much like: CTF-TFC-Solemn for UT2004 (Used to be a link here but Nali City is down for a long tome) but with a few changes to make it friendly the different physics of OA.
+
+Enjoy!

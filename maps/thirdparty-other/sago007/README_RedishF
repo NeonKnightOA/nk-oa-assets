@@ -1,0 +1,32 @@
+ReadMe for Redish Final
+--------------------------
+
+Title:        Redish
+Filename:     RedishF.pk3
+Auther:       Poul Sander
+Release Data: 2007-08-24
+Version:      Final
+License:      GPL v2
+
+Credits:
+http://www.leveldk.co.uk/tutindex.htm
+http://openarena.ws/board/
+
+Play Information
+----------------
+
+                Game: Open arena 0.7.x
+          Level Name: redish
+           Game Type: DM             Players: DM: 2-4
+            Botmatch: Yes
+       Single Player: Yes (Bots)
+            Teamplay: No
+        New Textures: No
+          New Sounds: No
+           New Music: No
+
+Description
+-----------
+Another convertion of an old Unreal Tournement level. This time: dm-1on1-contact
+
+I have given up on maps, this is rereleased only to fit OA 0.7.x since the orginal was developed against a SVN version.

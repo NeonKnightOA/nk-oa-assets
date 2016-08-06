@@ -1,0 +1,32 @@
+ReadMe for Redish Alpha 2
+--------------------------
+
+Title:        Redish
+Filename:     RedishAlpha2.pk3
+Auther:       Poul Sander
+Release Data: Not released yet
+Version:      Alpha 2
+License:      GPL
+
+Credits:
+http://www.leveldk.co.uk/tutindex.htm
+http://openarena.ws/board/
+
+Play Information
+----------------
+
+                Game: Open arena SVN
+          Level Name: redish
+           Game Type: DM             Players: DM: 2-6
+            Botmatch: Yes
+       Single Player: Yes (Bots)
+            Teamplay: No
+        New Textures: No
+          New Sounds: No
+           New Music: No
+
+Description
+-----------
+Another convertion of an old Unreal Tournement level. This time: dm-1on1-contact
+
+Open simple/complex map. Red with lava light and so on.

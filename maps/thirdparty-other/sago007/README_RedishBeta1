@@ -1,0 +1,34 @@
+ReadMe for Redish Beta 1
+--------------------------
+
+Title:        Redish
+Filename:     RedishBeta1.pk3
+Auther:       Poul Sander
+Release Data: Not released yet
+Version:      Beta 1
+License:      GPL
+
+Credits:
+http://www.leveldk.co.uk/tutindex.htm
+http://openarena.ws/board/
+
+Play Information
+----------------
+
+                Game: Open arena SVN
+          Level Name: redish
+           Game Type: DM             Players: DM: 2-6
+            Botmatch: Yes
+       Single Player: Yes (Bots)
+            Teamplay: No
+        New Textures: No
+          New Sounds: No
+           New Music: No
+
+Description
+-----------
+Another convertion of an old Unreal Tournement level. This time: dm-1on1-contact
+
+Open simple/complex map. Red with lava light and so on.
+
+This beta might be the last version... Its kept in beta, since no bug finding has taken place yet.

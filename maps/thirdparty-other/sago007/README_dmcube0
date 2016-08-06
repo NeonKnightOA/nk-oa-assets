@@ -1,0 +1,37 @@
+ReadMe for dmcube0
+--------------------------
+
+Title:        DM Cube Zero
+Filename:     dmcube0.pk3
+Auther:       Poul Sander
+Release Data: 2007-03-09
+Version:      Final build
+License:      GPL
+
+Credits:
+http://www.leveldk.co.uk/tutindex.htm
+http://openarena.ws/board/
+
+Play Information
+----------------
+
+                Game: Open arena SVN
+          Level Name: DM Cube Zero
+           Game Type: DM, TDM             Players: DM: 4-10
+            Botmatch: Yes
+       Single Player: Yes (Bots)
+            Teamplay: No
+        New Textures: No
+          New Sounds: No
+           New Music: No
+
+Description
+-----------
+Lots of Z axis fighting. Lots of guns. Frag away!
+
+My second level. 
+
+It works on Open Arena 0.60 although there are missing textures.
+
+The BFG might be overkill... then again overkill might not be a bad thing.
+
