@@ -11,4 +11,4 @@ With that out of the way...
 
 Here I will maintain all the work done on OpenArena, including the OACMP and some work on OA3. For maps, only the sources can be found here. If you want to check them, you need to compile them on your own.
 
-You can do a git clone directly at the OpenArena folder. Before you start doing any kind of work, be sure to run the Shaderlist Regenerator on the scripts folder, so you can create a new shaderlist.txt.
+You can do a git clone directly at the OpenArena folder. **Before you start doing any kind of work, be sure to run the Shaderlist Regenerator on the scripts folder, so you can create a new shaderlist.txt.**
