@@ -1,0 +1,112 @@
+#!/bin/sh
+# makemap -- build .bsp, .aas  and .pk3 files for your quake 3 map from .map
+#
+# description :
+# this is a quick 'n' dirty hack to build a pk3 file from a .map file
+# for q3a mapping. this script will call the 'rendermap', 'genbots' and 'makepk3' shell
+# scripts and thus depends on them.
+# usage :
+# place in ~/.q3a/baseq3/ together with the other scripts, adapt paths below
+# and run like so : 'makemap <mapname>'
+#
+# written by spirit, see http://www.sp1r1t.org/contact/
+# released under the GPL, NO WARRANTY OF ANY KIND
+
+## paths - you may need to adapt these to your needs
+
+Q3MAP2="/opt/gtkradiant/q3map2.x86" 
+#BASEPATH="/usr/local/games/quake3"
+BASEPATH="/home/spirit/.q3a"
+
+## more settings - you should NOT need to change these
+
+MAPNAME=$1
+
+BASEQ3="$BASEPATH/baseq3"
+SCRIPTPATH="$BASEQ3"
+BSPFILE="$BASEQ3/maps/$MAPNAME.bsp"
+MAPFILE="$BASEQ3/maps/$MAPNAME.map"
+
+RENDERMAP="$SCRIPTPATH/rendermap"
+GENBOTS="$SCRIPTPATH/genbots"
+MAKEPK3="$SCRIPTPATH/makepk3"
+
+NAME="makemap"
+
+## don't mess with stuff below this line unless you know what you're doing
+
+echo "-- $NAME by spirit --"
+
+## check whether user knows what she's doing
+if [ -z "$1" ]; then
+  echo "$NAME -- build .bsp, .aas  and .pk3 files for your q3a map from .map file"
+  echo "usage : $NAME <mapname>"
+  echo "<mapname> : name of your map, no file extension"
+  exit 1
+fi
+
+## check for needed files
+if [ -f $MAPFILE ]; then
+ echo "INFO: ok, found .map file"
+else 
+ echo "ERROR: no .map file found in $MAPFILE : exiting"
+ exit
+fi
+
+if [ -x $RENDERMAP ]; then
+ echo "INFO: ok, found rendermap script"
+else 
+ echo "ERROR: no (executable) rendermap script found in $RENDERMAP : exiting"
+ exit
+fi
+
+if [ -x $GENBOTS ]; then
+ echo "INFO: ok, found genbots script"
+else 
+ echo "ERROR: no (executable) genbots script found in $GENBOTS : exiting"
+ exit
+fi
+
+if [ -x $MAKEPK3 ]; then
+ echo "INFO: ok, found makepk3 script"
+else 
+ echo "ERROR: no (executable) makepk3 script found in $MAKEPK3 : exiting"
+ exit
+fi
+
+if [ -x $Q3MAP2 ]; then
+ echo "INFO: ok, found q3map2 executable"
+else 
+ echo "ERROR: no (executable) q3map2 found in $Q3MAP2 : exiting"
+ exit
+fi
+
+if [ -d $BASEPATH ]; then
+ echo "INFO: ok, q3a directory found"
+else 
+ echo "ERROR: no q3a directory found at $BASEPATH : exiting"
+ exit
+fi
+
+## ok, here we go 
+
+echo "INFO: building all files for map $MAPNAME"
+
+##build .bsp from .map
+$RENDERMAP $MAPNAME
+echo "INFO: bsp file done."
+
+## build .aas from .bsp
+echo "INFO: building bot file..."
+$GENBOTS $MAPNAME
+echo "INFO: bot file done..."
+
+## create .pk3 from all files
+echo "INFO: building pk3 file..."
+$MAKEPK3 $MAPNAME
+echo "INFO: everything done, exiting."
+
+
+## run q3a if requested
+
+exit

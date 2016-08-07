@@ -1,0 +1,69 @@
+#!/bin/sh
+#
+# backupmap -- create a backup of a quake 3 .map file
+# written and copyright (c) by spirit 2005, see http://www.sp1r1t.org/contact/
+# released under the GPL, NO WARRANTY OF ANY KIND
+#
+# INFO
+# this script is a quick hack, it searches for pk3 (in the current directory)
+# and map files (in a subdirectory maps/) that match
+# the name given on the command line and copies them to the subdirectory
+# .backupmap/ of the folder it is called from. It will try to create the 
+# folder if it does not exist and rename the backuped files using the utility
+# date.
+# 
+# NOTES
+# - remember to make this script executable before using it for the first time : chmod u+x backupmap
+# - the date program has to be installed for this script to work - this is the case on almost every unix/linux
+#   box on the planet
+#
+# USAGE
+# this script should be executed from your baseq3 folder, usually ~/.q3a/baseq3/
+# usage : ./backupmap <mapname>
+
+## no need to mess with anything
+
+NAME="backupmap"
+MAPNAME=$1
+BACKUPDIR="./.$NAME"
+NAMESUFFIX=`date +%Y-%m-%d-%H:%M:%S`
+
+echo "-- $NAME by spirit --"
+
+## check whether user knows what she's doing
+if [ -z "$1" ]; then
+  echo "$NAME -- create a backup of a q3a .map and .pk3 file"
+  echo "usage : $NAME <mapname>"
+  echo "<mapname> : name of your map, no file extension"
+  exit 1
+fi
+
+## k, let's go
+
+echo "searching for files..."
+
+if [ -d $BACKUPDIR ]; then
+ echo "INFO -- found backup directory"
+else
+ mkdir $BACKUPDIR
+ echo "INFO -- created backup directory"
+fi
+
+
+if [ -f maps/$MAPNAME.map ]; then
+ cp  maps/$MAPNAME.map $BACKUPDIR/$MAPNAME-$NAMESUFFIX.map
+ echo "OK -- copied map file"
+else 
+ echo "ERROR -- no map file found in maps/$MAPNAME.map : exiting"
+ exit
+fi
+
+
+if [ -f $MAPNAME.pk3 ]; then
+ cp  $MAPNAME.pk3 $BACKUPDIR/$MAPNAME-$NAMESUFFIX.pk3
+ echo "OK -- copied pk3 file"
+else 
+ echo "WARNING -- no pk3 file found in $MAPNAME.pk3"
+fi
+
+echo "done : all files written to $BACKUPDIR."

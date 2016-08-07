@@ -1,0 +1,112 @@
+#!/bin/sh
+#
+# makepk3.sh -- create a quake 3 map file (pk3) of a directory structure
+# written and copyright (c) by spirit 2005, see http://www.sp1r1t.org/contact/
+# released under the GPL, NO WARRANTY OF ANY KIND
+#
+# INFO
+# this script was written in some minutes and is _very_ basic. you may have to name your files
+# appropriately for the script to find all of them and it doesn't really handle errors.
+# 
+# NOTES
+# remember to make this script executable before using it for the first time : chmod u+x makepk3
+# this script requires the zip program to be installed
+# 
+# USAGE
+# this script should be executed from your baseq3 folder, usually ~/.q3a/baseq3/
+# usage : ./makepk3 <mapname>
+
+## no need to mess with any stuff below this line
+
+MAPNAME=$1
+ADDMAP=$2
+NAME="makepk3"
+
+echo "-- $NAME by spirit --"
+
+if [ -z "$1" ]; then
+  echo "$NAME -- create a quake 3 map file (pk3) of a directory structure"
+  echo "usage : $NAME <mapname> [<addmapfile>]"
+  echo "<mapfile> : name of your map, no file extension"
+  echo "<addmapfile> : optional, set to 'yes' if you want .map to be added to pk3."
+  echo "note : <addmapfile> defaults to 'no'"
+  exit 1
+fi
+
+echo "creating file $MAPNAME.pk3 from directory structure..."
+
+## grab basic map data
+
+if [ -f maps/$MAPNAME.bsp ]; then
+ zip -r $MAPNAME.pk3 maps/$MAPNAME.bsp
+ echo "OK -- found bsp file"
+else 
+ echo "ERROR -- no bsp file found in maps/$MAPNAME.bsp : exiting"
+ exit
+fi
+
+if [ -f maps/$MAPNAME.aas ]; then
+ zip -r $MAPNAME.pk3 maps/$MAPNAME.aas
+ echo "OK -- found aas file"
+else 
+ echo "WARNING -- no aas file found in maps/$MAPNAME.aas : bot support will not be available"
+fi
+
+## add the .map file to the pk3 - this is not needed
+
+if [ "$ADDMAP" = "yes" ]; then
+  echo "INFO -- about to add map file to archive"
+  if [ -f maps/$MAPNAME.map ] ; then
+   zip -r $MAPNAME.pk3 maps/$MAPNAME.map
+   echo "OK -- added map file"
+  else
+   echo "WARNING -- no map file found in maps/$MAPNAME.map but addition requested!"
+  fi
+fi
+
+## the picture that shows up in the in-game map browser of quake 3
+
+if [ -f levelshots/$MAPNAME.jpg ]; then
+ zip -r $MAPNAME.pk3 levelshots/$MAPNAME.jpg
+ echo "OK -- found jpg levelshot"
+else 
+ echo "INFO -- no jpg levelshot found in levelshots/$MAPNAME.jpg"
+fi
+
+if [ -f levelshots/$MAPNAME.tga ]; then
+ zip -r $MAPNAME.pk3 levelshots/$MAPNAME.tga
+ echo "OK -- found tga levelshot"
+else 
+ echo "INFO -- no tga levelshot found in levelshots/$MAPNAME.tga"
+fi
+
+## grab all textures  
+echo "INFO -- checking for textures - errors can be ignored if you did not create any"
+zip -r $MAPNAME.pk3 textures/$MAPNAME*
+echo "INFO -- textures handled."
+
+ 
+## grab shader script and the arena file 
+
+if [ -f scripts/$MAPNAME.shader ]; then
+ zip -r $MAPNAME.pk3 scripts/$MAPNAME.shader
+ echo "OK -- found shader script"
+else 
+ echo "INFO -- no shader script found in scripts/$MAPNAME.shader"
+fi
+
+if [ -f scripts/$MAPNAME.arena ]; then
+ zip -r $MAPNAME.pk3 scripts/$MAPNAME.arena
+ echo "OK -- found arena file"
+else 
+ echo "INFO -- no arena file found in scripts/$MAPNAME.arena"
+fi
+
+## handle defrag map special options
+
+if [ -f scripts/$MAPNAME.defi ]; then
+ zip -r $MAPNAME.pk3 scripts/$MAPNAME.defi
+ echo "OK -- found defrag defi file"
+fi
+
+echo "done : file $MAPNAME.pk3 written."

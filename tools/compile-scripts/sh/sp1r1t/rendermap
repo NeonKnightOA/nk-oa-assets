@@ -1,0 +1,123 @@
+#!/bin/sh
+# rendermap -- compile your quake 3 map from .map
+#
+# usage :
+# place in ~/.q3a/baseq3/, adapt paths below
+# run like so : 'rendermap <mapname> [<quality>]'
+#
+# written by spirit, see http://www.sp1r1t.org/contact/
+# released under the GPL, NO WARRANTY OF ANY KIND
+
+## paths - you may need to adapt these to your needs
+
+Q3MAP2="/opt/gtkradiant/q3map2.x86" 
+BASEPATH="/usr/local/games/quake3"
+MOD="baseq3"
+BASEPATHHOME="$HOME/.q3a"
+
+## q3map2 flags
+
+ALLFLAGS="-game quake3 -fs_basepath $BASEPATH"
+BSPFLAGS="-meta -samplesize 4"
+VISFLAGS="-vis -saveprt"
+#next line is ignored since no lighting is done in quality 1
+LIGHTFLAGS1="none (no lighting)"
+LIGHTFLAGS2="-light -faster"
+LIGHTFLAGS3="-light -fast -super 2 -filter -patchshadows -samples 3 -bounce 3"
+
+## more settings - you should NOT need to change these
+
+MAPNAME=$1
+BASEQ3="$BASEPATH/baseq3"
+BASEQ3HOME="$BASEPATHHOME/baseq3"
+BSPFILE="$BASEQ3HOME/maps/$MAPNAME.bsp"
+MAPFILE="$BASEQ3HOME/maps/$MAPNAME.map"
+NAME="rendermap"
+DEFAULTQUALITY="q3"
+
+## don't mess with stuff below this line unless you know what you're doing
+
+echo "-- $NAME by spirit --"
+
+## check whether user knows what she's doing
+if [ -z "$1" ]; then
+  echo "$NAME -- compile your q3a map from .map file"
+  echo "usage : $NAME <mapname> [<quality>]"
+  echo "<mapname> : name of your map, no file extension"
+  echo "<quality> : may be q1, q2 or q3 currently (q3 is default):"
+  echo "             q1: test, no light (very fast)" 
+  echo "             q2: test, with light (medium)" 
+  echo "             q3: final, high quality lighting (very slow)" 
+  exit 1
+fi
+
+## what about the quality setting?
+if [ -z "$2" ]; then
+  QUALITY=$DEFAULTQUALITY
+  echo "RENDERMAP: INFO: no quality specified, assuming $DEFAULTQUALITY"
+else
+ QUALITY="$2"
+ echo "RENDERMAP: INFO: using quality $2"
+fi
+
+## choose correct light flags depending on quality setting
+if [ "$QUALITY" = "q1" ]; then
+  LIGHTFLAGS=$LIGHTFLAGS1
+  echo "RENDERMAP: INFO: lightflags: '$LIGHTFLAGS'"
+fi
+if [ "$QUALITY" = "q2" ]; then
+  LIGHTFLAGS=$LIGHTFLAGS2
+  echo "RENDERMAP: INFO: lightflags: '$LIGHTFLAGS'"
+fi
+
+if [ "$QUALITY" = "q3" ]; then
+  LIGHTFLAGS=$LIGHTFLAGS3
+  echo "RENDERMAP: INFO: lightflags: '$LIGHTFLAGS'"
+fi
+
+
+## check for needed files
+if [ -f $MAPFILE ]; then
+ echo "RENDERMAP: INFO: ok, found .map file"
+else 
+ echo "RENDERMAP: ERROR: no .map file found in $MAPFILE : exiting"
+ exit
+fi
+
+if [ -x $Q3MAP2 ]; then
+ echo "RENDERMAP: INFO: ok, found q3map2 executable"
+else 
+ echo "RENDERMAP: ERROR: no (executable) q3map2 found in $Q3MAP2 : exiting"
+ exit
+fi
+
+if [ -d $BASEPATH ]; then
+ echo "RENDERMAP: INFO: ok, q3a directory found"
+else 
+ echo "RENDERMAP: ERROR: no q3a directory found at $BASEPATH : exiting"
+ exit
+fi
+
+## ok, here we go 
+
+echo "RENDERMAP: INFO: starting step 1/3 - bsp"
+
+##build .bsp from .map
+$Q3MAP2 $ALLFLAGS $BSPFLAGS $MAPFILE
+
+echo "RENDERMAP: INFO: starting step 2/3 - vis"
+$Q3MAP2 $ALLFLAGS $VISFLAGS $MAPFILE
+
+if [ $QUALITY = "q1" ]; then
+  echo "RENDERMAP: INFO: omitting step 3/3. no lighting done. bsp file written."
+  exit
+fi
+
+echo "RENDERMAP: INFO: starting step 3/3 - light"
+
+$Q3MAP2 $ALLFLAGS $LIGHTFLAGS $MAPFILE
+echo "RENDERMAP: INFO: lighting done, quality '$QUALITY', flags '$LIGHTFLAGS'"
+echo "RENDERMAP: INFO: done. bsp file written."
+
+
+exit

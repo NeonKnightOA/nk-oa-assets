@@ -1,0 +1,32 @@
+#!/bin/sh
+# genbots -- generate botfile for your q3a map (bsp file)
+#
+# usage :
+# place in ~/.q3a/baseq3/ and run like so : 'genbots <mapname>'
+#
+# written by spirit, see http://www.sp1r1t.org/contact/
+# released under the GPL, NO WARRANTY OF ANY KIND
+
+## paths -- you may need to adapt these to your needs"
+BSPC="/opt/gtkradiant/bspc"
+
+## more settings- you should NOT need to change these
+
+MAPNAME=$1
+BASEQ3="."
+BSPPATH="$BASEQ3/maps/$MAPNAME.bsp"
+
+## don't mess with stuff below this line
+
+echo "-- $NAME by spirit --"
+
+if [ -z "$1" ]; then
+ echo "$NAME -- generate botfile for your q3a map (bsp file)" 
+ echo "usage : genbots <mapname>"
+ echo "<mapname> : name of your map, no file extension"
+ exit 1
+fi
+
+echo "generating botfile for map $MAPNAME, using file $BSPPATH..."
+$BSPC -optimize -forcesidesvisible -bsp2aas $BSPPATH
+echo "done."

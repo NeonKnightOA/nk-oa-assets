@@ -1,0 +1,68 @@
+#!/bin/sh
+#
+# testmodmap.sh -- run a  quake 3 .bsp file directly in a mod 
+# written and copyright (c) by spirit 2005, see http://www.sp1r1t.org/contact/
+# released under the GPL, NO WARRANTY OF ANY KIND
+#
+# INFO
+# this script was written in a few minutes to test defrag maps.
+# it runs the specified map's .bsp or .pk3-file in
+# the quake 3 mod specified by the <mod> argument. it will look
+# for the map in the maps/ subfolder of the path it is called from.
+# 
+# NOTES
+# - remember to make this script executable before using it for the first time : chmod u+x testmodmap
+# - quake3 should be in your $PATH environment variable
+#
+# USAGE
+# this script should be executed from your baseq3 folder, usually ~/.q3a/baseq3
+# usage : ./testmodmap <mapname> <mod>
+
+
+## settings - you may want to adapt them to your needs
+
+#config - your q3config file for testing maps (if any)
+Q3CONFIG="q3config.cfg"
+
+## no need to mess with anything under this line
+
+NAME="testmodmap"
+MAPNAME=$1
+MODDIR=$2
+MAPDIR="maps/"
+
+echo "-- $NAME by spirit --"
+
+if [ -z "$1" ]; then
+ echo "usage : $NAME <mapname> <modname>"
+ echo "<mapname> : the name of your map, no file extension"
+ echo "<modname> : name of the mod folder in your q3a directory"
+ echo "note : <modname> may be 'baseq3' for vanilla (no mod)"
+ exit 1
+fi
+
+if [ -z "$2" ]; then
+ echo "usage : $NAME <mapname> <modname>"
+ echo "<mapname> : the name of your map, no file extension"
+ echo "<modname> : name of the mod folder in your q3a directory"
+ echo "note : <modname> may be 'baseq3' for vanilla (no mod)"
+ exit 1
+fi
+
+echo "running map..."
+
+
+if [ ! -f ../$MODDIR/$Q3CONFIG ]; then
+ echo "ERROR -- no q3config found in ../$MODDIR/$Q3CONFIG. exiting."
+ exit
+fi
+
+if [ -f maps/$MAPNAME.map ]; then
+ echo "OK -- map found" 
+ quake3 +set fs_game $MODDIR +exec $Q3CONFIG +set sv_pure 0 +devmap $MAPNAME
+else 
+ echo "ERROR -- no map file found in maps/$MAPNAME.map : exiting"
+ exit
+fi
+
+

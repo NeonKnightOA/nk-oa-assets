@@ -1,0 +1,100 @@
+#!/bin/sh
+#
+# renamemap -- rename quake 3 map and adapt all paths (including texture paths and stuff)
+#
+# written by spirit, see http://www.sp1r1t.org/contact/
+# released under the GPL, NO WARRANTY OF ANY KIND
+#
+# INFO
+# this script was written in some minutes and is _very_ basic. you may have to name your files
+# appropriately for the script to find all of them and it doesn't really handle errors.
+# 
+# NOTES
+# remember to make this script executable before using it for the first time : 'chmod u+x renamemap'
+# 
+# USAGE
+# this script should be executed from your baseq3 folder, usually ~/.q3a/baseq3/
+# usage : ./renamemap <oldmapname> <newmapname>
+
+NAME="renamemap"
+OLDMAPNAME=$1
+NEWMAPNAME=$2
+
+echo "-- $NAME by spirit --"
+
+echo "not ready for usage yet -- textures not handled"
+exit
+
+## check whether user knows what she's doing
+if [ -z "$1" ]; then
+  echo "$NAME -- rename a q3a map and adapt all paths"
+  echo "usage : $NAME <oldmapname> <newmapname>"
+  exit 1
+fi
+
+if [ -z "$2" ]; then
+  echo "$NAME -- rename a q3a map and adapt all paths"
+  echo "usage : $NAME <oldmapname> <newmapname>"
+  exit 1
+fi
+
+## ...seems so at least, so here we go.
+
+## start with .map files
+if [ -f maps/$NEWMAPNAME.map ]; then
+  echo "file maps/$NEWMAPNAME.map exists - won't overwrite files. exiting."
+  exit 1
+fi
+
+
+if [ -f maps/$OLDMAPNAME.map ]; then
+ sed "s/$OLDMAPNAME/$NEWMAPNAME/g" maps/$OLDMAPNAME.map >  maps/$NEWMAPNAME.map
+ echo "OK -- found old mapfile"
+else 
+ echo "ERROR -- no such file: maps/$OLDMAPNAME.map"
+ exit
+fi
+
+## levelshots for pk3 file
+if [ -f levelshots/$OLDMAPNAME.jpg ]; then
+ cp levelshots/$OLDMAPNAME.jpg levelshots/$NEWMAPNAME.jpg
+ echo "OK -- found jpg levelshot"
+else 
+ echo "INFO -- no jpg levelshot found"
+fi
+
+if [ -f levelshots/$OLDMAPNAME.tga ]; then
+ cp levelshots/$OLDMAPNAME.tga levelshots/$NEWMAPNAME.tga
+ echo "OK -- found tga levelshot"
+else 
+ echo "INFO -- no tga levelshot found"
+fi
+
+##  handle scripts folder
+if [ -f scripts/$OLDMAPNAME.arena ]; then
+ cp scripts/$OLDMAPNAME.arena scripts/$NEWMAPNAME.arena
+ echo "OK -- found arena file"
+else
+ echo "INFO -- no arena file found"
+fi
+
+if [ -f scripts/$OLDMAPNAME.shader ]; then
+ cp scripts/$OLDMAPNAME.shader scripts/$NEWMAPNAME.shader
+ echo "OK -- found shader file"
+else
+ echo "INFO -- no shader file found"
+fi
+
+## textures need some attention, too
+echo "INFO -- checking for textures - errors can be ignored if you did not create any"
+cd textures
+for texturedir in `ls $OLDMAPNAME*`; do
+ cp $texturedir
+done
+cd ..
+echo "INFO -- textures handled."
+
+
+echo "INFO: you may want to adapt the scripts/$NEWMAPNAME.arena file to the new mapname."
+echo "INFO: done, all files for $NEWMAPNAME written. exiting."
+

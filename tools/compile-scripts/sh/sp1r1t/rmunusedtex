@@ -1,0 +1,103 @@
+#!/bin/sh
+#
+# rmunusedtex -- delete texture files from a directory that are not used by a mapfile
+#
+# written and copyright (c) by spirit 2005, see http://www.sp1r1t.org/contact/
+# released under the GPL, NO WARRANTY OF ANY KIND
+#
+# may reduce the filesize of the pk3 you create considerably
+#
+# INFO
+# this script was written in some minutes and is _very_ basic. you may have to name your files
+# appropriately for the script to find all of them and it doesn't really handle errors.
+# 
+# NOTES
+# remember to make this script executable before using it for the first time : chmod u+x rmunusedtex
+# 
+# USAGE
+# this script should be executed from your baseq3 folder, usually ~/.q3a/baseq3/
+# usage : ./rmunusedtex <texdir> <mapname> <delete>
+
+## settings - adapt to your needs
+
+# the path backups of the texture dirs shuold be written to before deleting files from it
+BACKUPPATH=$HOME
+
+## no need to mess with any stuff below this line
+
+TEXDIR=$1
+MAPNAME=$2
+DELETE=$3
+
+NAME="rmunusedtex"
+MAPPATH="./maps"
+
+echo "-- $NAME by spirit --"
+
+## does the user know what she's doing?
+
+if [ -z "$1" ]; then
+  echo "$NAME -- delete textures from a directory that are not used by a specific mapfile"
+  echo "usage : $NAME <texdir> <mapname> <delete>"
+  echo "<texdir> : directory containing texture files"
+  echo "<mapfile> : name of your map, no file extension"
+  echo "<delete> : needs to be set to 'yes' if you really want to delete textures. otherwise, only usage stats will be printed. defaults to 'no'."
+  exit 1
+fi
+
+
+if [ -z "$2" ]; then
+  echo "$NAME -- delete textures from a directory that are not used by a specific mapfile"
+  echo "usage : $NAME <texdir> <mapname> <delete>"
+  echo "<texdir> : directory containing texture files"
+  echo "<mapfile> : name of your map, no file extension"
+  echo "<delete> : needs to be set to 'yes' if you really want to delete texture
+  s. otherwise, only usage stats will be printed. defaults to 'no'"
+  exit 1
+fi
+	  
+
+## we need the map and the dir of course
+echo "INFO: checking for mapfile and texture dir..."
+
+if [ -f $MAPPATH/$MAPNAME.map ]; then
+ echo "INFO: ok, found map file"
+else 
+ echo "ERROR: no map file found in $MAPPATH/$MAPNAME.map : exiting"
+ exit
+fi
+
+if [ -d $TEXDIR ]; then
+ echo "INFO: ok, texture directory"
+ else
+ echo "ERROR: no such directory $TEXDIR : exiting"
+ exit
+fi
+   
+
+## hmk, now for those textures...
+echo "INFO: checking for unused textures in $TEXDIR, file usage in $MAPPATH/$MAPNAME.map :"
+
+for file in `ls $TEXDIR`; do
+ echo -n "$file : "
+ name=`echo $file | cut -f 1 -d "."`
+ grep -c $name $MAPPATH/$MAPNAME.map
+done
+
+## shall we *really* delete that stuff?
+if [ "$DELETE" = "yes" ]; then
+ echo "INFO: about to delete unused textures in $TEXDIR"
+ cp -r $TEXDIR $BACKUPPATH
+ echo "INFO: backup of $TEXDIR was written to $BACKUPPATH"
+ for file in `ls $TEXDIR`; do
+  echo -n "$file : "
+  name=`echo $file | cut -f 1 -d "."`
+  num=`grep -c $name $MAPPATH/$MAPNAME.map`
+  if [ $num = 0 ]; then
+   rm -i $TEXDIR/$file
+  fi
+ done
+ echo "INFO: note that there's a backup at $BACKUPPATH"   
+fi
+		 
+echo "INFO: done, exiting."

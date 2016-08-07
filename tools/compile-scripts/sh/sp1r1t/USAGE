@@ -1,0 +1,79 @@
+q3 mapping helper scripts by spirit
+====================================
+
+about:
+------------------
+this is a small collection of scripts that will automate various 
+q3a mapping tasks for your under linux.
+
+these are shell scripts for the linux bash shell. do not try to run
+them under win32 and do NOT email me to tell me that they don't work
+under win32.
+
+quick usage info:
+------------------
+unzip scripts, make them executable and copy them to your baseq3 dir.
+
+
+
+detailed explanation of the setup:
+-----------------------------------
+1) unzip scripts (assuming you downloaded to your home directory):
+    user@box$> cd
+    user@box$> tar xzf q3scripts.tar.gz
+2) place scripts directly in your '~/.q3a/baseq3/' directory
+    user@box$> cd ~/.q3a/baseq3/
+    user@box$> cp ~/q3scripts/* .
+3) make scripts executable 
+    user@box$> chmod u+x <scriptname>
+4) use scripts (in baseq3)
+    user@box$> ./<scriptname> <parameter>
+
+
+some words on the individual scripts and what they do for you
+--------------------------------------------------------------
+
+- backupmap ('./backupmap <mapname>'):
+  will write copies of your map and pk3 files of <mapname> to a 
+  backupdir (defaults to '.backup/', note the dot!) and append the
+  current date and time to the filenames
+
+- genbots ('./genbots <mapname>'):
+  will generate a botfile (.aas) for your map (needs bsp-file of course)
+  
+- makepk3 ('./makepk3 <mapname>'):
+  will generate a pk3 file of the directory structure for your map
+
+- makemap ('./makemap <mapname>'):
+  will NOT auto-build a map in radiant for you, sorry ;-). will however 
+  use the .map-file to compile .bsp and then run the 'rendermap', 'genbots' and 'makepk3'
+  scripts for you (thus depends on them of course).
+
+- renamemap ('./renamemap <mapname> <newmapname>'):
+  will copy various files of your map to match the new mapname.
+  could need some improvements, see the file for details.
+
+- rendermap ('./rendermap <mapname> [<quality>]'):
+  will run q3map2 to render the map with a quality setting
+  of your choice.
+
+- rmunusedtex ('./rmunusedtex <mapname> <dir> [<delete>]'):
+  will remove textures that are not used by the specified mapfile and
+  reside in <dir>. won't delete anything but print infos on the texture usage
+  only unless you set <delete> to 'yes'. will make a backup of the
+  whole <dir> prior to deleting stuff to $BACKUPDIR (defaults to $HOME).
+  
+- testmodmap ('./testmodmap <map> <mod>'):
+  will run your map file (bsp in baseq3/maps/ or pk3 in baseq3/) in <mod>.
+  will set 'sv_pure 0' and run your special map testing q3config if any.
+
+
+see the script files for some more info. scripts will tell you what to expect from them and how to use them when you run them without any arguments.
+
+
+all scripts written by spirit, see http://www.sp1r1t.org/contact/
+
+feel free to redistribute them, modify them etc but don't blame me for stuff tht goes terribly wrong, GPL license applies. 
+
+send improvements, comments and wishes to the email address shown on the website above.
+
