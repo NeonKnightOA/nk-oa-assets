@@ -1,0 +1,11 @@
+****************************
+* open arena map: medieval *
+****************************
+
+MAP NAME: medieval
+AUTHOR: hackira (j.blanc@free.fr)
+GAME MODE: deathmatch (4 players max)
+INSTALL: just copy the medieval.pk3 file into "baseoa" subdirectory of your openarena location
+FIRST RELEASE: 20/10/2007 with GtkRadiant 1.5.0
+LICENSE: GPL (map file given)
+

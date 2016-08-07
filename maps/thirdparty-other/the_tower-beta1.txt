@@ -1,0 +1,4 @@
+The Tower: Beta 1
+Copyright 2008 Andy Rink
+
+This data is released under the terms of the GNU GPL v2.
