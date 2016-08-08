@@ -130,20 +130,20 @@ else
 		#
 		$raddir/bspc -bsp2aas $mapsdir/$2.bsp -forcesidesvisible -optimize
 	fi
-	#Only BSP
-	#---------------------
+	# Only BSP
+	# ---------------------
 	if [ "$1" = "onlybsp" ]; then
 		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -flares -meta -patchmeta -v -verboseentities $mapsdir/$2.map
 	fi
 
-	#Entity-edit compile
-	#---------------------
+	# Entity-edit compile
+	# ---------------------
 	if [ "$1" = "entity" ]; then
 		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -onlyents $mapsdir/$2.map
 		$raddir/bspc -bsp2aas $mapsdir/$2.bsp -forcesidesvisible -optimize
 	fi
-	#For model conversion
-	#---------------------
+	# For model conversion
+	# ---------------------
 	if [ "$1" = "model" ]; then
 		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" $HOME/oa/baseoa/models/mapobjects/$2.map
 		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -convert $HOME/oa/baseoa/models/mapobjects/$2.bsp
@@ -154,8 +154,8 @@ else
 		rm $HOME/oa/baseoa/models/mapobjects/$2.srf
 		rm $HOME/oa/baseoa/models/mapobjects/$2.bsp
 	fi
-	#For map decompilation
-	#---------------------
+	# For map decompilation
+	# ---------------------
 	if [ "$1" = "decomp" ]; then
 		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -convert -format map $mapsdir/$1.bsp
 	fi
