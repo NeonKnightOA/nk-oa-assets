@@ -1,0 +1,37 @@
+auther boczeq & Neon_Knight
+description "The Galmevish facility has several testing areas for their products. The Testing Chambers hosts several small arenas such as this one, nicknamed Blitzkrieg."
+
+minPlayers 2
+minTeamSize 1
+maxPlayers 4
+maxTeamSize 2
+
+support_dm yes
+support_team no
+support_tourney yes
+support_ctf no
+support_1fctf no
+support_obelisk no
+support_harvester no
+support_elimination no
+support_ctfelim no
+support_lms yes
+support_dd no
+support_dom no
+support_pos yes
+
+gametype dm
+fragLimit 20
+timeLimit 15
+
+gametype tourney
+fragLimit 10
+timeLimit 10
+
+gametype lms
+captureLimit 5
+timeLimit 15
+
+gametype pos
+fragLimit 20
+timeLimit 15

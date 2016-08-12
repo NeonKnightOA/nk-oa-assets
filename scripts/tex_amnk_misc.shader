@@ -1,12 +1,12 @@
 textures/amnk_misc/teleporternoise
 {
 	q3map_lightimage textures/amnk_misc/teleporternoise
+	qer_trans 0.50
 	qer_nocarve
 	surfaceparm nomarks
 	surfaceparm trans
 	cull disable
 	q3map_surfacelight 900
-	q3map_flare flareShader-portal
 	{
 		map textures/amnk_misc/teleporternoise
 		rgbGen const ( 0.501961 0.501961 0.501961 )
@@ -29,4 +29,39 @@ textures/amnk_misc/teleporternoise
 		tcMod rotate -3
 		tcMod turb 0 4 0 0.01
 	}
+}
+
+// Use for lava canals.
+textures/common/lavacaulk
+{
+	qer_trans 0.50
+	surfaceparm lava
+	surfaceparm nodraw
+	surfaceparm nomarks
+    surfaceparm nolightmap
+}
+
+// Use for water canals.
+textures/common/watercaulk
+{
+	qer_trans 0.50
+	surfaceparm water
+	surfaceparm nodraw
+	surfaceparm nomarks
+    surfaceparm nolightmap
+}
+
+// blitzkrieg3 fog
+textures/amnk_misc/blitzkriegfog
+{
+	qer_editorimage textures/sfx/fogeditorimages/hellfog
+	qer_trans 0.125
+	qer_nocarve
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nolightmap
+	surfaceparm fog
+	q3map_globaltexture
+	cull none
+	fogparms ( 1 0 0 ) 2048
 }
