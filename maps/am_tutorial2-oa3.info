@@ -1,5 +1,5 @@
-auther "boczeq & Neon_Knight"
-description "The Galmevish facility has several testing areas for their products. The Testing Chambers hosts several small arenas such as this one, nicknamed Blitzkrieg."
+auther "Neon_Knight"
+description "Keep learning about OpenArena's mechanics with this second tutorial, where you'll learn about environmental features, the other half of the weaponry and powerups."
 
 minPlayers 2
 minTeamSize 1
@@ -18,7 +18,7 @@ support_ctfelim no
 support_lms yes
 support_dd no
 support_dom no
-support_pos yes
+support_pos no
 
 gametype dm
 fragLimit 20
@@ -30,8 +30,4 @@ timeLimit 10
 
 gametype lms
 captureLimit 5
-timeLimit 15
-
-gametype pos
-fragLimit 90
 timeLimit 15

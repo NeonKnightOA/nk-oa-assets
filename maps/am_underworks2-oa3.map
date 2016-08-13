@@ -3,7 +3,7 @@
 {
 "classname" "worldspawn"
 "music" "music/OA13.ogg"
-"message" "Under Working 2.0"
+"message" "Under Working (OA3 Version)"
 // brush 0
 {
 ( 1024 1024 0 ) ( 1024 -512 0 ) ( 256 1024 0 ) common/hint 0.0000610352 0 0 0.4999999702 0.4999999702 0 0 0
@@ -23980,7 +23980,7 @@ evil1_metals/de-r_mtl
 // entity 544
 {
 "classname" "func_static"
-"gametype" "dom"
+"gametype" "dom pos"
 // brush 0
 {
 ( -480 -480 -12 ) ( -480 -544 -12 ) ( -544 -480 -12 ) acc_dm3/cop 128 128 0 0.25 0.25 134217728 0 0
@@ -27244,6 +27244,8 @@ sfx/beam
 "classname" "info_player_deathmatch"
 "origin" "-832 -640 32"
 "spawnflags" "1"
+"!gametype" "dom pos"
+"!gametpe" "dom pos"
 }
 // entity 995
 {
@@ -27327,4 +27329,16 @@ sfx/beam
 "origin" "800 -512 -208"
 "angle" "-90"
 "spawnflags" "1"
+}
+// entity 1007
+{
+"classname" "team_CTF_neutralflag"
+"origin" "-512.000000 -512.000000 32.000000"
+"gametype" "pos"
+}
+// entity 1008
+{
+"classname" "team_neutralobelisk"
+"origin" "-512.000000 -512.000000 -12.000000"
+"gametype" "pos"
 }

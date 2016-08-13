@@ -5855,7 +5855,7 @@
 "classname" "team_CTF_neutralflag"
 "origin" "9952.000000 -32.000000 -1464.000000"
 "spawnflags" "1"
-"gametype" "oneflag"
+"gametype" "oneflag pos"
 }
 // entity 184
 {
@@ -5891,7 +5891,7 @@
 {
 "classname" "team_neutralobelisk"
 "origin" "9952.000000 -32.000000 -1495.000000"
-"gametype" "harvester, oneflag"
+"gametype" "harvester oneflag pos"
 }
 // entity 189
 {

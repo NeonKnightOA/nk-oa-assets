@@ -1,0 +1,41 @@
+auther "Neon_Knight"
+description "In the last part of the basic tutorial for OpenArena, we'll see environmental hazards, Superweapons and Holdable Items."
+
+minPlayers 2
+minTeamSize 1
+maxPlayers 6
+maxTeamSize 3
+
+support_dm yes
+support_team yes
+support_tourney yes
+support_ctf no
+support_1fctf no
+support_obelisk no
+support_harvester no
+support_elimination yes
+support_ctfelim no
+support_lms yes
+support_dd no
+support_dom no
+support_pos no
+
+gametype dm
+fragLimit 20
+timeLimit 15
+
+gametype team
+fragLimit 50
+timeLimit 15
+
+gametype tourney
+fragLimit 10
+timeLimit 10
+
+gametype elimination
+captureLimit 5
+timeLimit 10
+
+gametype lms
+captureLimit 5
+timeLimit 15

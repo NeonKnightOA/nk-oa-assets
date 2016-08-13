@@ -1,0 +1,45 @@
+auther "Neon_Knight"
+description "The Galmevish Industries have a proud history of commercial and military innovations and inventions. This place is the entrance to the huge facilities where assets such as respawners, itemry weaponry for the OpenArena Tournament are developed."
+
+minPlayers 2
+minTeamSize 1
+maxPlayers 8
+maxTeamSize 4
+
+support_dm yes
+support_team yes
+support_tourney no
+support_ctf no
+support_1fctf no
+support_obelisk no
+support_harvester no
+support_elimination yes
+support_ctfelim no
+support_lms yes
+support_dd no
+support_dom yes
+support_pos yes
+
+gametype dm
+fragLimit 20
+timeLimit 15
+
+gametype team
+fragLimit 50
+timeLimit 15
+
+gametype elimination
+captureLimit 10
+timeLimit 15
+
+gametype lms
+captureLimit 5
+timeLimit 15
+
+gametype dom
+captureLimit 100
+timeLimit 15
+
+gametype pos
+fragLimit 90
+timeLimit 15

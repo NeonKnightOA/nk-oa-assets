@@ -1,10 +1,10 @@
-auther "boczeq & Neon_Knight"
-description "The Galmevish facility has several testing areas for their products. The Testing Chambers hosts several small arenas such as this one, nicknamed Blitzkrieg."
+auther "Neon_Knight"
+description "Learn the basics of the First Person Shooter genre in this tutorial, which will guide you on basic movements, first half of the weaponry (including starting weapons) and armor/health."
 
 minPlayers 2
 minTeamSize 1
-maxPlayers 4
-maxTeamSize 2
+maxPlayers 2
+maxTeamSize 1
 
 support_dm yes
 support_team no
@@ -18,7 +18,7 @@ support_ctfelim no
 support_lms yes
 support_dd no
 support_dom no
-support_pos yes
+support_pos no
 
 gametype dm
 fragLimit 20
@@ -32,6 +32,3 @@ gametype lms
 captureLimit 5
 timeLimit 15
 
-gametype pos
-fragLimit 90
-timeLimit 15

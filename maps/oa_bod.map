@@ -16145,7 +16145,7 @@
 {
 ( 2056 728 -512 ) ( 2056 496 -512 ) ( 1656 728 -512 ) base_floor/metalbridge04d 0 0 0 0.5 0.5 0 0 0
 ( 2096 512 -512 ) ( 1696 512 -512 ) ( 2096 512 -720 ) base_floor/metalbridge04d 0 0 0 0.5 0.5 0 0 0
-( 2496 752 -512 ) ( 2496 752 -720 ) ( 2496 520 -512 ) base_floor/metalbridge04d 0 56 0 0.5 0.200000003 0 0 0
+( 2496 752 -512 ) ( 2496 752 -720 ) ( 2496 520 -512 ) evil8_trim/e8lighttrim_b 0 56 0 0.5 0.200000003 0 0 0
 ( 1656 504 -528 ) ( 2056 504 -528 ) ( 1656 736 -528 ) base_floor/metalbridge04d 0 0 0 0.5 0.5 0 0 0
 ( 1720 80 -720 ) ( 1720 80 -512 ) ( 2120 80 -720 ) base_floor/metalbridge04d 0 0 0 0.5 0.5 0 0 0
 ( 2048 472 -720 ) ( 2048 704 -720 ) ( 2048 472 -512 ) base_floor/metalbridge04d 0 0 0 0.5 0.5 0 0 0
@@ -19320,16 +19320,19 @@ oa_bod/wall06
 {
 "classname" "domination_point"
 "origin" "384.000000 192.000000 -156.000000"
+"message" "Pool"
 }
 // entity 337
 {
 "classname" "domination_point"
 "origin" "736.000000 -1504.000000 152.000000"
+"message" "Death Pit"
 }
 // entity 338
 {
 "classname" "domination_point"
 "origin" "2304.000000 -160.000000 -416.000000"
+"message" "Bridge"
 }
 // entity 339
 {

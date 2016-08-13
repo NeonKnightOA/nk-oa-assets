@@ -242,7 +242,7 @@
 // brush 26
 {
 ( 880 768 -64 ) ( 816 768 -64 ) ( 816 704 -64 ) oa_nem_SH/floor 0 0 0 0.5 0.5 0 0 0
-( 816 704 -4 ) ( 816 768 -4 ) ( 880 768 -4 ) oa_nem_SH/weapon_spot 128 32 90 -0.5 0.5 0 0 0
+( 816 704 -4 ) ( 816 768 -4 ) ( 880 768 -4 ) gothic_light/ironcrosslt1_2000 128 32 90 -0.5 0.5 0 0 0
 ( 816 704 -24 ) ( 880 704 -24 ) ( 880 704 -64 ) oa_nem_SH/floor 0 0 0 0.5 0.5 0 0 0
 ( 880 704 -24 ) ( 880 768 -24 ) ( 880 768 -64 ) oa_nem_SH/floor 0 0 0 0.5 0.5 0 0 0
 ( 880 768 -24 ) ( 816 768 -24 ) ( 816 768 -64 ) oa_nem_SH/floor 0 0 0 0.5 0.5 0 0 0
@@ -566,7 +566,7 @@
 // brush 62
 {
 ( -432 -416 128 ) ( -480 -416 128 ) ( -480 -464 128 ) oa_nem_SH/floor 64 64 -180 -0.5 0.5 0 0 0
-( -480 -464 156 ) ( -480 -416 156 ) ( -432 -416 156 ) oa_nem_SH/weapon_spot 64 64 -180 -0.5 0.5 0 0 0
+( -480 -464 156 ) ( -480 -416 156 ) ( -432 -416 156 ) gothic_light/ironcrosslt1_2000 64 64 -180 -0.5 0.5 0 0 0
 ( -464 -480 168 ) ( -416 -480 168 ) ( -416 -480 128 ) oa_nem_SH/floor 64 73 -180 -0.5 0.21875 0 0 0
 ( -416 -480 168 ) ( -416 -432 168 ) ( -416 -432 128 ) oa_nem_SH/floor 64 73 -180 -0.5 0.21875 0 0 0
 ( -432 -416 168 ) ( -480 -416 168 ) ( -480 -416 128 ) oa_nem_SH/floor 64 73 -180 -0.5 0.21875 0 0 0
@@ -802,7 +802,7 @@
 // brush 88
 {
 ( 800 -64 -72 ) ( 736 -64 -72 ) ( 736 -128 -72 ) oa_nem_SH/floor 64 0 0 0.5 0.5 0 0 0
-( 736 -128 -4 ) ( 736 -64 -4 ) ( 800 -64 -4 ) oa_nem_SH/weapon_spot 128 -64 -270 0.5 0.5 0 0 0
+( 736 -128 -4 ) ( 736 -64 -4 ) ( 800 -64 -4 ) gothic_light/ironcrosslt1_2000 128 -64 -270 0.5 0.5 0 0 0
 ( 736 -128 8 ) ( 800 -128 8 ) ( 800 -128 -24 ) oa_nem_SH/floor 64 -48 0 0.5 0.5 0 0 0
 ( 800 -128 8 ) ( 800 -64 8 ) ( 800 -64 -24 ) oa_nem_SH/floor 0 -48 0 0.5 0.5 0 0 0
 ( 800 -64 8 ) ( 736 -64 8 ) ( 736 -64 -24 ) oa_nem_SH/floor 64 -48 0 0.5 0.5 0 0 0
@@ -2185,7 +2185,7 @@
 // brush 240
 {
 ( -224 16 416 ) ( -368 16 416 ) ( -368 -96 416 ) oa_nem_SH/floor 0 64 0 -0.5 0.5 0 0 0
-( -368 -96 476 ) ( -368 16 476 ) ( -224 16 476 ) oa_nem_SH/weapon_spot 0 64 180 -0.5 0.5 0 0 0
+( -368 -96 476 ) ( -368 16 476 ) ( -224 16 476 ) gothic_light/ironcrosslt1_2000 0 64 180 -0.5 0.5 0 0 0
 ( -368 -96 480 ) ( -224 -96 480 ) ( -224 -96 424 ) oa_nem_SH/floor 0 64 0 -0.5 0.5 0 0 0
 ( -256 -96 480 ) ( -256 16 480 ) ( -256 16 424 ) oa_nem_SH/floor 64 64 0 -0.5 0.5 0 0 0
 ( -176 -32 480 ) ( -320 -32 480 ) ( -320 -32 424 ) oa_nem_SH/floor 0 64 0 -0.5 0.5 0 0 0
@@ -2311,7 +2311,7 @@
 // brush 254
 {
 ( 104 432 416 ) ( 32 432 416 ) ( 32 368 416 ) oa_nem_SH/floor 64 -32 0 0.5 0.5 0 0 0
-( 32 368 476 ) ( 32 432 476 ) ( 104 432 476 ) oa_nem_SH/weapon_spot 64 -32 0 0.5 0.5 0 0 0
+( 32 368 476 ) ( 32 432 476 ) ( 104 432 476 ) gothic_light/ironcrosslt1_2000 64 -32 0 0.5 0.5 0 0 0
 ( 32 368 488 ) ( 104 368 488 ) ( 104 368 440 ) oa_nem_SH/floor 64 112 0 0.5 0.5 0 0 0
 ( 96 368 488 ) ( 96 432 488 ) ( 96 432 440 ) oa_nem_SH/floor 32 112 0 0.5 0.5 0 0 0
 ( 104 432 488 ) ( 32 432 488 ) ( 32 432 440 ) oa_nem_SH/floor 64 112 0 0.5 0.5 0 0 0
@@ -2356,7 +2356,7 @@
 // brush 259
 {
 ( 104 -96 -128 ) ( 40 -96 -128 ) ( 40 -160 -128 ) oa_nem_SH/floor 48 64 0 0.5 0.5 0 0 0
-( 40 -160 -4 ) ( 40 -96 -4 ) ( 104 -96 -4 ) oa_nem_SH/weapon_spot 48 64 0 0.5 0.5 0 0 0
+( 40 -160 -4 ) ( 40 -96 -4 ) ( 104 -96 -4 ) gothic_light/ironcrosslt1_2000 48 64 0 0.5 0.5 0 0 0
 ( 40 -160 -16 ) ( 104 -160 -16 ) ( 104 -160 -128 ) oa_nem_SH/floor 48 0 0 0.5 0.5 0 0 0
 ( 104 -160 -16 ) ( 104 -96 -16 ) ( 104 -96 -128 ) oa_nem_SH/floor -64 0 0 0.5 0.5 0 0 0
 ( 104 -96 -16 ) ( 40 -96 -16 ) ( 40 -96 -128 ) oa_nem_SH/floor 48 0 0 0.5 0.5 0 0 0
@@ -2410,7 +2410,7 @@
 // brush 265
 {
 ( 1040 -56 -128 ) ( 1040 640 -128 ) ( 280 640 -128 ) oa_nem_SH/floor 64 96 0 -0.5 0.5 0 0 0
-( 280 640 -4 ) ( 1040 640 -4 ) ( 1040 -56 -4 ) oa_nem_SH/weapon_spot 96 64 90 -0.5 0.5 0 0 0
+( 280 640 -4 ) ( 1040 640 -4 ) ( 1040 -56 -4 ) gothic_light/ironcrosslt1_2000 96 64 90 -0.5 0.5 0 0 0
 ( 32 632 128 ) ( 32 -64 128 ) ( 32 -64 -64 ) oa_nem_SH/floor 96 0 0 -0.5 1 0 0 0
 ( 264 240 128 ) ( 1024 240 128 ) ( 1024 240 -64 ) oa_nem_SH/floor 64 0 0 -0.5 1 0 0 0
 ( 96 -64 128 ) ( 96 632 128 ) ( 96 632 -64 ) oa_nem_SH/floor 96 0 0 -0.5 1 0 0 0
@@ -2482,7 +2482,7 @@
 // brush 273
 {
 ( -544 256 192 ) ( -608 256 192 ) ( -608 192 192 ) oa_nem_SH/floor 64 0 0 -0.5 0.5 0 0 0
-( -608 224 220 ) ( -608 288 220 ) ( -544 288 220 ) oa_nem_SH/weapon_spot 128 -64 -90 -0.5 0.5 0 0 0
+( -608 224 220 ) ( -608 288 220 ) ( -544 288 220 ) gothic_light/ironcrosslt1_2000 128 -64 -90 -0.5 0.5 0 0 0
 ( -608 192 232 ) ( -544 192 232 ) ( -544 192 192 ) oa_nem_SH/floor 64 109 0 -0.5 0.21875 0 0 0
 ( -544 192 232 ) ( -544 256 232 ) ( -544 256 192 ) oa_nem_SH/floor 0 109 0 -0.5 0.21875 0 0 0
 ( -544 256 232 ) ( -608 256 232 ) ( -608 256 192 ) oa_nem_SH/floor 64 109 0 -0.5 0.21875 0 0 0
@@ -2544,12 +2544,12 @@
 }
 // brush 280
 {
-( -544 240 432 ) ( -608 240 432 ) ( -608 176 432 ) oa_nem_SH/weapon_spot 64 -32 0 0.5 0.5 0 0 0
-( -608 176 476 ) ( -608 240 476 ) ( -544 240 476 ) oa_nem_SH/weapon_spot 32 -64 90 0.5 0.5 0 0 0
-( -608 176 480 ) ( -544 176 480 ) ( -544 176 432 ) oa_nem_SH/weapon_spot 64 0 0 0.5 0.5 0 0 0
-( -544 176 480 ) ( -544 240 480 ) ( -544 240 432 ) oa_nem_SH/weapon_spot 32 0 0 0.5 0.5 0 0 0
-( -544 240 480 ) ( -608 240 480 ) ( -608 240 432 ) oa_nem_SH/weapon_spot 64 0 0 0.5 0.5 0 0 0
-( -608 240 480 ) ( -608 176 480 ) ( -608 176 432 ) oa_nem_SH/weapon_spot 32 0 0 0.5 0.5 0 0 0
+( -544 240 432 ) ( -608 240 432 ) ( -608 176 432 ) gothic_light/ironcrosslt1_2000 64 -32 0 0.5 0.5 0 0 0
+( -608 176 476 ) ( -608 240 476 ) ( -544 240 476 ) gothic_light/ironcrosslt1_2000 32 -64 90 0.5 0.5 0 0 0
+( -608 176 480 ) ( -544 176 480 ) ( -544 176 432 ) gothic_light/ironcrosslt1_2000 64 0 0 0.5 0.5 0 0 0
+( -544 176 480 ) ( -544 240 480 ) ( -544 240 432 ) gothic_light/ironcrosslt1_2000 32 0 0 0.5 0.5 0 0 0
+( -544 240 480 ) ( -608 240 480 ) ( -608 240 432 ) gothic_light/ironcrosslt1_2000 64 0 0 0.5 0.5 0 0 0
+( -608 240 480 ) ( -608 176 480 ) ( -608 176 432 ) gothic_light/ironcrosslt1_2000 32 0 0 0.5 0.5 0 0 0
 }
 // brush 281
 {
@@ -2581,7 +2581,7 @@
 // brush 284
 {
 ( 504 16 416 ) ( 384 16 416 ) ( 384 -96 416 ) oa_nem_SH/floor 0 64 0 -0.5 0.5 0 0 0
-( 384 -96 476 ) ( 384 16 476 ) ( 504 16 476 ) oa_nem_SH/weapon_spot 0 64 180 -0.5 0.5 0 0 0
+( 384 -96 476 ) ( 384 16 476 ) ( 504 16 476 ) gothic_light/ironcrosslt1_2000 0 64 180 -0.5 0.5 0 0 0
 ( 384 -96 456 ) ( 504 -96 456 ) ( 504 -96 416 ) oa_nem_SH/floor 0 64 0 -0.5 0.5 0 0 0
 ( 448 -144 456 ) ( 448 -32 456 ) ( 448 -32 416 ) oa_nem_SH/floor 64 64 0 -0.5 0.5 0 0 0
 ( 456 -32 456 ) ( 336 -32 456 ) ( 336 -32 416 ) oa_nem_SH/floor 0 64 0 -0.5 0.5 0 0 0
@@ -2626,7 +2626,7 @@
 // brush 289
 {
 ( 1008 -464 416 ) ( 912 -464 416 ) ( 912 -560 416 ) oa_nem_SH/ceiling -32 -32 0 0.5 0.5 0 0 0
-( 912 -560 476 ) ( 912 -464 476 ) ( 1008 -464 476 ) oa_nem_SH/weapon_spot 32 96 0 -0.5 0.5 0 0 0
+( 912 -560 476 ) ( 912 -464 476 ) ( 1008 -464 476 ) gothic_light/ironcrosslt1_2000 32 96 0 -0.5 0.5 0 0 0
 ( 880 -528 480 ) ( 976 -528 480 ) ( 976 -528 424 ) oa_nem_SH/floor -32 0 0 0.5 0.5 0 0 0
 ( 976 -528 480 ) ( 976 -432 480 ) ( 976 -432 424 ) oa_nem_SH/floor 32 0 0 0.5 0.5 0 0 0
 ( 1008 -464 480 ) ( 912 -464 480 ) ( 912 -464 424 ) oa_nem_SH/floor -32 0 0 0.5 0.5 0 0 0
@@ -3771,7 +3771,7 @@
 // brush 416
 {
 ( 1088 832 416 ) ( 1024 832 416 ) ( 1024 768 416 ) oa_nem_SH/floor 64 0 0 0.5 0.5 0 0 0
-( 1024 768 476 ) ( 1024 832 476 ) ( 1088 832 476 ) oa_nem_SH/weapon_spot 0 0 90 -0.5 0.5 0 0 0
+( 1024 768 476 ) ( 1024 832 476 ) ( 1088 832 476 ) gothic_light/ironcrosslt1_2000 0 0 90 -0.5 0.5 0 0 0
 ( 1024 768 480 ) ( 1088 768 480 ) ( 1088 768 464 ) oa_nem_SH/floor 64 -80 0 0.5 0.5 0 0 0
 ( 1088 768 480 ) ( 1088 832 480 ) ( 1088 832 464 ) oa_nem_SH/floor 0 -80 0 0.5 0.5 0 0 0
 ( 1088 832 480 ) ( 1024 832 480 ) ( 1024 832 464 ) oa_nem_SH/floor 64 -80 0 0.5 0.5 0 0 0
@@ -4746,7 +4746,7 @@ oa_nem_SH/rust
 // brush 521
 {
 ( -544 768 -64 ) ( -608 768 -64 ) ( -608 704 -64 ) oa_nem_SH/floor 64 0 0 0.5 0.5 0 0 0
-( -608 704 -4 ) ( -608 768 -4 ) ( -544 768 -4 ) oa_nem_SH/weapon_spot 128 64 -90 0.5 0.5 0 0 0
+( -608 704 -4 ) ( -608 768 -4 ) ( -544 768 -4 ) gothic_light/ironcrosslt1_2000 128 64 -90 0.5 0.5 0 0 0
 ( -608 704 32 ) ( -544 704 32 ) ( -544 704 0 ) oa_nem_SH/floor 64 0 0 0.5 0.5 0 0 0
 ( -544 704 32 ) ( -544 768 32 ) ( -544 768 0 ) oa_nem_SH/floor 0 0 0 0.5 0.5 0 0 0
 ( -544 768 32 ) ( -608 768 32 ) ( -608 768 0 ) oa_nem_SH/floor 64 0 0 0.5 0.5 0 0 0
@@ -7697,7 +7697,7 @@ oa_nem_SH/rust
 // brush 848
 {
 ( 96 1136 416 ) ( 32 1136 416 ) ( 32 1072 416 ) gothic_trim/border7 -64 0 0 0.5 0.5 0 0 0
-( 32 1072 476 ) ( 32 1136 476 ) ( 96 1136 476 ) oa_nem_SH/weapon_spot 64 96 0 -0.5 0.5 0 0 0
+( 32 1072 476 ) ( 32 1136 476 ) ( 96 1136 476 ) gothic_light/ironcrosslt1_2000 64 96 0 -0.5 0.5 0 0 0
 ( 32 1072 616 ) ( 96 1072 616 ) ( 96 1072 480 ) gothic_trim/border7 -64 0 0 0.5 0.5 0 0 0
 ( 96 1072 616 ) ( 96 1136 616 ) ( 96 1136 480 ) gothic_trim/border7 -96 0 0 0.5 0.5 0 0 0
 ( 96 1136 616 ) ( 32 1136 616 ) ( 32 1136 480 ) gothic_trim/border7 -64 0 0 0.5 0.5 0 0 0
@@ -7733,7 +7733,7 @@ oa_nem_SH/rust
 // brush 852
 {
 ( 96 960 -128 ) ( 32 960 -128 ) ( 32 896 -128 ) oa_nem_SH/floor 0 0 0 0.5 0.5 0 0 0
-( 32 896 -4 ) ( 32 960 -4 ) ( 96 960 -4 ) oa_nem_SH/weapon_spot 64 0 180 -0.5 0.5 0 0 0
+( 32 896 -4 ) ( 32 960 -4 ) ( 96 960 -4 ) gothic_light/ironcrosslt1_2000 64 0 180 -0.5 0.5 0 0 0
 ( 32 896 136 ) ( 96 896 136 ) ( 96 896 0 ) oa_nem_SH/floor 0 0 0 0.5 0.5 0 0 0
 ( 96 896 136 ) ( 96 960 136 ) ( 96 960 0 ) oa_nem_SH/floor 0 0 0 0.5 0.5 0 0 0
 ( 96 960 136 ) ( 32 960 136 ) ( 32 960 0 ) oa_nem_SH/floor 0 0 0 0.5 0.5 0 0 0
@@ -7742,7 +7742,7 @@ oa_nem_SH/rust
 // brush 853
 {
 ( 672 -304 128 ) ( 608 -304 128 ) ( 608 -368 128 ) oa_nem_SH/floor 64 32 0 -0.5 0.5 0 0 0
-( 608 -368 156 ) ( 608 -304 156 ) ( 672 -304 156 ) oa_nem_SH/weapon_spot 96 64 -90 -0.5 0.5 0 0 0
+( 608 -368 156 ) ( 608 -304 156 ) ( 672 -304 156 ) gothic_light/ironcrosslt1_2000 96 64 -90 -0.5 0.5 0 0 0
 ( 608 -368 296 ) ( 672 -368 296 ) ( 672 -368 160 ) oa_nem_SH/floor 64 73 0 -0.5 0.21875 0 0 0
 ( 672 -368 296 ) ( 672 -304 296 ) ( 672 -304 160 ) oa_nem_SH/floor 32 73 0 -0.5 0.21875 0 0 0
 ( 672 -304 296 ) ( 608 -304 296 ) ( 608 -304 160 ) oa_nem_SH/floor 64 73 0 -0.5 0.21875 0 0 0
@@ -18626,37 +18626,30 @@ oa_nem_SH/wall
 }
 // entity 59
 {
-"classname" "light"
-"origin" "64 -128 512"
-"_color" "1.000000 1.000000 0.733333"
-"light" "150"
-}
-// entity 60
-{
 "classname" "item_health"
 "origin" "176 144 248"
 }
-// entity 61
+// entity 60
 {
 "classname" "weapon_lightning"
 "origin" "72 -128 16"
 }
-// entity 62
+// entity 61
 {
 "classname" "item_haste"
 "origin" "64 272 16"
 }
-// entity 63
+// entity 62
 {
 "classname" "item_armor_body"
 "origin" "-576 224 240"
 }
-// entity 64
+// entity 63
 {
 "classname" "weapon_rocketlauncher"
 "origin" "-576 208 496"
 }
-// entity 65
+// entity 64
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -18706,14 +18699,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 66
-{
-"classname" "light"
-"light" "150"
-"_color" "1.000000 1.000000 0.733333"
-"origin" "1056 800 608"
-}
-// entity 67
+// entity 65
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -18757,7 +18743,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 68
+// entity 66
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -18807,7 +18793,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 69
+// entity 67
 {
 "classname" "trigger_push"
 "target" "t1"
@@ -18825,7 +18811,7 @@ oa_nem_SH/wall
 ( 792 792 8 ) ( 792 680 8 ) ( 680 680 8 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 70
+// entity 68
 {
 "classname" "trigger_push"
 "target" "t3"
@@ -18843,7 +18829,7 @@ oa_nem_SH/wall
 ( -520 568 8 ) ( -520 456 8 ) ( -632 456 8 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 71
+// entity 69
 {
 "classname" "trigger_push"
 "target" "t4"
@@ -18861,7 +18847,7 @@ oa_nem_SH/wall
 ( -520 -8 8 ) ( -520 -120 8 ) ( -632 -120 8 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 72
+// entity 70
 {
 "classname" "trigger_push"
 "target" "t2"
@@ -18879,19 +18865,12 @@ oa_nem_SH/wall
 ( 120 -584 168 ) ( 120 -696 168 ) ( 8 -696 168 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 73
+// entity 71
 {
 "classname" "weapon_shotgun"
 "origin" "-576 736 16"
 }
-// entity 74
-{
-"classname" "light"
-"origin" "320 -192 648"
-"_color" "1.000000 1.000000 0.733333"
-"light" "150"
-}
-// entity 75
+// entity 72
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -18941,7 +18920,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 76
+// entity 73
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -18976,7 +18955,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 77
+// entity 74
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19020,7 +18999,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 78
+// entity 75
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19064,55 +19043,48 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 79
+// entity 76
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/world/wind2.wav"
 "origin" "64 1016 848"
 }
-// entity 80
+// entity 77
 {
 "classname" "weapon_grenadelauncher"
 "origin" "64 1104 504"
 }
-// entity 81
+// entity 78
 {
 "classname" "target_speaker"
 "noise" "sound/world/portal01.wav"
 "spawnflags" "1"
 "origin" "920 -336 192"
 }
-// entity 82
+// entity 79
 {
 "classname" "target_speaker"
 "noise" "sound/world/portal01.wav"
 "spawnflags" "1"
 "origin" "24 1352 504"
 }
-// entity 83
-{
-"classname" "light"
-"light" "200"
-"_color" "1.000000 1.000000 0.733333"
-"origin" "64 736 312"
-}
-// entity 84
+// entity 80
 {
 "classname" "item_quad"
 "origin" "64 400 496"
 }
-// entity 85
+// entity 81
 {
 "classname" "weapon_plasmagun"
 "origin" "64 928 24"
 }
-// entity 86
+// entity 82
 {
 "classname" "weapon_rocketlauncher"
 "origin" "640 -336 184"
 }
-// entity 87
+// entity 83
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19162,7 +19134,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 88
+// entity 84
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19212,7 +19184,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 89
+// entity 85
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19262,21 +19234,21 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 90
+// entity 86
 {
 "classname" "misc_teleporter_dest"
 "origin" "64 1328 504"
 "angle" "270"
 "targetname" "tele2"
 }
-// entity 91
+// entity 87
 {
 "classname" "misc_teleporter_dest"
 "origin" "896 -336 184"
 "angle" "180"
 "targetname" "tele1"
 }
-// entity 92
+// entity 88
 {
 "classname" "trigger_teleport"
 "target" "tele2"
@@ -19290,7 +19262,7 @@ oa_nem_SH/wall
 ( 952 -320 352 ) ( 952 -368 352 ) ( 952 -368 192 ) common/trigger 16 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 93
+// entity 89
 {
 "classname" "misc_model"
 "origin" "984 -336 160"
@@ -19300,7 +19272,7 @@ oa_nem_SH/wall
 "angle" "180"
 "modelscale" "2.5"
 }
-// entity 94
+// entity 90
 {
 "classname" "trigger_teleport"
 "target" "tele1"
@@ -19314,7 +19286,7 @@ oa_nem_SH/wall
 ( 32 1392 640 ) ( 32 1368 640 ) ( 32 1368 480 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 95
+// entity 91
 {
 "classname" "misc_model"
 "origin" "64 1416 480"
@@ -19324,14 +19296,7 @@ oa_nem_SH/wall
 "angle" "270"
 "modelscale" "2.5"
 }
-// entity 96
-{
-"classname" "light"
-"origin" "376 1024 592"
-"light" "200"
-"_color" "1.000000 1.000000 0.733333"
-}
-// entity 97
+// entity 92
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19375,7 +19340,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 98
+// entity 93
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19410,7 +19375,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 99
+// entity 94
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19454,7 +19419,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 100
+// entity 95
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19498,7 +19463,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 101
+// entity 96
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19542,7 +19507,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 102
+// entity 97
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19586,7 +19551,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 103
+// entity 98
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19630,7 +19595,7 @@ oa_nem_SH/ceiling
 }
 }
 }
-// entity 104
+// entity 99
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19674,7 +19639,7 @@ oa_nem_SH/ceiling
 }
 }
 }
-// entity 105
+// entity 100
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19718,7 +19683,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 106
+// entity 101
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19762,13 +19727,13 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 107
+// entity 102
 {
 "classname" "target_position"
 "origin" "-576 8 288"
 "targetname" "t4"
 }
-// entity 108
+// entity 103
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19818,19 +19783,19 @@ gothic_trim/pitted_rust3_dkred
 }
 }
 }
-// entity 109
+// entity 104
 {
 "classname" "target_position"
 "origin" "-576 440 288"
 "targetname" "t3"
 }
-// entity 110
+// entity 105
 {
 "classname" "target_position"
 "targetname" "t2"
 "origin" "64 -472 536"
 }
-// entity 111
+// entity 106
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19880,7 +19845,7 @@ gothic_trim/pitted_rust3_dkred
 }
 }
 }
-// entity 112
+// entity 107
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19924,7 +19889,7 @@ gothic_trim/pitted_rust3_dkred
 }
 }
 }
-// entity 113
+// entity 108
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -19968,7 +19933,7 @@ oa_nem_SH/floor
 }
 }
 }
-// entity 114
+// entity 109
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20012,7 +19977,7 @@ oa_nem_SH/ceiling
 }
 }
 }
-// entity 115
+// entity 110
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20056,7 +20021,7 @@ gothic_trim/pitted_rust3_dkred
 }
 }
 }
-// entity 116
+// entity 111
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20100,7 +20065,7 @@ oa_nem_SH/ceiling
 }
 }
 }
-// entity 117
+// entity 112
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20144,19 +20109,19 @@ gothic_trim/pitted_rust3_dkred
 }
 }
 }
-// entity 118
+// entity 113
 {
 "classname" "target_position"
 "origin" "824 736 584"
 "targetname" "t1"
 }
-// entity 119
+// entity 114
 {
 "classname" "info_player_deathmatch"
 "origin" "-96 -320 32"
 "angle" "90"
 }
-// entity 120
+// entity 115
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20174,7 +20139,7 @@ oa_nem_SH/floor
 }
 }
 }
-// entity 121
+// entity 116
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20192,7 +20157,7 @@ oa_nem_SH/floor
 }
 }
 }
-// entity 122
+// entity 117
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20236,7 +20201,7 @@ gothic_trim/pitted_rust3_dkred
 }
 }
 }
-// entity 123
+// entity 118
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20280,7 +20245,7 @@ oa_nem_SH/floor
 }
 }
 }
-// entity 124
+// entity 119
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20324,7 +20289,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 125
+// entity 120
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20368,7 +20333,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 126
+// entity 121
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20412,7 +20377,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 127
+// entity 122
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20456,7 +20421,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 128
+// entity 123
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20491,7 +20456,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 129
+// entity 124
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20526,7 +20491,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 130
+// entity 125
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20561,14 +20526,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 131
-{
-"classname" "light"
-"_color" "1.000000 1.000000 0.733333"
-"light" "200"
-"origin" "-248 1024 592"
-}
-// entity 132
+// entity 126
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20618,14 +20576,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 133
-{
-"classname" "light"
-"origin" "64 1232 576"
-"light" "200"
-"_color" "1.000000 1.000000 0.733333"
-}
-// entity 134
+// entity 127
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20669,7 +20620,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 135
+// entity 128
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20713,7 +20664,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 136
+// entity 129
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20757,7 +20708,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 137
+// entity 130
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20801,56 +20752,49 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 138
+// entity 131
 {
 "classname" "target_speaker"
 "origin" "64 608 848"
 "noise" "sound/world/wind2.wav"
 "spawnflags" "1"
 }
-// entity 139
+// entity 132
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/world/wind2.wav"
 "origin" "-640 640 848"
 }
-// entity 140
+// entity 133
 {
 "classname" "target_speaker"
 "origin" "-664 -216 848"
 "noise" "sound/world/wind2.wav"
 "spawnflags" "1"
 }
-// entity 141
+// entity 134
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/world/wind2.wav"
 "origin" "64 -160 848"
 }
-// entity 142
+// entity 135
 {
 "classname" "target_speaker"
 "origin" "784 -328 848"
 "noise" "sound/world/wind2.wav"
 "spawnflags" "1"
 }
-// entity 143
+// entity 136
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/world/wind2.wav"
 "origin" "760 736 848"
 }
-// entity 144
-{
-"classname" "light"
-"light" "150"
-"_color" "1.000000 1.000000 0.733333"
-"origin" "-152 -192 648"
-}
-// entity 145
+// entity 137
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20894,7 +20838,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 146
+// entity 138
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20944,7 +20888,7 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 147
+// entity 139
 {
 "classname" "func_group"
 "type" "patchCapped"
@@ -20994,65 +20938,65 @@ oa_nem_SH/wall
 }
 }
 }
-// entity 148
+// entity 140
 {
 "classname" "item_health"
 "origin" "-48 144 248"
 }
-// entity 149
+// entity 141
 {
 "classname" "item_armor_shard"
 "origin" "448 -448 496"
 }
-// entity 150
+// entity 142
 {
 "classname" "item_armor_shard"
 "origin" "312 -448 496"
 }
-// entity 151
+// entity 143
 {
 "classname" "item_armor_shard"
 "origin" "-256 -448 496"
 }
-// entity 152
+// entity 144
 {
 "classname" "item_armor_shard"
 "origin" "-192 -448 496"
 }
-// entity 153
+// entity 145
 {
 "classname" "item_armor_shard"
 "origin" "-328 -448 496"
 }
-// entity 154
+// entity 146
 {
 "classname" "item_health_small"
 "origin" "-816 -320 496"
 }
-// entity 155
+// entity 147
 {
 "classname" "item_health_small"
 "origin" "-816 -160 496"
 }
-// entity 156
+// entity 148
 {
 "classname" "item_health"
 "origin" "-192 272 16"
 }
-// entity 157
+// entity 149
 {
 "classname" "item_botroam"
 "weight" "300"
 "origin" "960 -336 184"
 }
-// entity 158
+// entity 150
 {
 "classname" "target_speaker"
 "spawnflags" "1"
 "noise" "sound/world/wind2.wav"
 "origin" "1376 864 848"
 }
-// entity 159
+// entity 151
 {
 "classname" "target_speaker"
 "spawnflags" "4"
@@ -21061,7 +21005,7 @@ oa_nem_SH/wall
 "random" "20"
 "noise" "sound/world/1shot_greg_03.wav"
 }
-// entity 160
+// entity 152
 {
 "classname" "target_speaker"
 "spawnflags" "4"
@@ -21070,13 +21014,13 @@ oa_nem_SH/wall
 "random" "20"
 "noise" "sound/world/1shot_greg_03.wav"
 }
-// entity 161
+// entity 153
 {
 "classname" "team_neutralobelisk"
 "origin" "-448.000000 -448.000000 156.000000"
 "gametype" "pos"
 }
-// entity 162
+// entity 154
 {
 "classname" "team_CTF_neutralflag"
 "origin" "-448.000000 -448.000000 192.000000"
