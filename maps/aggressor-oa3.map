@@ -9974,7 +9974,7 @@ brushDef
 // entity 2
 {
 "classname" "light"
-"light" "100"
+"light" "50"
 "_color" "0.8 0.8 0.4"
 "target" "t128"
 "origin" "-96 -212 420"
@@ -9985,7 +9985,7 @@ brushDef
 "classname" "light"
 "_color" "0.8 0.4 0.4"
 "wait" "1.2"
-"light" "70"
+"light" "35"
 "origin" "-28 -128 -72"
 "clr" "#B5A49A"
 }
@@ -10136,7 +10136,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.4 0.4"
-"light" "40"
+"light" "20"
 "origin" "-96 -320 -212"
 "clr" "#B5A49A"
 }
@@ -10144,7 +10144,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "25"
+"light" "12"
 "origin" "-96 640 -20"
 "clr" "#B5A49A"
 }
@@ -10152,7 +10152,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.4 0.4"
-"light" "100"
+"light" "50"
 "origin" "-296 664 96"
 "clr" "#B5A49A"
 }
@@ -10160,7 +10160,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "45"
+"light" "22"
 "origin" "-120 136 48"
 "clr" "#B5A49A"
 }
@@ -10168,7 +10168,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "17"
+"light" "8"
 "origin" "-248 464 8"
 "clr" "#B5A49A"
 }
@@ -10296,7 +10296,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "12"
+"light" "6"
 "origin" "200 408 24"
 "clr" "#B5A49A"
 }
@@ -10350,7 +10350,7 @@ brushDef
 "classname" "light"
 "_color" "0.8 0.8 0.4"
 "wait" "1.2"
-"light" "12"
+"light" "6"
 "origin" "8 448 24"
 "clr" "#B5A49A"
 }
@@ -10448,7 +10448,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "17"
+"light" "8"
 "origin" "-120 464 8"
 "clr" "#B5A49A"
 }
@@ -10471,7 +10471,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "50"
+"light" "25"
 "origin" "384 -40 -8"
 "clr" "#B5A49A"
 }
@@ -10479,7 +10479,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "50"
+"light" "25"
 "origin" "160 -40 360"
 "clr" "#B5A49A"
 }
@@ -10487,7 +10487,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "45"
+"light" "22"
 "origin" "-304 128 -200"
 "clr" "#B5A49A"
 }
@@ -10649,7 +10649,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "17"
+"light" "8"
 "origin" "-376 456 8"
 "clr" "#B5A49A"
 }
@@ -10892,14 +10892,14 @@ brushDef
 "classname" "light"
 "_color" "0.8 0.8 0.4"
 "origin" "128 508 192"
-"light" "50"
+"light" "25"
 "clr" "#B5A49A"
 }
 // entity 118
 {
 "classname" "light"
 "origin" "-568 320 8"
-"light" "40"
+"light" "20"
 "_color" "0.8 0.8 0.4"
 "clr" "#B5A49A"
 }
@@ -10907,7 +10907,7 @@ brushDef
 {
 "classname" "light"
 "origin" "28 -296 -72"
-"light" "40"
+"light" "20"
 "_color" "0.8 0.4 0.4"
 "clr" "#B5A49A"
 }
@@ -10915,7 +10915,7 @@ brushDef
 {
 "classname" "light"
 "origin" "-36 24 -56"
-"light" "70"
+"light" "35"
 "wait" "1.2"
 "_color" "0.8 0.4 0.4"
 "clr" "#B5A49A"
@@ -10924,7 +10924,7 @@ brushDef
 {
 "classname" "light"
 "origin" "88 192 200"
-"light" "25"
+"light" "12"
 "_color" "0.8 0.8 0.4"
 "clr" "#B5A49A"
 }
@@ -10932,7 +10932,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "25"
+"light" "12"
 "origin" "152 -104 200"
 "clr" "#B5A49A"
 }
@@ -10940,7 +10940,7 @@ brushDef
 {
 "classname" "light"
 "origin" "296 -128 200"
-"light" "17"
+"light" "8"
 "_color" "0.8 0.8 0.4"
 "clr" "#B5A49A"
 }
@@ -10948,7 +10948,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "17"
+"light" "8"
 "origin" "472 -112 200"
 "clr" "#B5A49A"
 }
@@ -10956,7 +10956,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "40"
+"light" "20"
 "origin" "-448 192 200"
 "clr" "#B5A49A"
 }
@@ -10964,7 +10964,7 @@ brushDef
 {
 "classname" "light"
 "origin" "-584 224 200"
-"light" "40"
+"light" "20"
 "_color" "0.8 0.8 0.4"
 "clr" "#B5A49A"
 }
@@ -10972,7 +10972,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "40"
+"light" "20"
 "origin" "-584 424 200"
 "clr" "#B5A49A"
 }
@@ -11020,7 +11020,7 @@ brushDef
 {
 "classname" "light"
 "origin" "-160 -16 376"
-"light" "50"
+"light" "25"
 "_color" "0.8 0.8 0.4"
 "clr" "#B5A49A"
 }
@@ -11028,7 +11028,7 @@ brushDef
 {
 "classname" "light"
 "origin" "384 160 64"
-"light" "50"
+"light" "25"
 "_color" "0.8 0.8 0.4"
 "clr" "#B5A49A"
 }
@@ -11036,7 +11036,7 @@ brushDef
 {
 "classname" "light"
 "origin" "-96 992 -12"
-"light" "25"
+"light" "12"
 "wait" "1.2"
 "_color" "0.8 0.4 0.4"
 "clr" "#B5A49A"
@@ -11053,7 +11053,7 @@ brushDef
 {
 "classname" "light"
 "origin" "568 -8 200"
-"light" "17"
+"light" "8"
 "_color" "0.8 0.8 0.4"
 "clr" "#B5A49A"
 }
@@ -11061,7 +11061,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "17"
+"light" "8"
 "origin" "360 312 192"
 "clr" "#B5A49A"
 }
@@ -11069,7 +11069,7 @@ brushDef
 {
 "classname" "light"
 "_color" "0.8 0.8 0.4"
-"light" "50"
+"light" "25"
 "origin" "488 184 376"
 "clr" "#B5A49A"
 }

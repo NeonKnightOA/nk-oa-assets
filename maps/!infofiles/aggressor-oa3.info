@@ -1,0 +1,41 @@
+auther "Tyrann & leileilol"
+description "In the wake of the invasion, the Master ordered that every dissenting member of the Force should be sent to the Nether Prison, located below Sago's Castle. The area is known for the high number of casualties, product of the constant inmate infighting, which ended with a special portion of the location being turned into a combat arena."
+
+minPlayers 2
+minTeamSize 1
+maxPlayers 6
+maxTeamSize 3
+
+support_dm yes
+support_team no
+support_tourney yes
+support_ctf no
+support_1fctf no
+support_obelisk no
+support_harvester no
+support_elimination no
+support_ctfelim no
+support_lms yes
+support_dd no
+support_dom yes
+support_pos yes
+
+gametype dm
+fragLimit 20
+timeLimit 15
+
+gametype tourney
+fragLimit 10
+timeLimit 10
+
+gametype lms
+captureLimit 5
+timeLimit 15
+
+gametype dom
+fragLimit 150
+timeLimit 15
+
+gametype pos
+fragLimit 90
+timeLimit 15

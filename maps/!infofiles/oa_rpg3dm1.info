@@ -1,0 +1,41 @@
+auther "andrewj & Neon_Knight (original by R.P.G.)"
+description "This investigation center set in the Moon had to be abandoned when the life support systems was broken beyond repair and all personnel had to be evacuated. Now it's another combat arena. Keep your eyes peeled and your reflexes at your top, for there is a reward for those quick enough!"
+
+minPlayers 2
+minTeamSize 1
+maxPlayers 4
+maxTeamSize 2
+
+support_dm yes
+support_team yes
+support_tourney yes
+support_ctf no
+support_1fctf no
+support_obelisk no
+support_harvester no
+support_elimination no
+support_ctfelim no
+support_lms yes
+support_dd no
+support_dom no
+support_pos yes
+
+gametype dm
+fragLimit 20
+timeLimit 15
+
+gametype team
+fragLimit 50
+timeLimit 15
+
+gametype tourney
+fragLimit 10
+timeLimit 10
+
+gametype lms
+captureLimit 5
+timeLimit 15
+
+gametype pos
+fragLimit 90
+timeLimit 15
