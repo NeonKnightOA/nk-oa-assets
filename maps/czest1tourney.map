@@ -20339,941 +20339,305 @@ base_trim/spidertrim
 }
 // entity 109
 {
-"classname" "target_location"
-"origin" "-192.000000 360.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 110
-{
-"classname" "target_location"
-"origin" "-360.000000 192.000000 -384.000000"
-"message" "Lower level, buttons"
-}
-// entity 111
-{
-"classname" "target_location"
-"origin" "-360.000000 -192.000000 -384.000000"
-"message" "Lower level, buttons"
-}
-// entity 112
-{
-"classname" "target_location"
-"origin" "-360.000000 0.000000 -384.000000"
-"message" "Lower level, buttons"
-}
-// entity 113
-{
-"classname" "target_location"
-"origin" "-360.000000 360.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 114
-{
-"classname" "target_location"
-"origin" "-360.000000 -360.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 115
-{
-"classname" "target_location"
-"origin" "-192.000000 -360.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 116
-{
-"classname" "target_location"
-"origin" "0.000000 -360.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 117
-{
-"classname" "target_location"
-"origin" "192.000000 -360.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 118
-{
-"classname" "target_location"
-"origin" "360.000000 -360.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 119
-{
-"classname" "target_location"
-"origin" "360.000000 -192.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 120
-{
-"classname" "target_location"
-"origin" "360.000000 0.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 121
-{
-"classname" "target_location"
-"origin" "360.000000 192.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 122
-{
-"classname" "target_location"
-"origin" "360.000000 360.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 123
-{
-"classname" "target_location"
-"origin" "192.000000 360.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 124
-{
-"classname" "target_location"
-"origin" "0.000000 -192.000000 -384.000000"
-"message" "Lower level, teleporter"
-}
-// entity 125
-{
-"classname" "target_location"
-"origin" "0.000000 360.000000 -384.000000"
-"message" "Lower level"
-}
-// entity 126
-{
-"classname" "target_location"
-"origin" "0.000000 192.000000 -384.000000"
-"message" "Lower level, teleporter"
-}
-// entity 127
-{
-"classname" "target_location"
-"origin" "0.000000 0.000000 -384.000000"
-"message" "Lower level, teleporter"
-}
-// entity 128
-{
-"classname" "target_location"
-"origin" "-360.000000 440.000000 80.000000"
-"message" "Mid level, near RL"
-}
-// entity 129
-{
-"classname" "target_location"
-"origin" "-440.000000 -192.000000 80.000000"
-"message" "Mid level, SW tower"
-}
-// entity 130
-{
-"classname" "target_location"
-"origin" "0.000000 0.000000 80.000000"
-"message" "Mid level, crossing"
-}
-// entity 131
-{
-"classname" "target_location"
-"origin" "-440.000000 192.000000 80.000000"
-"message" "Mid level, NW pool"
-}
-// entity 132
-{
-"classname" "target_location"
-"origin" "-440.000000 360.000000 80.000000"
-"message" "Mid level, near RL"
-}
-// entity 133
-{
-"classname" "target_location"
-"origin" "-440.000000 -360.000000 80.000000"
-"message" "Mid level, SW tower"
-}
-// entity 134
-{
-"classname" "target_location"
-"origin" "-192.000000 440.000000 80.000000"
-"message" "Mid level, NW pool"
-}
-// entity 135
-{
-"classname" "target_location"
-"origin" "0.000000 440.000000 80.000000"
-"message" "Mid level"
-}
-// entity 136
-{
-"classname" "target_location"
-"origin" "192.000000 440.000000 80.000000"
-"message" "Mid level, NE tower"
-}
-// entity 137
-{
-"classname" "target_location"
-"origin" "360.000000 440.000000 80.000000"
-"message" "Mid level, NE tower"
-}
-// entity 138
-{
-"classname" "target_location"
-"origin" "440.000000 360.000000 80.000000"
-"message" "Mid level, NE tower"
-}
-// entity 139
-{
-"classname" "target_location"
-"origin" "440.000000 192.000000 80.000000"
-"message" "Mid level, NE tower"
-}
-// entity 140
-{
-"classname" "target_location"
-"origin" "120.000000 0.000000 80.000000"
-"message" "Mid level, crossing"
-}
-// entity 141
-{
-"classname" "target_location"
-"origin" "440.000000 -192.000000 80.000000"
-"message" "Mid level, SE pool"
-}
-// entity 142
-{
-"classname" "target_location"
-"origin" "440.000000 -360.000000 80.000000"
-"message" "Mid level, SE pool"
-}
-// entity 143
-{
-"classname" "target_location"
-"origin" "360.000000 -440.000000 80.000000"
-"message" "Mid level, SE pool"
-}
-// entity 144
-{
-"classname" "target_location"
-"origin" "192.000000 -440.000000 80.000000"
-"message" "Mid level, SE pool"
-}
-// entity 145
-{
-"classname" "target_location"
-"origin" "0.000000 -440.000000 80.000000"
-"message" "Mid level, SE pool"
-}
-// entity 146
-{
-"classname" "target_location"
-"origin" "-192.000000 -440.000000 80.000000"
-"message" "Mid level, SW tower"
-}
-// entity 147
-{
-"classname" "target_location"
-"origin" "-360.000000 -440.000000 80.000000"
-"message" "Mid level, SW tower"
-}
-// entity 148
-{
-"classname" "target_location"
-"origin" "-440.000000 0.000000 80.000000"
-"message" "Mid level, SW tower"
-}
-// entity 149
-{
-"classname" "target_location"
-"origin" "-280.000000 0.000000 80.000000"
-"message" "Mid level, SW tower"
-}
-// entity 150
-{
-"classname" "target_location"
-"origin" "-120.000000 0.000000 80.000000"
-"message" "Mid level, crossing"
-}
-// entity 151
-{
-"classname" "target_location"
-"origin" "576.000000 -224.000000 336.000000"
-"message" "Jumppad area"
-}
-// entity 152
-{
-"classname" "target_location"
-"origin" "280.000000 0.000000 80.000000"
-"message" "Mid level, NE tower"
-}
-// entity 153
-{
-"classname" "target_location"
-"origin" "-672.000000 672.000000 464.000000"
-"message" "Armor platform"
-}
-// entity 154
-{
-"classname" "target_location"
-"origin" "-576.000000 576.000000 464.000000"
-"message" "Armor platform"
-}
-// entity 155
-{
-"classname" "target_location"
-"origin" "-448.000000 576.000000 464.000000"
-"message" "Armor platform"
-}
-// entity 156
-{
-"classname" "target_location"
-"origin" "-576.000000 448.000000 464.000000"
-"message" "Armor platform"
-}
-// entity 157
-{
 "classname" "misc_model"
 "origin" "32.000000 544.000000 272.000000"
 "model" "models/mapobjects/amnk_generic/amnk_weaponbase.ase"
 "modelscale" "0.500000"
 }
-// entity 158
+// entity 110
 {
 "classname" "target_position"
 "origin" "160.000000 192.000000 928.000000"
 "targetname" "target_position4"
 }
-// entity 159
-{
-"classname" "target_location"
-"origin" "160.000000 192.000000 1152.000000"
-"message" "Above chamber"
-}
-// entity 160
-{
-"classname" "target_location"
-"origin" "160.000000 192.000000 928.000000"
-"message" "Megahealth chamber"
-}
-// entity 161
-{
-"classname" "target_location"
-"origin" "320.000000 336.000000 928.000000"
-"message" "Behind chamber (BFG)"
-}
-// entity 162
-{
-"classname" "target_location"
-"origin" "224.000000 496.000000 576.000000"
-"message" "Upper level, NE tower"
-}
-// entity 163
-{
-"classname" "target_location"
-"origin" "240.000000 240.000000 576.000000"
-"message" "Upper level, NE tower"
-}
-// entity 164
-{
-"classname" "target_location"
-"origin" "-96.000000 -352.000000 576.000000"
-"message" "Upper level, SW tower"
-}
-// entity 165
-{
-"classname" "target_location"
-"origin" "240.000000 96.000000 576.000000"
-"message" "Upper level, NE tower"
-}
-// entity 166
-{
-"classname" "target_location"
-"origin" "320.000000 320.000000 576.000000"
-"message" "Upper level, NE tower"
-}
-// entity 167
-{
-"classname" "target_location"
-"origin" "96.000000 240.000000 576.000000"
-"message" "Upper level, NE tower"
-}
-// entity 168
-{
-"classname" "target_location"
-"origin" "96.000000 368.000000 576.000000"
-"message" "Upper level, NE tower"
-}
-// entity 169
-{
-"classname" "target_location"
-"origin" "368.000000 96.000000 576.000000"
-"message" "Upper level, NE tower"
-}
-// entity 170
-{
-"classname" "target_location"
-"origin" "496.000000 224.000000 576.000000"
-"message" "Upper level, NE tower"
-}
-// entity 171
-{
-"classname" "target_location"
-"origin" "96.000000 96.000000 576.000000"
-"message" "Upper level, NE tower"
-}
-// entity 172
-{
-"classname" "target_location"
-"origin" "-96.000000 -96.000000 576.000000"
-"message" "Upper level, SW tower"
-}
-// entity 173
-{
-"classname" "target_location"
-"origin" "-352.000000 -96.000000 576.000000"
-"message" "Upper level, SW tower"
-}
-// entity 174
-{
-"classname" "target_location"
-"origin" "-224.000000 -352.000000 576.000000"
-"message" "Upper level, SW tower"
-}
-// entity 175
-{
-"classname" "target_location"
-"origin" "-352.000000 -224.000000 576.000000"
-"message" "Upper level, SW tower"
-}
-// entity 176
-{
-"classname" "target_location"
-"origin" "-96.000000 -224.000000 576.000000"
-"message" "Upper level, SW tower"
-}
-// entity 177
-{
-"classname" "target_location"
-"origin" "-224.000000 -96.000000 576.000000"
-"message" "Upper level, SW tower"
-}
-// entity 178
-{
-"classname" "target_location"
-"origin" "-224.000000 -224.000000 576.000000"
-"message" "Upper level, SW tower"
-}
-// entity 179
-{
-"classname" "target_location"
-"origin" "0.000000 192.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 180
-{
-"classname" "target_location"
-"origin" "-576.000000 0.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 181
-{
-"classname" "target_location"
-"origin" "-448.000000 0.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 182
-{
-"classname" "target_location"
-"origin" "-320.000000 0.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 183
-{
-"classname" "target_location"
-"origin" "-192.000000 0.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 184
-{
-"classname" "target_location"
-"origin" "-576.000000 -128.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 185
-{
-"classname" "target_location"
-"origin" "-576.000000 -256.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 186
-{
-"classname" "target_location"
-"origin" "-448.000000 -448.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 187
-{
-"classname" "target_location"
-"origin" "-256.000000 -576.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 188
-{
-"classname" "target_location"
-"origin" "-128.000000 -576.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 189
-{
-"classname" "target_location"
-"origin" "0.000000 -576.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 190
-{
-"classname" "target_location"
-"origin" "0.000000 -448.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 191
-{
-"classname" "target_location"
-"origin" "0.000000 -320.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 192
-{
-"classname" "target_location"
-"origin" "0.000000 -192.000000 336.000000"
-"message" "Upper level, SW tower"
-}
-// entity 193
-{
-"classname" "target_location"
-"origin" "320.000000 0.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 194
-{
-"classname" "target_location"
-"origin" "0.000000 448.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 195
-{
-"classname" "target_location"
-"origin" "0.000000 320.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 196
-{
-"classname" "target_location"
-"origin" "0.000000 576.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 197
-{
-"classname" "target_location"
-"origin" "128.000000 576.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 198
-{
-"classname" "target_location"
-"origin" "256.000000 576.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 199
-{
-"classname" "target_location"
-"origin" "448.000000 448.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 200
-{
-"classname" "target_location"
-"origin" "576.000000 256.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 201
-{
-"classname" "target_location"
-"origin" "576.000000 128.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 202
-{
-"classname" "target_location"
-"origin" "576.000000 0.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 203
-{
-"classname" "target_location"
-"origin" "448.000000 0.000000 336.000000"
-"message" "Upper level, NE tower"
-}
-// entity 204
-{
-"classname" "target_location"
-"origin" "440.000000 0.000000 80.000000"
-"message" "Mid level, NE tower"
-}
-// entity 205
-{
-"classname" "target_location"
-"origin" "568.000000 0.000000 80.000000"
-"message" "Going to Railgun ledge"
-}
-// entity 206
-{
-"classname" "target_location"
-"origin" "696.000000 0.000000 80.000000"
-"message" "Going to Railgun ledge"
-}
-// entity 207
-{
-"classname" "target_location"
-"origin" "824.000000 0.000000 80.000000"
-"message" "Going to Railgun ledge"
-}
-// entity 208
-{
-"classname" "target_location"
-"origin" "952.000000 0.000000 80.000000"
-"message" "Going to Railgun ledge"
-}
-// entity 209
-{
-"classname" "target_location"
-"origin" "1080.000000 0.000000 80.000000"
-"message" "Going to Railgun ledge"
-}
-// entity 210
-{
-"classname" "target_location"
-"origin" "1208.000000 64.000000 80.000000"
-"message" "Going to Railgun ledge"
-}
-// entity 211
-{
-"classname" "target_location"
-"origin" "1208.000000 -64.000000 80.000000"
-"message" "Going to Railgun ledge"
-}
-// entity 212
-{
-"classname" "target_location"
-"origin" "1336.000000 -128.000000 80.000000"
-"message" "Going to Railgun ledge"
-}
-// entity 213
-{
-"classname" "target_location"
-"origin" "1336.000000 128.000000 80.000000"
-"message" "Going to Railgun ledge"
-}
-// entity 214
-{
-"classname" "target_location"
-"origin" "1464.000000 192.000000 80.000000"
-"message" "Going to Railgun ledge"
-}
-// entity 215
-{
-"classname" "target_location"
-"origin" "1592.000000 256.000000 80.000000"
-"message" "Near Railgun ledge"
-}
-// entity 216
-{
-"classname" "target_location"
-"origin" "1464.000000 -192.000000 80.000000"
-"message" "Going to Railgun ledge"
-}
-// entity 217
-{
-"classname" "target_location"
-"origin" "1592.000000 -256.000000 80.000000"
-"message" "Near Railgun ledge"
-}
-// entity 218
-{
-"classname" "target_location"
-"origin" "1720.000000 -256.000000 80.000000"
-"message" "Near Railgun ledge"
-}
-// entity 219
-{
-"classname" "target_location"
-"origin" "1720.000000 256.000000 80.000000"
-"message" "Near Railgun ledge"
-}
-// entity 220
-{
-"classname" "target_location"
-"origin" "1848.000000 192.000000 80.000000"
-"message" "Railgun ledge"
-}
-// entity 221
-{
-"classname" "target_location"
-"origin" "1912.000000 64.000000 80.000000"
-"message" "Railgun ledge"
-}
-// entity 222
-{
-"classname" "target_location"
-"origin" "1848.000000 -192.000000 80.000000"
-"message" "Railgun ledge"
-}
-// entity 223
-{
-"classname" "target_location"
-"origin" "1912.000000 -64.000000 80.000000"
-"message" "Railgun ledge"
-}
-// entity 224
-{
-"classname" "target_location"
-"origin" "1784.000000 0.000000 16.000000"
-"message" "Near Railgun ledge"
-}
-// entity 225
-{
-"classname" "target_location"
-"origin" "1656.000000 0.000000 -48.000000"
-"message" "Near Railgun ledge"
-}
-// entity 226
-{
-"classname" "target_location"
-"origin" "1528.000000 0.000000 -112.000000"
-"message" "Lower road to Railgun ledge"
-}
-// entity 227
-{
-"classname" "target_location"
-"origin" "1400.000000 0.000000 -176.000000"
-"message" "Lower road to Railgun ledge"
-}
-// entity 228
-{
-"classname" "target_location"
-"origin" "1272.000000 0.000000 -176.000000"
-"message" "Lower road to Railgun ledge"
-}
-// entity 229
-{
-"classname" "target_location"
-"origin" "1144.000000 0.000000 -176.000000"
-"message" "Lower road"
-}
-// entity 230
-{
-"classname" "target_location"
-"origin" "1016.000000 0.000000 -176.000000"
-"message" "Lower road"
-}
-// entity 231
-{
-"classname" "target_location"
-"origin" "888.000000 0.000000 -176.000000"
-"message" "Lower road"
-}
-// entity 232
-{
-"classname" "target_location"
-"origin" "760.000000 0.000000 -176.000000"
-"message" "Lower road"
-}
-// entity 233
-{
-"classname" "target_location"
-"origin" "632.000000 0.000000 -176.000000"
-"message" "Lower road"
-}
-// entity 234
-{
-"classname" "target_location"
-"origin" "576.000000 -64.000000 -176.000000"
-"message" "Lower road, near jumppad"
-}
-// entity 235
-{
-"classname" "target_location"
-"origin" "576.000000 -224.000000 -176.000000"
-"message" "Jumppad area"
-}
-// entity 236
-{
-"classname" "target_location"
-"origin" "576.000000 -224.000000 -112.000000"
-"message" "Jumppad area"
-}
-// entity 237
-{
-"classname" "target_location"
-"origin" "576.000000 -224.000000 -48.000000"
-"message" "Jumppad area"
-}
-// entity 238
-{
-"classname" "target_location"
-"origin" "576.000000 -224.000000 16.000000"
-"message" "Jumppad area"
-}
-// entity 239
-{
-"classname" "target_location"
-"origin" "576.000000 -224.000000 80.000000"
-"message" "Jumppad area"
-}
-// entity 240
-{
-"classname" "target_location"
-"origin" "576.000000 -224.000000 144.000000"
-"message" "Jumppad area"
-}
-// entity 241
-{
-"classname" "target_location"
-"origin" "576.000000 -224.000000 208.000000"
-"message" "Jumppad area"
-}
-// entity 242
-{
-"classname" "target_location"
-"origin" "576.000000 -224.000000 272.000000"
-"message" "Jumppad area"
-}
-// entity 243
+// entity 111
 {
 "classname" "item_botroam"
 "origin" "1952.000000 0.000000 64.000000"
 "weight" "250"
 "spawnflags" "1"
 }
-// entity 244
+// entity 112
 {
 "classname" "item_botroam"
 "origin" "-360.000000 104.000000 -384.000000"
 "weight" "250"
 }
-// entity 245
+// entity 113
 {
 "classname" "item_botroam"
 "origin" "-360.000000 -104.000000 -384.000000"
 "weight" "250"
 }
-// entity 246
+// entity 114
 {
 "classname" "target_position"
 "origin" "-480.000000 480.000000 472.000000"
 "targetname" "target_position5"
 }
-// entity 247
+// entity 115
 {
 "classname" "light"
 "origin" "0.000000 -192.000000 320.000000"
 "light" "60"
 "_color" "0.375006 0.377234 0.749996"
 }
-// entity 248
+// entity 116
 {
 "classname" "light"
 "origin" "0.000000 192.000000 320.000000"
 "light" "60"
 "_color" "0.375006 0.377234 0.749996"
 }
-// entity 249
+// entity 117
 {
 "classname" "light"
 "origin" "-192.000000 0.000000 320.000000"
 "light" "60"
 "_color" "0.375006 0.377234 0.749996"
 }
-// entity 250
+// entity 118
 {
 "classname" "light"
 "origin" "192.000000 0.000000 320.000000"
 "light" "60"
 "_color" "0.375006 0.377234 0.749996"
 }
-// entity 251
+// entity 119
 {
 "classname" "light"
 "origin" "-576.000000 192.000000 320.000000"
 "light" "60"
 "_color" "0.375006 0.377234 0.749996"
 }
-// entity 252
+// entity 120
 {
 "classname" "light"
 "origin" "-192.000000 576.000000 320.000000"
 "light" "60"
 "_color" "0.375006 0.377234 0.749996"
 }
-// entity 253
+// entity 121
 {
 "classname" "light"
 "origin" "-64.000000 -64.000000 544.000000"
 "light" "60"
 "_color" "0.375006 0.377234 0.749996"
 }
-// entity 254
+// entity 122
 {
 "classname" "light"
 "origin" "64.000000 64.000000 544.000000"
 "light" "60"
 "_color" "0.375006 0.377234 0.749996"
 }
-// entity 255
+// entity 123
 {
 "classname" "light"
 "origin" "576.000000 -256.000000 -208.000000"
 "light" "60"
 "_color" "0.749996 0.749996 0.375006"
 }
-// entity 256
+// entity 124
 {
 "classname" "light"
 "origin" "-448.000000 448.000000 32.000000"
 "light" "60"
 "_color" "0.749996 0.749996 0.375006"
 }
-// entity 257
+// entity 125
 {
 "classname" "light"
 "origin" "-736.000000 736.000000 432.000000"
 "light" "60"
 "_color" "0.749996 0.749996 0.375006"
 }
-// entity 258
+// entity 126
 {
 "classname" "light"
 "origin" "0.000000 0.000000 32.000000"
 "light" "60"
 "_color" "0.749996 0.749996 0.375006"
 }
-// entity 259
+// entity 127
 {
 "classname" "light"
 "origin" "0.000000 256.000000 -416.000000"
 "light" "60"
 "_color" "0.375006 0.375006 0.749996"
 }
-// entity 260
+// entity 128
 {
 "classname" "light"
 "origin" "0.000000 -256.000000 -416.000000"
 "light" "60"
 "_color" "0.375006 0.375006 0.749996"
 }
-// entity 261
+// entity 129
 {
 "classname" "team_neutralobelisk"
 "origin" "-304.000000 -304.000000 512.000000"
 "gametype" "pos"
 }
-// entity 262
+// entity 130
 {
 "classname" "team_CTF_neutralflag"
 "origin" "-304.000000 -304.000000 544.000000"
 "gametype" "pos"
+}
+// entity 131
+{
+"classname" "target_location"
+"origin" "1920.000000 0.000000 64.000000"
+"message" "Railgun platform"
+}
+// entity 132
+{
+"classname" "target_location"
+"origin" "448.000000 0.000000 128.000000"
+"message" "Entrance to RG platform"
+}
+// entity 133
+{
+"classname" "target_location"
+"origin" "0.000000 0.000000 -256.000000"
+"message" "Lower level"
+}
+// entity 134
+{
+"classname" "target_location"
+"origin" "-352.000000 352.000000 -416.000000"
+"message" "Lower level"
+}
+// entity 135
+{
+"classname" "target_location"
+"origin" "352.000000 352.000000 -416.000000"
+"message" "Lower level"
+}
+// entity 136
+{
+"classname" "target_location"
+"origin" "-352.000000 -352.000000 -416.000000"
+"message" "Lower level"
+}
+// entity 137
+{
+"classname" "target_location"
+"origin" "352.000000 -352.000000 -416.000000"
+"message" "Lower level"
+}
+// entity 138
+{
+"classname" "target_location"
+"origin" "0.000000 0.000000 32.000000"
+"message" "Mid level"
+}
+// entity 139
+{
+"classname" "target_location"
+"origin" "-416.000000 -416.000000 32.000000"
+"message" "Mid level"
+}
+// entity 140
+{
+"classname" "target_location"
+"origin" "-416.000000 416.000000 32.000000"
+"message" "Mid level"
+}
+// entity 141
+{
+"classname" "target_location"
+"origin" "416.000000 416.000000 32.000000"
+"message" "Mid level"
+}
+// entity 142
+{
+"classname" "target_location"
+"origin" "416.000000 -416.000000 32.000000"
+"message" "Mid level"
+}
+// entity 143
+{
+"classname" "target_location"
+"origin" "-224.000000 -224.000000 544.000000"
+"message" "Rocket Launcher tower"
+}
+// entity 144
+{
+"classname" "target_location"
+"origin" "256.000000 256.000000 544.000000"
+"message" "Plasma Gun tower"
+}
+// entity 145
+{
+"classname" "target_location"
+"origin" "160.000000 192.000000 864.000000"
+"message" "Megahealth hideout"
+}
+// entity 146
+{
+"classname" "target_location"
+"origin" "192.000000 192.000000 1152.000000"
+"message" "Battle Suit hideout"
+}
+// entity 147
+{
+"classname" "target_location"
+"origin" "288.000000 320.000000 864.000000"
+"message" "BFG hideout"
+}
+// entity 148
+{
+"classname" "target_location"
+"origin" "-576.000000 576.000000 416.000000"
+"message" "Armor platform"
+}
+// entity 149
+{
+"classname" "target_location"
+"origin" "1152.000000 0.000000 32.000000"
+"message" "Near Railgun platform"
+}
+// entity 150
+{
+"classname" "target_location"
+"origin" "1152.000000 0.000000 -224.000000"
+"message" "Near Railgun platform"
+}
+// entity 151
+{
+"classname" "target_location"
+"origin" "576.000000 0.000000 288.000000"
+"message" "Upper level"
+}
+// entity 152
+{
+"classname" "target_location"
+"origin" "-576.000000 0.000000 288.000000"
+"message" "Upper level"
+}
+// entity 153
+{
+"classname" "target_location"
+"origin" "0.000000 -576.000000 288.000000"
+"message" "Upper level"
+}
+// entity 154
+{
+"classname" "target_location"
+"origin" "0.000000 576.000000 288.000000"
+"message" "Upper level"
+}
+// entity 155
+{
+"classname" "target_location"
+"origin" "448.000000 448.000000 288.000000"
+"message" "Upper level"
+}
+// entity 156
+{
+"classname" "target_location"
+"origin" "-448.000000 -448.000000 288.000000"
+"message" "Upper level"
 }
