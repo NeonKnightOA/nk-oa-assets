@@ -16117,3 +16117,15 @@
 "angle" "180.000000"
 "wait" "1"
 }
+// entity 246
+{
+"classname" "info_player_intermission"
+"origin" "136.000000 -416.000000 16.000000"
+"target" "target_position1"
+}
+// entity 247
+{
+"classname" "target_position"
+"origin" "-200.000000 192.000000 -40.000000"
+"targetname" "target_position1"
+}

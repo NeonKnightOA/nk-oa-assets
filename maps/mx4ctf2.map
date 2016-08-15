@@ -7083,3 +7083,15 @@
 "angle" "134.999985"
 "gametype" "obelisk"
 }
+// entity 348
+{
+"classname" "info_player_intermission"
+"origin" "10528.000000 -928.000000 -784.000000"
+"target" "target_position1"
+}
+// entity 349
+{
+"classname" "target_position"
+"origin" "9536.000000 384.000000 -976.000000"
+"targetname" "target_position1"
+}
