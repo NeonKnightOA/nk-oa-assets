@@ -3,7 +3,7 @@
 {
 "classname" "worldspawn"
 "message" "Sleek Grinder"
-"music" "music/OA10.ogg"
+"author" "cosmo"
 // brush 0
 {
 ( 384 320 -64 ) ( 384 -64 -64 ) ( -64 320 -64 ) base_floor/diamond2c 0 0 0 0.349999994 0.349999994 0 0 0
@@ -13684,13 +13684,13 @@
 ( 1488 -512 -200 ) ( 1280 -120 -200 ) ( 1488 -120 -200 ) common/caulk -20 8 90 0.4999999702 -0.4999999702 134217728 0 0
 ( 1616 -168 -296 ) ( 1616 -168 -200 ) ( 1624 -160 -200 ) common/caulk -20 0 0 0.4999999702 0.4999999702 134217728 0 0
 ( 1472 -160 -200 ) ( 1440 -160 -200 ) ( 1440 -160 -296 ) common/caulk -8 0 0 0.4999999702 0.4999999702 134217728 0 0
-( 1640 -560 -296 ) ( 1432 -168 -296 ) ( 1432 -560 -296 ) common/caulk -23.9997558594 4.0004882812 90 0.4999999702 -0.4999999702 134217728 0 0
+( 1640 -560 -296 ) ( 1432 -168 -296 ) ( 1432 -560 -296 ) common/caulk -23.9997558594 4.0004882813 90 0.4999999702 -0.4999999702 134217728 0 0
 ( 1432 -168 -200 ) ( 1440 -160 -296 ) ( 1440 -160 -200 ) common/caulk -12.000123024 0 0 0.4999999702 0.4999999702 134217728 0 0
 ( 1608 -168 -200 ) ( 1608 -168 -296 ) ( 1432 -168 -200 ) base_trim/deeprust -128 0 0 0.5 0.5 134217728 0 0
 }
 // brush 1528
 {
-( 1640 -552 -296 ) ( 1432 -160 -296 ) ( 1640 -160 -296 ) common/caulk -23.9997558594 4.0004882812 90 0.4999999702 -0.4999999702 134217728 0 0
+( 1640 -552 -296 ) ( 1432 -160 -296 ) ( 1640 -160 -296 ) common/caulk -23.9997558594 4.0004882813 90 0.4999999702 -0.4999999702 134217728 0 0
 ( 1616 -168 -304 ) ( 1616 -168 -296 ) ( 1624 -160 -296 ) common/caulk -20 0 0 0.4999999702 0.4999999702 134217728 0 0
 ( 1472 -160 -296 ) ( 1440 -160 -296 ) ( 1440 -160 -304 ) common/caulk -8 0 0 0.4999999702 0.4999999702 134217728 0 0
 ( 1488 -520 -304 ) ( 1280 -128 -304 ) ( 1280 -520 -304 ) common/caulk -20 8 90 0.4999999702 -0.4999999702 134217728 0 0
@@ -13708,7 +13708,7 @@
 }
 // brush 1530
 {
-( 1640 -552 -368 ) ( 1432 -160 -368 ) ( 1640 -160 -368 ) common/caulk -23.9997558594 4.0004882812 90 0.4999999702 -0.4999999702 134217728 0 0
+( 1640 -552 -368 ) ( 1432 -160 -368 ) ( 1640 -160 -368 ) common/caulk -23.9997558594 4.0004882813 90 0.4999999702 -0.4999999702 134217728 0 0
 ( 1616 -168 -464 ) ( 1616 -168 -368 ) ( 1624 -160 -368 ) common/caulk -20 0 0 0.4999999702 0.4999999702 134217728 0 0
 ( 1472 -160 -368 ) ( 1440 -160 -368 ) ( 1440 -160 -464 ) common/caulk -8 0 0 0.4999999702 0.4999999702 134217728 0 0
 ( 1488 -520 -464 ) ( 1280 -128 -464 ) ( 1280 -520 -464 ) common/caulk -20 8 90 0.4999999702 -0.4999999702 134217728 0 0
@@ -13729,7 +13729,7 @@
 ( 1488 -512 -360 ) ( 1280 -120 -360 ) ( 1488 -120 -360 ) common/caulk -20 8 90 0.4999999702 -0.4999999702 134217728 0 0
 ( 1616 -168 -368 ) ( 1616 -168 -360 ) ( 1624 -160 -360 ) common/caulk -20 0 0 0.4999999702 0.4999999702 134217728 0 0
 ( 1472 -160 -360 ) ( 1440 -160 -360 ) ( 1440 -160 -368 ) common/caulk -8 0 0 0.4999999702 0.4999999702 134217728 0 0
-( 1640 -560 -368 ) ( 1432 -168 -368 ) ( 1432 -560 -368 ) common/caulk -23.9997558594 4.0004882812 90 0.4999999702 -0.4999999702 134217728 0 0
+( 1640 -560 -368 ) ( 1432 -168 -368 ) ( 1432 -560 -368 ) common/caulk -23.9997558594 4.0004882813 90 0.4999999702 -0.4999999702 134217728 0 0
 ( 1432 -168 -360 ) ( 1440 -160 -368 ) ( 1440 -160 -360 ) common/caulk -12.000123024 0 0 0.4999999702 0.4999999702 134217728 0 0
 ( 1608 -168 -360 ) ( 1608 -168 -368 ) ( 1432 -168 -360 ) base_trim/tin -128 0 0 0.5 0.5 134217728 0 0
 }
@@ -15259,97 +15259,114 @@ cosmo_sfx/blood2_decal
 "origin" "1508 576 -452"
 "targetname" "info_notnull3"
 }
+// entity 166
 {
+"classname" "domination_point"
 "message" "Lightning Gun"
 "origin" "1304 -592 -352"
-"classname" "domination_point"
 }
+// entity 167
 {
+"classname" "domination_point"
 "message" "Sword Banner Area"
 "origin" "192 128 -40"
-"classname" "domination_point"
 }
+// entity 168
 {
+"classname" "domination_point"
 "message" "Northeast"
 "origin" "1376 448 -424"
-"classname" "domination_point"
 }
+// entity 169
 {
+"classname" "info_player_start"
 "angle" "180"
 "origin" "912 -400 -80"
-"classname" "info_player_start"
 }
+// entity 170
 {
+"classname" "info_player_deathmatch"
 "spawnflags" "1"
 "angle" "180"
 "origin" "1448 -504 152"
-"classname" "info_player_deathmatch"
 }
+// entity 171
 {
+"classname" "info_player_deathmatch"
 "spawnflags" "1"
 "angle" "165"
 "origin" "560 -328 -304"
-"classname" "info_player_deathmatch"
 }
+// entity 172
 {
+"classname" "info_player_deathmatch"
 "spawnflags" "1"
 "angle" "145"
 "origin" "592 -24 248"
-"classname" "info_player_deathmatch"
 }
+// entity 173
 {
+"classname" "info_player_deathmatch"
 "spawnflags" "1"
 "angle" "180"
 "origin" "1456 136 -408"
-"classname" "info_player_deathmatch"
 }
+// entity 174
 {
+"classname" "info_player_deathmatch"
 "spawnflags" "1"
 "angle" "45"
 "origin" "896 688 -16"
-"classname" "info_player_deathmatch"
 }
+// entity 175
 {
+"classname" "info_player_deathmatch"
 "spawnflags" "1"
 "angle" "200"
 "origin" "1496 -208 -48"
-"classname" "info_player_deathmatch"
 }
+// entity 176
 {
+"classname" "info_player_deathmatch"
 "spawnflags" "1"
 "angle" "145"
 "origin" "1000 -224 248"
-"classname" "info_player_deathmatch"
 }
+// entity 177
 {
+"classname" "info_player_deathmatch"
 "spawnflags" "1"
 "origin" "-392 -160 224"
-"classname" "info_player_deathmatch"
 }
+// entity 178
 {
+"classname" "info_player_deathmatch"
 "spawnflags" "1"
 "origin" "1048 -264 -48"
-"classname" "info_player_deathmatch"
 }
+// entity 179
 {
+"classname" "info_player_deathmatch"
 "spawnflags" "1"
 "angle" "315"
 "origin" "896 976 -16"
-"classname" "info_player_deathmatch"
 }
+// entity 180
 {
+"classname" "info_player_deathmatch"
 "spawnflags" "1"
 "angle" "180"
 "origin" "1336 224 232"
-"classname" "info_player_deathmatch"
 }
+// entity 181
 {
+"classname" "info_player_intermission"
 "target" "target_position1"
 "origin" "240 -376 288"
-"classname" "info_player_intermission"
 }
+// entity 182
 {
+"classname" "target_position"
 "targetname" "target_position1"
 "origin" "816 -392 176"
-"classname" "target_position"
 }

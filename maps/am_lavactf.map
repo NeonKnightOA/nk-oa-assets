@@ -2,8 +2,8 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Lava Arena (CTF)"
-"music" "music/OA02a.ogg"
+"message" "Lava Arena CTF"
+"author" "Neon_Knight"
 // brush 0
 {
 ( -1280 -1280 -432 ) ( -768 -768 -432 ) ( -768 -1280 -432 ) acc_dm3/concrt 0 511.9998779297 0 0.5 0.4999999404 0 0 0
@@ -22294,294 +22294,252 @@ evil8_trim/e8beam01b
 "classname" "team_CTF_blueplayer"
 "origin" "-1136 -144 0"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 129
 {
 "classname" "team_CTF_blueplayer"
 "origin" "144 -1008 0"
 "angle" "180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 130
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1008 -640 -128"
 "angle" "90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 131
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1904 -768 -128"
 "angle" "-90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 132
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1936 -768 -128"
 "angle" "-90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 133
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1408 -1040 -128"
 "angle" "180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 134
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1136 -112 0"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 135
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-640 -1008 -128"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 136
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-640 -1040 -128"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 137
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-768 -1936 0"
 "angle" "-180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 138
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-768 -1904 0"
 "angle" "-180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 139
 {
 "classname" "team_CTF_bluespawn"
 "origin" "144 -1040 0"
 "angle" "180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 140
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1120 -1936 0"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 141
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1040 -640 -128"
 "angle" "90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 142
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1408 -1008 -128"
 "angle" "180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 143
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1040 -1408 -128"
 "angle" "90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 144
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1008 -1408 -128"
 "angle" "90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 145
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1120 -1904 0"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 146
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-144 -1136 0"
 "angle" "90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 147
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-112 -1136 0"
 "angle" "90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 148
 {
 "classname" "team_CTF_redspawn"
 "origin" "1936 1280 -128"
 "angle" "-90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 149
 {
 "classname" "team_CTF_redspawn"
 "origin" "1904 768 -128"
 "angle" "90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 150
 {
 "classname" "team_CTF_redspawn"
 "origin" "1408 1040 -128"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 151
 {
 "classname" "team_CTF_redspawn"
 "origin" "1136 112 0"
 "angle" "180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 152
 {
 "classname" "team_CTF_redspawn"
 "origin" "640 1008 -128"
 "angle" "180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 153
 {
 "classname" "team_CTF_redspawn"
 "origin" "768 1936 0"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 154
 {
 "classname" "team_CTF_redspawn"
 "origin" "-144 1040 0"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 155
 {
 "classname" "team_CTF_redspawn"
 "origin" "1040 640 -128"
 "angle" "-90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 156
 {
 "classname" "team_CTF_redspawn"
 "origin" "1040 1408 -128"
 "angle" "-90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 157
 {
 "classname" "team_CTF_redspawn"
 "origin" "1120 1904 0"
 "angle" "180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 158
 {
 "classname" "team_CTF_redspawn"
 "origin" "144 1136 0"
 "angle" "-90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 159
 {
 "classname" "team_CTF_redplayer"
 "origin" "1136 144 0"
 "angle" "180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 160
 {
 "classname" "team_CTF_redplayer"
 "origin" "1904 1280 -128"
 "angle" "-90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 161
 {
 "classname" "team_CTF_redplayer"
 "origin" "-144 1008 0"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 162
 {
 "classname" "team_CTF_redplayer"
 "origin" "1008 640 -128"
 "angle" "-90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 163
 {
 "classname" "team_CTF_redplayer"
 "origin" "1936 768 -128"
 "angle" "90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 164
 {
 "classname" "team_CTF_redplayer"
 "origin" "640 1040 -128"
 "angle" "180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 165
 {
 "classname" "team_CTF_redplayer"
 "origin" "768 1904 0"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 166
 {
 "classname" "team_CTF_redplayer"
 "origin" "1120 1936 0"
 "angle" "180"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 167
 {
 "classname" "team_CTF_redplayer"
 "origin" "1408 1008 -128"
 "angle" "-1.4033e-014"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 168
 {
 "classname" "team_CTF_redplayer"
 "origin" "1008 1408 -128"
 "angle" "-90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 169
 {
 "classname" "team_CTF_redplayer"
 "origin" "112 1136 0"
 "angle" "-90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 170
 {
@@ -29066,14 +29024,12 @@ clown/blue_2
 "classname" "team_CTF_bluespawn"
 "origin" "-1936 -1280 -128"
 "angle" "90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 948
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1904 -1280 -128"
 "angle" "90"
-"gametype" "ctf oneflag harvester obelisk"
 }
 // entity 949
 {
@@ -29120,280 +29076,240 @@ clown/blue_2
 "classname" "team_CTF_redspawn"
 "origin" "1916 1448 -128"
 "angle" "-90"
-"gametype" "elimination oneflag"
 }
 // entity 956
 {
 "classname" "team_CTF_redspawn"
 "origin" "1876 1448 -128"
 "angle" "-90"
-"gametype" "elimination oneflag"
 }
 // entity 957
 {
 "classname" "team_CTF_redspawn"
 "origin" "1996 1448 -128"
 "angle" "-90"
-"gametype" "elimination oneflag"
 }
 // entity 958
 {
 "classname" "team_CTF_redspawn"
 "origin" "1956 1448 -128"
 "angle" "-90"
-"gametype" "elimination oneflag"
 }
 // entity 959
 {
 "classname" "team_CTF_redplayer"
 "origin" "1876 1416 -128"
 "angle" "-90"
-"gametype" "oneflag"
 }
 // entity 960
 {
 "classname" "team_CTF_redplayer"
 "origin" "1996 1416 -128"
 "angle" "-90"
-"gametype" "oneflag"
 }
 // entity 961
 {
 "classname" "team_CTF_redplayer"
 "origin" "1956 1416 -128"
 "angle" "-90"
-"gametype" "oneflag"
 }
 // entity 962
 {
 "classname" "team_CTF_redplayer"
 "origin" "1956 1344 -128"
 "angle" "-90"
-"gametype" "oneflag"
 }
 // entity 963
 {
 "classname" "team_CTF_redplayer"
 "origin" "1996 1488 -128"
 "angle" "90"
-"gametype" "oneflag"
 }
 // entity 964
 {
 "classname" "team_CTF_redplayer"
 "origin" "1876 1488 -128"
 "angle" "90"
-"gametype" "oneflag"
 }
 // entity 965
 {
 "classname" "team_CTF_redplayer"
 "origin" "1916 1344 -128"
 "angle" "-90"
-"gametype" "oneflag"
 }
 // entity 966
 {
 "classname" "team_CTF_redplayer"
 "origin" "1916 1488 -128"
 "angle" "90"
-"gametype" "oneflag"
 }
 // entity 967
 {
 "classname" "team_CTF_redplayer"
 "origin" "1956 1488 -128"
 "angle" "90"
-"gametype" "oneflag"
 }
 // entity 968
 {
 "classname" "team_CTF_redplayer"
 "origin" "1916 1416 -128"
 "angle" "-90"
-"gametype" "oneflag"
 }
 // entity 969
 {
 "classname" "team_CTF_redspawn"
 "origin" "1996 1520 -128"
 "angle" "90"
-"gametype" "elimination oneflag"
 }
 // entity 970
 {
 "classname" "team_CTF_redspawn"
 "origin" "1956 1520 -128"
 "angle" "90"
-"gametype" "elimination oneflag"
 }
 // entity 971
 {
 "classname" "team_CTF_redspawn"
 "origin" "1876 1520 -128"
 "angle" "90"
-"gametype" "elimination oneflag"
 }
 // entity 972
 {
 "classname" "team_CTF_redspawn"
 "origin" "1916 1520 -128"
 "angle" "90"
-"gametype" "elimination oneflag"
 }
 // entity 973
 {
 "classname" "team_CTF_redspawn"
 "origin" "1956 1376 -128"
 "angle" "-90"
-"gametype" "elimination oneflag"
 }
 // entity 974
 {
 "classname" "team_CTF_redspawn"
 "origin" "1916 1376 -128"
 "angle" "-90"
-"gametype" "elimination oneflag"
 }
 // entity 975
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1876 -1416 -128"
 "angle" "90"
-"gametype" "oneflag"
 }
 // entity 976
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1996 -1416 -128"
 "angle" "90"
-"gametype" "oneflag"
 }
 // entity 977
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1956 -1416 -128"
 "angle" "90"
-"gametype" "oneflag"
 }
 // entity 978
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1956 -1344 -128"
 "angle" "90"
-"gametype" "oneflag"
 }
 // entity 979
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1996 -1488 -128"
 "angle" "-90"
-"gametype" "oneflag"
 }
 // entity 980
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1876 -1488 -128"
 "angle" "-90"
-"gametype" "oneflag"
 }
 // entity 981
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1916 -1344 -128"
 "angle" "90"
-"gametype" "oneflag"
 }
 // entity 982
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1916 -1488 -128"
 "angle" "-90"
-"gametype" "oneflag"
 }
 // entity 983
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1956 -1488 -128"
 "angle" "-90"
-"gametype" "oneflag"
 }
 // entity 984
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-1916 -1416 -128"
 "angle" "90"
-"gametype" "oneflag"
 }
 // entity 985
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1916 -1448 -128"
 "angle" "90"
-"gametype" "elimination oneflag"
 }
 // entity 986
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1876 -1448 -128"
 "angle" "90"
-"gametype" "elimination oneflag"
 }
 // entity 987
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1996 -1448 -128"
 "angle" "90"
-"gametype" "elimination oneflag"
 }
 // entity 988
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1956 -1448 -128"
 "angle" "90"
-"gametype" "elimination oneflag"
 }
 // entity 989
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1996 -1520 -128"
 "angle" "-90"
-"gametype" "elimination oneflag"
 }
 // entity 990
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1956 -1520 -128"
 "angle" "-90"
-"gametype" "elimination oneflag"
 }
 // entity 991
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1876 -1520 -128"
 "angle" "-90"
-"gametype" "elimination oneflag"
 }
 // entity 992
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1916 -1520 -128"
 "angle" "-90"
-"gametype" "elimination oneflag"
 }
 // entity 993
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1956 -1376 -128"
 "angle" "90"
-"gametype" "elimination oneflag"
 }
 // entity 994
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-1916 -1376 -128"
 "angle" "90"
-"gametype" "elimination oneflag"
 }
 // entity 995
 {
@@ -29464,37 +29380,35 @@ clown/blue_2
 {
 "classname" "team_CTF_blueflag"
 "origin" "-1024 -1024 -96"
-"gametype" "ctf oneflag dd"
+"notffa" "1"
 }
 // entity 1004
 {
 "classname" "team_blueobelisk"
 "origin" "-1024 -1024 -112"
-"gametype" "harvester obelisk"
+"notffa" "1"
 }
 // entity 1005
 {
 "classname" "team_CTF_neutralflag"
 "origin" "0 0 0"
-"gametype" "oneflag"
 }
 // entity 1006
 {
 "classname" "team_neutralobelisk"
 "origin" "0 0 -32"
-"gametype" "harvester"
 }
 // entity 1007
 {
 "classname" "team_CTF_redflag"
 "origin" "1024 1024 -96"
-"gametype" "ctf oneflag dd"
+"notffa" "1"
 }
 // entity 1008
 {
 "classname" "team_redobelisk"
 "origin" "1024 1024 -112"
-"gametype" "harvester obelisk"
+"notffa" "1"
 }
 // entity 1009
 {
@@ -29600,166 +29514,166 @@ clown/blue_2
 "classname" "info_player_deathmatch"
 "origin" "-608 -96 0"
 "angle" "180"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1026
 {
 "classname" "info_player_deathmatch"
 "origin" "-608 -160 0"
 "angle" "180"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1027
 {
 "classname" "info_player_deathmatch"
 "origin" "-544 -96 0"
 "angle" "180"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1028
 {
 "classname" "info_player_deathmatch"
 "origin" "-544 -160 0"
 "angle" "180"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1029
 {
 "classname" "info_player_deathmatch"
 "origin" "352 -608 0"
 "angle" "-90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1030
 {
 "classname" "info_player_deathmatch"
 "origin" "416 -608 0"
 "angle" "-90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1031
 {
 "classname" "info_player_deathmatch"
 "origin" "-96 -544 0"
 "angle" "-90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1032
 {
 "classname" "info_player_deathmatch"
 "origin" "-160 -544 0"
 "angle" "-90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1033
 {
 "classname" "info_player_deathmatch"
 "origin" "-96 -608 0"
 "angle" "-90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1034
 {
 "classname" "info_player_deathmatch"
 "origin" "-160 -608 0"
 "angle" "-90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1035
 {
 "classname" "info_player_deathmatch"
 "origin" "416 -544 0"
 "angle" "-90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1036
 {
 "classname" "info_player_deathmatch"
 "origin" "352 -544 0"
 "angle" "-90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1037
 {
 "classname" "info_player_deathmatch"
 "origin" "160 608 0"
 "angle" "90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1038
 {
 "classname" "info_player_deathmatch"
 "origin" "96 608 0"
 "angle" "90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1039
 {
 "classname" "info_player_deathmatch"
 "origin" "160 544 0"
 "angle" "90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1040
 {
 "classname" "info_player_deathmatch"
 "origin" "96 544 0"
 "angle" "90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1041
 {
 "classname" "info_player_deathmatch"
 "origin" "-416 608 0"
 "angle" "90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1042
 {
 "classname" "info_player_deathmatch"
 "origin" "-352 544 0"
 "angle" "90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1043
 {
 "classname" "info_player_deathmatch"
 "origin" "-416 544 0"
 "angle" "90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1044
 {
 "classname" "info_player_deathmatch"
 "origin" "608 96 0"
 "angle" "-3.50824e-015"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1045
 {
 "classname" "info_player_deathmatch"
 "origin" "608 160 0"
 "angle" "-3.50824e-015"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1046
 {
 "classname" "info_player_deathmatch"
 "origin" "544 96 0"
 "angle" "-3.50824e-015"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1047
 {
 "classname" "info_player_deathmatch"
 "origin" "544 160 0"
 "angle" "-3.50824e-015"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }
 // entity 1048
 {
 "classname" "info_player_deathmatch"
 "origin" "-352 608 0"
 "angle" "90"
-"gametype" "ffa team single tournament lms dd"
+"spawnflags" "1"
 }

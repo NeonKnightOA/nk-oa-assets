@@ -2,8 +2,8 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Obey 37..."
-"music" "music/OA10.ogg"
+"message" "High Speed"
+"author" "PsYthe"
 // brush 0
 {
 patchDef2
@@ -5766,13 +5766,13 @@ evil8_floor/e8clangfloor
 {
 "classname" "team_CTF_redflag"
 "origin" "-3264 -128 96"
-"gametype" "ctf cctf oneflag dd"
+"notffa" "1"
 }
 // entity 3
 {
 "classname" "team_CTF_blueflag"
 "origin" "576 -128 96"
-"gametype" "ctf cctf oneflag dd"
+"notffa" "1"
 }
 // entity 4
 {
@@ -5905,7 +5905,7 @@ evil8_floor/e8clangfloor
 {
 "classname" "item_health_mega"
 "origin" "-1344 -128 96"
-"gametype" "ctf obelisk dd"
+"!gametype" "oneflag harvester pos"
 }
 // entity 25
 {
@@ -6845,11 +6845,13 @@ evil8_floor/e8clangfloor
 {
 "classname" "team_blueobelisk"
 "origin" "576.000000 -128.000000 64.000000"
+"notffa" "1"
 }
 // entity 192
 {
 "classname" "team_redobelisk"
 "origin" "-3264.000000 -128.000000 64.000000"
+"notffa" "1"
 }
 // entity 193
 {
@@ -6987,6 +6989,5 @@ suction/logo_blue
 // entity 208
 {
 "classname" "team_CTF_neutralflag"
-"gametype" "oneflag"
 "origin" "-1344 -128 96"
 }

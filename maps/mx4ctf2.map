@@ -7,6 +7,7 @@
 "mingridlight" "25"
 "message" "The Colloseum"
 "minilight" "50"
+"author" "Moixie"
 // brush 0
 {
 ( 9656 1296 -680 ) ( 9744 1304 -680 ) ( 9744 1296 -680 ) common/nodraw 7.6477050781 27.9877929688 0 3.1428687572 0.2857150733 0 0 0
@@ -4504,8 +4505,7 @@
 "classname" "item_health_mega"
 "origin" "9952.000000 -32.000000 -1456.000000"
 "angle" "180.000000"
-"spawnflags" "1"
-"gametype" "ctf, team, tournament, obelisk, dd"
+"!gametype" "oneflag harvester pos"
 }
 // entity 3
 {
@@ -4544,14 +4544,14 @@
 "classname" "team_CTF_blueflag"
 "origin" "9952.000000 -1448.000000 -896.000000"
 "angle" "180.000000"
-"gametype" "ctf, oneflag, ctfelimination, dd"
+"notffa" "1"
 }
 // entity 8
 {
 "classname" "team_CTF_redflag"
 "origin" "9952.000000 1376.000000 -896.000000"
 "angle" "180.000000"
-"gametype" "ctf, oneflag, ctfelimination, dd"
+"notffa" "1"
 }
 // entity 9
 {
@@ -5105,15 +5105,16 @@
 "classname" "item_armor_body"
 "origin" "8992.000000 -32.000000 -912.000000"
 "angle" "180.000000"
-"gametype" "ctf, ffa, team, tournament, oneflag, harvester, dd"
+"!gametype" "dom"
 }
 // entity 81
 {
 "classname" "item_armor_body"
 "origin" "9952.000000 -1448.000000 -912.000000"
 "angle" "90.000000"
-"gametype" "ffa, team, tournament, dom, single, obelisk"
 "spawnflags" "1"
+"!gametype" "ctf oneflag dd"
+"!gametpe" "ctf oneflag dd"
 }
 // entity 82
 {
@@ -5854,24 +5855,8 @@
 {
 "classname" "team_CTF_neutralflag"
 "origin" "9952.000000 -32.000000 -1464.000000"
-"spawnflags" "1"
-"gametype" "oneflag pos"
 }
 // entity 184
-{
-"classname" "team_blueobelisk"
-"origin" "10912.000000 -32.000000 -924.000000"
-"gametype" "obelisk"
-"angle" "90.000000"
-}
-// entity 185
-{
-"classname" "team_redobelisk"
-"origin" "8992.000000 -32.000000 -924.000000"
-"gametype" "obelisk"
-"angle" "90.000000"
-}
-// entity 186
 {
 "classname" "domination_point"
 "origin" "8992.000000 -32.000000 -912.000000"
@@ -5879,7 +5864,7 @@
 "angle" "-90.000000"
 "message" "Left"
 }
-// entity 187
+// entity 185
 {
 "classname" "domination_point"
 "origin" "10912.000000 -32.000000 -912.000000"
@@ -5887,35 +5872,35 @@
 "angle" "-90.000000"
 "message" "Right"
 }
-// entity 188
+// entity 186
 {
 "classname" "team_neutralobelisk"
 "origin" "9952.000000 -32.000000 -1495.000000"
-"gametype" "harvester oneflag pos"
 }
-// entity 189
+// entity 187
 {
 "classname" "item_armor_body"
 "origin" "10912.000000 -32.000000 -912.000000"
 "angle" "180.000000"
-"gametype" "ctf, ffa, team, tournament, oneflag, harvester, dd"
+"!gametype" "dom"
 }
-// entity 190
+// entity 188
 {
 "classname" "item_armor_body"
 "origin" "9952.000000 1376.000000 -912.000000"
 "angle" "90.000000"
-"gametype" "ffa, team, tournament, dom, single, obelisk"
 "spawnflags" "1"
+"!gametype" "ctf oneflag dd"
+"!gametpe" "ctf oneflag dd"
 }
-// entity 191
+// entity 189
 {
 "classname" "info_player_dd_blue"
 "origin" "8848.000000 120.000000 -904.000000"
 "angle" "90.000000"
 "target" "g2"
 }
-// entity 192
+// entity 190
 {
 "classname" "info_player_deathmatch"
 "origin" "11056.000000 -184.000000 -904.000000"
@@ -5923,14 +5908,14 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 193
+// entity 191
 {
 "classname" "info_player_dd_blue"
 "origin" "9152.000000 176.000000 -904.000000"
 "angle" "-135.000000"
 "target" "g2"
 }
-// entity 194
+// entity 192
 {
 "classname" "info_player_deathmatch"
 "origin" "10752.000000 -240.000000 -904.000000"
@@ -5938,17 +5923,32 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 195
+// entity 193
 {
 "classname" "info_player_dd_blue"
 "origin" "9152.000000 -240.000000 -904.000000"
 "angle" "135.000000"
 "target" "g2"
 }
-// entity 196
+// entity 194
 {
 "classname" "info_player_deathmatch"
 "origin" "10752.000000 176.000000 -904.000000"
+"angle" "-45.000000"
+"gametype" "dd"
+"target" "g2"
+}
+// entity 195
+{
+"classname" "info_player_dd_blue"
+"origin" "9040.000000 -240.000000 -904.000000"
+"angle" "135.000000"
+"target" "g2"
+}
+// entity 196
+{
+"classname" "info_player_deathmatch"
+"origin" "10864.000000 176.000000 -904.000000"
 "angle" "-45.000000"
 "gametype" "dd"
 "target" "g2"
@@ -5956,26 +5956,11 @@
 // entity 197
 {
 "classname" "info_player_dd_blue"
-"origin" "9040.000000 -240.000000 -904.000000"
-"angle" "135.000000"
-"target" "g2"
-}
-// entity 198
-{
-"classname" "info_player_deathmatch"
-"origin" "10864.000000 176.000000 -904.000000"
-"angle" "-45.000000"
-"gametype" "dd"
-"target" "g2"
-}
-// entity 199
-{
-"classname" "info_player_dd_blue"
 "origin" "9040.000000 176.000000 -904.000000"
 "angle" "-135.000000"
 "target" "g2"
 }
-// entity 200
+// entity 198
 {
 "classname" "info_player_deathmatch"
 "origin" "10864.000000 -240.000000 -904.000000"
@@ -5983,56 +5968,56 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 201
+// entity 199
 {
 "classname" "info_player_dd_blue"
 "origin" "9128.000000 -32.000000 -904.000000"
 "angle" "180.000000"
 "target" "g2"
 }
-// entity 202
+// entity 200
 {
 "classname" "info_player_deathmatch"
 "origin" "10768.000000 -32.000000 -904.000000"
 "gametype" "dd"
 "target" "g2"
 }
-// entity 203
+// entity 201
 {
 "classname" "info_player_dd_blue"
 "origin" "9136.000000 80.000000 -904.000000"
 "angle" "180.000000"
 "target" "g2"
 }
-// entity 204
+// entity 202
 {
 "classname" "info_player_deathmatch"
 "origin" "10768.000000 -144.000000 -904.000000"
 "gametype" "dd"
 "target" "g2"
 }
-// entity 205
+// entity 203
 {
 "classname" "info_player_dd_blue"
 "origin" "9136.000000 -144.000000 -904.000000"
 "angle" "180.000000"
 "target" "g2"
 }
-// entity 206
+// entity 204
 {
 "classname" "info_player_deathmatch"
 "origin" "10768.000000 80.000000 -904.000000"
 "gametype" "dd"
 "target" "g2"
 }
-// entity 207
+// entity 205
 {
 "classname" "info_player_dd_blue"
 "origin" "8784.000000 80.000000 -904.000000"
 "angle" "90.000000"
 "target" "g2"
 }
-// entity 208
+// entity 206
 {
 "classname" "info_player_deathmatch"
 "origin" "11120.000000 -144.000000 -904.000000"
@@ -6040,14 +6025,14 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 209
+// entity 207
 {
 "classname" "info_player_dd_blue"
 "origin" "8784.000000 -144.000000 -904.000000"
 "angle" "-90.000000"
 "target" "g2"
 }
-// entity 210
+// entity 208
 {
 "classname" "info_player_deathmatch"
 "origin" "11120.000000 80.000000 -904.000000"
@@ -6055,14 +6040,14 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 211
+// entity 209
 {
 "classname" "info_player_dd_blue"
 "origin" "8848.000000 -176.000000 -904.000000"
 "angle" "-90.000000"
 "target" "g2"
 }
-// entity 212
+// entity 210
 {
 "classname" "info_player_deathmatch"
 "origin" "11056.000000 112.000000 -904.000000"
@@ -6070,7 +6055,7 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 213
+// entity 211
 {
 "classname" "info_player_deathmatch"
 "origin" "8848.000000 120.000000 -904.000000"
@@ -6078,7 +6063,7 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 214
+// entity 212
 {
 "classname" "info_player_deathmatch"
 "origin" "9152.000000 176.000000 -904.000000"
@@ -6086,7 +6071,7 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 215
+// entity 213
 {
 "classname" "info_player_deathmatch"
 "origin" "9152.000000 -240.000000 -904.000000"
@@ -6094,7 +6079,7 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 216
+// entity 214
 {
 "classname" "info_player_deathmatch"
 "origin" "9040.000000 -240.000000 -904.000000"
@@ -6102,7 +6087,7 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 217
+// entity 215
 {
 "classname" "info_player_deathmatch"
 "origin" "9040.000000 176.000000 -904.000000"
@@ -6110,10 +6095,26 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 218
+// entity 216
 {
 "classname" "info_player_deathmatch"
 "origin" "9128.000000 -32.000000 -904.000000"
+"angle" "180.000000"
+"gametype" "dd"
+"target" "g2"
+}
+// entity 217
+{
+"classname" "info_player_deathmatch"
+"origin" "9136.000000 80.000000 -904.000000"
+"angle" "180.000000"
+"gametype" "dd"
+"target" "g2"
+}
+// entity 218
+{
+"classname" "info_player_deathmatch"
+"origin" "9136.000000 -144.000000 -904.000000"
 "angle" "180.000000"
 "gametype" "dd"
 "target" "g2"
@@ -6121,28 +6122,12 @@
 // entity 219
 {
 "classname" "info_player_deathmatch"
-"origin" "9136.000000 80.000000 -904.000000"
-"angle" "180.000000"
-"gametype" "dd"
-"target" "g2"
-}
-// entity 220
-{
-"classname" "info_player_deathmatch"
-"origin" "9136.000000 -144.000000 -904.000000"
-"angle" "180.000000"
-"gametype" "dd"
-"target" "g2"
-}
-// entity 221
-{
-"classname" "info_player_deathmatch"
 "origin" "8784.000000 80.000000 -904.000000"
 "angle" "90.000000"
 "gametype" "dd"
 "target" "g2"
 }
-// entity 222
+// entity 220
 {
 "classname" "info_player_deathmatch"
 "origin" "8784.000000 -144.000000 -904.000000"
@@ -6150,7 +6135,7 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 223
+// entity 221
 {
 "classname" "info_player_deathmatch"
 "origin" "8848.000000 -176.000000 -904.000000"
@@ -6158,81 +6143,81 @@
 "gametype" "dd"
 "target" "g2"
 }
-// entity 224
+// entity 222
 {
 "classname" "info_player_dd_red"
 "origin" "10768.000000 -32.000000 -904.000000"
 "target" "g2"
 }
-// entity 225
+// entity 223
 {
 "classname" "info_player_dd_red"
 "origin" "10864.000000 176.000000 -904.000000"
 "target" "g2"
 "angle" "-45.000000"
 }
-// entity 226
+// entity 224
 {
 "classname" "info_player_dd_red"
 "origin" "10768.000000 80.000000 -904.000000"
 "target" "g2"
 }
-// entity 227
+// entity 225
 {
 "classname" "info_player_dd_red"
 "origin" "10768.000000 -144.000000 -904.000000"
 "target" "g2"
 }
-// entity 228
+// entity 226
 {
 "classname" "info_player_dd_red"
 "origin" "11056.000000 112.000000 -904.000000"
 "target" "g2"
 "angle" "90.000000"
 }
-// entity 229
+// entity 227
 {
 "classname" "info_player_dd_red"
 "origin" "11120.000000 80.000000 -904.000000"
 "target" "g2"
 "angle" "90.000000"
 }
-// entity 230
+// entity 228
 {
 "classname" "info_player_dd_red"
 "origin" "11120.000000 -144.000000 -904.000000"
 "target" "g2"
 "angle" "-90.000000"
 }
-// entity 231
+// entity 229
 {
 "classname" "info_player_dd_red"
 "origin" "11056.000000 -184.000000 -904.000000"
 "target" "g2"
 "angle" "-90.000000"
 }
-// entity 232
+// entity 230
 {
 "classname" "info_player_dd_red"
 "origin" "10864.000000 -240.000000 -904.000000"
 "target" "g2"
 "angle" "45"
 }
-// entity 233
+// entity 231
 {
 "classname" "info_player_dd_red"
 "origin" "10752.000000 -240.000000 -904.000000"
 "target" "g2"
 "angle" "45.000000"
 }
-// entity 234
+// entity 232
 {
 "classname" "info_player_dd_red"
 "origin" "10752.000000 176.000000 -904.000000"
 "target" "g2"
 "angle" "-45.000000"
 }
-// entity 235
+// entity 233
 {
 "classname" "info_player_deathmatch"
 "origin" "10640.000000 400.000000 -1464.000000"
@@ -6240,7 +6225,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "225"
 }
-// entity 236
+// entity 234
 {
 "classname" "info_player_deathmatch"
 "origin" "10544.000000 560.000000 -1464.000000"
@@ -6248,7 +6233,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "225"
 }
-// entity 237
+// entity 235
 {
 "classname" "info_player_deathmatch"
 "origin" "9360.000000 -624.000000 -1464.000000"
@@ -6256,7 +6241,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "45.000000"
 }
-// entity 238
+// entity 236
 {
 "classname" "info_player_deathmatch"
 "origin" "9264.000000 -464.000000 -1464.000000"
@@ -6264,7 +6249,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "45.000000"
 }
-// entity 239
+// entity 237
 {
 "classname" "info_player_deathmatch"
 "origin" "10576.000000 176.000000 -1464.000000"
@@ -6272,7 +6257,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "180.000000"
 }
-// entity 240
+// entity 238
 {
 "classname" "info_player_deathmatch"
 "origin" "9360.000000 560.000000 -1464.000000"
@@ -6280,7 +6265,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-45.000000"
 }
-// entity 241
+// entity 239
 {
 "classname" "info_player_deathmatch"
 "origin" "10544.000000 -624.000000 -1464.000000"
@@ -6288,7 +6273,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "135.000000"
 }
-// entity 242
+// entity 240
 {
 "classname" "info_player_deathmatch"
 "origin" "10640.000000 -464.000000 -1464.000000"
@@ -6296,7 +6281,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "135.000000"
 }
-// entity 243
+// entity 241
 {
 "classname" "info_player_deathmatch"
 "origin" "9264.000000 400.000000 -1464.000000"
@@ -6304,7 +6289,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-45.000000"
 }
-// entity 244
+// entity 242
 {
 "classname" "info_player_deathmatch"
 "origin" "10576.000000 -240.000000 -1464.000000"
@@ -6312,28 +6297,28 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "180.000000"
 }
-// entity 245
+// entity 243
 {
 "classname" "info_player_deathmatch"
 "origin" "9328.000000 -240.000000 -1464.000000"
 "target" "g2"
 "gametype" "ffa, tournament, lms, single"
 }
-// entity 246
+// entity 244
 {
 "classname" "info_player_deathmatch"
 "origin" "9264.000000 -32.000000 -1464.000000"
 "target" "g2"
 "gametype" "ffa, tournament, lms, single"
 }
-// entity 247
+// entity 245
 {
 "classname" "info_player_deathmatch"
 "origin" "9328.000000 176.000000 -1464.000000"
 "target" "g2"
 "gametype" "ffa, tournament, lms, single"
 }
-// entity 248
+// entity 246
 {
 "classname" "info_player_deathmatch"
 "origin" "10640.000000 -32.000000 -1464.000000"
@@ -6341,7 +6326,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "180.000000"
 }
-// entity 249
+// entity 247
 {
 "classname" "info_player_deathmatch"
 "origin" "9808.000000 1456.000000 -904.000000"
@@ -6349,7 +6334,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-90.000000"
 }
-// entity 250
+// entity 248
 {
 "classname" "info_player_deathmatch"
 "origin" "10096.000000 1456.000000 -904.000000"
@@ -6357,7 +6342,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-90.000000"
 }
-// entity 251
+// entity 249
 {
 "classname" "info_player_deathmatch"
 "origin" "9616.000000 944.000000 -1032.000000"
@@ -6365,7 +6350,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-45.000000"
 }
-// entity 252
+// entity 250
 {
 "classname" "info_player_deathmatch"
 "origin" "9392.000000 1104.000000 -904.000000"
@@ -6373,7 +6358,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-45.000000"
 }
-// entity 253
+// entity 251
 {
 "classname" "info_player_deathmatch"
 "origin" "9168.000000 880.000000 -904.000000"
@@ -6381,7 +6366,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-45.000000"
 }
-// entity 254
+// entity 252
 {
 "classname" "info_player_deathmatch"
 "origin" "9488.000000 816.000000 -1032.000000"
@@ -6389,7 +6374,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-45.000000"
 }
-// entity 255
+// entity 253
 {
 "classname" "info_player_deathmatch"
 "origin" "10288.000000 944.000000 -1032.000000"
@@ -6397,7 +6382,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-135.000000"
 }
-// entity 256
+// entity 254
 {
 "classname" "info_player_deathmatch"
 "origin" "10416.000000 816.000000 -1032.000000"
@@ -6405,7 +6390,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-135.000000"
 }
-// entity 257
+// entity 255
 {
 "classname" "info_player_deathmatch"
 "origin" "10512.000000 1104.000000 -904.000000"
@@ -6413,7 +6398,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-135.000000"
 }
-// entity 258
+// entity 256
 {
 "classname" "info_player_deathmatch"
 "origin" "9168.000000 240.000000 -904.000000"
@@ -6421,7 +6406,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "135.000000"
 }
-// entity 259
+// entity 257
 {
 "classname" "info_player_deathmatch"
 "origin" "10736.000000 880.000000 -904.000000"
@@ -6429,7 +6414,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-135.000000"
 }
-// entity 260
+// entity 258
 {
 "classname" "info_player_deathmatch"
 "origin" "10736.000000 240.000000 -904.000000"
@@ -6437,7 +6422,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "45.000000"
 }
-// entity 261
+// entity 259
 {
 "classname" "info_player_deathmatch"
 "origin" "10992.000000 624.000000 -904.000000"
@@ -6445,7 +6430,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-135.000000"
 }
-// entity 262
+// entity 260
 {
 "classname" "info_player_deathmatch"
 "origin" "8912.000000 624.000000 -904.000000"
@@ -6453,7 +6438,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-45.000000"
 }
-// entity 263
+// entity 261
 {
 "classname" "info_player_deathmatch"
 "origin" "10096.000000 -1520.000000 -904.000000"
@@ -6461,7 +6446,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "90.000000"
 }
-// entity 264
+// entity 262
 {
 "classname" "info_player_deathmatch"
 "origin" "9808.000000 -1520.000000 -904.000000"
@@ -6469,7 +6454,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "90.000000"
 }
-// entity 265
+// entity 263
 {
 "classname" "info_player_deathmatch"
 "origin" "10288.000000 -1008.000000 -1032.000000"
@@ -6477,7 +6462,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "135"
 }
-// entity 266
+// entity 264
 {
 "classname" "info_player_deathmatch"
 "origin" "10512.000000 -1168.000000 -904.000000"
@@ -6485,7 +6470,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "135"
 }
-// entity 267
+// entity 265
 {
 "classname" "info_player_deathmatch"
 "origin" "10736.000000 -944.000000 -904.000000"
@@ -6493,7 +6478,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "135"
 }
-// entity 268
+// entity 266
 {
 "classname" "info_player_deathmatch"
 "origin" "10416.000000 -880.000000 -1032.000000"
@@ -6501,7 +6486,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "135"
 }
-// entity 269
+// entity 267
 {
 "classname" "info_player_deathmatch"
 "origin" "9616.000000 -1008.000000 -1032.000000"
@@ -6509,7 +6494,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "45.000000"
 }
-// entity 270
+// entity 268
 {
 "classname" "info_player_deathmatch"
 "origin" "9488.000000 -880.000000 -1032.000000"
@@ -6517,7 +6502,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "45.000000"
 }
-// entity 271
+// entity 269
 {
 "classname" "info_player_deathmatch"
 "origin" "9392.000000 -1168.000000 -904.000000"
@@ -6525,7 +6510,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "45"
 }
-// entity 272
+// entity 270
 {
 "classname" "info_player_deathmatch"
 "origin" "10736.000000 -304.000000 -904.000000"
@@ -6533,7 +6518,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-45.000000"
 }
-// entity 273
+// entity 271
 {
 "classname" "info_player_deathmatch"
 "origin" "9168.000000 -944.000000 -904.000000"
@@ -6541,7 +6526,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "45.000000"
 }
-// entity 274
+// entity 272
 {
 "classname" "info_player_deathmatch"
 "origin" "9168.000000 -304.000000 -904.000000"
@@ -6549,7 +6534,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "-135.000000"
 }
-// entity 275
+// entity 273
 {
 "classname" "info_player_deathmatch"
 "origin" "8912.000000 -688.000000 -904.000000"
@@ -6557,7 +6542,7 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "45.000000"
 }
-// entity 276
+// entity 274
 {
 "classname" "info_player_deathmatch"
 "origin" "10992.000000 -688.000000 -904.000000"
@@ -6565,149 +6550,148 @@
 "gametype" "ffa, tournament, lms, single"
 "angle" "135.000000"
 }
-// entity 277
+// entity 275
 {
 "classname" "ammo_bullets"
 "origin" "9280.000000 768.000000 -968.000000"
 "angle" "180.000000"
 }
-// entity 278
+// entity 276
 {
 "classname" "ammo_shells"
 "origin" "9344.000000 832.000000 -968.000000"
 "angle" "180.000000"
 }
-// entity 279
+// entity 277
 {
 "classname" "ammo_rockets"
 "origin" "9408.000000 896.000000 -968.000000"
 "angle" "180.000000"
 }
-// entity 280
+// entity 278
 {
 "classname" "ammo_cells"
 "origin" "9472.000000 960.000000 -968.000000"
 "angle" "180.000000"
 }
-// entity 281
+// entity 279
 {
 "classname" "ammo_cells"
 "origin" "10432.000000 960.000000 -968.000000"
 "angle" "180.000000"
 }
-// entity 282
+// entity 280
 {
 "classname" "ammo_bullets"
 "origin" "10624.000000 768.000000 -968.000000"
 "angle" "180.000000"
 }
-// entity 283
+// entity 281
 {
 "classname" "ammo_shells"
 "origin" "10560.000000 832.000000 -968.000000"
 "angle" "180.000000"
 }
-// entity 284
+// entity 282
 {
 "classname" "ammo_rockets"
 "origin" "10496.000000 896.000000 -968.000000"
 "angle" "180.000000"
 }
-// entity 285
+// entity 283
 {
 "classname" "ammo_cells"
 "origin" "10432.000000 -1024.000000 -968.000000"
 }
-// entity 286
+// entity 284
 {
 "classname" "ammo_bullets"
 "origin" "10624.000000 -832.000000 -968.000000"
 }
-// entity 287
+// entity 285
 {
 "classname" "ammo_shells"
 "origin" "10560.000000 -896.000000 -968.000000"
 }
-// entity 288
+// entity 286
 {
 "classname" "ammo_rockets"
 "origin" "10496.000000 -960.000000 -968.000000"
 }
-// entity 289
+// entity 287
 {
 "classname" "ammo_cells"
 "origin" "9472.000000 -1024.000000 -968.000000"
 }
-// entity 290
+// entity 288
 {
 "classname" "ammo_bullets"
 "origin" "9280.000000 -832.000000 -968.000000"
 }
-// entity 291
+// entity 289
 {
 "classname" "ammo_shells"
 "origin" "9344.000000 -896.000000 -968.000000"
 }
-// entity 292
+// entity 290
 {
 "classname" "ammo_rockets"
 "origin" "9408.000000 -960.000000 -968.000000"
 }
-// entity 293
+// entity 291
 {
 "classname" "light"
 "origin" "9948.000000 -1192.000000 -792.000000"
 "light" "135"
 "_color" "1 1 1"
 }
-// entity 294
+// entity 292
 {
 "classname" "light"
 "origin" "9952.000000 -32.000000 -1208.000000"
 "light" "750"
 "_color" "1 1 1"
 }
-// entity 295
+// entity 293
 {
 "classname" "light"
 "origin" "10976.000000 8.000000 -792.000000"
 "light" "135"
 "_color" "1 1 1"
 }
-// entity 296
+// entity 294
 {
 "classname" "light"
 "origin" "8904.000000 -32.000000 -792.000000"
 "light" "135"
 "_color" "1 1 1"
 }
-// entity 297
+// entity 295
 {
 "classname" "light"
 "origin" "9948.000000 1132.000000 -792.000000"
 "light" "135"
 "_color" "1 1 1"
 }
-// entity 298
+// entity 296
 {
 "classname" "item_quad"
 "origin" "9952.000000 -32.000000 -1456.000000"
-"spawnflags" "1"
-"gametype" "ffa"
+"!gametype" "oneflag harvester pos"
 }
-// entity 299
+// entity 297
 {
 "classname" "team_blueobelisk"
 "origin" "9952.000000 -1448.000000 -924.000000"
-"gametype" "harvester"
+"notffa" "1"
 }
-// entity 300
+// entity 298
 {
 "classname" "team_redobelisk"
 "origin" "9952.000000 1376.000000 -924.000000"
-"gametype" "harvester"
+"notffa" "1"
 }
-// entity 301
+// entity 299
 {
 "classname" "team_CTF_blueplayer"
 "origin" "10112.000000 -1360.000000 -904.000000"
@@ -6715,42 +6699,58 @@
 "angle" "90.000000"
 "gametype" "ctf, team, oneflag, harvester, dom, dd, elimination, ctfelimination"
 }
-// entity 302
+// entity 300
 {
 "classname" "team_CTF_bluespawn"
 "origin" "10864.000000 176.000000 -904.000000"
 "target" "g2"
 "angle" "-45.000008"
 "gametype" "obelisk"
+}
+// entity 301
+{
+"classname" "team_CTF_blueplayer"
+"origin" "10864.000000 176.000000 -904.000000"
+"target" "g2"
+"angle" "-45.000008"
+"gametype" "obelisk"
+}
+// entity 302
+{
+"classname" "team_CTF_bluespawn"
+"origin" "10800.000000 -784.000000 -904.000000"
+"target" "g2"
+"angle" "90.000000"
+"gametype" "ctf, team, oneflag, harvester, dom, dd, elimination, ctfelimination"
 }
 // entity 303
 {
 "classname" "team_CTF_blueplayer"
-"origin" "10864.000000 176.000000 -904.000000"
+"origin" "10800.000000 -784.000000 -904.000000"
 "target" "g2"
-"angle" "-45.000008"
-"gametype" "obelisk"
+"angle" "90.000000"
+"gametype" "ctf, team, oneflag, harvester, dom, dd, elimination, ctfelimination"
 }
 // entity 304
 {
 "classname" "team_CTF_bluespawn"
-"origin" "10800.000000 -784.000000 -904.000000"
+"origin" "10768.000000 -144.000000 -904.000000"
 "target" "g2"
-"angle" "90.000000"
-"gametype" "ctf, team, oneflag, harvester, dom, dd, elimination, ctfelimination"
+"angle" "0.000003"
+"gametype" "obelisk"
 }
 // entity 305
 {
 "classname" "team_CTF_blueplayer"
-"origin" "10800.000000 -784.000000 -904.000000"
+"origin" "10768.000000 -144.000000 -904.000000"
 "target" "g2"
-"angle" "90.000000"
-"gametype" "ctf, team, oneflag, harvester, dom, dd, elimination, ctfelimination"
+"angle" "0.000003"
+"gametype" "obelisk"
 }
 // entity 306
 {
 "classname" "team_CTF_bluespawn"
-"origin" "10768.000000 -144.000000 -904.000000"
+"origin" "10768.000000 -32.000000 -904.000000"
 "target" "g2"
 "angle" "0.000003"
 "gametype" "obelisk"
@@ -6758,7 +6758,7 @@
 // entity 307
 {
 "classname" "team_CTF_blueplayer"
-"origin" "10768.000000 -144.000000 -904.000000"
+"origin" "10768.000000 -32.000000 -904.000000"
 "target" "g2"
 "angle" "0.000003"
 "gametype" "obelisk"
@@ -6766,7 +6766,7 @@
 // entity 308
 {
 "classname" "team_CTF_bluespawn"
-"origin" "10768.000000 -32.000000 -904.000000"
+"origin" "10768.000000 80.000000 -904.000000"
 "target" "g2"
 "angle" "0.000003"
 "gametype" "obelisk"
@@ -6774,7 +6774,7 @@
 // entity 309
 {
 "classname" "team_CTF_blueplayer"
-"origin" "10768.000000 -32.000000 -904.000000"
+"origin" "10768.000000 80.000000 -904.000000"
 "target" "g2"
 "angle" "0.000003"
 "gametype" "obelisk"
@@ -6782,23 +6782,23 @@
 // entity 310
 {
 "classname" "team_CTF_bluespawn"
-"origin" "10768.000000 80.000000 -904.000000"
+"origin" "11056.000000 112.000000 -904.000000"
 "target" "g2"
-"angle" "0.000003"
+"angle" "90.000000"
 "gametype" "obelisk"
 }
 // entity 311
 {
 "classname" "team_CTF_blueplayer"
-"origin" "10768.000000 80.000000 -904.000000"
+"origin" "11056.000000 112.000000 -904.000000"
 "target" "g2"
-"angle" "0.000003"
+"angle" "90.000000"
 "gametype" "obelisk"
 }
 // entity 312
 {
 "classname" "team_CTF_bluespawn"
-"origin" "11056.000000 112.000000 -904.000000"
+"origin" "11120.000000 80.000000 -904.000000"
 "target" "g2"
 "angle" "90.000000"
 "gametype" "obelisk"
@@ -6806,7 +6806,7 @@
 // entity 313
 {
 "classname" "team_CTF_blueplayer"
-"origin" "11056.000000 112.000000 -904.000000"
+"origin" "11120.000000 80.000000 -904.000000"
 "target" "g2"
 "angle" "90.000000"
 "gametype" "obelisk"
@@ -6814,23 +6814,23 @@
 // entity 314
 {
 "classname" "team_CTF_bluespawn"
-"origin" "11120.000000 80.000000 -904.000000"
+"origin" "11120.000000 -144.000000 -904.000000"
 "target" "g2"
-"angle" "90.000000"
+"angle" "-90.000000"
 "gametype" "obelisk"
 }
 // entity 315
 {
 "classname" "team_CTF_blueplayer"
-"origin" "11120.000000 80.000000 -904.000000"
+"origin" "11120.000000 -144.000000 -904.000000"
 "target" "g2"
-"angle" "90.000000"
+"angle" "-90.000000"
 "gametype" "obelisk"
 }
 // entity 316
 {
 "classname" "team_CTF_bluespawn"
-"origin" "11120.000000 -144.000000 -904.000000"
+"origin" "11056.000000 -184.000000 -904.000000"
 "target" "g2"
 "angle" "-90.000000"
 "gametype" "obelisk"
@@ -6838,7 +6838,7 @@
 // entity 317
 {
 "classname" "team_CTF_blueplayer"
-"origin" "11120.000000 -144.000000 -904.000000"
+"origin" "11056.000000 -184.000000 -904.000000"
 "target" "g2"
 "angle" "-90.000000"
 "gametype" "obelisk"
@@ -6846,23 +6846,23 @@
 // entity 318
 {
 "classname" "team_CTF_bluespawn"
-"origin" "11056.000000 -184.000000 -904.000000"
+"origin" "10864.000000 -240.000000 -904.000000"
 "target" "g2"
-"angle" "-90.000000"
+"angle" "45.000000"
 "gametype" "obelisk"
 }
 // entity 319
 {
 "classname" "team_CTF_blueplayer"
-"origin" "11056.000000 -184.000000 -904.000000"
+"origin" "10864.000000 -240.000000 -904.000000"
 "target" "g2"
-"angle" "-90.000000"
+"angle" "45.000000"
 "gametype" "obelisk"
 }
 // entity 320
 {
 "classname" "team_CTF_bluespawn"
-"origin" "10864.000000 -240.000000 -904.000000"
+"origin" "10752.000000 -240.000000 -904.000000"
 "target" "g2"
 "angle" "45.000000"
 "gametype" "obelisk"
@@ -6870,7 +6870,7 @@
 // entity 321
 {
 "classname" "team_CTF_blueplayer"
-"origin" "10864.000000 -240.000000 -904.000000"
+"origin" "10752.000000 -240.000000 -904.000000"
 "target" "g2"
 "angle" "45.000000"
 "gametype" "obelisk"
@@ -6878,36 +6878,20 @@
 // entity 322
 {
 "classname" "team_CTF_bluespawn"
-"origin" "10752.000000 -240.000000 -904.000000"
+"origin" "10752.000000 176.000000 -904.000000"
 "target" "g2"
-"angle" "45.000000"
+"angle" "-45.000000"
 "gametype" "obelisk"
 }
 // entity 323
 {
 "classname" "team_CTF_blueplayer"
-"origin" "10752.000000 -240.000000 -904.000000"
+"origin" "10752.000000 176.000000 -904.000000"
 "target" "g2"
-"angle" "45.000000"
+"angle" "-45.000000"
 "gametype" "obelisk"
 }
 // entity 324
-{
-"classname" "team_CTF_bluespawn"
-"origin" "10752.000000 176.000000 -904.000000"
-"target" "g2"
-"angle" "-45.000000"
-"gametype" "obelisk"
-}
-// entity 325
-{
-"classname" "team_CTF_blueplayer"
-"origin" "10752.000000 176.000000 -904.000000"
-"target" "g2"
-"angle" "-45.000000"
-"gametype" "obelisk"
-}
-// entity 326
 {
 "classname" "team_CTF_redplayer"
 "origin" "9104.000000 720.000000 -904.000000"
@@ -6915,7 +6899,7 @@
 "target" "g2"
 "gametype" "ctf, oneflag, harvester, elimination, ctfelimination, dd, dom, team"
 }
-// entity 327
+// entity 325
 {
 "classname" "team_CTF_redspawn"
 "origin" "9104.000000 720.000000 -904.000000"
@@ -6923,10 +6907,26 @@
 "angle" "-90.000000"
 "gametype" "ctf, oneflag, harvester, elimination, ctfelimination, dd, dom, team"
 }
-// entity 328
+// entity 326
 {
 "classname" "team_CTF_redplayer"
 "origin" "9136.000000 80.000000 -904.000000"
+"angle" "179.999985"
+"target" "g2"
+"gametype" "obelisk"
+}
+// entity 327
+{
+"classname" "team_CTF_redspawn"
+"origin" "9136.000000 80.000000 -904.000000"
+"target" "g2"
+"angle" "179.999985"
+"gametype" "obelisk"
+}
+// entity 328
+{
+"classname" "team_CTF_redplayer"
+"origin" "9128.000000 -32.000000 -904.000000"
 "angle" "179.999985"
 "target" "g2"
 "gametype" "obelisk"
@@ -6934,7 +6934,7 @@
 // entity 329
 {
 "classname" "team_CTF_redspawn"
-"origin" "9136.000000 80.000000 -904.000000"
+"origin" "9128.000000 -32.000000 -904.000000"
 "target" "g2"
 "angle" "179.999985"
 "gametype" "obelisk"
@@ -6942,55 +6942,55 @@
 // entity 330
 {
 "classname" "team_CTF_redplayer"
-"origin" "9128.000000 -32.000000 -904.000000"
-"angle" "179.999985"
+"origin" "8848.000000 -176.000000 -904.000000"
+"angle" "-89.999992"
 "target" "g2"
 "gametype" "obelisk"
 }
 // entity 331
 {
 "classname" "team_CTF_redspawn"
-"origin" "9128.000000 -32.000000 -904.000000"
+"origin" "8848.000000 -176.000000 -904.000000"
 "target" "g2"
-"angle" "179.999985"
+"angle" "-89.999992"
 "gametype" "obelisk"
 }
 // entity 332
 {
 "classname" "team_CTF_redplayer"
-"origin" "8848.000000 -176.000000 -904.000000"
-"angle" "-89.999992"
+"origin" "8784.000000 -144.000000 -904.000000"
+"angle" "-90.000000"
 "target" "g2"
 "gametype" "obelisk"
 }
 // entity 333
 {
 "classname" "team_CTF_redspawn"
-"origin" "8848.000000 -176.000000 -904.000000"
+"origin" "8784.000000 -144.000000 -904.000000"
 "target" "g2"
-"angle" "-89.999992"
+"angle" "-90.000000"
 "gametype" "obelisk"
 }
 // entity 334
 {
 "classname" "team_CTF_redplayer"
-"origin" "8784.000000 -144.000000 -904.000000"
-"angle" "-90.000000"
+"origin" "8784.000000 80.000000 -904.000000"
+"angle" "89.999992"
 "target" "g2"
 "gametype" "obelisk"
 }
 // entity 335
 {
 "classname" "team_CTF_redspawn"
-"origin" "8784.000000 -144.000000 -904.000000"
+"origin" "8784.000000 80.000000 -904.000000"
 "target" "g2"
-"angle" "-90.000000"
+"angle" "89.999992"
 "gametype" "obelisk"
 }
 // entity 336
 {
 "classname" "team_CTF_redplayer"
-"origin" "8784.000000 80.000000 -904.000000"
+"origin" "8848.000000 120.000000 -904.000000"
 "angle" "89.999992"
 "target" "g2"
 "gametype" "obelisk"
@@ -6998,7 +6998,7 @@
 // entity 337
 {
 "classname" "team_CTF_redspawn"
-"origin" "8784.000000 80.000000 -904.000000"
+"origin" "8848.000000 120.000000 -904.000000"
 "target" "g2"
 "angle" "89.999992"
 "gametype" "obelisk"
@@ -7006,23 +7006,23 @@
 // entity 338
 {
 "classname" "team_CTF_redplayer"
-"origin" "8848.000000 120.000000 -904.000000"
-"angle" "89.999992"
+"origin" "9040.000000 176.000000 -904.000000"
+"angle" "-135.000015"
 "target" "g2"
 "gametype" "obelisk"
 }
 // entity 339
 {
 "classname" "team_CTF_redspawn"
-"origin" "8848.000000 120.000000 -904.000000"
+"origin" "9040.000000 176.000000 -904.000000"
 "target" "g2"
-"angle" "89.999992"
+"angle" "-135.000015"
 "gametype" "obelisk"
 }
 // entity 340
 {
 "classname" "team_CTF_redplayer"
-"origin" "9040.000000 176.000000 -904.000000"
+"origin" "9152.000000 176.000000 -904.000000"
 "angle" "-135.000015"
 "target" "g2"
 "gametype" "obelisk"
@@ -7030,7 +7030,7 @@
 // entity 341
 {
 "classname" "team_CTF_redspawn"
-"origin" "9040.000000 176.000000 -904.000000"
+"origin" "9152.000000 176.000000 -904.000000"
 "target" "g2"
 "angle" "-135.000015"
 "gametype" "obelisk"
@@ -7038,23 +7038,23 @@
 // entity 342
 {
 "classname" "team_CTF_redplayer"
-"origin" "9152.000000 176.000000 -904.000000"
-"angle" "-135.000015"
+"origin" "9152.000000 -240.000000 -904.000000"
+"angle" "134.999985"
 "target" "g2"
 "gametype" "obelisk"
 }
 // entity 343
 {
 "classname" "team_CTF_redspawn"
-"origin" "9152.000000 176.000000 -904.000000"
+"origin" "9152.000000 -240.000000 -904.000000"
 "target" "g2"
-"angle" "-135.000015"
+"angle" "134.999985"
 "gametype" "obelisk"
 }
 // entity 344
 {
 "classname" "team_CTF_redplayer"
-"origin" "9152.000000 -240.000000 -904.000000"
+"origin" "9040.000000 -240.000000 -904.000000"
 "angle" "134.999985"
 "target" "g2"
 "gametype" "obelisk"
@@ -7062,34 +7062,18 @@
 // entity 345
 {
 "classname" "team_CTF_redspawn"
-"origin" "9152.000000 -240.000000 -904.000000"
+"origin" "9040.000000 -240.000000 -904.000000"
 "target" "g2"
 "angle" "134.999985"
 "gametype" "obelisk"
 }
 // entity 346
 {
-"classname" "team_CTF_redplayer"
-"origin" "9040.000000 -240.000000 -904.000000"
-"angle" "134.999985"
-"target" "g2"
-"gametype" "obelisk"
-}
-// entity 347
-{
-"classname" "team_CTF_redspawn"
-"origin" "9040.000000 -240.000000 -904.000000"
-"target" "g2"
-"angle" "134.999985"
-"gametype" "obelisk"
-}
-// entity 348
-{
 "classname" "info_player_intermission"
 "origin" "10528.000000 -928.000000 -784.000000"
 "target" "target_position1"
 }
-// entity 349
+// entity 347
 {
 "classname" "target_position"
 "origin" "9536.000000 384.000000 -976.000000"

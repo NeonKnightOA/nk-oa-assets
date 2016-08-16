@@ -2,7 +2,8 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "GoDs Well"
+"message" "Well O' Wishes"
+"author" "Peter Silie"
 // brush 0
 {
 ( -480 2528 32 ) ( 480 2528 32 ) ( -480 2240 320 ) acc_dm5/sand 0 0 180 0.5 0.5 0 0 0
@@ -42371,11 +42372,13 @@ god/beam_blue
 {
 "classname" "team_CTF_blueflag"
 "origin" "0 -3584 928"
+"notffa" "1"
 }
 // entity 430
 {
 "classname" "team_CTF_redflag"
 "origin" "0 3584 928"
+"notffa" "1"
 }
 // entity 431
 {
@@ -43380,23 +43383,23 @@ god/beam_blue
 {
 "classname" "team_CTF_neutralflag"
 "origin" "0 -4 600"
-"gametype" "oneflag"
 }
 // entity 563
 {
 "classname" "team_neutralobelisk"
-"origin" "0 -4 584"
-"gametype" "harvester"
+"origin" "0.000000 0.000000 552.000000"
 }
 // entity 564
 {
 "classname" "team_redobelisk"
-"origin" "0 3584 912"
+"origin" "0.000000 3584.000000 904.000000"
+"notffa" "1"
 }
 // entity 565
 {
 "classname" "team_blueobelisk"
-"origin" "0 -3584 912"
+"origin" "0.000000 -3584.000000 904.000000"
+"notffa" "1"
 }
 // entity 566
 {

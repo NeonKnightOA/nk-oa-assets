@@ -2,7 +2,8 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "GoDs Dam"
+"message" "The Dam"
+"author" "Peter Silie"
 // brush 0
 {
 ( 544 352 32 ) ( 992 352 128 ) ( 544 352 128 ) common/caulk 0 0 0 0.4999999702 0.4999999702 0 0 0
@@ -4373,322 +4374,453 @@ god/beam_yellow
 }
 // entity 13
 {
-"classname" "team_CTF_bluespawn"
-"origin" "1152 448 288"
-"angle" "180"
-}
-// entity 14
-{
-"classname" "team_CTF_bluespawn"
-"origin" "1152 -448 288"
-"angle" "180"
-}
-// entity 15
-{
-"classname" "team_CTF_bluespawn"
-"origin" "1152 -192 288"
-"angle" "180"
-}
-// entity 16
-{
-"classname" "team_CTF_bluespawn"
-"origin" "1152 192 288"
-"angle" "180"
-}
-// entity 17
-{
-"classname" "team_CTF_bluespawn"
-"origin" "1152 448 64"
-"angle" "180"
-}
-// entity 18
-{
-"classname" "team_CTF_bluespawn"
-"origin" "1152 -448 64"
-"angle" "180"
-}
-// entity 19
-{
-"classname" "team_CTF_bluespawn"
-"origin" "1152 -192 64"
-"angle" "180"
-}
-// entity 20
-{
-"classname" "team_CTF_bluespawn"
-"origin" "1152 192 64"
-"angle" "180"
-}
-// entity 21
-{
 "classname" "item_health"
 "origin" "1152 320 288"
 }
-// entity 22
+// entity 14
 {
 "classname" "item_health"
 "origin" "-1152 -320 288"
 }
-// entity 23
+// entity 15
 {
 "classname" "weapon_bfg"
 "origin" "-1088 -320 64"
 }
-// entity 24
+// entity 16
 {
 "classname" "weapon_bfg"
 "origin" "-1088 320 64"
 }
-// entity 25
+// entity 17
 {
 "classname" "weapon_bfg"
 "origin" "-1088 -320 288"
 }
-// entity 26
+// entity 18
 {
 "classname" "weapon_bfg"
 "origin" "-1088 0 288"
 }
-// entity 27
+// entity 19
 {
 "classname" "weapon_bfg"
 "origin" "-1088 320 288"
 }
-// entity 28
+// entity 20
 {
 "classname" "item_health"
 "origin" "1152 -320 288"
 }
-// entity 29
+// entity 21
 {
 "classname" "weapon_bfg"
 "origin" "1088 -320 64"
 }
-// entity 30
+// entity 22
 {
 "classname" "weapon_bfg"
 "origin" "1088 320 64"
 }
-// entity 31
+// entity 23
 {
 "classname" "weapon_bfg"
 "origin" "0 -384 160"
 }
-// entity 32
+// entity 24
 {
 "classname" "weapon_rocketlauncher"
 "origin" "-160 -256 160"
 }
-// entity 33
+// entity 25
 {
 "classname" "weapon_bfg"
 "origin" "-288 -128 160"
 }
-// entity 34
+// entity 26
 {
 "classname" "weapon_rocketlauncher"
 "origin" "0 0 160"
+"!gametpe" "oneflag harvester pos"
 }
-// entity 35
+// entity 27
 {
 "classname" "weapon_bfg"
 "origin" "-288 128 160"
 }
-// entity 36
+// entity 28
 {
 "classname" "weapon_rocketlauncher"
 "origin" "-160 256 160"
 }
-// entity 37
+// entity 29
 {
 "classname" "weapon_bfg"
 "origin" "0 384 160"
 }
-// entity 38
+// entity 30
 {
 "classname" "weapon_bfg"
 "origin" "1088 -320 288"
 }
-// entity 39
+// entity 31
 {
 "classname" "weapon_bfg"
 "origin" "1088 0 288"
 }
-// entity 40
+// entity 32
 {
 "classname" "weapon_bfg"
 "origin" "1088 320 288"
 }
-// entity 41
+// entity 33
 {
 "classname" "team_CTF_blueflag"
 "origin" "1152 0 64"
+"notffa" "1"
 }
-// entity 42
+// entity 34
 {
 "classname" "team_CTF_redflag"
 "origin" "-1152 0 64"
+"notffa" "1"
 }
-// entity 43
+// entity 35
 {
 "classname" "info_player_deathmatch"
 "origin" "-1216 -128 64"
+"spawnflags" "1"
 }
-// entity 44
-{
-"classname" "info_player_start"
-"origin" "1216 128 64"
-"angle" "180"
-}
-// entity 45
+// entity 36
 {
 "classname" "team_CTF_blueplayer"
 "origin" "1152 448 128"
 }
-// entity 46
+// entity 37
 {
 "classname" "info_player_intermission"
 "origin" "0 480 448"
 "angle" "-90"
 "target" "target_location1"
 }
-// entity 47
+// entity 38
 {
 "classname" "target_location"
 "origin" "0 416 416"
 "angle" "-90"
 "targetname" "target_location1"
 }
-// entity 48
+// entity 39
 {
 "classname" "team_CTF_redplayer"
 "origin" "-1152 -448 128"
 }
-// entity 49
-{
-"classname" "team_CTF_redspawn"
-"origin" "-1152 -448 288"
-}
-// entity 50
-{
-"classname" "team_CTF_redspawn"
-"origin" "-1152 -192 288"
-}
-// entity 51
-{
-"classname" "team_CTF_redspawn"
-"origin" "-1152 192 288"
-}
-// entity 52
-{
-"classname" "team_CTF_redspawn"
-"origin" "-1152 448 288"
-}
-// entity 53
-{
-"classname" "team_CTF_redspawn"
-"origin" "-1152 -448 64"
-}
-// entity 54
-{
-"classname" "team_CTF_redspawn"
-"origin" "-1152 -192 64"
-}
-// entity 55
-{
-"classname" "team_CTF_redspawn"
-"origin" "-1152 192 64"
-}
-// entity 56
-{
-"classname" "team_CTF_redspawn"
-"origin" "-1152 448 64"
-}
-// entity 57
+// entity 40
 {
 "classname" "light"
 "origin" "0 384 256"
 "light" "25"
 }
-// entity 58
+// entity 41
 {
 "classname" "light"
 "origin" "0 128 256"
 "light" "25"
 }
-// entity 59
+// entity 42
 {
 "classname" "light"
 "origin" "0 -128 256"
 "light" "25"
 }
-// entity 60
+// entity 43
 {
 "classname" "light"
 "origin" "0 -384 256"
 "light" "25"
 }
-// entity 61
+// entity 44
 {
 "classname" "light"
 "origin" "-384 384 384"
 "light" "25"
 }
-// entity 62
+// entity 45
 {
 "classname" "light"
 "origin" "-384 128 384"
 "light" "25"
 }
-// entity 63
+// entity 46
 {
 "classname" "light"
 "origin" "-384 -128 384"
 "light" "25"
 }
-// entity 64
+// entity 47
 {
 "classname" "light"
 "origin" "-384 -384 384"
 "light" "25"
 }
-// entity 65
+// entity 48
 {
 "classname" "weapon_rocketlauncher"
 "origin" "160 -256 160"
 }
-// entity 66
+// entity 49
 {
 "classname" "weapon_bfg"
 "origin" "288 -128 160"
 }
-// entity 67
+// entity 50
 {
 "classname" "weapon_bfg"
 "origin" "288 128 160"
 }
-// entity 68
+// entity 51
 {
 "classname" "weapon_rocketlauncher"
 "origin" "160 256 160"
 }
-// entity 69
+// entity 52
 {
 "classname" "item_health"
 "origin" "288 -384 160"
 }
-// entity 70
+// entity 53
 {
 "classname" "item_health"
 "origin" "288 384 160"
 }
-// entity 71
+// entity 54
 {
 "classname" "item_health"
 "origin" "-288 384 160"
 }
-// entity 72
+// entity 55
 {
 "classname" "item_health"
 "origin" "-288 -384 160"
+}
+// entity 56
+{
+"classname" "team_CTF_bluespawn"
+"origin" "1152 448 288"
+"angle" "180"
+}
+// entity 57
+{
+"classname" "team_CTF_bluespawn"
+"origin" "1152 -448 288"
+"angle" "180"
+}
+// entity 58
+{
+"classname" "team_CTF_bluespawn"
+"origin" "1152 -192 288"
+"angle" "180"
+}
+// entity 59
+{
+"classname" "team_CTF_bluespawn"
+"origin" "1152 192 288"
+"angle" "180"
+}
+// entity 60
+{
+"classname" "team_CTF_bluespawn"
+"origin" "1152 448 64"
+"angle" "180"
+}
+// entity 61
+{
+"classname" "team_CTF_bluespawn"
+"origin" "1152 -448 64"
+"angle" "180"
+}
+// entity 62
+{
+"classname" "team_CTF_bluespawn"
+"origin" "1152 -192 64"
+"angle" "180"
+}
+// entity 63
+{
+"classname" "team_CTF_bluespawn"
+"origin" "1152 192 64"
+"angle" "180"
+}
+// entity 64
+{
+"classname" "team_CTF_redspawn"
+"origin" "-1152 -448 288"
+}
+// entity 65
+{
+"classname" "team_CTF_redspawn"
+"origin" "-1152 -192 288"
+}
+// entity 66
+{
+"classname" "team_CTF_redspawn"
+"origin" "-1152 192 288"
+}
+// entity 67
+{
+"classname" "team_CTF_redspawn"
+"origin" "-1152 448 288"
+}
+// entity 68
+{
+"classname" "team_CTF_redspawn"
+"origin" "-1152 -448 64"
+}
+// entity 69
+{
+"classname" "team_CTF_redspawn"
+"origin" "-1152 -192 64"
+}
+// entity 70
+{
+"classname" "team_CTF_redspawn"
+"origin" "-1152 192 64"
+}
+// entity 71
+{
+"classname" "team_CTF_redspawn"
+"origin" "-1152 448 64"
+}
+// entity 72
+{
+"classname" "info_player_deathmatch"
+"origin" "1216 128 64"
+"angle" "180"
+"spawnflags" "1"
+}
+// entity 73
+{
+"classname" "info_player_deathmatch"
+"origin" "1152 448 288"
+"angle" "180"
+"spawnflags" "1"
+}
+// entity 74
+{
+"classname" "info_player_deathmatch"
+"origin" "1152 -448 288"
+"angle" "180"
+"spawnflags" "1"
+}
+// entity 75
+{
+"classname" "info_player_deathmatch"
+"origin" "1152 -192 288"
+"angle" "180"
+"spawnflags" "1"
+}
+// entity 76
+{
+"classname" "info_player_deathmatch"
+"origin" "1152 192 288"
+"angle" "180"
+"spawnflags" "1"
+}
+// entity 77
+{
+"classname" "info_player_deathmatch"
+"origin" "1152 448 64"
+"angle" "180"
+"spawnflags" "1"
+}
+// entity 78
+{
+"classname" "info_player_deathmatch"
+"origin" "1152 -448 64"
+"angle" "180"
+"spawnflags" "1"
+}
+// entity 79
+{
+"classname" "info_player_deathmatch"
+"origin" "1152 -192 64"
+"angle" "180"
+"spawnflags" "1"
+}
+// entity 80
+{
+"classname" "info_player_deathmatch"
+"origin" "1152 192 64"
+"angle" "180"
+"spawnflags" "1"
+}
+// entity 81
+{
+"classname" "info_player_deathmatch"
+"origin" "-1152 -448 288"
+"spawnflags" "1"
+}
+// entity 82
+{
+"classname" "info_player_deathmatch"
+"origin" "-1152 -192 288"
+"spawnflags" "1"
+}
+// entity 83
+{
+"classname" "info_player_deathmatch"
+"origin" "-1152 192 288"
+"spawnflags" "1"
+}
+// entity 84
+{
+"classname" "info_player_deathmatch"
+"origin" "-1152 448 288"
+"spawnflags" "1"
+}
+// entity 85
+{
+"classname" "info_player_deathmatch"
+"origin" "-1152 -448 64"
+"spawnflags" "1"
+}
+// entity 86
+{
+"classname" "info_player_deathmatch"
+"origin" "-1152 -192 64"
+"spawnflags" "1"
+}
+// entity 87
+{
+"classname" "info_player_deathmatch"
+"origin" "-1152 192 64"
+"spawnflags" "1"
+}
+// entity 88
+{
+"classname" "info_player_deathmatch"
+"origin" "-1152 448 64"
+"spawnflags" "1"
+}
+// entity 89
+{
+"classname" "team_CTF_neutralflag"
+"origin" "0.000000 0.000000 160.000000"
+}
+// entity 90
+{
+"classname" "team_neutralobelisk"
+"origin" "0.000000 0.000000 128.000000"
+}
+// entity 91
+{
+"classname" "team_blueobelisk"
+"origin" "1152.000000 0.000000 40.000000"
+"notffa" "1"
+}
+// entity 92
+{
+"classname" "team_redobelisk"
+"origin" "-1152.000000 0.000000 40.000000"
+"notffa" "1"
 }

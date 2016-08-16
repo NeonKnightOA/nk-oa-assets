@@ -2,8 +2,9 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "GoDs Athmosfear"
+"message" "Athmosfear"
 "_minlight" "10"
+"author" "Peter Silie"
 // brush 0
 {
 ( 4392 136 1352 ) ( 4392 8 1352 ) ( 4056 136 1352 ) acc_dm3/wallloop 0 0 0 1 1 0 0 0
@@ -11950,7 +11951,7 @@
 {
 "classname" "team_CTF_redflag"
 "origin" "2656 864 280"
-"gametype" "ctf oneflag dd"
+"notffa" "1"
 }
 // entity 51
 {
@@ -11961,7 +11962,7 @@
 {
 "classname" "team_CTF_blueflag"
 "origin" "-5536 864 280"
-"gametype" "ctf oneflag dd"
+"notffa" "1"
 }
 // entity 53
 {
@@ -14420,26 +14421,24 @@
 // entity 394
 {
 "classname" "team_redobelisk"
-"origin" "2656 864 268"
-"gametype" "harvester obelisk overload"
+"origin" "2656.000000 864.000000 258.000000"
+"notffa" "1"
 }
 // entity 395
 {
 "classname" "team_blueobelisk"
-"origin" "-5536 864 268"
-"gametype" "harvester obelisk overload"
+"origin" "-5536.000000 864.000000 258.000000"
+"notffa" "1"
 }
 // entity 396
 {
 "classname" "team_CTF_neutralflag"
 "origin" "-1440 864 620"
-"gametype" "oneflag"
 }
 // entity 397
 {
 "classname" "team_neutralobelisk"
-"origin" "-1440 864 608"
-"gametype" "harvester"
+"origin" "-1440.000000 864.000000 592.000000"
 }
 // entity 398
 {

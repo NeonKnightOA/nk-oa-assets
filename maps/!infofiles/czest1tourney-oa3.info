@@ -1,0 +1,37 @@
+auther "Czestmyr (modified by Neon_Knight)"
+description "This is it. The end of the line. The blackness of the void surrounds you, while the imposing Spire looks above Planet Sago. So here's a last piece of advice before you enter: it's a LONG way down, and you might NOT get up again."
+
+minPlayers 2
+minTeamSize 1
+maxPlayers 4
+maxTeamSize 2
+
+support_dm yes
+support_team no
+support_tourney yes
+support_ctf no
+support_1fctf no
+support_obelisk no
+support_harvester no
+support_elimination no
+support_ctfelim no
+support_lms yes
+support_dd no
+support_dom no
+support_pos yes
+
+gametype dm
+fragLimit 20
+timeLimit 15
+
+gametype tourney
+fragLimit 10
+timeLimit 10
+
+gametype lms
+captureLimit 5
+timeLimit 15
+
+gametype pos
+fragLimit 90
+timeLimit 15

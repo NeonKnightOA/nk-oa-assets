@@ -3,7 +3,7 @@
 {
 "classname" "worldspawn"
 "message" "Outer Gates"
-"music" "music/sonic5.wav"
+"author" "cosmo"
 // brush 0
 {
 ( -1472 512 640 ) ( -1472 640 640 ) ( -256 512 640 ) base_trim/dirty_pewter_big 0.0004882812 -24.00050354 180 0.4999999702 0.4999999702 0 0 0
@@ -462,10 +462,10 @@
 // brush 51
 {
 ( -256 768 1152 ) ( -256 640 1152 ) ( -3264 768 1152 ) common/caulk 0 20.0000305176 0 0.4999999702 0.4999999702 0 0 0
-( -256 768 1152 ) ( -3264 768 1152 ) ( -256 768 512 ) skies/nitesky 128 0 0 0.5 0.5 0 0 0
+( -256 768 1152 ) ( -3264 768 1152 ) ( -256 768 512 ) skies/moonsky 128 0 0 0.5 0.5 0 0 0
 ( -256 768 1152 ) ( -256 768 512 ) ( -256 640 1152 ) common/caulk -20.0000305176 0 0 0.4999999702 0.4999999702 0 0 0
 ( -3264 640 512 ) ( -256 640 512 ) ( -3264 768 512 ) common/caulk 0 20.0000305176 0 0.4999999702 0.4999999702 0 0 0
-( -3264 640 512 ) ( -3264 640 1152 ) ( -256 640 512 ) skies/nitesky 128 0 0 0.5 0.5 0 0 0
+( -3264 640 512 ) ( -3264 640 1152 ) ( -256 640 512 ) skies/moonsky 128 0 0 0.5 0.5 0 0 0
 ( -2432 640 512 ) ( -2432 768 512 ) ( -2432 640 1152 ) common/caulk -20.0000305176 0 0 0.4999999702 0.4999999702 0 0 0
 }
 // brush 52
@@ -1252,7 +1252,7 @@
 ( 1984 -448 1152 ) ( 1984 -512 1152 ) ( -768 -448 1152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
 ( 1984 640 1152 ) ( -768 640 1152 ) ( 1984 640 1024 ) common/caulk 0 0 0 0.4999999702 0.4999999702 0 0 0
 ( 1984 -448 1152 ) ( 1984 -448 1024 ) ( 1984 -512 1152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
-( -768 -512 1024 ) ( 1984 -512 1024 ) ( -768 -448 1024 ) skies/nitesky 0 0 0 0.5 0.5 0 0 0
+( -768 -512 1024 ) ( 1984 -512 1024 ) ( -768 -448 1024 ) skies/moonsky 0 0 0 0.5 0.5 0 0 0
 ( -768 -1472 1024 ) ( -768 -1472 1152 ) ( 1984 -1472 1024 ) common/caulk 0 0 0 0.5 0.5 0 0 0
 ( -2432 -496 1024 ) ( -2432 -432 1024 ) ( -2432 -496 1152 ) common/caulk -4 0 0 0.4999999702 0.4999999702 0 0 0
 }
@@ -1403,7 +1403,7 @@
 // brush 157
 {
 ( -256 -1152 1152 ) ( -256 -1280 1152 ) ( -3264 -1152 1152 ) common/caulk -0.0000305176 24 0 0.4999999702 0.4999999702 0 0 0
-( -256 -1152 1152 ) ( -3264 -1152 1152 ) ( -256 -1152 512 ) skies/nitesky -128 0 0 0.5 0.5 0 0 0
+( -256 -1152 1152 ) ( -3264 -1152 1152 ) ( -256 -1152 512 ) skies/moonsky -128 0 0 0.5 0.5 0 0 0
 ( -256 -1152 1152 ) ( -256 -1152 512 ) ( -256 -1280 1152 ) common/caulk -24 0 0 0.4999999702 0.4999999702 0 0 0
 ( -3264 -1280 512 ) ( -256 -1280 512 ) ( -3264 -1152 512 ) common/caulk -0.0000305176 24 0 0.4999999702 0.4999999702 0 0 0
 ( -3264 -1280 512 ) ( -3264 -1280 1152 ) ( -256 -1280 512 ) common/caulk -0.0000305176 0 0 0.4999999702 0.4999999702 0 0 0
@@ -1724,7 +1724,7 @@
 ( -2432 256 1152 ) ( -2432 256 512 ) ( -2432 752 1152 ) common/caulk 19.9997558594 0 0 -0.4999999702 0.4999999702 0 0 0
 ( -2232 -864 640 ) ( -2472 -864 640 ) ( -2232 -1360 640 ) common/caulk -24.0009765625 -7.9995112419 180 0.4999999702 0.4999999702 0 0 0
 ( -2192 768 512 ) ( -2192 768 1152 ) ( -2432 768 512 ) common/caulk -0 0 0 -0.4999999702 0.4999999702 0 0 0
-( -2176 752 512 ) ( -2176 256 512 ) ( -2176 752 1152 ) skies/nitesky 127.9998168945 0 0 -0.4999999404 0.4999999404 0 0 0
+( -2176 752 512 ) ( -2176 256 512 ) ( -2176 752 1152 ) skies/moonsky 127.9998168945 0 0 -0.4999999404 0.4999999404 0 0 0
 }
 // brush 195
 {
@@ -2163,17 +2163,17 @@
 // brush 244
 {
 ( 1984 576 1152 ) ( 1984 448 1152 ) ( -1024 576 1152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
-( 1984 576 1152 ) ( -1024 576 1152 ) ( 1984 576 512 ) skies/nitesky 0 0 0 0.5 0.5 0 0 0
+( 1984 576 1152 ) ( -1024 576 1152 ) ( 1984 576 512 ) skies/moonsky 0 0 0 0.5 0.5 0 0 0
 ( 1984 576 1152 ) ( 1984 576 512 ) ( 1984 448 1152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
 ( -1024 448 512 ) ( 1984 448 512 ) ( -1024 576 512 ) common/caulk 0 0 0 0.5 0.5 0 0 0
-( -1024 448 512 ) ( -1024 448 1152 ) ( 1984 448 512 ) skies/nitesky 0 0 0 0.5 0.5 0 0 0
+( -1024 448 512 ) ( -1024 448 1152 ) ( 1984 448 512 ) skies/moonsky 0 0 0 0.5 0.5 0 0 0
 ( -192 448 512 ) ( -192 576 512 ) ( -192 448 1152 ) common/caulk 0 0 0 0.4999999702 0.4999999702 0 0 0
 }
 // brush 245
 {
 ( -384 -1280 1024 ) ( -384 640 1024 ) ( -256 -1280 1024 ) common/caulk -0 -15.9999084473 180 0.4999999702 0.4999999702 0 0 0
 ( -384 -1152 1152 ) ( -256 -1152 1152 ) ( -384 -1152 512 ) common/caulk 0 0 0 -0.4999999702 0.4999999702 0 0 0
-( -448 -1280 1152 ) ( -448 -1280 512 ) ( -448 640 1152 ) skies/nitesky 127.9998168945 0 0 -0.4999999404 0.4999999404 0 0 0
+( -448 -1280 1152 ) ( -448 -1280 512 ) ( -448 640 1152 ) skies/moonsky 127.9998168945 0 0 -0.4999999404 0.4999999404 0 0 0
 ( -256 640 640 ) ( -384 640 640 ) ( -256 -1280 640 ) common/caulk -0 -15.9999084473 180 0.4999999702 0.4999999702 0 0 0
 ( -320 640 512 ) ( -320 640 1152 ) ( -448 640 512 ) common/caulk -16.0001220703 0 0 -0.4999999702 0.4999999702 0 0 0
 ( -256 640 512 ) ( -256 -1280 512 ) ( -256 640 1152 ) common/caulk 15.9999084473 0 0 -0.4999999702 0.4999999702 0 0 0
@@ -2182,7 +2182,7 @@
 {
 ( -64 448 1024 ) ( -64 -1472 1024 ) ( -192 448 1024 ) common/caulk 0 0 0 0.4999999702 0.4999999702 0 0 0
 ( -64 448 1152 ) ( -192 448 1152 ) ( -64 448 512 ) common/caulk 0 0 0 0.5 0.5 0 0 0
-( 0 448 1152 ) ( 0 448 512 ) ( 0 -1472 1152 ) skies/nitesky 0 0 0 0.4999999702 0.4999999702 0 0 0
+( 0 448 1152 ) ( 0 448 512 ) ( 0 -1472 1152 ) skies/moonsky 0 0 0 0.4999999702 0.4999999702 0 0 0
 ( -204 -1472 640 ) ( -76 -1472 640 ) ( -204 448 640 ) common/caulk 24.0000019073 0 0 0.4999999702 0.4999999702 0 0 0
 ( -128 -1472 512 ) ( -128 -1472 1152 ) ( 0 -1472 512 ) common/caulk -16.0000076294 0 0 0.4999999702 0.4999999702 0 0 0
 ( -192 -1472 512 ) ( -192 448 512 ) ( -192 -1472 1152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
@@ -2190,7 +2190,7 @@
 // brush 247
 {
 ( 1984 -1472 1152 ) ( 1984 -1600 1152 ) ( -1024 -1472 1152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
-( 1984 -1472 1152 ) ( -1024 -1472 1152 ) ( 1984 -1472 512 ) skies/nitesky 0 0 0 0.5 0.5 0 0 0
+( 1984 -1472 1152 ) ( -1024 -1472 1152 ) ( 1984 -1472 512 ) skies/moonsky 0 0 0 0.5 0.5 0 0 0
 ( 1984 -1472 1152 ) ( 1984 -1472 512 ) ( 1984 -1600 1152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
 ( -1024 -1600 512 ) ( 1984 -1600 512 ) ( -1024 -1472 512 ) common/caulk 0 0 0 0.5 0.5 0 0 0
 ( -1024 -1600 512 ) ( -1024 -1600 1152 ) ( 1984 -1600 512 ) common/caulk 0 0 0 0.5 0.5 0 0 0
@@ -2203,7 +2203,7 @@
 ( 1984 -960 1152 ) ( 1984 -960 512 ) ( 1984 -1456 1152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
 ( 1776 160 640 ) ( 2016 160 640 ) ( 1776 656 640 ) common/caulk -8.0000038147 -15.9999103546 0 0.4999999702 0.4999999702 0 0 0
 ( 1744 -1472 512 ) ( 1744 -1472 1152 ) ( 1984 -1472 512 ) common/caulk 0 0 0 0.4999999702 0.4999999702 0 0 0
-( 1728 -1456 512 ) ( 1728 -960 512 ) ( 1728 -1456 1152 ) skies/nitesky 0 0 0 0.4999999702 0.4999999702 0 0 0
+( 1728 -1456 512 ) ( 1728 -960 512 ) ( 1728 -1456 1152 ) skies/moonsky 0 0 0 0.4999999702 0.4999999702 0 0 0
 }
 // brush 249
 {
@@ -6717,8 +6717,6 @@
 {
 "classname" "team_CTF_neutralflag"
 "origin" "-216.000000 -352.000000 208.000000"
-"!gametpe" "dom"
-"!gametype" "dom"
 }
 // entity 78
 {
@@ -6730,26 +6728,26 @@
 "classname" "team_blueobelisk"
 "origin" "-1864.000000 -192.000000 72.000000"
 "notffa" "1"
+"!gametype" "dd"
+"!gametpe" "dd"
 }
 // entity 80
 {
 "classname" "team_redobelisk"
 "origin" "1416.000000 -512.000000 72.000000"
 "notffa" "1"
+"!gametype" "dd"
+"!gametpe" "dd"
 }
 // entity 81
 {
 "classname" "item_doubler"
 "origin" "-224 -868 -80"
-"notq3a" "1"
-"gametype" "ctf, harvester, overload, oneflag, dd"
 }
 // entity 82
 {
 "classname" "item_guard"
 "origin" "-224 160 -82"
-"gametype" "ctf, harvester, overload, oneflag, dd"
-"notq3a" "1"
 }
 // entity 83
 {
@@ -6908,20 +6906,6 @@
 }
 // entity 105
 {
-"classname" "func_group"
-"gametype" "ffa, sp, tourney, tdm, ctf, elimination, ctfelimination, dd, lms, dom, overload"
-// brush 0
-{
-( -296 -416 169 ) ( -296 -288 169 ) ( -168 -416 169 ) dsi/weapspawn01 -192 192 0 0.5 0.5 134217728 0 0
-( -296 -416 184 ) ( -168 -416 184 ) ( -296 -416 168 ) common/nodraw 19.9995117188 4.0000152588 0 -0.4999999702 0.4999999702 134217728 0 0
-( -288 -416 184 ) ( -288 -416 168 ) ( -288 -288 184 ) common/nodraw -19.9998779297 4.0000152588 0 -0.4999999702 0.4999999702 134217728 0 0
-( -168 -288 168 ) ( -296 -288 168 ) ( -168 -416 168 ) common/nodraw 19.9995117188 19.9998779297 180 0.4999999702 0.4999999702 134217728 0 0
-( -168 -288 153 ) ( -168 -288 169 ) ( -296 -288 153 ) common/nodraw 19.9995117188 2.0000076294 0 -0.4999999702 0.4999999702 134217728 0 0
-( -160 -288 168 ) ( -160 -416 168 ) ( -160 -288 184 ) common/nodraw -19.9998779297 4.0000152588 0 -0.4999999702 0.4999999702 134217728 0 0
-}
-}
-// entity 106
-{
 "classname" "func_door"
 "angle" "-1"
 "speed" "20000"
@@ -6940,7 +6924,7 @@
 ( -416 -256 168 ) ( -416 -128 168 ) ( -416 -256 384 ) cosmo_sfx/energy_blue 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 107
+// entity 106
 {
 "classname" "func_button"
 "angle" "0"
@@ -6957,7 +6941,7 @@
 ( -448 -220 500 ) ( -448 -164 284 ) ( -448 -220 284 ) common/caulk 3.9999697208 8.0000076294 0 0.4999999702 0.4999999702 134217728 0 0
 }
 }
-// entity 108
+// entity 107
 {
 "classname" "team_CTF_redflag"
 "origin" "1420 -512 108"
@@ -6965,7 +6949,7 @@
 "!gametype" "dd"
 "!gametpe" "dd"
 }
-// entity 109
+// entity 108
 {
 "classname" "team_CTF_blueflag"
 "origin" "-1868 -196 120"
@@ -6974,343 +6958,357 @@
 "!gametype" "dd"
 "!gametpe" "dd"
 }
-// entity 110
+// entity 109
 {
 "classname" "info_player_deathmatch"
 "origin" "80 -872 -24"
 }
-// entity 111
+// entity 110
 {
 "classname" "info_player_deathmatch"
 "origin" "672 160 -24"
 "angle" "270"
 }
-// entity 112
+// entity 111
 {
 "classname" "info_player_deathmatch"
 "origin" "224 160 -24"
 "angle" "270"
 }
-// entity 113
+// entity 112
 {
 "classname" "info_player_deathmatch"
 "origin" "224 -1184 -24"
 "angle" "90"
 }
-// entity 114
+// entity 113
 {
 "classname" "info_player_deathmatch"
 "origin" "928 -1056 -24"
 "angle" "135"
 }
-// entity 115
+// entity 114
 {
 "classname" "info_player_deathmatch"
 "origin" "768 -512 -24"
 "angle" "180"
 }
-// entity 116
+// entity 115
 {
 "classname" "item_invis"
 "origin" "-1864 -192 216"
 "gametype" "dd, dom"
 }
-// entity 117
+// entity 116
 {
 "classname" "item_invis"
 "origin" "1416 -512 216"
 "gametype" "dd, dom"
 }
-// entity 118
+// entity 117
 {
 "classname" "info_player_intermission"
 "origin" "128 -512 320"
 "target" "target_position1"
 }
-// entity 119
+// entity 118
 {
 "classname" "target_position"
 "origin" "704 -512 224"
 "targetname" "target_position1"
 }
-// entity 120
+// entity 119
 {
 "classname" "target_location"
 "origin" "-1280 544 320"
 "message" "Railgun"
 "count" "4"
 }
-// entity 121
+// entity 120
 {
 "classname" "target_location"
 "origin" "1520 -512 224"
 "message" "red base"
 "count" "1"
 }
-// entity 122
+// entity 121
 {
 "classname" "target_location"
 "origin" "512 256 224"
 "message" "Red Armor"
 "count" "1"
 }
-// entity 123
+// entity 122
 {
 "classname" "target_location"
 "origin" "832 -1280 224"
 "message" "Railgun"
 "count" "1"
 }
-// entity 124
+// entity 123
 {
 "classname" "target_location"
 "origin" "416 -512 0"
 "message" "Rocketlauncher"
 "count" "1"
 }
-// entity 125
+// entity 124
 {
 "classname" "target_location"
 "origin" "640 0 0"
 "message" "Plasmagun"
 "count" "1"
 }
-// entity 126
+// entity 125
 {
 "classname" "target_location"
 "origin" "576 -1088 0"
 "message" "Shotgun"
 "count" "1"
 }
-// entity 127
+// entity 126
 {
 "classname" "target_location"
 "origin" "112 -512 -32"
 "message" "Dom Point"
 "count" "1"
 }
-// entity 128
+// entity 127
 {
 "classname" "target_location"
 "origin" "896 -512 -32"
 "message" "Central Court"
 "count" "1"
 }
-// entity 129
+// entity 128
 {
 "classname" "target_location"
 "origin" "-224 -352 320"
 "message" "Lightning Gun"
 "count" "0"
 }
-// entity 130
+// entity 129
 {
 "classname" "target_location"
 "origin" "-128 320 0"
 "message" "Yellow Armor"
 "count" "0"
 }
-// entity 131
+// entity 130
 {
 "classname" "target_location"
 "origin" "-320 -1024 0"
 "message" "Healing Orb"
 "count" "0"
 }
-// entity 132
+// entity 131
 {
 "classname" "target_location"
 "origin" "-1120 -736 0"
 "message" "Shotgun"
 "count" "4"
 }
-// entity 133
+// entity 132
 {
 "classname" "target_location"
 "origin" "-896 -192 0"
 "message" "Rocketlauncher"
 "count" "4"
 }
-// entity 134
+// entity 133
 {
 "classname" "target_location"
 "origin" "-1008 416 0"
 "message" "Plasmagun"
 "count" "4"
 }
-// entity 135
+// entity 134
 {
 "classname" "target_location"
 "origin" "-560 -192 0"
 "message" "Dom Point"
 "count" "4"
 }
-// entity 136
+// entity 135
 {
 "classname" "target_location"
 "origin" "-1280 -192 0"
 "message" "Central Court"
 "count" "4"
 }
-// entity 137
+// entity 136
 {
 "classname" "target_location"
 "origin" "-944 -960 320"
 "message" "Red Armor"
 "count" "4"
 }
-// entity 138
+// entity 137
 {
 "classname" "target_location"
 "origin" "-1984 -192 320"
 "message" "Blue Base"
 "count" "4"
 }
-// entity 139
+// entity 138
 {
 "classname" "domination_point"
 "origin" "-224 -352 232"
 "message" "Center"
 }
-// entity 140
+// entity 139
 {
 "classname" "domination_point"
 "origin" "896 -512 0"
 "message" "Red Base"
 }
-// entity 141
+// entity 140
 {
 "classname" "domination_point"
 "origin" "-1280 -192 32"
 "message" "Blue Base"
 }
-// entity 142
+// entity 141
 {
 "classname" "ammo_slugs"
 "origin" "-704 -192 256"
 "rotation" "-1 0 0 0 -1 0 0 0 1 "
 }
-// entity 143
+// entity 142
 {
 "classname" "ammo_slugs"
 "origin" "256 -512 248"
 }
-// entity 144
+// entity 143
 {
 "classname" "ammo_grenades"
 "origin" "-352 160 -72"
 }
-// entity 145
+// entity 144
 {
 "classname" "ammo_bullets"
 "origin" "-1408 -192 0"
 }
-// entity 146
+// entity 145
 {
 "classname" "ammo_bullets"
 "origin" "960 -512 -32"
 }
-// entity 147
+// entity 146
 {
 "classname" "weapon_grenadelauncher"
 "origin" "-1952 -928 160"
 "rotation" "-1 0 0 0 -1 0 0 0 1 "
 }
-// entity 148
+// entity 147
 {
 "classname" "weapon_lightning"
 "origin" "-232 -352 200"
-"!gametype" "oneflag possession harvester dom"
-"!gametpe" "oneflag possession harvester dom"
+"!gametype" "oneflag harvester dom pos"
+"!gametpe" "oneflag harvester dom pos"
+}
+// entity 148
+{
+"classname" "ammo_lightning"
+"origin" "832 256 200"
+"!gametype" "oneflag harvester dom pos"
 }
 // entity 149
 {
 "classname" "ammo_lightning"
-"origin" "832 256 200"
-"gametype" "ffa, sp, tourney, tdm, ctf, elimination, ctfelimination, dd, lms, dom, overload"
+"origin" "-1280 -964 200"
+"!gametype" "oneflag harvester dom pos"
 }
 // entity 150
-{
-"classname" "ammo_lightning"
-"origin" "-1280 -964 200"
-"gametype" "ffa, sp, tourney, tdm, ctf, elimination, ctfelimination, dd, lms, dom, overload"
-}
-// entity 151
 {
 "classname" "weapon_grenadelauncher"
 "origin" "1504 224 160"
 }
-// entity 152
+// entity 151
 {
 "classname" "weapon_shotgun"
 "origin" "1608 -512 104"
 "rotation" "-1 0 0 0 -1 0 0 0 1 "
 }
-// entity 153
+// entity 152
 {
 "classname" "weapon_lightning"
 "origin" "1608 -512 144"
 "rotation" "-1 0 0 0 -1 0 0 0 1 "
 "gametype" "oneflag, dom"
 }
-// entity 154
+// entity 153
 {
 "classname" "weapon_shotgun"
 "origin" "-2056 -192 104"
 "rotation" "-1 0 0 0 -1 0 0 0 1 "
 }
-// entity 155
+// entity 154
 {
 "classname" "weapon_lightning"
 "origin" "-2056 -192 144"
 "rotation" "-1 0 0 0 -1 0 0 0 1 "
 "gametype" "oneflag, dom"
 }
-// entity 156
+// entity 155
 {
 "classname" "info_player_deathmatch"
 "origin" "-1328 352 -24"
 "angle" "305"
 }
-// entity 157
+// entity 156
 {
 "classname" "info_player_deathmatch"
 "origin" "1680 -976 104"
 "angle" "135"
 }
-// entity 158
+// entity 157
 {
 "classname" "info_player_deathmatch"
 "origin" "-2128 -656 104"
 "angle" "45"
 }
-// entity 159
+// entity 158
 {
 "classname" "info_player_deathmatch"
 "origin" "-2128 272 104"
 "angle" "305"
 }
-// entity 160
+// entity 159
 {
 "classname" "team_CTF_blueplayer"
 "origin" "-480 -280 -24"
 "angle" "180"
 }
-// entity 161
+// entity 160
 {
 "classname" "team_CTF_bluespawn"
 "origin" "-480 -480 -24"
 "angle" "180"
 }
-// entity 162
+// entity 161
 {
 "classname" "team_CTF_redspawn"
 "origin" "80 -424 -24"
 "angle" "90"
 }
-// entity 163
+// entity 162
 {
 "classname" "team_CTF_redplayer"
 "origin" "80 -600 -24"
 "angle" "270"
+}
+// entity 163
+{
+"classname" "func_static"
+"!gametype" "oneflag harvester"
+// brush 0
+{
+( -296 -416 169 ) ( -296 -288 169 ) ( -168 -416 169 ) dsi/weapspawn01 -192 192 0 0.5 0.5 134217728 0 0
+( -296 -416 184 ) ( -168 -416 184 ) ( -296 -416 168 ) common/nodraw 19.9995117188 4.0000152588 0 -0.4999999702 0.4999999702 134217728 0 0
+( -288 -416 184 ) ( -288 -416 168 ) ( -288 -288 184 ) common/nodraw -19.9998779297 4.0000152588 0 -0.4999999702 0.4999999702 134217728 0 0
+( -168 -288 168 ) ( -296 -288 168 ) ( -168 -416 168 ) common/nodraw 19.9995117188 19.9998779297 180 0.4999999702 0.4999999702 134217728 0 0
+( -168 -288 153 ) ( -168 -288 169 ) ( -296 -288 153 ) common/nodraw 19.9995117188 2.0000076294 0 -0.4999999702 0.4999999702 134217728 0 0
+( -160 -288 168 ) ( -160 -416 168 ) ( -160 -288 184 ) common/nodraw -19.9998779297 4.0000152588 0 -0.4999999702 0.4999999702 134217728 0 0
+}
 }

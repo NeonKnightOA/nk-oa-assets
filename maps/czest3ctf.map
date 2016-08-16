@@ -3,7 +3,7 @@
 {
 "classname" "worldspawn"
 "message" "Holy Wars!"
-"music" "music/OA09.ogg"
+"author" "Czestmyr"
 // brush 0
 {
 ( 24 32 64 ) ( 24 -32 64 ) ( -40 32 64 ) gothic_block/blocks15_relief2 160 128 0 0.25 0.25 134217728 0 0
@@ -14776,12 +14776,12 @@ gothic_block/blocks11b
 }
 // brush 1509
 {
-( 96 512 -8 ) ( 96 -512 -8 ) ( -160 512 -8 ) liquids/lavahell_750 112 0 0 0.5 0.5 0 0 0
-( 88 128 0 ) ( -168 128 0 ) ( 88 128 -32 ) liquids/lavahell_750 112 0 0 0.5 0.5 0 0 0
-( 128 504 0 ) ( 128 504 -32 ) ( 128 -520 0 ) liquids/lavahell_750 96 0 0 0.5 0.5 0 0 0
-( -160 -512 -32 ) ( 96 -512 -32 ) ( -160 512 -32 ) liquids/lavahell_750 112 0 0 0.5 0.5 0 0 0
-( -104 -128 -32 ) ( -104 -128 0 ) ( 152 -128 -32 ) liquids/lavahell_750 112 0 0 0.5 0.5 0 0 0
-( -128 -512 -32 ) ( -128 512 -32 ) ( -128 -512 0 ) liquids/lavahell_750 96 0 0 0.5 0.5 0 0 0
+( 96 512 -8 ) ( 96 -512 -8 ) ( -160 512 -8 ) liquids/lavahellflat_400 112 0 0 0.5 0.5 0 0 0
+( 88 128 0 ) ( -168 128 0 ) ( 88 128 -32 ) liquids/lavahellflat_400 112 0 0 0.5 0.5 0 0 0
+( 128 504 0 ) ( 128 504 -32 ) ( 128 -520 0 ) liquids/lavahellflat_400 96 0 0 0.5 0.5 0 0 0
+( -160 -512 -32 ) ( 96 -512 -32 ) ( -160 512 -32 ) liquids/lavahellflat_400 112 0 0 0.5 0.5 0 0 0
+( -104 -128 -32 ) ( -104 -128 0 ) ( 152 -128 -32 ) liquids/lavahellflat_400 112 0 0 0.5 0.5 0 0 0
+( -128 -512 -32 ) ( -128 512 -32 ) ( -128 -512 0 ) liquids/lavahellflat_400 96 0 0 0.5 0.5 0 0 0
 }
 // brush 1510
 {
@@ -31123,13 +31123,11 @@ clown/blue_banner
 {
 "classname" "team_neutralobelisk"
 "origin" "0.000000 0.000000 256.000000"
-"gametype" "oneflag harvester pos"
 }
 // entity 11
 {
 "classname" "team_CTF_neutralflag"
 "origin" "0 0 296"
-"gametype" "oneflag pos"
 }
 // entity 12
 {
@@ -33356,4 +33354,16 @@ clown/blue_banner
 ( -608 1920 -64 ) ( -576 1952 -64 ) ( -608 1920 64 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 ( -576 1952 -64 ) ( -544 1920 -64 ) ( -576 1952 64 ) common/trigger -0 0 0 0.5 0.5 0 0 0
 }
+}
+// entity 300
+{
+"classname" "info_player_intermission"
+"origin" "-920.000000 -384.000000 272.000000"
+"target" "target_position1"
+}
+// entity 301
+{
+"classname" "target_position"
+"origin" "-552.000000 256.000000 160.000000"
+"targetname" "target_position1"
 }

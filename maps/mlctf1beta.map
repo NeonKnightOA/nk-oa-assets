@@ -2,8 +2,8 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Meisterlampe's Tourney Grounds"
-"music" "music/OA07.ogg"
+"message" "Open Sky CTF"
+"author" "Meisterlampe"
 // brush 0
 {
 ( 128 0 0 ) ( 128 -64 0 ) ( -64 0 0 ) base_floor/clang_floor512 0 0 0 0.25 0.25 0 0 0
@@ -13049,6 +13049,7 @@ sfx/beam_red
 {
 "classname" "team_CTF_blueflag"
 "origin" "128.000000 4476.000000 152.000000"
+"notffa" "1"
 }
 // entity 75
 {
@@ -13447,7 +13448,7 @@ sfx/beam_red
 {
 "classname" "item_armor_body"
 "origin" "192 2240 24"
-"gametype" "ctf overload dd"
+"!gametype" "oneflag harvester pos"
 }
 // entity 135
 {
@@ -13458,16 +13459,19 @@ sfx/beam_red
 {
 "classname" "team_CTF_redflag"
 "origin" "256.000000 4.000000 152.000000"
+"notffa" "1"
 }
 // entity 137
 {
 "classname" "team_redobelisk"
 "origin" "256.000000 4.000000 128.000000"
+"notffa" "1"
 }
 // entity 138
 {
 "classname" "team_blueobelisk"
 "origin" "128.000000 4476.000000 128.000000"
+"notffa" "1"
 }
 // entity 139
 {

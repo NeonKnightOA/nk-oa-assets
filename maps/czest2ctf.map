@@ -2,13 +2,12 @@
 // entity 0
 {
 "classname" "worldspawn"
-"music" "music/OA09.ogg"
 "message" "The Bridge Of Despair"
 "gridsize" "512 256 512"
 "_blocksize" "8192"
 "_lightmapscale" "2.0"
 "_farplanedist" "4096"
-"_minlight" "16"
+"author" "Czestmyr"
 // brush 0
 {
 ( 256 0 -64 ) ( 256 0 -256 ) ( 512 0 -256 ) gothic_block/blocks17e 0 0 0 0.25 0.25 134217728 0 0
@@ -27305,7 +27304,7 @@ clown/blue_3
 {
 "classname" "team_CTF_redflag"
 "origin" "128 2880 48"
-"gametype" "ctf cctf oneflag dd"
+"notffa" "1"
 }
 // entity 107
 {
@@ -28255,14 +28254,14 @@ clown/blue_3
 {
 "classname" "team_CTF_blueflag"
 "origin" "-128 -2880 40"
-"gametype" "ctf cctf oneflag dd"
+"notffa" "1"
 }
 // entity 238
 {
 "classname" "item_quad"
 "origin" "0 0 256"
 "angle" "39.6515"
-"gametype" "ctf obelisk dd"
+"!gametype" "oneflag harvester pos"
 }
 // entity 239
 {
@@ -28907,11 +28906,13 @@ clown/blue_3
 {
 "classname" "team_blueobelisk"
 "origin" "-128.000000 -2880.000000 8.000000"
+"notffa" "1"
 }
 // entity 353
 {
 "classname" "team_redobelisk"
 "origin" "128.000000 2880.000000 8.000000"
+"notffa" "1"
 }
 // entity 354
 {
@@ -28922,7 +28923,6 @@ clown/blue_3
 {
 "classname" "team_CTF_neutralflag"
 "origin" "0 0 272"
-"gametype" "oneflag"
 }
 // entity 356
 {

@@ -3,7 +3,7 @@
 {
 "classname" "worldspawn"
 "message" "Uzuldaroum III"
-"music" "music/fla22k_05.wav"
+"author" "Vondur, andrewj, Neon_Knight"
 // brush 0
 {
 ( 384 -128 192 ) ( 320 -128 192 ) ( 192 -256 192 ) oa_uzul_SH/floor3 -85 0 0 1.5 1 0 0 0

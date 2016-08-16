@@ -2,7 +2,8 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Blitzkrieg Sector by boczeq & Armageddon_Man"
+"message" "Blitzkrieg Testing Chamber"
+"author" "boczeq, Neon_Knight"
 // brush 0
 {
 ( -224 736 -80 ) ( -240 752 -80 ) ( -240 752 -304 ) common/caulk 8.0000038147 0 0 0.4999999702 0.4999999702 0 0 0

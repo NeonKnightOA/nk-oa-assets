@@ -3,7 +3,8 @@
 {
 "classname" "worldspawn"
 "_minlight" "20"
-"message" "GoDs 2Fort"
+"message" "Two Forts"
+"author" "Peter Silie"
 // brush 0
 {
 ( -276 -1024 -4 ) ( -276 -1020 -4 ) ( -296 -1024 -4 ) evil8_base/e8metal_red_shiney 64 0 0 1 1 0 0 0
@@ -32562,7 +32563,7 @@ evil8_trim/e8trimlight2_blue
 {
 "classname" "team_CTF_blueflag"
 "origin" "5696 928 -308"
-"gametype" "oneflag ctf dd"
+"notffa" "1"
 }
 // entity 89
 {
@@ -32830,7 +32831,7 @@ evil8_trim/e8trimlight2_blue
 {
 "classname" "team_CTF_redflag"
 "origin" "-5696 -928 -304"
-"gametype" "oneflag ctf dd"
+"notffa" "1"
 }
 // entity 141
 {
@@ -33496,26 +33497,24 @@ evil8_trim/e8trimlight2_blue
 // entity 232
 {
 "classname" "team_redobelisk"
-"origin" "-5696 -928 -336"
-"gametype" "obelisk harvester overload"
+"origin" "-5696.000000 -928.000000 -344.000000"
+"notffa" "1"
 }
 // entity 233
 {
 "classname" "team_blueobelisk"
-"origin" "5696 928 -336"
-"gametype" "obelisk harvester overload"
+"origin" "5696.000000 928.000000 -344.000000"
+"notffa" "1"
 }
 // entity 234
 {
 "classname" "team_CTF_neutralflag"
 "origin" "0 0 -328"
-"gametype" "oneflag"
 }
 // entity 235
 {
 "classname" "team_neutralobelisk"
-"origin" "0 0 -344"
-"gametype" "harvester"
+"origin" "0.000000 0.000000 -376.000000"
 }
 // entity 236
 {

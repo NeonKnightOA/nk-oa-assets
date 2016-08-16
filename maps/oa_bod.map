@@ -2,7 +2,8 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "better off dead (OA edition)"
+"message" "Better Off Dead"
+"author" "sp1r1t"
 // brush 0
 {
 ( 64 448 64 ) ( 64 256 64 ) ( -64 448 64 ) oa_bod/floor04 0 0 0 0.5 0.5 0 0 0

@@ -4,6 +4,7 @@
 "classname" "worldspawn"
 "message" "Lunar Base"
 "started" "Sept 5, 2003"
+"author" "R.P.G., andrewj, Neon_Knight"
 // brush 0
 {
 brushDef

@@ -2,8 +2,8 @@
 // entity 0
 {
 "classname" "worldspawn"
-"music" "music/fla22k_06.wav"
-"message" "Nemesis Online - by Vondur"
+"message" "Nemesis Online"
+"author" "Vondur, andrewj, Neon_Knight"
 // brush 0
 {
 ( -128 480 160 ) ( -128 496 160 ) ( -64 496 160 ) common/clip 0 0 0 0.5 0.5 0 0 0

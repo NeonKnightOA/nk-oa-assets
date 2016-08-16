@@ -2,9 +2,9 @@
 // entity 0
 {
 "classname" "worldspawn"
-"target" "target_position5"
 "_minlight" "30"
-"message" "GoDs Infinitum"
+"message" "Infinitum"
+"author" "Peter Silie"
 // brush 0
 {
 ( 864 1792 256 ) ( 864 1536 256 ) ( 608 1792 256 ) gothic_trim/metalsupport4j 32 0 0 1 1 0 0 0
@@ -13241,25 +13241,25 @@ evil8_base/e8metal_red_shiney
 {
 "classname" "team_CTF_redflag"
 "origin" "1792 0 480"
-"gametype" "oneflag ctf dd"
+"notffa" "1"
 }
 // entity 122
 {
 "classname" "team_redobelisk"
-"origin" "1792 0 440"
-"gametype" "harvester obelisk overload"
+"origin" "1792.000000 0.000000 432.000000"
+"notffa" "1"
 }
 // entity 123
 {
 "classname" "team_CTF_blueflag"
 "origin" "-1792 0 480"
-"gametype" "oneflag ctf dd"
+"notffa" "1"
 }
 // entity 124
 {
 "classname" "team_blueobelisk"
-"origin" "-1792 0 440"
-"gametype" "harvester obelisk overload"
+"origin" "-1792.000000 0.000000 432.000000"
+"notffa" "1"
 }
 // entity 125
 {
@@ -13885,13 +13885,11 @@ evil8_base/e8metal_red_shiney
 {
 "classname" "team_CTF_neutralflag"
 "origin" "0 5856 1152"
-"gametype" "oneflag"
 }
 // entity 202
 {
 "classname" "team_neutralobelisk"
 "origin" "0 5856 1120"
-"gametype" "harvester"
 }
 // entity 203
 {

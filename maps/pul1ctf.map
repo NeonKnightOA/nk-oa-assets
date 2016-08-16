@@ -3,10 +3,11 @@
 {
 "classname" "worldspawn"
 "_color" "1.0 1.0 1.0"
-"message" "der koberwascher"
+"message" "Der Koberwascher"
 "_blocksize" "512"
 "_ambient" "10"
 "music" "music/OA10.ogg"
+"author" "pulchr"
 // brush 0
 {
 ( -1792 512 960 ) ( 1792 4032 960 ) ( 1792 512 960 ) common/caulk 0 0 0 0.5 0.5 0 0 0
@@ -23043,7 +23044,7 @@ pulchr_simple/flat07
 {
 "classname" "team_CTF_blueflag"
 "origin" "-192 2176 224"
-"gametype" "ctf cctf oneflag dd"
+"notffa" "1"
 }
 // entity 3
 {
@@ -23312,7 +23313,7 @@ pulchr_simple/flat07
 "classname" "item_health_mega"
 "origin" "0 0 48"
 "spawnflags" "1"
-"gametype" "ctf cctf obelisk dd"
+"!gametype" "oneflag harvester pos"
 }
 // entity 38
 {
@@ -24159,7 +24160,7 @@ pulchr_simple/flat07
 "classname" "team_CTF_redflag"
 "origin" "192 -2176 224"
 "angle" "180"
-"gametype" "ctf cctf oneflag dd"
+"notffa" "1"
 }
 // entity 162
 {
@@ -24830,20 +24831,25 @@ pulchr_simple/flat07
 "origin" "-640 768 280"
 "angle" "-1.40334e-014"
 }
+// entity 275
 {
-"origin" "192 -2176 192"
 "classname" "team_redobelisk"
+"origin" "192 -2176 192"
+"notffa" "1"
 }
+// entity 276
 {
-"origin" "-192 2176 192"
 "classname" "team_blueobelisk"
+"origin" "-192 2176 192"
+"notffa" "1"
 }
+// entity 277
 {
-"origin" "0 0 0"
 "classname" "team_neutralobelisk"
+"origin" "0 0 0"
 }
+// entity 278
 {
-"gametype" "oneflag"
-"origin" "0 0 24"
 "classname" "team_CTF_neutralflag"
+"origin" "0 0 24"
 }

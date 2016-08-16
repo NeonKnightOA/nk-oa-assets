@@ -3,7 +3,7 @@
 {
 "classname" "worldspawn"
 "message" "Slime Facility"
-"music" "music/sonic6"
+"author" "cosmo"
 // brush 0
 {
 ( 192 -384 128 ) ( 192 -448 128 ) ( 64 -384 128 ) common/caulk 0 0 0 0.5 0.5 0 0 0
@@ -10637,7 +10637,7 @@ cosmo_block/darkgreen01
 {
 ( 1120 976 344 ) ( 1120 992 344 ) ( 1136 976 344 ) common/caulk 24.0005187988 -8 180 0.4999999702 0.4999999702 134217728 0 0
 ( 1128 968 144 ) ( 1128 968 304 ) ( 1136 976 304 ) cosmo_green/graygreen04 0 16 -270 0.5 -0.5 134217728 0 0
-( 1104 944 304 ) ( 1104 944 144 ) ( 1088 960 144 ) cosmo_block/darkgreen01 16.0004882812 0 0 -0.4999999702 0.4999999702 134217728 0 0
+( 1104 944 304 ) ( 1104 944 144 ) ( 1088 960 144 ) cosmo_block/darkgreen01 16.0004882813 0 0 -0.4999999702 0.4999999702 134217728 0 0
 ( 1136 992 144 ) ( 1120 992 144 ) ( 1136 976 144 ) common/caulk 24.0005187988 -8 180 0.4999999702 0.4999999702 134217728 0 0
 ( 1120 992 144 ) ( 1120 992 304 ) ( 1112 984 304 ) common/caulk 8.0006103516 0 0 -0.4999999702 0.4999999702 134217728 0 0
 ( 1120 992 304 ) ( 1120 992 144 ) ( 1136 976 144 ) common/caulk 8.0002441406 0 0 -0.4999999702 0.4999999702 134217728 0 0
@@ -11941,9 +11941,6 @@ cosmo_block/darkgreen01
 {
 "classname" "item_armor_combat"
 "origin" "1000 552 -44"
-"random" "7"
-"wait" "10"
-"spawnflags" "1"
 }
 // entity 10
 {
@@ -12597,13 +12594,11 @@ cosmo_sfx/decal3
 {
 "classname" "ammo_cells"
 "origin" "408 -320 448"
-"gametype" "ffa, tdm, tourney, single, elimination, lms, dom"
 }
 // entity 101
 {
 "classname" "ammo_lightning"
 "origin" "384 -768 448"
-"gametype" "ffa, tdm, tourney, single, elimination, lms, dom"
 }
 // entity 102
 {
@@ -12640,7 +12635,7 @@ cosmo_sfx/decal3
 {
 "classname" "item_armor_combat"
 "origin" "-816 -176 448"
-"gametype" "ffa, tdm, tourney, single, elimination, lms, dom"
+"!gametype" "dd"
 }
 // entity 109
 {

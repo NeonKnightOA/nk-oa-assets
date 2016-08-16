@@ -3,6 +3,7 @@
 {
 "classname" "worldspawn"
 "message" "Crossroads"
+"author" "Moixie"
 // brush 0
 {
 ( -896 2872 256 ) ( -864 2872 256 ) ( -896 2872 64 ) common/clip 0 0 0 0.5 0.5 0 0 0
@@ -14995,13 +14996,13 @@
 {
 "classname" "team_CTF_blueflag"
 "origin" "-256.000000 -192.000000 -168.000000"
-"gametype" "ctf, oneflag, dd, ctfelimination"
+"notffa" "1"
 }
 // entity 96
 {
 "classname" "team_CTF_redflag"
 "origin" "-216.000000 3328.000000 -168.000000"
-"gametype" "ctf, oneflag, dd, ctfelimination"
+"notffa" "1"
 }
 // entity 97
 {
@@ -15367,20 +15368,18 @@
 {
 "classname" "team_blueobelisk"
 "origin" "-256.000000 -192.000000 -188.000000"
-"gametype" "obelisk, harvester"
+"notffa" "1"
 }
 // entity 147
 {
 "classname" "team_redobelisk"
 "origin" "-216.000000 3328.000000 -188.000000"
-"gametype" "obelisk, harvester"
+"notffa" "1"
 }
 // entity 148
 {
 "classname" "team_CTF_neutralflag"
 "origin" "-240.000000 1568.000000 -344.000000"
-"spawnflags" "1"
-"gametype" "oneflag pos"
 }
 // entity 149
 {
@@ -15393,7 +15392,6 @@
 {
 "classname" "team_neutralobelisk"
 "origin" "-240.000000 1568.000000 -372.000000"
-"gametype" "oneflag pos"
 }
 // entity 151
 {

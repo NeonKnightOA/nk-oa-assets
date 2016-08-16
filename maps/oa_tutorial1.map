@@ -3,6 +3,7 @@
 {
 "classname" "worldspawn"
 "message" "OpenArena Tutorial 1"
+"author" "Neon_Knight"
 // brush 0
 {
 ( -256 -512 208 ) ( -256 -1248 208 ) ( -288 -1216 208 ) common/caulk 16.0004882813 11.9999389648 0 0.4999999702 0.4999999702 0 0 0

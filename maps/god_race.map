@@ -3,8 +3,8 @@
 {
 "classname" "worldspawn"
 "_minlight" "30"
-"message" "GoDs Race"
-"target" "target_position2"
+"message" "The Dome"
+"author" "Peter Silie"
 // brush 0
 {
 ( 3168 1120 768 ) ( 7552 -1024 768 ) ( 7552 1120 768 ) gothic_block/blocks10 0 0 0 1 1 0 0 0
@@ -2556,11 +2556,13 @@ god/beam_blue
 {
 "classname" "team_CTF_redflag"
 "origin" "3008 256 256"
+"notffa" "1"
 }
 // entity 2
 {
 "classname" "team_CTF_blueflag"
 "origin" "6784 256 256"
+"notffa" "1"
 }
 // entity 3
 {
@@ -2948,6 +2950,8 @@ god/beam_blue
 {
 "classname" "item_armor_combat"
 "origin" "4864 256 160"
+"!gametype" "oneflag harvester pos"
+"!gametpe" "oneflag harvester pos"
 }
 // entity 64
 {
@@ -3418,4 +3422,26 @@ god/beam_blue
 {
 "classname" "ammo_lightning"
 "origin" "2944 1088 256"
+}
+// entity 129
+{
+"classname" "team_blueobelisk"
+"origin" "6784.000000 256.000000 208.000000"
+"notffa" "1"
+}
+// entity 130
+{
+"classname" "team_redobelisk"
+"origin" "3008.000000 256.000000 208.000000"
+"notffa" "1"
+}
+// entity 131
+{
+"classname" "team_CTF_neutralflag"
+"origin" "4864.000000 256.000000 160.000000"
+}
+// entity 132
+{
+"classname" "team_neutralobelisk"
+"origin" "4864.000000 256.000000 104.000000"
 }

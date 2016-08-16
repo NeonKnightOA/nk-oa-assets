@@ -3,7 +3,7 @@
 {
 "classname" "worldspawn"
 "message" "Aggressive Tendencies (OA3 Edition)"
-"music" "music/OA14.ogg"
+"author" "Tyrann, leileilol"
 // brush 0
 {
 brushDef

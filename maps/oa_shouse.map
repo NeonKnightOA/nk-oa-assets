@@ -4,7 +4,7 @@
 "classname" "worldspawn"
 "gridsize" "128 128 256"
 "message" "Strange House"
-"music" "music/OA03.ogg"
+"author" "Amphetamine"
 // brush 0
 {
 ( -2048 -2048 -96 ) ( 2048 -2048 -96 ) ( 2048 2048 -96 ) common/caulk 0 0 0 0.5 0.5 0 0 0

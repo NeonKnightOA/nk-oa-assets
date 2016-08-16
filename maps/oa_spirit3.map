@@ -3,7 +3,7 @@
 {
 "classname" "worldspawn"
 "message" "Where Fears Collide"
-"music" "music/OA10.ogg"
+"author" "sp1r1t"
 // brush 0
 {
 ( -80 72 256 ) ( -80 -56 256 ) ( -80 -56 248 ) proto2/concrete02 0 0 0 0.5 0.5 0 0 0
@@ -16209,7 +16209,7 @@ proto2/concrete_red
 "classname" "team_CTF_blueflag"
 "origin" "32 -32 72"
 "angle" "90"
-"gametype" "ctf cctf oneflag dd"
+"notffa" "1"
 }
 // entity 18
 {
@@ -19275,13 +19275,13 @@ proto2/concrete07_smth
 {
 "classname" "item_armor_shard"
 "origin" "480 1472 -32"
-"gametype" "ctf obelisk dd"
+"!gametype" "oneflag harvester pos"
 }
 // entity 200
 {
 "classname" "item_armor_shard"
 "origin" "480 1408 -32"
-"gametype" "ctf obelisk dd"
+"!gametype" "oneflag harvester pos"
 }
 // entity 201
 {
@@ -19406,7 +19406,7 @@ proto2/concrete07_smth
 "classname" "team_CTF_redflag"
 "origin" "32 3104 56"
 "angle" "-90"
-"gametype" "ctf cctf oneflag dd"
+"notffa" "1"
 }
 // entity 219
 {
@@ -22472,13 +22472,13 @@ proto2/concrete07_smth
 {
 "classname" "item_armor_shard"
 "origin" "480 1600 -32"
-"gametype" "ctf obelisk dd"
+"!gametype" "oneflag harvester pos"
 }
 // entity 401
 {
 "classname" "item_armor_shard"
 "origin" "480 1664 -32"
-"gametype" "ctf obelisk dd"
+"!gametype" "oneflag harvester pos"
 }
 // entity 402
 {
@@ -22496,7 +22496,7 @@ proto2/concrete07_smth
 {
 "classname" "weapon_shotgun"
 "origin" "480 1536 -32"
-"gametype" "ctf obelisk dd"
+"!gametype" "oneflag harvester pos"
 }
 // entity 405
 {
@@ -22515,13 +22515,13 @@ proto2/concrete07_smth
 "classname" "info_null"
 "targetname" "t35"
 "origin" "480 1536 -64"
-"gametype" "ctf obelisk dd"
+"!gametype" "oneflag harvester pos"
 }
 // entity 408
 {
 "classname" "_decal"
 "target" "t35"
-"gametype" "ctf obelisk dd"
+"!gametype" "oneflag harvester pos"
 // brush 0
 {
 patchDef2
@@ -22829,17 +22829,18 @@ clown/red_3
 {
 "classname" "team_CTF_neutralflag"
 "origin" "480 1536 -24"
-"gametype" "oneflag"
 }
 // entity 438
 {
 "classname" "team_redobelisk"
 "origin" "32.000000 3104.000000 28.000000"
+"notffa" "1"
 }
 // entity 439
 {
 "classname" "team_blueobelisk"
 "origin" "32.000000 -32.000000 28.000000"
+"notffa" "1"
 }
 // entity 440
 {

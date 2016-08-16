@@ -2,9 +2,9 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "GoDs Speed"
-"target" "target_position15"
+"message" "Speedy CTF"
 "dmg" "1"
+"author" "Peter Silie"
 // brush 0
 {
 ( 2128 -576 32 ) ( 2576 448 32 ) ( 2576 -576 32 ) proto2/heat_tile01 512 128 180 0.5 0.5 0 0 0
@@ -32456,13 +32456,13 @@
 "classname" "team_CTF_blueflag"
 "origin" "2560 0 56"
 "angle" "-90"
-"gametype" "ctf oneflag dd"
+"notffa" "1"
 }
 // entity 134
 {
 "classname" "team_blueobelisk"
-"origin" "2560 0 48"
-"gametype" "harvester obelisk overload"
+"origin" "2560.000000 0.000000 40.000000"
+"notffa" "1"
 }
 // entity 135
 {
@@ -33523,13 +33523,13 @@
 "classname" "team_CTF_redflag"
 "origin" "-2560 0 56"
 "angle" "-90"
-"gametype" "ctf oneflag dd"
+"notffa" "1"
 }
 // entity 317
 {
 "classname" "team_redobelisk"
-"origin" "-2560 0 48"
-"gametype" "harvester obelisk overload"
+"origin" "-2560.000000 0.000000 40.000000"
+"notffa" "1"
 }
 // entity 318
 {
@@ -33562,14 +33562,12 @@
 {
 "classname" "team_CTF_neutralflag"
 "origin" "0 0 312"
-"gametype" "oneflag"
 "angle" "-90"
 }
 // entity 323
 {
 "classname" "team_neutralobelisk"
 "origin" "0 0 296"
-"gametype" "harvester obelisk"
 }
 // entity 324
 {

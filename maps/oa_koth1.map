@@ -2,9 +2,9 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Repulsive Castle"
+"message" "King of the Hill"
 "_blocksize" "256"
-"music" "music/OA09.ogg"
+"author" "cosmo"
 // brush 0
 {
 ( 64 64 128 ) ( 64 -160 128 ) ( -72 64 128 ) base_floor/floor3_3dark 0 0 0 0.5 0.5 134217728 0 0
@@ -11717,4 +11717,16 @@ cosmo_sfx/chalkdoor_d
 "message" "Quad Damage"
 "!gametype" "pos"
 "!gametpe" "pos"
+}
+// entity 200
+{
+"classname" "info_player_intermission"
+"origin" "-256.000000 616.000000 400.000000"
+"target" "target_position5"
+}
+// entity 201
+{
+"classname" "target_position"
+"origin" "544.000000 -368.000000 56.000000"
+"targetname" "target_position5"
 }

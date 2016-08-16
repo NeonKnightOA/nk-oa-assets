@@ -2,7 +2,8 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Trial by Error"
+"message" "Trial By Error"
+"author" "R. P. G., leileilol"
 // brush 0
 {
 brushDef
