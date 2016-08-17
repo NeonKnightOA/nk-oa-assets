@@ -28092,7 +28092,7 @@ clown/blue_3
 // entity 219
 {
 "classname" "target_speaker"
-"origin" "3000 0 -448"
+"origin" "1320.000000 0.000000 -448.000000"
 "noise" "*falling1.wav"
 "targetname" "target_speaker1"
 }
