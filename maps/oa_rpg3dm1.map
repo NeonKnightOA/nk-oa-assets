@@ -13865,7 +13865,7 @@ clown/scratch_pillar
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 5 3 0 0 0 )
 (
 ( ( 704 512 32 0 1 ) ( 696 512 32 0 0.5 ) ( 688 512 32 0 0 ) )
@@ -13985,7 +13985,7 @@ base_support/metal14_1
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 5 3 0 0 0 )
 (
 ( ( 688 512 -128 0 0 ) ( 696 512 -128 0 0.5 ) ( 704 512 -128 0 1 ) )
@@ -14015,7 +14015,7 @@ clown/scratch_pillar
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 5 3 0 0 0 )
 (
 ( ( 704 512 -256 0 1 ) ( 696 512 -256 0 0.5 ) ( 688 512 -256 0 0 ) )
@@ -14644,7 +14644,7 @@ e7/e7trim01
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 3 3 0 0 0 )
 (
 ( ( 1152 192 80 0 0 ) ( 1152 184 80 0 0.5 ) ( 1152 176 80 0 1 ) )
@@ -14657,7 +14657,7 @@ oa_rpg3dm1/e8trimlight2_yellow
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 3 3 0 0 0 )
 (
 ( ( 1152 176 -48 0 1 ) ( 1152 184 -48 0 0.5 ) ( 1152 192 -48 0 0 ) )
@@ -14728,7 +14728,7 @@ e7/e7trim01
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 3 3 0 0 0 )
 (
 ( ( 832 112 144 0 0 ) ( 832 120 144 0 0.5 ) ( 832 128 144 0 1 ) )
@@ -14741,7 +14741,7 @@ oa_rpg3dm1/e8trimlight2_yellow
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 3 3 0 0 0 )
 (
 ( ( 832 128 16 0 1 ) ( 832 120 16 0 0.5 ) ( 832 112 16 0 0 ) )
@@ -14793,7 +14793,7 @@ e7/e7trim01
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 3 3 0 0 0 )
 (
 ( ( 320 128 144 0 1 ) ( 320 120 144 0 0.5 ) ( 320 112 144 0 0 ) )
@@ -14806,7 +14806,7 @@ oa_rpg3dm1/e8trimlight2_yellow
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 3 3 0 0 0 )
 (
 ( ( 320 112 16 0 0 ) ( 320 120 16 0 0.5 ) ( 320 128 16 0 1 ) )
@@ -15417,7 +15417,7 @@ e7/e7bmtrim2
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 5 3 0 0 0 )
 (
 ( ( 880 416 -352 0 1 ) ( 880 424 -352 0 0.5 ) ( 880 432 -352 0 0 ) )
@@ -15432,7 +15432,7 @@ oa_rpg3dm1/e8trimlight2_yellow
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 5 3 0 0 0 )
 (
 ( ( 880 464 -352 0 1 ) ( 880 472 -352 0 0.5 ) ( 880 480 -352 0 0 ) )
@@ -16060,7 +16060,7 @@ e7/e7bmtrim2
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 5 3 0 0 0 )
 (
 ( ( 688 -224 -288 0 1 ) ( 688 -216 -288 0 0.5 ) ( 688 -208 -288 0 0 ) )
@@ -16075,7 +16075,7 @@ oa_rpg3dm1/e8trimlight2_yellow
 {
 patchDef2
 {
-oa_rpg3dm1/e8trimlight2_yellow
+oa_rpg3dm1/e8trimlight2_yellow_nf
 ( 5 3 0 0 0 )
 (
 ( ( 688 -176 -288 0 1 ) ( 688 -168 -288 0 0.5 ) ( 688 -160 -288 0 0 ) )
@@ -17046,6 +17046,67 @@ brushDef
 ( 1128 656 0 ) ( 1128 592 0 ) ( 1128 656 64 ) ( ( -0.03125 0 122.5 ) ( 0 0.03125 9 ) ) common/clip 0 13 0
 }
 }
+// brush 1373
+{
+brushDef
+{
+( 448 128 160 ) ( 448 0 160 ) ( 320 128 160 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 320 0 0 ) ( 448 0 0 ) ( 320 128 0 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 320 0 0 ) ( 320 0 160 ) ( 448 0 0 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 320 0 0 ) ( 320 128 0 ) ( 320 0 160 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 320 128 -64 ) ( 350 126 -64 ) ( 320 128 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 350 126 -64 ) ( 376 120 -64 ) ( 350 126 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 376 120 -64 ) ( 398 110 -64 ) ( 376 120 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 398 110 -64 ) ( 416 96 -64 ) ( 398 110 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 416 96 -64 ) ( 430 78 -64 ) ( 416 96 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 430 78 -64 ) ( 440 56 -64 ) ( 430 78 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 440 56 -64 ) ( 446 30 -64 ) ( 440 56 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 446 30 -64 ) ( 448 0 -64 ) ( 446 30 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+}
+}
+// brush 1374
+{
+brushDef
+{
+( 779 70 160 ) ( 779 1 160 ) ( 705 70 160 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 832 128 160 ) ( 832 128 0 ) ( 832 59 160 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 705 1 0 ) ( 779 1 0 ) ( 705 70 0 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 704 0 0 ) ( 704 0 160 ) ( 778 0 0 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 704 0 -64 ) ( 706 30 -64 ) ( 704 0 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 706 30 -64 ) ( 712 56 -64 ) ( 706 30 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 712 56 -64 ) ( 722 78 -64 ) ( 712 56 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 722 78 -64 ) ( 736 96 -64 ) ( 722 78 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 736 96 -64 ) ( 754 110 -64 ) ( 736 96 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 754 110 -64 ) ( 776 120 -64 ) ( 754 110 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 776 120 -64 ) ( 802 126 -64 ) ( 776 120 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 802 126 -64 ) ( 832 128 -64 ) ( 802 126 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+}
+}
+// brush 1375
+{
+brushDef
+{
+( 569 604 160 ) ( 569 513 160 ) ( 448 604 160 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 448 513 0 ) ( 569 513 0 ) ( 448 604 0 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 448 512 0 ) ( 448 512 160 ) ( 569 512 0 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 448 512 -64 ) ( 450 542 -64 ) ( 448 512 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 450 542 -64 ) ( 456 568 -64 ) ( 450 542 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 456 568 -64 ) ( 466 590 -64 ) ( 456 568 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 466 590 -64 ) ( 480 608 -64 ) ( 466 590 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 480 608 -64 ) ( 498 622 -64 ) ( 480 608 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 498 622 -64 ) ( 520 632 -64 ) ( 498 622 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 520 632 -64 ) ( 546 638 -64 ) ( 520 632 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 546 638 -64 ) ( 576 640 -64 ) ( 546 638 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 576 640 -64 ) ( 606 638 -64 ) ( 576 640 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 606 638 -64 ) ( 632 632 -64 ) ( 606 638 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 632 632 -64 ) ( 654 622 -64 ) ( 632 632 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 654 622 -64 ) ( 672 608 -64 ) ( 654 622 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 672 608 -64 ) ( 686 590 -64 ) ( 672 608 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 686 590 -64 ) ( 696 568 -64 ) ( 686 590 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 696 568 -64 ) ( 702 542 -64 ) ( 696 568 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+( 702 542 -64 ) ( 704 512 -64 ) ( 702 542 64 ) ( ( 0.015625 0 -0 ) ( -0 0.015625 0 ) ) common/clip 0 0 0
+}
+}
 }
 // entity 1
 {
@@ -17082,98 +17143,66 @@ brushDef
 }
 // entity 4
 {
-"classname" "light"
-"origin" "736 -264 56"
-"light" "100"
-"target" "t4"
-"radius" "32"
-}
-// entity 5
-{
 "classname" "info_null"
 "origin" "736 -264 -8"
 "targetname" "t4"
 }
-// entity 6
+// entity 5
 {
 "classname" "info_null"
 "targetname" "t3"
 "origin" "736 -264 -264"
 }
-// entity 7
-{
-"classname" "light"
-"radius" "32"
-"target" "t3"
-"light" "100"
-"origin" "736 -264 -200"
-}
-// entity 8
-{
-"classname" "light"
-"origin" "416 -264 -200"
-"light" "100"
-"target" "t2"
-"radius" "32"
-}
-// entity 9
+// entity 6
 {
 "classname" "info_null"
 "origin" "416 -264 -264"
 "targetname" "t2"
 }
-// entity 10
+// entity 7
 {
 "classname" "info_null"
 "targetname" "t1"
 "origin" "416 -264 -8"
 }
-// entity 11
-{
-"classname" "light"
-"radius" "32"
-"target" "t1"
-"light" "100"
-"origin" "416 -264 56"
-}
-// entity 12
+// entity 8
 {
 "classname" "item_armor_combat"
 "origin" "0 272 -256"
 }
-// entity 13
+// entity 9
 {
 "classname" "info_player_deathmatch"
 "origin" "544 288 -360"
 "angle" "315"
 "spawnflags" "1"
 }
-// entity 14
+// entity 10
 {
 "classname" "item_health_mega"
 "origin" "576 736 -360"
 }
-// entity 15
+// entity 11
 {
 "classname" "item_armor_body"
 "origin" "576 -608 20"
 }
-// entity 16
+// entity 12
 {
 "classname" "weapon_grenadelauncher"
 "origin" "576 736 24"
 }
-// entity 17
+// entity 13
 {
 "classname" "weapon_rocketlauncher"
 "origin" "576 1088 -144"
 }
-// entity 18
+// entity 14
 {
 "classname" "weapon_shotgun"
 "origin" "576 96 24"
 }
-// entity 19
+// entity 15
 {
 "classname" "trigger_teleport"
 "target" "tele1"
@@ -17190,14 +17219,14 @@ brushDef
 }
 }
 }
-// entity 20
+// entity 16
 {
 "classname" "misc_teleporter_dest"
 "origin" "576 -496 -296"
 "angle" "90"
 "targetname" "tele2"
 }
-// entity 21
+// entity 17
 {
 "classname" "trigger_teleport"
 "target" "tele2"
@@ -17214,14 +17243,14 @@ brushDef
 }
 }
 }
-// entity 22
+// entity 18
 {
 "classname" "misc_teleporter_dest"
 "origin" "576 1136 -136"
 "angle" "-90"
 "targetname" "tele1"
 }
-// entity 23
+// entity 19
 {
 "classname" "trigger_teleport"
 "target" "tele3"
@@ -17238,327 +17267,302 @@ brushDef
 }
 }
 }
-// entity 24
+// entity 20
 {
 "classname" "misc_teleporter_dest"
 "origin" "-96 256 16"
 "targetname" "tele3"
 }
-// entity 25
+// entity 21
 {
 "classname" "info_player_deathmatch"
 "angle" "270"
 "origin" "-288 96 -40"
 "spawnflags" "1"
 }
-// entity 26
+// entity 22
 {
 "classname" "info_player_deathmatch"
 "origin" "576 672 24"
 "angle" "90"
 "spawnflags" "1"
 }
-// entity 27
+// entity 23
 {
 "classname" "info_player_deathmatch"
 "angle" "270"
 "origin" "576 352 24"
 "spawnflags" "1"
 }
-// entity 28
+// entity 24
 {
 "classname" "info_player_deathmatch"
 "origin" "576 880 -376"
 "angle" "270"
 "spawnflags" "1"
 }
-// entity 29
+// entity 25
 {
 "classname" "item_armor_shard"
 "origin" "-656 272 -48"
 }
-// entity 30
+// entity 26
 {
 "classname" "item_armor_shard"
 "origin" "-608 320 -48"
 }
-// entity 31
+// entity 27
 {
 "classname" "item_armor_shard"
 "origin" "-560 368 -48"
 }
-// entity 32
+// entity 28
 {
 "classname" "item_armor_shard"
 "origin" "832 128 -368"
 }
-// entity 33
+// entity 29
 {
 "classname" "item_armor_shard"
 "origin" "800 96 -368"
 }
-// entity 34
+// entity 30
 {
 "classname" "item_armor_shard"
 "origin" "768 64 -368"
 }
-// entity 35
+// entity 31
 {
 "classname" "item_health_small"
 "origin" "-48 256 0"
 }
-// entity 36
+// entity 32
 {
 "classname" "item_health_small"
 "origin" "0 256 0"
 }
-// entity 37
+// entity 33
 {
 "classname" "item_health_small"
 "origin" "48 256 0"
 }
-// entity 38
+// entity 34
 {
 "classname" "ammo_shells"
 "origin" "1200 224 -48"
 }
-// entity 39
+// entity 35
 {
 "classname" "weapon_rocketlauncher"
 "origin" "-160 -224 -232"
 }
-// entity 40
+// entity 36
 {
 "classname" "item_health"
 "origin" "752 -368 -304"
 }
-// entity 41
+// entity 37
 {
 "classname" "ammo_grenades"
 "origin" "-416 -160 -208"
 }
-// entity 42
+// entity 38
 {
 "classname" "ammo_shells"
 "origin" "-416 -96 -208"
 }
-// entity 43
+// entity 39
 {
 "classname" "item_health"
 "origin" "0 -480 -240"
 }
-// entity 44
+// entity 40
 {
 "classname" "item_health"
 "origin" "-64 -480 -240"
 }
-// entity 45
+// entity 41
 {
 "classname" "item_health"
 "origin" "960 544 -72"
 }
-// entity 46
+// entity 42
 {
 "classname" "item_health"
 "origin" "496 1168 -144"
 }
-// entity 47
+// entity 43
 {
 "classname" "ammo_rockets"
 "origin" "576 672 -368"
 }
-// entity 48
+// entity 44
 {
 "classname" "ammo_rockets"
 "origin" "752 -416 -304"
 }
-// entity 49
+// entity 45
 {
 "classname" "ammo_rockets"
 "origin" "192 544 -72"
 }
-// entity 50
-{
-"classname" "light"
-"origin" "768 704 -320"
-"light" "2"
-}
-// entity 51
-{
-"classname" "light"
-"light" "2"
-"origin" "576 736 -320"
-}
-// entity 52
-{
-"classname" "light"
-"origin" "384 704 -320"
-"light" "2"
-}
-// entity 53
+// entity 46
 {
 "classname" "item_armor_shard"
 "origin" "-704 224 -48"
 }
-// entity 54
+// entity 47
 {
 "classname" "weapon_lightning"
 "origin" "640 224 -376"
 }
-// entity 55
+// entity 48
 {
 "classname" "ammo_lightning"
 "origin" "752 -320 -304"
 }
-// entity 56
+// entity 49
 {
 "classname" "ammo_lightning"
 "origin" "656 1168 -144"
 }
-// entity 57
+// entity 50
 {
 "classname" "ammo_lightning"
 "origin" "1248 288 -48"
 }
-// entity 58
+// entity 51
 {
 "classname" "target_speaker"
 "origin" "192 704 128"
 "spawnflags" "1"
 "noise" "sound/world/wind1.wav"
 }
-// entity 59
+// entity 52
 {
 "classname" "target_speaker"
 "noise" "sound/world/wind1.wav"
 "spawnflags" "1"
 "origin" "576 816 128"
 }
-// entity 60
+// entity 53
 {
 "classname" "target_speaker"
 "origin" "960 704 128"
 "spawnflags" "1"
 "noise" "sound/world/wind1.wav"
 }
-// entity 61
+// entity 54
 {
 "classname" "target_speaker"
 "noise" "sound/world/wind1.wav"
 "spawnflags" "1"
 "origin" "-384 256 128"
 }
-// entity 62
+// entity 55
 {
 "classname" "target_speaker"
 "origin" "-512 -64 128"
 "spawnflags" "1"
 "noise" "sound/world/wind1.wav"
 }
-// entity 63
+// entity 56
 {
 "classname" "target_speaker"
 "noise" "sound/world/wind1.wav"
 "spawnflags" "1"
 "origin" "576 -448 128"
 }
-// entity 64
+// entity 57
 {
 "classname" "target_speaker"
 "origin" "576 -544 -272"
 "spawnflags" "1"
 "noise" "sound/world/portal01.wav"
 }
-// entity 65
+// entity 58
 {
 "classname" "target_speaker"
 "noise" "sound/world/fan4.wav"
 "spawnflags" "1"
 "origin" "704 128 64"
 }
-// entity 66
+// entity 59
 {
 "classname" "target_speaker"
 "origin" "1216 256 0"
 "spawnflags" "1"
 "noise" "sound/world/ambience03.wav"
 }
-// entity 67
+// entity 60
 {
 "classname" "target_speaker"
 "origin" "672 224 -288"
 "spawnflags" "1"
 "noise" "sound/world/machinerydrone02.wav"
 }
-// entity 68
+// entity 61
 {
 "classname" "target_speaker"
 "origin" "448 128 64"
 "spawnflags" "1"
 "noise" "sound/world/fan4.wav"
 }
-// entity 69
+// entity 62
 {
 "classname" "target_speaker"
 "noise" "sound/world/portal01.wav"
 "spawnflags" "1"
 "origin" "352 544 -336"
 }
-// entity 70
+// entity 63
 {
 "classname" "target_speaker"
 "origin" "576 1184 -112"
 "spawnflags" "1"
 "noise" "sound/world/portal01.wav"
 }
-// entity 71
+// entity 64
 {
 "classname" "target_speaker"
 "noise" "sound/world/drone6.wav"
 "spawnflags" "1"
 "origin" "576 704 -256"
 }
-// entity 72
+// entity 65
 {
 "classname" "target_speaker"
 "noise" "sound/world/machinerydrone01.wav"
 "spawnflags" "1"
 "origin" "0 256 64"
 }
-// entity 73
+// entity 66
 {
 "classname" "target_speaker"
 "origin" "0 256 -192"
 "spawnflags" "1"
 "noise" "sound/world/machinerydrone01.wav"
 }
-// entity 74
+// entity 67
 {
 "classname" "target_speaker"
 "origin" "576 -608 64"
 "spawnflags" "1"
 "noise" "sound/world/drone6.wav"
 }
-// entity 75
-{
-"classname" "light"
-"origin" "0 256 -72"
-"light" "5"
-"_color" "1.0 0.3 0.15"
-}
-// entity 76
+// entity 68
 {
 "classname" "team_neutralobelisk"
 "origin" "576.000000 -256.000000 4.000000"
 "gametype" "pos"
 }
-// entity 77
+// entity 69
 {
 "classname" "team_CTF_neutralflag"
 "origin" "576.000000 -256.000000 28.000000"
 "gametype" "pos"
 }
-// entity 78
+// entity 70
 {
 "classname" "func_static"
 "gametype" "pos"
@@ -17623,7 +17627,7 @@ brushDef
 }
 }
 }
-// entity 79
+// entity 71
 {
 "classname" "func_door"
 "team" "oasecretdoors"
@@ -17717,7 +17721,7 @@ brushDef
 }
 }
 }
-// entity 80
+// entity 72
 {
 "classname" "func_door"
 "team" "oasecretdoors"
@@ -17811,7 +17815,7 @@ brushDef
 }
 }
 }
-// entity 81
+// entity 73
 {
 "classname" "func_button"
 "target" "doortobfg"
@@ -17877,7 +17881,7 @@ brushDef
 }
 }
 }
-// entity 82
+// entity 74
 {
 "classname" "target_print"
 "origin" "960.000000 640.000000 -320.000000"
@@ -17885,53 +17889,53 @@ brushDef
 "message" "Hurry! A secret door opened nearby."
 "targetname" "doortobfg"
 }
-// entity 83
+// entity 75
 {
 "classname" "weapon_bfg"
 "origin" "576.000000 -704.000000 22.000000"
 }
-// entity 84
+// entity 76
 {
 "classname" "info_player_deathmatch"
 "origin" "294.000000 1110.000000 -148.000000"
 "angle" "-45.000000"
 "spawnflags" "1"
 }
-// entity 85
+// entity 77
 {
 "classname" "info_player_deathmatch"
 "origin" "992.000000 1032.000000 -108.000000"
 "angle" "-180.000000"
 "spawnflags" "1"
 }
-// entity 86
+// entity 78
 {
 "classname" "info_player_deathmatch"
 "origin" "-610.000000 142.000000 -78.000000"
 "spawnflags" "1"
 }
-// entity 87
+// entity 79
 {
 "classname" "info_player_deathmatch"
 "origin" "-320.000000 -372.000000 -230.000000"
 "angle" "90.000000"
 "spawnflags" "1"
 }
-// entity 88
+// entity 80
 {
 "classname" "info_player_deathmatch"
 "origin" "192.000000 576.000000 -374.000000"
 "angle" "45.000000"
 "spawnflags" "1"
 }
-// entity 89
+// entity 81
 {
 "classname" "info_player_deathmatch"
 "origin" "192.000000 -540.000000 -294.000000"
 "angle" "90.000000"
 "spawnflags" "1"
 }
-// entity 90
+// entity 82
 {
 "classname" "func_button"
 "target" "doortobfg"
