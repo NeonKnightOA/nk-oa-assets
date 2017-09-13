@@ -19,9 +19,9 @@
 # E.g.: q3map2 compilefinal am_galmevish
 
 # Variable with the route to the .map files. I.e. $HOME/.openarena/baseoa/maps
-mapsdir=$HOME/.openarena/baseoa/maps
+mapsdir=$HOME/dev/OpenArena-Dev/baseoa/maps
 # Variable with the route to q3map2 and bspc. I.e. $HOME/dev/netradiant/install
-raddir=$HOME/dev/netradiant/install
+raddir=$HOME/dev/OpenArena-Dev/netradiant-garux
 # Variable with the route to OA's dir. I.e. /usr/lib/games/openarena
 oadir=/usr/lib/games/openarena
 
@@ -35,52 +35,49 @@ if [ "$1" = "notmine" ]; then
 	# Some maps have their own settings. It's better to keep them.
 	case "$2" in
 	islandctf4a3)	#by sago007
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -flares -meta -np 179 -patchmeta -v -verboseentities $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -flares -meta -np 179 -v -verboseentities $mapsdir/$2.map
 		;;
-	suspended)	#by baronofhell
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -flares -meta -skyfix -patchmeta -v -verboseentities $mapsdir/$2.map
-		;;
-	*)
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -flares -meta -patchmeta -v -verboseentities $mapsdir/$2.map
+	*)	#by baronofhell
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -flares -meta -skyfix -v -verboseentities $mapsdir/$2.map
 		;;
 	esac
 	$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -vis -v $mapsdir/$2.map
 	case "$2" in
 	ajactf)		#by andrewj
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -fast -bounce 8 -samples 2 -gamma 2 -sky 0.0 $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -bounce 8 -samples 2 -gamma 2 -sky 0.0 $mapsdir/$2.map
 		;;
 	ctf_inyard)	#by cosmo
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -fast -patchshadows -bounce 4 -bouncegrid -samples 4 -dark -dirty -dirtmode 0 -dirtdepth 512 -dirtscale 1.25 -gamma 2.0 -compensate 2.0 $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -patchshadows -bounce 4 -bouncegrid -samples 4 -dark -dirty -dirtmode 0 -dirtdepth 512 -dirtscale 1.25 -gamma 2.0 -compensate 2.0 $mapsdir/$2.map
 		;;
 	islandctf4a3)	#by sago007
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -fast -dark -filter -patchshadows -shade $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -dark -filter -patchshadows -shade $mapsdir/$2.map
 		;;
 	oa_koth2)	#by cosmo
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -fast -patchshadows -bounce 8 -bouncegrid -samples 8 -dark -dirty -dirtmode 1 -dirtdepth 256 -dirtscale 1.15 -gamma 2.85 -compensate 3.15 $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -patchshadows -bounce 8 -bouncegrid -samples 8 -dark -dirty -dirtmode 1 -dirtdepth 256 -dirtscale 1.15 -gamma 2.85 -compensate 3.15 $mapsdir/$2.map
 		;;
 	oa_minia)	#by kit89
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -patchshadows -dirty -fast -filter -super 2 $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -patchshadows -dirty -filter -super 2 $mapsdir/$2.map
 		;;
 	oa_nemesis)	#by andrewj
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -fast -filter -bounce 4 -samples 3 -gamma 1.4 -sky 1.0 -dirty -patchshadows $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -filter -bounce 4 -samples 3 -gamma 1.4 -sky 1.0 -dirty -patchshadows $mapsdir/$2.map
 		;;
 	oa_rpg3dm1)	#by andrewj
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -fast -patchshadows -sky 0.6 -bounce 2 -samples 2 -gamma 1.1 $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -patchshadows -sky 0.6 -bounce 2 -samples 2 -gamma 1.1 $mapsdir/$2.map
 		;;
 	oasago[1-2])	#by sago007
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -fast -super 2 -filter -bounce 20 -patchshadows $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -super 2 -filter -bounce 20 -patchshadows $mapsdir/$2.map
 		;;
 	pillarpanic)	#by sago007
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -fast -super 2 -filter -bounce 20 -patchshadows $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -super 2 -filter -bounce 20 -patchshadows $mapsdir/$2.map
 		;;
 	redishf)	#by sago007
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -fast -super 2 -filter -bounce 20 -patchshadows $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -super 2 -filter -bounce 20 -patchshadows $mapsdir/$2.map
 		;;
 	suspended)	#by baronofhell
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -fast -super 2 -filter $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -super 2 -filter $mapsdir/$2.map
 		;;
 	*)
-		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -fast -dark -filter -patchshadows $mapsdir/$2.map
+		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -light -v -dark -filter -patchshadows $mapsdir/$2.map
 		;;
 	esac
 	$raddir/bspc -bsp2aas $mapsdir/$2.bsp -forcesidesvisible -optimize
