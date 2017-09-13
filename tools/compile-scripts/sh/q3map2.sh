@@ -156,4 +156,9 @@ else
 	if [ "$1" = "decomp" ]; then
 		$raddir/q3map2.x86 -fs_basepath "$oadir" -fs_game "baseoa" -game "oa" -convert -format map $mapsdir/$1.bsp
 	fi
+	# For botfile generation ONLY
+	# ---------------------
+	if [ "$1" = "botonly" ]; then
+		$raddir/bspc -bsp2aas $mapsdir/$2.bsp -forcesidesvisible -optimize
+	fi
 fi
