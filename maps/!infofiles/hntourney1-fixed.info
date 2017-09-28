@@ -1,0 +1,37 @@
+auther "HyperNewbie, fixes by Neon_Knight"
+description "The Warrior Tournament is a proud tradition of the Forces. The Blue Station is the arena where they train in hopes to reach the highest place and keep the Forces near the edge of perfection."
+
+minPlayers 2
+minTeamSize 1
+maxPlayers 6
+maxTeamSize 3
+
+support_dm yes
+support_team no
+support_tourney yes
+support_ctf no
+support_1fctf no
+support_obelisk no
+support_harvester no
+support_elimination no
+support_ctfelim no
+support_lms yes
+support_dd no
+support_dom no
+support_pos yes
+
+gametype dm
+fragLimit 20
+timeLimit 15
+
+gametype tourney
+fragLimit 10
+timeLimit 10
+
+gametype lms
+captureLimit 5
+timeLimit 15
+
+gametype pos
+fragLimit 90
+timeLimit 15
