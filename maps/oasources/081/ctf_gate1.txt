@@ -1,0 +1,23 @@
+================================================================
+Title        		: CTF Outer Gate
+Date         		: 30-10-2008
+Filename     		: ctf_gate1.pk3
+Author       		: cosmo
+Email Address		: cosmo-flash@gmx.net
+Website			    : http://oa.spaceboyz.net
+MappingBlog         : http://mapforce.blogspot.com
+
+Supported Gametypes : CTF, Double Domination, One Flag, Harvester, Overload
+
+Description		: CTF / Double Domination Map
+                : Small, fast, pillar themed
+                : It hurts a bit retexturing everything again
+                
+Players         : 4 - 8
+
+Bots            : yes, but don't use the pillars much
+
+Missionpack     : supported with weapons and items
+
+Buildtime       : 24h
+Type            : A new map from scratch

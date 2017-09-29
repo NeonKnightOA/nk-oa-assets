@@ -15905,6 +15905,8 @@ base_trim/deeprust
 "classname" "info_player_deathmatch"
 "origin" "-8 32 0"
 "spawnflags" "1"
+"!gametype" "pos"
+"!gametpe" "pos"
 }
 // entity 157
 {
@@ -16571,4 +16573,23 @@ base_floor/clang_floor3bstairtop2
 "classname" "info_player_intermission"
 "origin" "32 -104 544"
 "angle" "90"
+}
+// entity 216
+{
+"classname" "team_CTF_neutralflag"
+"origin" "24.000000 32.000000 -32.000000"
+"gametype" "pos"
+}
+// entity 217
+{
+"classname" "func_static"
+// brush 0
+{
+( 40 48 -48 ) ( 40 16 -48 ) ( 8 48 -48 ) acc_dm3/cop 32 0 0 0.25 0.25 134217728 0 0
+( 24 64 -48 ) ( -8 64 -48 ) ( 24 64 -56 ) acc_dm3/rivets 64 0 0 0.25 0.25 134217728 0 0
+( 56 32 -48 ) ( 56 32 -56 ) ( 56 0 -48 ) acc_dm3/rivets 64 0 0 0.25 0.25 134217728 0 0
+( 8 16 -56 ) ( 40 16 -56 ) ( 8 48 -56 ) common/caulk 112 96 0 0.5 0.5 134217728 0 0
+( 24 0 -56 ) ( 24 0 -48 ) ( 56 0 -56 ) acc_dm3/rivets 448 0 0 0.25 0.25 134217728 0 0
+( -8 32 -56 ) ( -8 64 -56 ) ( -8 32 -48 ) acc_dm3/rivets 448 0 0 0.25 0.25 134217728 0 0
+}
 }

@@ -4241,7 +4241,7 @@
 ( 1035.1250152588 1544.0410919189 1056 ) ( 650.4589233398 1159.375 1056 ) ( 1035.1250152588 1544.0410919189 0 ) oacmp_jan/metalfloor_wall_14bglow2 424.6149902344 0 0 0.7071067691 0.5 0 0 0
 ( 760 1156.875 0 ) ( 760 1156.875 116 ) ( 698 1218.875 116 ) oacmp_jan/metalfloor_wall_14bglow2 388.735748291 0 0 0.7071067691 0.5 0 0 0
 ( 773.6568603516 1137.6770629883 0 ) ( 1158.3229370117 1522.3431549072 0 ) ( 383.3339233398 1528 0 ) oacmp_jan/metalfloor_wall_14bglow2 352.9655761719 82.8022766113 45 0.5 0.5 0 0 0
-( 756 1164.875 116 ) ( 756 1164.875 0 ) ( 756 1159.375 116 ) oacmp_jan/metalfloor_wall_14bglow2 435.9868164063 0 0 0.7071067691 0.5 0 0 0
+( 756 1164.875 116 ) ( 756 1164.875 0 ) ( 756 1159.375 116 ) oacmp_jan/metalfloor_wall_14bglow2 435.9868164062 0 0 0.7071067691 0.5 0 0 0
 ( 774.6568603516 1137.6770629883 0 ) ( 384.3339233398 1528 0 ) ( 774.6568603516 1137.6770629883 1056 ) oacmp_jan/metalfloor_wall_14bglow2 430.86328125 0 0 0.7071067691 0.5 0 0 0
 }
 // brush 478
@@ -4874,28 +4874,28 @@
 // brush 548
 {
 ( 502 1368 44.625 ) ( 502 1368 0.5 ) ( -488 1368 44.625 ) stone/conc_strange 511.9996948242 0 0 0.3000000119 0.3000000119 0 0 0
-( 56 1520 -64 ) ( 56 1488 -64 ) ( 56 1520 64 ) common/caulk 10.6665039063 0 0 0.3000000119 0.3000000119 0 0 0
-( -56 1368 -64 ) ( -56 1400 -64 ) ( -56 1368 64 ) common/caulk 10.6665039063 0 0 0.3000000119 0.3000000119 0 0 0
+( 56 1520 -64 ) ( 56 1488 -64 ) ( 56 1520 64 ) common/caulk 10.6665039062 0 0 0.3000000119 0.3000000119 0 0 0
+( -56 1368 -64 ) ( -56 1400 -64 ) ( -56 1368 64 ) common/caulk 10.6665039062 0 0 0.3000000119 0.3000000119 0 0 0
 ( 32 -704 0 ) ( -8 -704 0 ) ( 32 -832 0 ) common/caulk 7.9996948242 17.3334960938 0 0.3000000119 0.3000000119 0 0 0
 ( -2368 1488 132 ) ( -2368 1488 128 ) ( -2240 1488 132 ) common/caulk 7.9996948242 0 0 0.3000000119 0.3000000119 0 0 0
 ( -2368 1484 129 ) ( -2368 1488 132 ) ( -2240 1484 129 ) common/caulk 7.9996948242 17.3334960938 0 0.3000000119 0.3000000119 0 0 0
 }
 // brush 549
 {
-( 56 1368 -64 ) ( 56 1408 -64 ) ( 56 1368 64 ) common/caulk 10.6665039063 0 0 0.3000000119 0.3000000119 0 0 0
+( 56 1368 -64 ) ( 56 1408 -64 ) ( 56 1368 64 ) common/caulk 10.6665039062 0 0 0.3000000119 0.3000000119 0 0 0
 ( 88 -704 0 ) ( 56 -704 0 ) ( 88 -832 0 ) common/caulk 7.9996948242 17.3334960938 0 0.3000000119 0.3000000119 0 0 0
 ( -2368 1312 0 ) ( -2368 1488 132 ) ( -2240 1312 0 ) stone/conc_strange 511.9996948242 341.3334960938 0 0.3000000119 0.3000000119 0 0 0
 ( -2368 1488 132 ) ( -2368 1488 128 ) ( -2240 1488 132 ) common/caulk 7.9996948242 0 0 0.3000000119 0.3000000119 0 0 0
-( 384 1488 -64 ) ( 560 1312 -64 ) ( 384 1488 64 ) common/caulk 10.6665039063 0 0 0.3000000119 0.3000000119 0 0 0
+( 384 1488 -64 ) ( 560 1312 -64 ) ( 384 1488 64 ) common/caulk 10.6665039062 0 0 0.3000000119 0.3000000119 0 0 0
 ( -56 1368 -64 ) ( -68 1368 -64 ) ( -56 1368 64 ) common/caulk 7.9996948242 0 0 0.3000000119 0.3000000119 0 0 0
 }
 // brush 550
 {
-( -56 1488 0 ) ( -56 1368 48.875 ) ( -56 1488 143 ) common/caulk 10.6665039063 0 0 0.3000000119 0.3000000119 0 0 0
+( -56 1488 0 ) ( -56 1368 48.875 ) ( -56 1488 143 ) common/caulk 10.6665039062 0 0 0.3000000119 0.3000000119 0 0 0
 ( -56 1312 0 ) ( -368 1488 0 ) ( -544 1312 0 ) common/caulk 7.9996948242 17.3334960938 0 0.3000000119 0.3000000119 0 0 0
 ( -56 1488 0 ) ( -368 1488 132 ) ( -368 1488 0 ) common/caulk 7.9996948242 0 0 0.3000000119 0.3000000119 0 0 0
 ( -56 1312 0 ) ( -544 1312 0 ) ( -368 1488 132 ) stone/conc_strange 511.9996948242 341.3334960938 0 0.3000000119 0.3000000119 0 0 0
-( -368 1488 0 ) ( -368 1488 132 ) ( -544 1312 0 ) common/caulk 10.6665039063 0 0 0.3000000119 0.3000000119 0 0 0
+( -368 1488 0 ) ( -368 1488 132 ) ( -544 1312 0 ) common/caulk 10.6665039062 0 0 0.3000000119 0.3000000119 0 0 0
 ( -56 1368 -64 ) ( -68 1368 -64 ) ( -56 1368 64 ) common/caulk 7.9996948242 0 0 0.3000000119 0.3000000119 0 0 0
 }
 // brush 551
@@ -4908,18 +4908,18 @@
 }
 // brush 552
 {
-( 56 1368 -64 ) ( 56 1408 -64 ) ( 56 1368 64 ) stone/conc_strange 170.6665039063 0 0 0.3000000119 0.3000000119 0 0 0
+( 56 1368 -64 ) ( 56 1408 -64 ) ( 56 1368 64 ) stone/conc_strange 170.6665039062 0 0 0.3000000119 0.3000000119 0 0 0
 ( 88 -704 0 ) ( 56 -704 0 ) ( 88 -832 0 ) common/caulk 7.9996948242 17.3334960938 0 0.3000000119 0.3000000119 0 0 0
 ( -2368 1312 0 ) ( -2368 1488 132 ) ( -2240 1312 0 ) stone/conc_strange 511.9996948242 341.3334960938 0 0.3000000119 0.3000000119 0 0 0
-( 384 1488 -64 ) ( 560 1312 -64 ) ( 384 1488 64 ) common/caulk 10.6665039063 0 0 0.3000000119 0.3000000119 0 0 0
+( 384 1488 -64 ) ( 560 1312 -64 ) ( 384 1488 64 ) common/caulk 10.6665039062 0 0 0.3000000119 0.3000000119 0 0 0
 ( -66 1368 -64 ) ( -56 1368 -64 ) ( -66 1368 64 ) common/caulk 7.9996948242 0 0 0.3000000119 0.3000000119 0 0 0
 }
 // brush 553
 {
-( -56 1488 0 ) ( -56 1368 48.875 ) ( -56 1488 143 ) stone/conc_strange 170.6665039063 0 0 0.3000000119 0.3000000119 0 0 0
+( -56 1488 0 ) ( -56 1368 48.875 ) ( -56 1488 143 ) stone/conc_strange 170.6665039062 0 0 0.3000000119 0.3000000119 0 0 0
 ( -56 1312 0 ) ( -368 1488 0 ) ( -544 1312 0 ) common/caulk 7.9996948242 17.3334960938 0 0.3000000119 0.3000000119 0 0 0
 ( -56 1312 0 ) ( -544 1312 0 ) ( -368 1488 132 ) stone/conc_strange 511.9996948242 341.3334960938 0 0.3000000119 0.3000000119 0 0 0
-( -368 1488 0 ) ( -368 1488 132 ) ( -544 1312 0 ) common/caulk 10.6665039063 0 0 0.3000000119 0.3000000119 0 0 0
+( -368 1488 0 ) ( -368 1488 132 ) ( -544 1312 0 ) common/caulk 10.6665039062 0 0 0.3000000119 0.3000000119 0 0 0
 ( -66 1368 -64 ) ( -56 1368 -64 ) ( -66 1368 64 ) common/caulk 7.9996948242 0 0 0.3000000119 0.3000000119 0 0 0
 }
 // brush 554
@@ -5146,30 +5146,36 @@
 }
 // entity 1
 {
-"classname" "weapon_rocketlauncher"
-"origin" "-664.000000 1088.000000 32.000000"
+"classname" "light"
+"origin" "-672.000000 16.000000 656.000000"
+"light" "2000"
 }
 // entity 2
 {
 "classname" "weapon_rocketlauncher"
-"origin" "0.000000 0.000000 432.000000"
+"origin" "-664.000000 1088.000000 32.000000"
 }
 // entity 3
+{
+"classname" "weapon_rocketlauncher"
+"origin" "0.000000 48.000000 432.000000"
+}
+// entity 4
 {
 "classname" "weapon_plasmagun"
 "origin" "0.000000 -1288.000000 400.000000"
 }
-// entity 4
+// entity 5
 {
 "classname" "item_health"
 "origin" "656.000000 -1080.000000 392.000000"
 }
-// entity 5
+// entity 6
 {
 "classname" "item_health"
 "origin" "-656.000000 -1040.000000 400.000000"
 }
-// entity 6
+// entity 7
 {
 "classname" "trigger_push"
 "target" "target_push1"
@@ -5183,7 +5189,7 @@
 ( -16 -208 -184 ) ( -16 -136 -184 ) ( -16 -208 -96 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 7
+// entity 8
 {
 "classname" "trigger_push"
 "target" "target_push3"
@@ -5197,7 +5203,7 @@
 ( -32 129 -176 ) ( -32 201 -176 ) ( -32 129 -88 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 8
+// entity 9
 {
 "classname" "trigger_push"
 "target" "target_push4"
@@ -5211,14 +5217,14 @@
 ( -568 -1544 0 ) ( 968 -1544 0 ) ( -568 1536 0 ) stone/conc_strange 0 0 0 0.3000000119 0.3000000119 0 0 0
 }
 }
-// entity 9
+// entity 10
 {
 "classname" "target_teleporter"
 "origin" "724.000000 -389.375000 518.000000"
 "angle" "140.538147"
 "targetname" "target_teleporter1"
 }
-// entity 10
+// entity 11
 {
 "classname" "trigger_teleport"
 "target" "target_teleporter1"
@@ -5233,7 +5239,7 @@
 ( 76.875 -955.5 -175.375 ) ( 303.875 -963.125 -81.75 ) ( 304.125 -954.875 -81.625 ) stone/conc_strange 480 376 0 0.5 0.5 0 0 0
 }
 }
-// entity 11
+// entity 12
 {
 "classname" "trigger_push"
 "target" "target_push2"
@@ -5247,7 +5253,7 @@
 ( -688.25 -1184 0 ) ( -688.25 -328 0 ) ( -688.25 -1184 8 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 12
+// entity 13
 {
 "classname" "trigger_push"
 "target" "target_push5"
@@ -5261,67 +5267,948 @@
 ( 36 -1064 0 ) ( -36 -1064 352 ) ( 36 -1064 352 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 13
+// entity 14
 {
 "classname" "item_health_mega"
 "origin" "0.000000 304.000000 -128.000000"
 }
-// entity 14
+// entity 15
 {
 "classname" "weapon_grenadelauncher"
 "origin" "560.000000 803.125000 32.000000"
 }
-// entity 15
+// entity 16
 {
 "classname" "weapon_lightning"
 "origin" "0.000000 696.000000 -48.000000"
 }
-// entity 16
+// entity 17
 {
 "classname" "weapon_shotgun"
 "origin" "-352.000000 -424.000000 -128.000000"
 }
-// entity 17
+// entity 18
+{
+"classname" "light"
+"origin" "24.000000 -296.000000 8.000000"
+"light" "100"
+"_color" "0.0203403 1 0"
+}
+// entity 19
+{
+"classname" "light"
+"origin" "24.000000 288.000000 16.000000"
+"light" "150"
+"_color" "0.0203403 1 0"
+}
+// entity 20
+{
+"classname" "light"
+"origin" "-256.000000 -504.000000 24.000000"
+"light" "100"
+"_color" "0.0203403 1 0"
+}
+// entity 21
+{
+"classname" "light"
+"origin" "128.000000 -672.000000 24.000000"
+"light" "80"
+"_color" "0.0203403 1 0"
+}
+// entity 22
+{
+"classname" "light"
+"origin" "-136.000000 -656.000000 24.000000"
+"light" "80"
+"_color" "0.0203403 1 0"
+}
+// entity 23
+{
+"classname" "light"
+"origin" "16.000000 1448.000000 400.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "344.000000 1448.000000 399.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 25
+{
+"classname" "light"
+"origin" "200.000000 1448.000000 368.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "-144.000000 1448.000000 384.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "-312.000000 1448.000000 384.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-376.000000 1192.000000 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "-184.000000 1192.000000 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "24.000000 1192.000000 96.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "216.000000 1192.000000 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 32
+{
+"classname" "light"
+"origin" "384.000000 1192.000000 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 33
+{
+"classname" "light"
+"origin" "576.000000 1192.000000 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 34
+{
+"classname" "light"
+"origin" "-570.381836 1127.029175 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 35
+{
+"classname" "light"
+"origin" "-597.618225 936.970825 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 36
+{
+"classname" "light"
+"origin" "-570.381836 743.029175 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 37
+{
+"classname" "light"
+"origin" "-597.618225 552.970825 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 38
+{
+"classname" "light"
+"origin" "-570.381836 391.029175 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 39
+{
+"classname" "light"
+"origin" "-597.618225 200.970825 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 40
+{
+"classname" "light"
+"origin" "629.618164 1127.029175 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 41
+{
+"classname" "light"
+"origin" "602.381775 936.970825 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 42
+{
+"classname" "light"
+"origin" "525.618164 711.029175 8.375000"
+"light" "4"
+"_color" "1 1 1"
+}
+// entity 43
+{
+"classname" "light"
+"origin" "602.381775 600.970825 96.000000"
+"light" "160"
+"_color" "1 1 1"
+}
+// entity 44
+{
+"classname" "light"
+"origin" "88.000000 1448.000000 447.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 45
+{
+"classname" "light"
+"origin" "416.000000 1448.000000 399.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 46
+{
+"classname" "light"
+"origin" "272.000000 1448.000000 399.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 47
+{
+"classname" "light"
+"origin" "-72.000000 1448.000000 400.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 48
+{
+"classname" "light"
+"origin" "-240.000000 1448.000000 384.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 49
+{
+"classname" "light"
+"origin" "16.000000 1368.000000 568.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 50
+{
+"classname" "light"
+"origin" "344.000000 1368.000000 520.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 51
+{
+"classname" "light"
+"origin" "200.000000 1368.000000 536.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 52
+{
+"classname" "light"
+"origin" "-144.000000 1368.000000 552.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 53
+{
+"classname" "light"
+"origin" "-312.000000 1368.000000 552.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 54
+{
+"classname" "light"
+"origin" "88.000000 1368.000000 568.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 55
+{
+"classname" "light"
+"origin" "416.000000 1368.000000 520.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 56
+{
+"classname" "light"
+"origin" "272.000000 1368.000000 520.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 57
+{
+"classname" "light"
+"origin" "-72.000000 1368.000000 568.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 58
+{
+"classname" "light"
+"origin" "-240.000000 1368.000000 552.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 59
+{
+"classname" "light"
+"origin" "280.000000 384.000000 -24.000000"
+"light" "100"
+"_color" "0.0203403 1 0"
+}
+// entity 60
+{
+"classname" "light"
+"origin" "272.000000 640.000000 56.000000"
+"light" "100"
+"_color" "0.0203403 1 0"
+}
+// entity 61
+{
+"classname" "light"
+"origin" "-240.000000 640.000000 56.000000"
+"light" "100"
+"_color" "0.0203403 1 0"
+}
+// entity 62
+{
+"classname" "light"
+"origin" "-240.000000 384.000000 -24.000000"
+"light" "100"
+"_color" "0.0203403 1 0"
+}
+// entity 63
+{
+"classname" "light"
+"origin" "24.000000 0.000000 2008.000000"
+"light" "22000"
+}
+// entity 64
+{
+"classname" "light"
+"origin" "-368.000000 1192.000000 1544.000000"
+"light" "1000"
+"_color" "0.0117037 0.309148 0.701152"
+}
+// entity 65
+{
+"classname" "light"
+"origin" "400.000000 1192.000000 1544.000000"
+"light" "1000"
+"_color" "0.0117037 0.309148 0.701152"
+}
+// entity 66
+{
+"classname" "light"
+"origin" "32.000000 632.000000 920.000000"
+"light" "300"
+"_color" "0.0117037 0.309148 0.701152"
+}
+// entity 67
+{
+"classname" "light"
+"origin" "-368.000000 -920.000000 1544.000000"
+"light" "1000"
+"_color" "0.0117037 0.309148 0.701152"
+}
+// entity 68
+{
+"classname" "light"
+"origin" "400.000000 -920.000000 1544.000000"
+"light" "1000"
+"_color" "0.0117037 0.309148 0.701152"
+}
+// entity 69
+{
+"classname" "light"
+"origin" "16.000000 -1296.000000 488.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 70
+{
+"classname" "light"
+"origin" "344.000000 -1312.250000 414.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 71
+{
+"classname" "light"
+"origin" "200.000000 -1300.250000 402.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 72
+{
+"classname" "light"
+"origin" "-312.000000 -1308.250000 374.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 73
+{
+"classname" "light"
+"origin" "88.000000 -1296.000000 432.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 74
+{
+"classname" "light"
+"origin" "-72.000000 -1296.000000 432.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 75
+{
+"classname" "light"
+"origin" "-240.000000 -1308.250000 374.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 76
+{
+"classname" "light"
+"origin" "344.000000 -1208.000000 528.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 77
+{
+"classname" "light"
+"origin" "200.000000 -1208.000000 528.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 78
+{
+"classname" "light"
+"origin" "-144.000000 -1216.000000 520.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 79
+{
+"classname" "light"
+"origin" "-312.000000 -1216.000000 520.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 80
+{
+"classname" "light"
+"origin" "88.000000 -1216.000000 600.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 81
+{
+"classname" "light"
+"origin" "416.000000 -1208.000000 528.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 82
+{
+"classname" "light"
+"origin" "-72.000000 -1216.000000 600.000000"
+"light" "20"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 83
+{
+"classname" "light"
+"origin" "16.000000 -448.000000 136.000000"
+"light" "250"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 84
+{
+"classname" "light"
+"origin" "16.000000 -560.000000 136.000000"
+"light" "250"
+"_color" "1 1 1"
+}
+// entity 85
+{
+"classname" "light"
+"origin" "16.000000 -560.000000 272.000000"
+"light" "250"
+"_color" "0.671443 0.822889 0.956802"
+}
+// entity 86
+{
+"classname" "light"
+"origin" "256.000000 -504.000000 24.000000"
+"light" "100"
+"_color" "0.0203403 1 0"
+}
+// entity 87
+{
+"classname" "light"
+"origin" "272.000000 976.000000 88.000000"
+"light" "100"
+"_color" "0.0203403 1 0"
+}
+// entity 88
+{
+"classname" "light"
+"origin" "-240.000000 976.000000 88.000000"
+"light" "100"
+"_color" "0.0203403 1 0"
+}
+// entity 89
+{
+"classname" "light"
+"origin" "16.000000 496.500000 276.500000"
+"light" "250"
+"_color" "1 1 1"
+}
+// entity 90
+{
+"classname" "light"
+"origin" "16.000000 446.000000 384.000000"
+"light" "250"
+"_color" "0.370642 0.533852 0.678157"
+}
+// entity 91
+{
+"classname" "light"
+"origin" "16.000000 380.625000 180.625000"
+"light" "150"
+"_color" "0.700404 0.859419 1"
+}
+// entity 92
+{
+"classname" "light"
+"origin" "578.381775 199.029175 168.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 93
+{
+"classname" "light"
+"origin" "581.618164 328.970825 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 94
+{
+"classname" "light"
+"origin" "-490.131836 -288.970825 177.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 95
+{
+"classname" "light"
+"origin" "-503.368225 -407.029175 137.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 96
+{
+"classname" "light"
+"origin" "-510.256836 -600.970825 137.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 97
+{
+"classname" "light"
+"origin" "-511.618225 -791.029175 137.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 98
+{
+"classname" "light"
+"origin" "-381.381836 -952.970825 169.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 99
+{
+"classname" "light"
+"origin" "-341.618225 -980.029175 281.125000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 100
+{
+"classname" "light"
+"origin" "597.618225 -407.029175 161.250000"
+"light" "120"
+"_color" "1 1 1"
+}
+// entity 101
+{
+"classname" "light"
+"origin" "570.381836 -634.845825 161.250000"
+"light" "120"
+"_color" "1 1 1"
+}
+// entity 102
+{
+"classname" "light"
+"origin" "386.381836 -851.595825 272.500000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 103
+{
+"classname" "light"
+"origin" "282.868225 -980.029175 281.125000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 104
+{
+"classname" "light"
+"origin" "16.000000 16.000000 648.000000"
+"light" "250"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 105
+{
+"classname" "light"
+"origin" "411.250000 -81.250000 648.000000"
+"light" "120"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 106
+{
+"classname" "light"
+"origin" "-368.125000 141.500000 648.000000"
+"light" "250"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 107
+{
+"classname" "light"
+"origin" "607.625000 -314.125000 630.375000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 108
+{
+"classname" "light"
+"origin" "233.368225 -962.029175 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 109
+{
+"classname" "light"
+"origin" "2.868225 -962.029175 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 110
+{
+"classname" "light"
+"origin" "-218.881775 -962.029175 112.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 111
+{
+"classname" "light"
+"origin" "-365.125000 1210.500000 501.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 112
+{
+"classname" "light"
+"origin" "-173.125000 1210.500000 501.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 113
+{
+"classname" "light"
+"origin" "34.875000 1210.500000 501.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 114
+{
+"classname" "light"
+"origin" "226.875000 1210.500000 501.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 115
+{
+"classname" "light"
+"origin" "394.875000 1210.500000 501.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 116
+{
+"classname" "light"
+"origin" "-559.506836 1145.529175 501.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 117
+{
+"classname" "light"
+"origin" "-607.118225 955.470825 501.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 118
+{
+"classname" "light"
+"origin" "640.493164 1145.529175 533.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 119
+{
+"classname" "light"
+"origin" "613.256775 955.470825 533.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 120
+{
+"classname" "light"
+"origin" "640.493164 825.529175 533.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 121
+{
+"classname" "light"
+"origin" "640.493164 566.404175 533.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 122
+{
+"classname" "light"
+"origin" "503.368164 672.154175 533.000000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 123
+{
+"classname" "light"
+"origin" "-446.589752 -58.500000 -131.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 124
+{
+"classname" "light"
+"origin" "-446.589752 69.500000 -131.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 125
+{
+"classname" "light"
+"origin" "-446.589752 -58.500000 -59.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 126
+{
+"classname" "light"
+"origin" "-446.589752 69.500000 -59.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 127
+{
+"classname" "light"
+"origin" "489.410248 -58.500000 -131.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 128
+{
+"classname" "light"
+"origin" "489.410248 69.500000 -131.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 129
+{
+"classname" "light"
+"origin" "489.410248 -58.500000 -59.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 130
+{
+"classname" "light"
+"origin" "489.410248 69.500000 -59.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 131
+{
+"classname" "light"
+"origin" "-594.131836 -448.970825 473.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 132
+{
+"classname" "light"
+"origin" "-607.368225 -639.029175 473.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 133
+{
+"classname" "light"
+"origin" "-614.256836 -832.970825 488.875000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 134
+{
+"classname" "light"
+"origin" "-615.618225 -1023.029175 494.750000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 135
+{
+"classname" "light"
+"origin" "-381.381836 -1184.970825 505.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 136
+{
+"classname" "light"
+"origin" "597.618225 -1023.029175 448.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 137
+{
+"classname" "light"
+"origin" "233.368225 -1194.029175 448.375000"
+"light" "20"
+"_color" "1 1 1"
+}
+// entity 138
+{
+"classname" "light"
+"origin" "2.868225 -1194.029175 448.375000"
+"light" "20"
+"_color" "1 1 1"
+}
+// entity 139
+{
+"classname" "light"
+"origin" "-218.881775 -1194.029175 448.375000"
+"light" "20"
+"_color" "1 1 1"
+}
+// entity 140
+{
+"classname" "light"
+"origin" "489.410248 25.500000 -131.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 141
+{
+"classname" "light"
+"origin" "489.410248 -22.500000 -131.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 142
+{
+"classname" "light"
+"origin" "-446.589752 -18.500000 -131.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 143
+{
+"classname" "light"
+"origin" "-446.589752 25.500000 -131.000000"
+"light" "1"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 144
 {
 "classname" "item_armor_shard"
 "origin" "-664.000000 440.000000 432.000000"
 }
-// entity 18
+// entity 145
 {
 "classname" "item_armor_shard"
 "origin" "-624.000000 400.000000 432.000000"
 }
-// entity 19
+// entity 146
 {
 "classname" "item_armor_shard"
 "origin" "-584.000000 360.000000 432.000000"
 }
-// entity 20
+// entity 147
 {
 "classname" "item_armor_shard"
 "origin" "-544.000000 320.000000 432.000000"
 }
-// entity 21
+// entity 148
 {
 "classname" "item_health_small"
 "origin" "664.000000 -384.000000 440.000000"
 }
-// entity 22
+// entity 149
 {
 "classname" "item_health_small"
 "origin" "616.000000 -336.000000 440.000000"
 }
-// entity 23
+// entity 150
 {
 "classname" "item_health_small"
 "origin" "560.000000 -280.000000 440.000000"
 }
-// entity 24
+// entity 151
 {
 "classname" "item_health_small"
 "origin" "512.000000 -232.000000 440.000000"
 }
-// entity 25
+// entity 152
 {
 "classname" "trigger_teleport"
 "target" "target_teleporter2"
@@ -5335,7 +6222,7 @@
 ( 757 -258.125 80 ) ( 757 -258.125 8 ) ( 757 -334.5 8 ) common/trigger 8 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 26
+// entity 153
 {
 "classname" "trigger_push"
 "target" "target_push8"
@@ -5349,7 +6236,7 @@
 ( -463.125 447.25 -184 ) ( -463.125 519.25 -184 ) ( -463.125 447.25 -96 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 27
+// entity 154
 {
 "classname" "trigger_teleport"
 "target" "target_teleporter3"
@@ -5363,7 +6250,7 @@
 ( -734.75 160.75 80 ) ( -734.75 160.75 8 ) ( -734.75 237.125 8 ) common/trigger 10.75 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 28
+// entity 155
 {
 "classname" "trigger_push"
 "target" "target_push7"
@@ -5377,7 +6264,7 @@
 ( 528 752 0 ) ( 648 416 0 ) ( 648 752 0 ) oacmp_jan/dirty_pewter_big 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 29
+// entity 156
 {
 "classname" "trigger_teleport"
 "target" "target_teleporter7"
@@ -5391,34 +6278,146 @@
 ( 697 1220.5 80 ) ( 697 1128.125 80 ) ( 697 1128.125 8 ) oacmp_jan/metalfloor_wall_14 28 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 30
+// entity 157
 {
 "classname" "target_teleporter"
 "origin" "456.500000 1364.875000 457.250000"
 "angle" "-99.525841"
 "targetname" "target_teleporter7"
 }
-// entity 31
+// entity 158
+{
+"classname" "light"
+"origin" "591.875000 -593.750000 630.375000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 159
+{
+"classname" "light"
+"origin" "607.625000 -912.750000 630.375000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 160
+{
+"classname" "light"
+"origin" "565.875000 -710.750000 210.375000"
+"light" "100"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 161
+{
+"classname" "light"
+"origin" "597.875000 -266.250000 210.375000"
+"light" "100"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 162
+{
+"classname" "light"
+"origin" "544.875000 -710.750000 397.875000"
+"light" "100"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 163
+{
+"classname" "light"
+"origin" "587.000000 -949.875000 464.625000"
+"light" "120"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 164
+{
+"classname" "light"
+"origin" "577.125000 -399.750000 474.375000"
+"light" "100"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 165
+{
+"classname" "light"
+"origin" "-569.375000 -321.875000 599.125000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 166
+{
+"classname" "light"
+"origin" "-585.125000 -593.750000 599.125000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 167
+{
+"classname" "light"
+"origin" "-569.375000 -872.250000 599.125000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 168
+{
+"classname" "light"
+"origin" "-561.375000 908.500000 606.125000"
+"light" "300"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 169
+{
+"classname" "light"
+"origin" "-577.125000 636.625000 606.125000"
+"light" "300"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 170
+{
+"classname" "light"
+"origin" "-561.375000 358.125000 606.125000"
+"light" "300"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 171
+{
+"classname" "light"
+"origin" "613.750000 908.500000 686.125000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 172
+{
+"classname" "light"
+"origin" "598.000000 636.625000 686.125000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 173
+{
+"classname" "light"
+"origin" "613.750000 358.125000 686.125000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 174
 {
 "classname" "item_botroam"
 "origin" "0.000000 -64.000000 416.000000"
 }
-// entity 32
+// entity 175
 {
 "classname" "item_botroam"
 "origin" "312.000000 1184.000000 416.000000"
 }
-// entity 33
+// entity 176
 {
 "classname" "item_botroam"
 "origin" "560.000000 592.000000 416.000000"
 }
-// entity 34
+// entity 177
 {
 "classname" "item_botroam"
 "origin" "176.000000 -1176.000000 376.000000"
 }
-// entity 35
+// entity 178
 {
 "classname" "trigger_teleport"
 "target" "misc_teleporter_dest2"
@@ -5432,13 +6431,13 @@
 ( -1152 448 144 ) ( -1152 616 144 ) ( -768 448 144 ) oacmp_jan/metalfloor_wall_14bglow2 96 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 36
+// entity 179
 {
 "classname" "misc_teleporter_dest"
 "origin" "-976.000000 528.000000 48.000000"
 "targetname" "misc_teleporter_dest1"
 }
-// entity 37
+// entity 180
 {
 "classname" "trigger_teleport"
 "target" "misc_teleporter_dest1"
@@ -5452,14 +6451,26 @@
 ( 1176 -416 144 ) ( 1176 -584 144 ) ( 792 -416 144 ) oacmp_jan/metalfloor_wall_14bglow2 384 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 38
+// entity 181
 {
 "classname" "misc_teleporter_dest"
 "origin" "984.000000 -504.000000 48.000000"
 "targetname" "misc_teleporter_dest2"
 "angle" "-180.000000"
 }
-// entity 39
+// entity 182
+{
+"classname" "light"
+"origin" "-1344.000000 568.000000 104.000000"
+"light" "52"
+}
+// entity 183
+{
+"classname" "light"
+"origin" "1352.000000 -544.000000 104.000000"
+"light" "52"
+}
+// entity 184
 {
 "classname" "trigger_push"
 "target" "target_push1"
@@ -5473,383 +6484,870 @@
 ( -8 -208 -184 ) ( -8 -136 -184 ) ( -8 -208 -96 ) common/trigger 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 40
+// entity 185
+{
+"classname" "light"
+"origin" "784.000000 -496.000000 48.000000"
+"light" "20"
+}
+// entity 186
+{
+"classname" "light"
+"origin" "-1344.000000 568.000000 32.000000"
+"light" "52"
+}
+// entity 187
+{
+"classname" "light"
+"origin" "-1344.000000 496.000000 104.000000"
+"light" "52"
+}
+// entity 188
+{
+"classname" "light"
+"origin" "-1344.000000 496.000000 32.000000"
+"light" "52"
+}
+// entity 189
+{
+"classname" "light"
+"origin" "1352.000000 -464.000000 104.000000"
+"light" "52"
+}
+// entity 190
+{
+"classname" "light"
+"origin" "1352.000000 -544.000000 32.000000"
+"light" "52"
+}
+// entity 191
+{
+"classname" "light"
+"origin" "1352.000000 -464.000000 32.000000"
+"light" "52"
+}
+// entity 192
+{
+"classname" "light"
+"origin" "-776.000000 528.000000 48.000000"
+"light" "20"
+}
+// entity 193
+{
+"classname" "light"
+"origin" "557.618164 719.029175 8.375000"
+"light" "4"
+"_color" "1 1 1"
+}
+// entity 194
+{
+"classname" "light"
+"origin" "525.618164 735.029175 8.375000"
+"light" "4"
+"_color" "1 1 1"
+}
+// entity 195
+{
+"classname" "light"
+"origin" "557.618164 743.029175 8.375000"
+"light" "4"
+"_color" "1 1 1"
+}
+// entity 196
 {
 "classname" "ammo_cells"
 "origin" "-712.000000 -248.000000 424.000000"
 }
-// entity 41
+// entity 197
 {
 "classname" "ammo_grenades"
 "origin" "-664.000000 -248.000000 424.000000"
 }
-// entity 42
+// entity 198
 {
 "classname" "ammo_rockets"
 "origin" "664.000000 584.000000 432.000000"
 }
-// entity 43
+// entity 199
 {
 "classname" "ammo_lightning"
 "origin" "720.000000 584.000000 432.000000"
 }
-// entity 44
+// entity 200
 {
 "classname" "ammo_grenades"
 "origin" "720.000000 648.000000 432.000000"
 }
-// entity 45
+// entity 201
 {
 "classname" "item_armor_shard"
 "origin" "664.000000 488.000000 424.000000"
 }
-// entity 46
+// entity 202
 {
 "classname" "item_health_small"
 "origin" "712.000000 488.000000 432.000000"
 }
-// entity 47
+// entity 203
 {
 "classname" "ammo_rockets"
 "origin" "-664.000000 1136.000000 32.000000"
 }
-// entity 48
+// entity 204
 {
 "classname" "ammo_lightning"
 "origin" "-8.000000 1120.000000 32.000000"
 }
-// entity 49
+// entity 205
 {
 "classname" "item_armor_shard"
 "origin" "-928.000000 528.000000 64.000000"
 }
-// entity 50
+// entity 206
 {
 "classname" "item_armor_shard"
 "origin" "-1024.000000 528.000000 64.000000"
 }
-// entity 51
+// entity 207
 {
 "classname" "item_health_small"
 "origin" "936.000000 -504.000000 72.000000"
 }
-// entity 52
+// entity 208
 {
 "classname" "item_health_small"
 "origin" "1024.000000 -504.000000 72.000000"
 }
-// entity 53
+// entity 209
 {
 "classname" "weapon_shotgun"
 "origin" "344.000000 -424.000000 -128.000000"
 }
-// entity 54
+// entity 210
 {
 "classname" "ammo_shells"
 "origin" "360.000000 -480.000000 -128.000000"
 }
-// entity 55
+// entity 211
 {
 "classname" "ammo_shells"
 "origin" "-352.000000 -480.000000 -128.000000"
 }
-// entity 56
+// entity 212
 {
 "classname" "item_armor_combat"
 "origin" "0.000000 1200.000000 400.000000"
 }
-// entity 57
+// entity 213
 {
 "classname" "item_armor_body"
 "origin" "0.000000 -1160.000000 384.000000"
 }
-// entity 58
+// entity 214
+{
+"classname" "light"
+"origin" "-32.000000 200.000000 -176.000000"
+"light" "4"
+}
+// entity 215
+{
+"classname" "light"
+"origin" "-32.000000 160.000000 -176.000000"
+"light" "4"
+}
+// entity 216
+{
+"classname" "light"
+"origin" "32.000000 200.000000 -176.000000"
+"light" "4"
+}
+// entity 217
+{
+"classname" "light"
+"origin" "32.000000 160.000000 -176.000000"
+"light" "4"
+}
+// entity 218
+{
+"classname" "light"
+"origin" "0.000000 160.000000 -176.000000"
+"light" "4"
+}
+// entity 219
+{
+"classname" "light"
+"origin" "0.000000 200.000000 -176.000000"
+"light" "4"
+}
+// entity 220
+{
+"classname" "light"
+"origin" "-416.000000 520.000000 -176.000000"
+"light" "4"
+}
+// entity 221
+{
+"classname" "light"
+"origin" "-456.000000 520.000000 -176.000000"
+"light" "4"
+}
+// entity 222
+{
+"classname" "light"
+"origin" "-416.000000 456.000000 -176.000000"
+"light" "4"
+}
+// entity 223
+{
+"classname" "light"
+"origin" "-456.000000 456.000000 -176.000000"
+"light" "4"
+}
+// entity 224
+{
+"classname" "light"
+"origin" "-456.000000 488.000000 -176.000000"
+"light" "4"
+}
+// entity 225
+{
+"classname" "light"
+"origin" "-416.000000 488.000000 -176.000000"
+"light" "4"
+}
+// entity 226
+{
+"classname" "light"
+"origin" "-32.000000 -152.000000 -176.000000"
+"light" "4"
+}
+// entity 227
+{
+"classname" "light"
+"origin" "-32.000000 -200.000000 -176.000000"
+"light" "4"
+}
+// entity 228
+{
+"classname" "light"
+"origin" "32.000000 -152.000000 -176.000000"
+"light" "4"
+}
+// entity 229
+{
+"classname" "light"
+"origin" "32.000000 -200.000000 -176.000000"
+"light" "4"
+}
+// entity 230
+{
+"classname" "light"
+"origin" "0.000000 -200.000000 -176.000000"
+"light" "4"
+}
+// entity 231
+{
+"classname" "light"
+"origin" "0.000000 -152.000000 -176.000000"
+"light" "4"
+}
+// entity 232
+{
+"classname" "light"
+"origin" "-656.000000 -392.000000 8.000000"
+"light" "4"
+}
+// entity 233
+{
+"classname" "light"
+"origin" "-656.000000 -352.000000 8.000000"
+"light" "4"
+}
+// entity 234
+{
+"classname" "light"
+"origin" "-688.000000 -392.000000 8.000000"
+"light" "4"
+}
+// entity 235
+{
+"classname" "light"
+"origin" "-688.000000 -352.000000 8.000000"
+"light" "4"
+}
+// entity 236
+{
+"classname" "light"
+"origin" "-12.000000 -1032.000000 8.000000"
+"light" "4"
+}
+// entity 237
+{
+"classname" "light"
+"origin" "12.000000 -1032.000000 8.000000"
+"light" "4"
+}
+// entity 238
+{
+"classname" "light"
+"origin" "12.000000 -1056.000000 8.000000"
+"light" "4"
+}
+// entity 239
+{
+"classname" "light"
+"origin" "-12.000000 -1056.000000 8.000000"
+"light" "4"
+}
+// entity 240
+{
+"classname" "light"
+"origin" "-32.000000 1352.000000 8.000000"
+"light" "4"
+}
+// entity 241
+{
+"classname" "light"
+"origin" "-32.000000 1320.000000 8.000000"
+"light" "4"
+}
+// entity 242
+{
+"classname" "light"
+"origin" "0.000000 1352.000000 8.000000"
+"light" "4"
+}
+// entity 243
+{
+"classname" "light"
+"origin" "0.000000 1320.000000 8.000000"
+"light" "4"
+}
+// entity 244
+{
+"classname" "light"
+"origin" "32.000000 1352.000000 8.000000"
+"light" "4"
+}
+// entity 245
+{
+"classname" "light"
+"origin" "32.000000 1320.000000 8.000000"
+"light" "4"
+}
+// entity 246
 {
 "classname" "item_botroam"
 "origin" "-440.000000 248.000000 424.000000"
 }
-// entity 59
+// entity 247
 {
 "classname" "ammo_cells"
 "origin" "-696.000000 496.000000 432.000000"
 }
-// entity 60
+// entity 248
 {
 "classname" "ammo_rockets"
 "origin" "720.000000 -448.000000 432.000000"
 }
-// entity 61
+// entity 249
 {
 "classname" "ammo_lightning"
 "origin" "720.000000 -504.000000 432.000000"
 }
-// entity 62
+// entity 250
 {
 "classname" "ammo_shells"
 "origin" "-696.000000 552.000000 432.000000"
 }
-// entity 63
+// entity 251
 {
 "classname" "item_botroam"
 "origin" "-168.000000 -1176.000000 376.000000"
 }
-// entity 64
+// entity 252
+{
+"classname" "light"
+"origin" "289.368225 -802.029175 -23.625000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 253
+{
+"classname" "light"
+"origin" "361.368225 -746.029175 88.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 254
+{
+"classname" "light"
+"origin" "-158.631775 -802.029175 -23.625000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 255
+{
+"classname" "light"
+"origin" "-302.631775 -746.029175 40.375000"
+"light" "50"
+"_color" "1 1 1"
+}
+// entity 256
+{
+"classname" "light"
+"origin" "286.125000 -1198.625000 703.125000"
+"light" "150"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 257
+{
+"classname" "light"
+"origin" "14.250000 -1182.875000 703.125000"
+"light" "150"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 258
+{
+"classname" "light"
+"origin" "-264.250000 -1198.625000 703.125000"
+"light" "150"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 259
+{
+"classname" "light"
+"origin" "276.500000 1338.250000 670.125000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 260
+{
+"classname" "light"
+"origin" "4.625000 1354.000000 670.125000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 261
+{
+"classname" "light"
+"origin" "-273.875000 1338.250000 670.125000"
+"light" "200"
+"_color" "0.585504 0.664485 0.73434"
+}
+// entity 262
+{
+"classname" "light"
+"origin" "696.000000 784.000000 72.000000"
+"light" "10"
+}
+// entity 263
+{
+"classname" "light"
+"origin" "696.000000 440.000000 72.000000"
+"light" "10"
+}
+// entity 264
+{
+"classname" "light"
+"origin" "696.000000 728.000000 72.000000"
+"light" "10"
+}
+// entity 265
+{
+"classname" "light"
+"origin" "696.000000 552.000000 72.000000"
+"light" "5"
+}
+// entity 266
 {
 "classname" "target_teleporter"
 "origin" "632.000000 -304.000000 520.000000"
 "angle" "148.315063"
 "targetname" "target_teleporter2"
 }
-// entity 65
+// entity 267
 {
 "classname" "target_teleporter"
 "origin" "-640.000000 376.000000 520.000000"
 "angle" "-49.018181"
 "targetname" "target_teleporter3"
 }
-// entity 66
+// entity 268
 {
 "classname" "item_health"
 "origin" "632.000000 1232.000000 440.000000"
 }
-// entity 67
+// entity 269
 {
 "classname" "item_health"
 "origin" "-624.000000 1200.000000 408.000000"
 }
-// entity 68
+// entity 270
 {
 "classname" "item_health"
 "origin" "-264.000000 1080.000000 0.000000"
 }
-// entity 69
+// entity 271
 {
 "classname" "item_health"
 "origin" "304.000000 1080.000000 0.000000"
 }
-// entity 70
+// entity 272
 {
 "classname" "item_health_small"
 "origin" "488.000000 -80.000000 -144.000000"
 }
-// entity 71
+// entity 273
 {
 "classname" "item_armor_shard"
 "origin" "488.000000 80.000000 -152.000000"
 }
-// entity 72
+// entity 274
 {
 "classname" "item_health_small"
 "origin" "-448.000000 -88.000000 -144.000000"
 }
-// entity 73
+// entity 275
 {
 "classname" "item_armor_shard"
 "origin" "-448.000000 88.000000 -152.000000"
 }
-// entity 74
+// entity 276
 {
 "classname" "item_armor_shard"
 "origin" "688.000000 536.000000 56.000000"
 }
-// entity 75
+// entity 277
 {
 "classname" "item_armor_shard"
 "origin" "688.000000 504.000000 56.000000"
 }
-// entity 76
+// entity 278
 {
 "classname" "ammo_grenades"
 "origin" "688.000000 -880.000000 56.000000"
 }
-// entity 77
+// entity 279
 {
 "classname" "ammo_cells"
 "origin" "688.000000 -832.000000 56.000000"
 }
-// entity 78
+// entity 280
+{
+"classname" "light"
+"origin" "-744.000000 608.000000 48.000000"
+"light" "10"
+}
+// entity 281
+{
+"classname" "light"
+"origin" "-744.000000 448.000000 48.000000"
+"light" "10"
+}
+// entity 282
+{
+"classname" "light"
+"origin" "752.000000 -576.000000 48.000000"
+"light" "10"
+}
+// entity 283
+{
+"classname" "light"
+"origin" "752.000000 -416.000000 48.000000"
+"light" "10"
+}
+// entity 284
+{
+"classname" "light"
+"origin" "688.000000 -496.000000 88.000000"
+"light" "30"
+}
+// entity 285
+{
+"classname" "light"
+"origin" "-688.000000 528.000000 88.000000"
+"light" "30"
+}
+// entity 286
+{
+"classname" "light"
+"origin" "680.000000 -172.000000 56.000000"
+"light" "2"
+}
+// entity 287
+{
+"classname" "light"
+"origin" "730.000000 -200.000000 56.000000"
+"light" "2"
+}
+// entity 288
+{
+"classname" "light"
+"origin" "680.000000 -172.000000 94.000000"
+"light" "2"
+}
+// entity 289
+{
+"classname" "light"
+"origin" "730.000000 -200.000000 94.000000"
+"light" "2"
+}
+// entity 290
+{
+"classname" "light"
+"origin" "-10.000000 -878.000000 -128.000000"
+"light" "2"
+}
+// entity 291
+{
+"classname" "light"
+"origin" "36.000000 -878.000000 -128.000000"
+"light" "2"
+}
+// entity 292
+{
+"classname" "light"
+"origin" "-10.000000 -878.000000 -84.000000"
+"light" "2"
+}
+// entity 293
+{
+"classname" "light"
+"origin" "36.000000 -878.000000 -84.000000"
+"light" "2"
+}
+// entity 294
+{
+"classname" "light"
+"origin" "-668.250000 149.375000 56.000000"
+"light" "2"
+}
+// entity 295
+{
+"classname" "light"
+"origin" "-718.250000 177.375000 56.000000"
+"light" "2"
+}
+// entity 296
+{
+"classname" "light"
+"origin" "-668.250000 149.375000 94.000000"
+"light" "2"
+}
+// entity 297
+{
+"classname" "light"
+"origin" "-718.250000 177.375000 94.000000"
+"light" "2"
+}
+// entity 298
+{
+"classname" "light"
+"origin" "692.500000 1183.750000 56.000000"
+"light" "2"
+}
+// entity 299
+{
+"classname" "light"
+"origin" "724.500000 1151.750000 56.000000"
+"light" "2"
+}
+// entity 300
+{
+"classname" "light"
+"origin" "692.500000 1183.750000 104.000000"
+"light" "2"
+}
+// entity 301
+{
+"classname" "light"
+"origin" "724.500000 1151.750000 104.000000"
+"light" "2"
+}
+// entity 302
 {
 "classname" "item_health_mega"
 "origin" "0.000000 -408.000000 -120.000000"
 }
-// entity 79
+// entity 303
 {
 "classname" "team_CTF_blueflag"
 "origin" "0.000000 -984.000000 16.000000"
 "gametype" "dd"
 }
-// entity 80
+// entity 304
 {
 "classname" "team_CTF_redflag"
 "origin" "0.000000 1176.000000 16.000000"
 "gametype" "dd"
 }
-// entity 81
+// entity 305
 {
 "classname" "info_player_intermission"
 "origin" "-130.000000 -620.000000 436.000000"
 "target" "target_position1"
 }
-// entity 82
+// entity 306
 {
 "classname" "target_position"
 "origin" "0.000000 88.000000 488.000000"
 "targetname" "target_position1"
 }
-// entity 83
+// entity 307
 {
 "classname" "info_player_deathmatch"
 "origin" "-328.000000 -1320.000000 240.000000"
 "angle" "87.288216"
 "spawnflags" "1"
 }
-// entity 84
+// entity 308
 {
 "classname" "info_player_deathmatch"
 "origin" "688.000000 608.000000 40.000000"
 "angle" "108.289520"
 "spawnflags" "1"
 }
-// entity 85
+// entity 309
 {
 "classname" "info_player_deathmatch"
 "origin" "353.250000 1392.000000 368.000000"
 "angle" "-90.328613"
 "spawnflags" "1"
 }
-// entity 86
+// entity 310
 {
 "classname" "info_player_deathmatch"
 "origin" "-338.500000 1392.000000 368.000000"
 "angle" "-90.328613"
 "spawnflags" "1"
 }
-// entity 87
+// entity 311
 {
 "classname" "info_player_deathmatch"
 "origin" "304.000000 -1320.000000 240.000000"
 "angle" "87.288216"
 "spawnflags" "1"
 }
-// entity 88
+// entity 312
 {
 "classname" "info_player_deathmatch"
 "origin" "-544.000000 -592.000000 48.000000"
 "angle" "0.000003"
 "spawnflags" "1"
 }
-// entity 89
+// entity 313
 {
 "classname" "info_player_deathmatch"
 "origin" "-560.000000 -208.000000 48.000000"
 "spawnflags" "1"
 }
-// entity 90
+// entity 314
 {
 "classname" "info_player_deathmatch"
 "origin" "-664.000000 1016.000000 24.000000"
 "spawnflags" "1"
 }
-// entity 91
+// entity 315
 {
 "classname" "info_player_deathmatch"
 "origin" "0.000000 472.000000 -152.000000"
 "angle" "-90.000000"
 "spawnflags" "1"
 }
-// entity 92
+// entity 316
 {
 "classname" "info_player_deathmatch"
 "origin" "728.000000 704.000000 392.000000"
 "angle" "-179.999985"
 "spawnflags" "1"
 }
-// entity 93
+// entity 317
 {
 "classname" "info_player_deathmatch"
 "origin" "392.000000 -232.000000 -144.000000"
 "angle" "-179.999985"
 "spawnflags" "1"
 }
-// entity 94
+// entity 318
 {
 "classname" "info_player_deathmatch"
 "origin" "688.000000 -712.000000 40.000000"
 "angle" "-180.000000"
 "spawnflags" "1"
 }
-// entity 95
+// entity 319
 {
 "classname" "info_player_deathmatch"
 "origin" "288.000000 1056.000000 24.000000"
 "angle" "-90.000000"
 "spawnflags" "1"
 }
-// entity 96
+// entity 320
 {
 "classname" "info_player_deathmatch"
 "origin" "-312.000000 1056.000000 24.000000"
 "angle" "-90.000000"
 "spawnflags" "1"
 }
-// entity 97
+// entity 321
 {
 "classname" "info_player_deathmatch"
 "origin" "184.000000 -1000.000000 72.000000"
 "angle" "90.000000"
 "spawnflags" "1"
 }
-// entity 98
+// entity 322
 {
 "classname" "info_player_deathmatch"
 "origin" "-200.000000 -1000.000000 72.000000"
 "angle" "90.000000"
 "spawnflags" "1"
 }
-// entity 99
+// entity 323
 {
 "classname" "target_position"
 "origin" "0.000000 -144.000000 488.000000"
 "targetname" "target_push1"
 }
-// entity 100
+// entity 324
 {
 "classname" "target_position"
 "origin" "-728.250000 -400.000000 416.000000"
 "targetname" "target_push2"
 }
-// entity 101
+// entity 325
 {
 "classname" "target_position"
 "origin" "8.000000 149.000000 482.000000"
 "targetname" "target_push3"
 }
-// entity 102
+// entity 326
 {
 "classname" "target_position"
 "origin" "-2.000000 1270.000000 441.000000"
 "targetname" "target_push4"
 }
-// entity 103
+// entity 327
 {
 "classname" "target_position"
 "origin" "0.000000 -1088.000000 432.000000"
 "targetname" "target_push5"
 }
-// entity 104
+// entity 328
 {
 "classname" "target_position"
 "origin" "592.375000 726.625000 433.000000"
 "targetname" "target_push7"
 }
-// entity 105
+// entity 329
 {
 "classname" "target_position"
 "origin" "-487.375000 488.000000 109.375000"
 "angles" "-6.590413 -175.584198 -9.377238"
 "targetname" "target_push8"
 }
-// entity 106
+// entity 330
 {
 "classname" "func_group"
 "_lightmapscale" "0.125"
@@ -5938,7 +7436,7 @@ patchDef2
 stone/conc_strange
 ( 3 3 0 0 0 )
 (
-( ( 456.125 -1096 144 1.7817382813 4.28125 ) ( 760 -1096 144 2.96875 4.28125 ) ( 760 -792 144 2.96875 3.09375 ) )
+( ( 456.125 -1096 144 1.7817382812 4.28125 ) ( 760 -1096 144 2.96875 4.28125 ) ( 760 -792 144 2.96875 3.09375 ) )
 ( ( 760 -1096 144 2.96875 4.28125 ) ( 760 -1096 144 2.96875 4.28125 ) ( 760 -1096 144 2.96875 4.28125 ) )
 ( ( 760 -1096 144 2.96875 4.28125 ) ( 760 -1096 144 2.96875 4.28125 ) ( 760 -1096 144 2.96875 4.28125 ) )
 )
@@ -5964,14 +7462,14 @@ patchDef2
 stone/conc_strange
 ( 3 3 0 0 0 )
 (
-( ( 760 -792 152 2.96875 3.09375 ) ( 760 -1096 152 2.96875 4.28125 ) ( 456.125 -1096 152 1.7817382813 4.28125 ) )
+( ( 760 -792 152 2.96875 3.09375 ) ( 760 -1096 152 2.96875 4.28125 ) ( 456.125 -1096 152 1.7817382812 4.28125 ) )
 ( ( 760 -1096 152 2.96875 4.28125 ) ( 760 -1096 152 2.96875 4.28125 ) ( 760 -1096 152 2.96875 4.28125 ) )
 ( ( 760 -1096 152 2.96875 4.28125 ) ( 760 -1096 152 2.96875 4.28125 ) ( 760 -1096 152 2.96875 4.28125 ) )
 )
 }
 }
 }
-// entity 107
+// entity 331
 {
 "classname" "func_group"
 "_lightmapscale" "0.125"
@@ -6060,7 +7558,7 @@ patchDef2
 stone/conc_strange
 ( 3 3 0 0 0 )
 (
-( ( -640 -792 144 -2.5 3.09375 ) ( -640 -1096 144 -2.5 4.28125 ) ( -376.125 -1096 144 -1.4692382813 4.28125 ) )
+( ( -640 -792 144 -2.5 3.09375 ) ( -640 -1096 144 -2.5 4.28125 ) ( -376.125 -1096 144 -1.4692382812 4.28125 ) )
 ( ( -640 -1096 144 -2.5 4.28125 ) ( -640 -1096 144 -2.5 4.28125 ) ( -640 -1096 144 -2.5 4.28125 ) )
 ( ( -640 -1096 144 -2.5 4.28125 ) ( -640 -1096 144 -2.5 4.28125 ) ( -640 -1096 144 -2.5 4.28125 ) )
 )
@@ -6073,14 +7571,14 @@ patchDef2
 stone/conc_strange
 ( 3 3 0 0 0 )
 (
-( ( -376.125 -1096 152 -1.4692382813 4.28125 ) ( -640 -1096 152 -2.5 4.28125 ) ( -640 -792 152 -2.5 3.09375 ) )
+( ( -376.125 -1096 152 -1.4692382812 4.28125 ) ( -640 -1096 152 -2.5 4.28125 ) ( -640 -792 152 -2.5 3.09375 ) )
 ( ( -640 -1096 152 -2.5 4.28125 ) ( -640 -1096 152 -2.5 4.28125 ) ( -640 -1096 152 -2.5 4.28125 ) )
 ( ( -640 -1096 152 -2.5 4.28125 ) ( -640 -1096 152 -2.5 4.28125 ) ( -640 -1096 152 -2.5 4.28125 ) )
 )
 }
 }
 }
-// entity 108
+// entity 332
 {
 "classname" "func_group"
 "_lightmapscale" "0.125"
@@ -6104,7 +7602,7 @@ patchDef2
 stone/conc_strange
 ( 3 3 0 0 0 )
 (
-( ( -434 1160 360 7.3046875 -9.53125 ) ( -752 1144 360 6.0625 -9.46875 ) ( -743.375 856.125 360 6.0961914063 -8.3442382813 ) )
+( ( -434 1160 360 7.3046875 -9.53125 ) ( -752 1144 360 6.0625 -9.46875 ) ( -743.375 856.125 360 6.0961914062 -8.3442382812 ) )
 ( ( -752 1144 360 6.0625 -9.46875 ) ( -752 1144 360 6.0625 -9.46875 ) ( -752 1144 360 6.0625 -9.46875 ) )
 ( ( -752 1144 360 6.0625 -9.46875 ) ( -752 1144 360 6.0625 -9.46875 ) ( -752 1144 360 6.0625 -9.46875 ) )
 )
@@ -6117,7 +7615,7 @@ patchDef2
 oacmp_jan/metfloor_block_3
 ( 3 3 0 0 0 )
 (
-( ( -743.375 856.125 320 6.0961914063 -8.3442382813 ) ( -752 1144 320 6.0625 -9.46875 ) ( -434 1160 320 7.3046875 -9.53125 ) )
+( ( -743.375 856.125 320 6.0961914062 -8.3442382812 ) ( -752 1144 320 6.0625 -9.46875 ) ( -434 1160 320 7.3046875 -9.53125 ) )
 ( ( -752 1144 320 6.0625 -9.46875 ) ( -752 1144 320 6.0625 -9.46875 ) ( -752 1144 320 6.0625 -9.46875 ) )
 ( ( -752 1144 320 6.0625 -9.46875 ) ( -752 1144 320 6.0625 -9.46875 ) ( -752 1144 320 6.0625 -9.46875 ) )
 )
@@ -6137,7 +7635,7 @@ stone/wall_stone02_c
 }
 }
 }
-// entity 109
+// entity 333
 {
 "classname" "func_group"
 "_lightmapscale" "0.125"
