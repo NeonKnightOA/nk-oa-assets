@@ -1,0 +1,3 @@
+- Gamepack generator
+- Cleanup of compile scripts (and a proper set of scripts won't hurt either)
+- MAP!
