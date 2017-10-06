@@ -5,7 +5,7 @@ textures/liquids2/clear_calm1v
 	qer_editorimage textures/liquids/pool3d_5e.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	cull none
 	fogparms ( 0.215686 0.278431 0.333333 ) 512
 	{ 
@@ -47,7 +47,7 @@ textures/liquids2/clear_ripple1_q3dm1v
 	qer_editorimage textures/liquids/pool3d_5e.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	cull none
 	fogparms ( 0.215686 0.278431 0.333333 ) 512
 	deformvertexes wave 128 sin .5 .5 .5 .5
@@ -90,7 +90,7 @@ textures/liquids2/clear_ripple1_q3dm1light
 	qer_editorimage textures/liquids/pool3d_5e.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	cull none
 	q3map_surfacelight 100
 	fogparms ( 0.215686 0.278431 0.333333 ) 1024

@@ -339,7 +339,7 @@ textures/cosmo_liquids/plasma_red
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm noimpact
-	surfaceparm lava
+	surfaceparm lavaqer_trans 0.5
 	surfaceparm nolightmap
 	q3map_surfacelight 1250
 	cull disable

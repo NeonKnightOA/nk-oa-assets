@@ -53,7 +53,7 @@ textures/acc_dm5/brwnwater
 {
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	cull disable
 	deformVertexes wave 32 sin .7 .7 .7 .5
 	{

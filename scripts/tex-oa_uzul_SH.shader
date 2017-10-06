@@ -119,7 +119,7 @@ textures/oa_uzul_SH/water
   q3map_globaltexture
   surfaceparm trans
   surfaceparm nonsolid
-  surfaceparm water
+  surfaceparm waterqer_trans 0.5
 
   cull disable
   deformVertexes wave 64 sin .5 .5 0 .5  

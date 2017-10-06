@@ -6,7 +6,7 @@ textures/savdm6ish/#teleport
 	qer_trans 0.50
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	cull disable
 	q3map_surfacelight 900
 	q3map_flare flareShader-portal

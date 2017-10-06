@@ -14,7 +14,7 @@ textures/ice/coldwater
 	qer_trans 0.50
 	surfaceparm nonsolid
 	surfaceparm trans
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	cull disable
 	qer_trans 0.5
 	q3map_globaltexture

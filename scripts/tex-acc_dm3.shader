@@ -115,7 +115,7 @@ textures/acc_dm3/brwnwater
 {
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm water
+	surfaceparm waterqer_trans 0.5
 	cull disable
 	{
 		map textures/acc_dm3/brwnwater.tga

@@ -631,7 +631,7 @@ textures/oa_nem_SH/slime
 {
   qer_editorimage textures/liquids/slime8.jpg
   surfaceparm noimpact
-  surfaceparm slime
+  surfaceparm slimeqer_trans 0.5
   surfaceparm nolightmap
   surfaceparm trans
   q3map_surfacelight 600

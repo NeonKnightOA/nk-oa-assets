@@ -46,7 +46,7 @@ textures/cosmo_skies/tim_tourney2
 textures/cosmo_skies/foghull_or
 {
 	qer_editorimage textures/cosmo_sfx/fog_or.tga
-	surfaceparm fog
+	surfaceparm fogqer_trans 0.5
 	surfaceparm nolightmap
 	surfaceparm nonsolid
 	surfaceparm trans

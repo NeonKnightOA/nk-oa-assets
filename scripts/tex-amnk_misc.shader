@@ -102,7 +102,7 @@ textures/amnk_misc/blitzkriegfog
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nolightmap
-	surfaceparm fog
+	surfaceparm fogqer_trans 0.5
 	q3map_globaltexture
 	cull none
 	fogparms ( 1 0 0 ) 2048

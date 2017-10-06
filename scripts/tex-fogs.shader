@@ -9,7 +9,7 @@ textures/fogs/fog_orange
 	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm fog
+	surfaceparm fogqer_trans 0.5
 	surfaceparm nolightmap
 	cull disable
 	fogparms ( 0.5 0.2 0.0 ) 512
@@ -28,7 +28,7 @@ textures/fogs/fogoff
 	qer_nocarve
 		surfaceparm trans
 		surfaceparm nonsolid
-		surfaceparm fog
+		surfaceparm fogqer_trans 0.5
 		surfaceparm nolightmap
 	cull disable
 	fogparms ( 0.458824 0.862745 0.411765 ) 666
@@ -51,7 +51,7 @@ textures/fogs/fogyou
 	qer_nocarve
 		surfaceparm trans
 		surfaceparm nonsolid
-		surfaceparm fog
+		surfaceparm fogqer_trans 0.5
 		surfaceparm nolightmap
 	cull disable
 	fogparms ( 0.458824 0.862745 0.411765 ) 666
