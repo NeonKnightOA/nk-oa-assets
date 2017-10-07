@@ -98,6 +98,7 @@ textures/skies/hellsky2bright
 
 textures/skies/industrysky
 {
+	qer_editorimage textures/skies/topclouds.tga
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm sky

@@ -340,7 +340,7 @@ textures/e7/e7sbrickfloor_ow
 textures/e7/e7sfx_lava
 {
 	qer_editorimage textures/e7/e7sfx_lava.tga
-	surfaceparm lavaqer_trans 0.5
+	surfaceparm lava	qer_nocarveqer_trans 0.5
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm trans

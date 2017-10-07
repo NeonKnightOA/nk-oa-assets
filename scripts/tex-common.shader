@@ -81,7 +81,7 @@ textures/common/nodrawnonsolid
 textures/common/lavacaulk
 {
 	qer_trans 0.50
-	surfaceparm lavaqer_trans 0.5
+	surfaceparm lava	qer_nocarveqer_trans 0.5
 	surfaceparm nodraw
 	surfaceparm nomarks
     surfaceparm nolightmap
@@ -90,7 +90,7 @@ textures/common/lavacaulk
 textures/common/slimecaulk
 {
 	qer_trans 0.50
-	surfaceparm slimeqer_trans 0.5
+	surfaceparm slime	qer_nocarveqer_trans 0.5
 	surfaceparm nodraw
 	surfaceparm nomarks
     surfaceparm nolightmap
@@ -99,7 +99,7 @@ textures/common/slimecaulk
 textures/common/watercaulk
 {
 	qer_trans 0.50
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	surfaceparm nodraw
 	surfaceparm nomarks
     surfaceparm nolightmap

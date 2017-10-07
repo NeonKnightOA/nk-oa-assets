@@ -44,7 +44,7 @@ textures/liquids/hydrowatertest
 	qer_editorimage textures/liquids/pool2.tga
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm water	qer_trans 0.5
+	surfaceparm water	qer_nocarve	qer_trans 0.5
 	cull disable
 	fogparms ( 0.215686 0.278431 0.333333 ) 1024
 	{
@@ -66,7 +66,7 @@ textures/liquids/hydrfaowater
 {
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	cull disable
 	fogparms ( 0.215686 0.278431 0.333333 ) 1024
 	{

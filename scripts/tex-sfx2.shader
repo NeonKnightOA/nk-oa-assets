@@ -9,7 +9,7 @@ textures/sfx2/dist_fog
 	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm fogqer_trans 0.5
+	surfaceparm fog	qer_nocarveqer_trans 0.5
 	surfaceparm nolightmap
 	q3map_globaltexture
 	cull none
@@ -23,7 +23,7 @@ textures/sfx2/ouchfog
 	qer_nocarve
 	surfaceparm trans
 	surfaceparm nonsolid
-	surfaceparm fogqer_trans 0.5
+	surfaceparm fog	qer_nocarveqer_trans 0.5
 	surfaceparm nolightmap
 	q3map_globaltexture
 	cull none

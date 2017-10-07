@@ -793,12 +793,12 @@ leibulletmark4
 // From liquid_lavas.shader
 lavalol
 {
-	surfaceparm fogqer_trans 0.5
-	surfaceparm lavaqer_trans 0.5
+	surfaceparm fog	qer_nocarveqer_trans 0.5
+	surfaceparm lava	qer_nocarveqer_trans 0.5
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm trans
-	surfaceparm waterqer_trans 0.5
+	surfaceparm water	qer_nocarveqer_trans 0.5
 	surfaceparm lightfilter
 	cull disable
 	deformVertexes wave 256 sin 0 7 0 0.4 
