@@ -13,6 +13,8 @@ textures/pulchr_sfx/aa-jump-casing
 
 textures/pulchr_sfx/beam-blue-shader
 {
+	qer_trans 0.5
+	qer_nocarve
 	qer_editorimage textures/pulchr_sfx/beam-blue.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -29,6 +31,8 @@ textures/pulchr_sfx/beam-blue-shader
 
 textures/pulchr_sfx/beam-red-shader
 {
+	qer_trans 0.5
+	qer_nocarve
 	qer_editorimage textures/pulchr_sfx/beam-red.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -45,6 +49,8 @@ textures/pulchr_sfx/beam-red-shader
 
 textures/pulchr_sfx/beam-grellow-shader
 {
+	qer_trans 0.5
+	qer_nocarve
 	qer_editorimage textures/pulchr_sfx/beam-grellow.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
