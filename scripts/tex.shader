@@ -1,4 +1,0 @@
-textures/REGION
-{
-	surfaceparm nolightmap
-}
