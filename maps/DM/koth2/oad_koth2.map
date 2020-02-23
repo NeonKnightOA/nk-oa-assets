@@ -2,7 +2,8 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "The Floating Spire"
+"message" "Floating Spire"
+"music" "music/OA09.ogg"
 "author" "cosmo"
 // brush 0
 {
@@ -7470,7 +7471,7 @@ cosmo_light/dmask1_blue
 {
 "classname" "item_health_mega"
 "origin" "-704 704 416"
-"gametype" "ffa, single, tdm"
+"gametype" "ffa, single, team"
 }
 // entity 19
 {
@@ -7670,7 +7671,7 @@ cosmo_light/dmask1_blue
 "wait" "35"
 "random" "15"
 "spawnflags" "1"
-"gametype" "ffa, single, tdm"
+"gametype" "ffa, single, team"
 }
 // entity 50
 {
@@ -8012,7 +8013,7 @@ cosmo_light/dmask1_blue
 {
 "classname" "ammo_bfg"
 "origin" "472 1240 952"
-"gametype" "ffa, single, tdm"
+"gametype" "ffa, single, team"
 }
 // entity 88
 {
@@ -8523,7 +8524,7 @@ cosmo_light/dmask1_blue
 {
 "classname" "ammo_rockets"
 "origin" "220 1504 952"
-"gametype" "ffa, single, tdm"
+"gametype" "ffa, single, team"
 }
 // entity 137
 {
@@ -8536,28 +8537,4 @@ cosmo_light/dmask1_blue
 "classname" "domination_point"
 "origin" "-448.000000 800.000000 1064.000000"
 "message" "Upper Floor"
-}
-// entity 139
-{
-"classname" "team_neutralobelisk"
-"origin" "-512.000000 512.000000 1348.000000"
-"gametype" "pos"
-}
-// entity 140
-{
-"classname" "team_CTF_neutralflag"
-"origin" "-512.000000 512.000000 1376.000000"
-"gametype" "pos"
-}
-// entity 141
-{
-"classname" "info_player_intermission"
-"origin" "280.000000 1176.000000 1784.000000"
-"target" "target_position1"
-}
-// entity 142
-{
-"classname" "target_position"
-"origin" "-832.000000 184.000000 1376.000000"
-"targetname" "target_position1"
 }
