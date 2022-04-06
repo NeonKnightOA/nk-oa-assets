@@ -1,0 +1,16 @@
+BSP Parms:
+  (normal)
+
+Light Parms:
+  -fast
+  -sky 0.6
+  -bounce 2
+  -samples 2
+  -gamma 1.1
+
+Vis Parms:
+  (normal)
+
+Bot Parms:
+  (normal)
+

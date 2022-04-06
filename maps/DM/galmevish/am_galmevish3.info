@@ -1,0 +1,53 @@
+auther "Neon_Knight"
+description "Set out in the inner courts of the Galmevish facilities, this area is a hub of sorts which contains the entrances to the different laboratories and factories of the complex."
+
+minPlayers 2
+minTeamSize 1
+maxPlayers 8
+maxTeamSize 4
+
+support_dm yes
+support_team no
+support_tourney yes
+support_ctf no
+support_1fctf yes
+support_obelisk no
+support_harvester yes
+support_elimination yes
+support_ctfelim no
+support_lms yes
+support_dd yes
+support_dom no
+support_pos yes
+
+gametype dm
+fragLimit 20
+timeLimit 15
+
+gametype tourney
+fragLimit 10
+timeLimit 10
+
+gametype 1fctf
+captureLimit 5
+timeLimit 15
+
+gametype harvester
+captureLimit 30
+timeLimit 15
+
+gametype elimination
+captureLimit 10
+timeLimit 15
+
+gametype lms
+captureLimit 5
+timeLimit 15
+
+gametype dd
+captureLimit 3
+timeLimit 15
+
+gametype pos
+fragLimit 90
+timeLimit 15
