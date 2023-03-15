@@ -1,0 +1,33 @@
+Map released under GPLv2.
+
+Notes:
+Created originally by Adam "Czestmyr" Vojtech, with improvements from Poul "sago007" Sanders. It was improved brushwork-wise, and has support for Elimination and Single Domination.
+
+Content:
+* Weapons: Shotgun x3, Grenade Launcher x2, Rocket Launcher x3, Lightning Gun x1, Railgun x1, Plasma Gun x2.
+* Powerups: Quad Damage
+
+Gametypes: FFA, Tourney, Elimination, LMS, Domination (3 points)
+Version: a1 (started from the SVN version in 0.8.5)
+
+Credits:
+Mappers: Adam "Czestmyr" Vojtech, Luciano "Armageddon_Man/Neon_Knight" Balducchi. Extra improvements by Poul "sago007" Sanders.
+
+Testing / Thanks:
+* Michael "onykage" Hancock (hosting)
+* Everyone who has tested this map
+
+Contacts:
+Armageddon_Man: openarena.arg@gmail.com - luchobaterista@gmail.com (MSN) - http://www.oaarg.tk - http://armageddonman.blogspot.com
+sago007: http://www.poulsander.com
+Czestmyr: http://adam-vojtech.cz
+
+This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+This mappack is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA

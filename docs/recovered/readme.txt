@@ -1,0 +1,20 @@
+Map released under GPLv2.
+
+Notes:
+Created from scratch, based on reptctf11 by Firethrottle. The original map can be found here: http://www.lvlworld.com/review.php?id=1607. Unfortunately, I couldn't contact him to ask if he could release his two maps (reptctf11 and reptctf3) under GPLv2, so I had to do everything from scratch. EVentually both maps ended being completely different compared to the original ones.
+
+Content:
+* Weapons: Rocket Launcher, Lightning Gun, Nailgun, Prox Launcher.
+* Items: Invisibility, Red armor, health 5, health 25, health 50, armor shards.
+
+Credits:
+Mapper: Luciano "Armageddon_Man / Neon_Knight" Balducchi
+Models: Luciano "Armageddon_Man / Neon_Knight" Balducchi
+Textures: anyone, redecos by Luciano "Armageddon_Man / Neon_Knight" Balducchi
+
+Testing / Thanks:
+* Michael "onykage" Hancock (hosting)
+* Everyone who has tested this map
+
+Contacts:
+Armageddon_Man: openarena.arg@gmail.com - luchobaterista@gmail.com (MSN) - http://www.oaarg.tk - http://openarenaarg.smfforfree4.com
