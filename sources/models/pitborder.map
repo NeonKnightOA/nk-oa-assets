@@ -104,6 +104,7 @@
 }
 // entity 1
 {
-"classname" "info_player_start"
+"classname" "info_player_deathmatch"
 "origin" "-256 64 -40"
+"spawnflags" "1"
 }

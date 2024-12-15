@@ -2,8 +2,6 @@
 // entity 0
 {
 "classname" "worldspawn"
-"music" "music/watertech"
-"message" "hydrocapture by maikmerten"
 // brush 0
 {
 ( 96 64 32 ) ( 96 -64 32 ) ( -32 64 32 ) evil2_misc/crate_drtyow 128 128 0 0.25 0.25 0 0 0
@@ -70,7 +68,8 @@
 }
 // entity 1
 {
-"classname" "info_player_start"
+"classname" "info_player_deathmatch"
 "origin" "80 -80 -104"
 "angle" "180"
+"spawnflags" "1"
 }
